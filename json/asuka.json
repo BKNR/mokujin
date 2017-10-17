@@ -1,0 +1,1642 @@
+[
+    {
+        "Command": "in rage d/f+1+2",
+        "Hit level": "m",
+        "Damage": "-",
+        "Start up frame": "-",
+        "Block frame": "-15~",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "Rage art"
+    },
+    {
+        "Command": "1",
+        "Hit level": "h",
+        "Damage": "10",
+        "Start up frame": "10",
+        "Block frame": "-2",
+        "Hit frame": "+9",
+        "Counter hit frame": "+9",
+        "Notes": "-"
+    },
+    {
+        "Command": "1, 1",
+        "Hit level": "h, m",
+        "Damage": "10,20",
+        "Start up frame": "10",
+        "Block frame": "-7",
+        "Hit frame": "+4",
+        "Counter hit frame": "+4",
+        "Notes": "-"
+    },
+    {
+        "Command": "1, 2",
+        "Hit level": "h, m",
+        "Damage": "10,12",
+        "Start up frame": "10",
+        "Block frame": "-8",
+        "Hit frame": "+3",
+        "Counter hit frame": "+3",
+        "Notes": "-"
+    },
+    {
+        "Command": "1, 2, 3",
+        "Hit level": "h, m, m",
+        "Damage": "10,12,32",
+        "Start up frame": "10",
+        "Block frame": "-2~-1",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "Tail spin"
+    },
+    {
+        "Command": "1, 2, 3, F",
+        "Hit level": "h, m, m",
+        "Damage": "10,12,40",
+        "Start up frame": "10",
+        "Block frame": "-2~-1",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "Tail spin"
+    },
+    {
+        "Command": "1, 2, 3, *, n (two spins)",
+        "Hit level": "h, m, m",
+        "Damage": "10,12,54",
+        "Start up frame": "10",
+        "Block frame": "+6",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "Tail spin"
+    },
+    {
+        "Command": "1, 2, 3, * (three spins)",
+        "Hit level": "h, m, !",
+        "Damage": "10,12,67",
+        "Start up frame": "10",
+        "Block frame": "KND",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "Tail spin"
+    },
+    {
+        "Command": "1, 2, 3, B (Cancel)",
+        "Hit level": "h, m",
+        "Damage": "10,12",
+        "Start up frame": "10",
+        "Block frame": "-19",
+        "Hit frame": "-8",
+        "Counter hit frame": "-8",
+        "Notes": "-"
+    },
+    {
+        "Command": "1, 2, 4",
+        "Hit level": "h, m, m",
+        "Damage": "10,12,27",
+        "Start up frame": "10",
+        "Block frame": "-12",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "1, 3",
+        "Hit level": "h, l",
+        "Damage": "10,16",
+        "Start up frame": "10",
+        "Block frame": "-12?",
+        "Hit frame": "-1?",
+        "Counter hit frame": "-1?",
+        "Notes": "-"
+    },
+    {
+        "Command": "1, 4",
+        "Hit level": "h, l (TC)",
+        "Damage": "10,18",
+        "Start up frame": "10",
+        "Block frame": "-11",
+        "Hit frame": "0",
+        "Counter hit frame": "+3",
+        "Notes": "-"
+    },
+    {
+        "Command": "1, 4, D",
+        "Hit level": "h, l (TC)",
+        "Damage": "10,18",
+        "Start up frame": "10 RC",
+        "Block frame": "-11",
+        "Hit frame": "0",
+        "Counter hit frame": "+3",
+        "Notes": "-"
+    },
+    {
+        "Command": "2",
+        "Hit level": "h",
+        "Damage": "12",
+        "Start up frame": "12",
+        "Block frame": "-11",
+        "Hit frame": "0",
+        "Counter hit frame": "0",
+        "Notes": "-"
+    },
+    {
+        "Command": "2, 1",
+        "Hit level": "h, h",
+        "Damage": "12,13",
+        "Start up frame": "12",
+        "Block frame": "-3",
+        "Hit frame": "+8",
+        "Counter hit frame": "+8",
+        "Notes": "-"
+    },
+    {
+        "Command": "2, 1, 1+2",
+        "Hit level": "h, h, hh",
+        "Damage": "12,13,",
+        "Start up frame": "12",
+        "Block frame": "-9?",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "2, 3",
+        "Hit level": "h, m (TJ)",
+        "Damage": "12,27",
+        "Start up frame": "12",
+        "Block frame": "-19",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "3",
+        "Hit level": "m",
+        "Damage": "22",
+        "Start up frame": "14",
+        "Block frame": "-7",
+        "Hit frame": "+9",
+        "Counter hit frame": "+9",
+        "Notes": "-"
+    },
+    {
+        "Command": "3, 1",
+        "Hit level": "m, m (TC)",
+        "Damage": "22,17",
+        "Start up frame": "14",
+        "Block frame": "-11",
+        "Hit frame": "+2",
+        "Counter hit frame": "SKZD",
+        "Notes": "-"
+    },
+    {
+        "Command": "3~4",
+        "Hit level": "l (TC)",
+        "Damage": "29",
+        "Start up frame": "26~27 RC (27~)",
+        "Block frame": "-23?~",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "1+2",
+        "Hit level": "m",
+        "Damage": "21",
+        "Start up frame": "16~17",
+        "Block frame": "-9~-8?",
+        "Hit frame": "CS",
+        "Counter hit frame": "CS",
+        "Notes": "-"
+    },
+    {
+        "Command": "3+4",
+        "Hit level": "mm (TJ)",
+        "Damage": "13,28",
+        "Start up frame": "23,30",
+        "Block frame": "-6",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "3+4, d/b or d or D/F",
+        "Hit level": "mm (TJ)",
+        "Damage": "13,28",
+        "Start up frame": "23,30 RC",
+        "Block frame": "-6",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "1+4 (First hit only)",
+        "Hit level": "l",
+        "Damage": "6",
+        "Start up frame": "14",
+        "Block frame": "-19",
+        "Hit frame": "-8",
+        "Counter hit frame": "-8",
+        "Notes": "-"
+    },
+    {
+        "Command": "1+4",
+        "Hit level": "lh",
+        "Damage": "6,10",
+        "Start up frame": "14,31",
+        "Block frame": "-2(-19 OC)",
+        "Hit frame": "+9",
+        "Counter hit frame": "+9",
+        "Notes": "-"
+    },
+    {
+        "Command": "1+4, 2",
+        "Hit level": "lh, h",
+        "Damage": "6,10,13",
+        "Start up frame": "14,31",
+        "Block frame": "-2",
+        "Hit frame": "+9",
+        "Counter hit frame": "+9",
+        "Notes": "-"
+    },
+    {
+        "Command": "1+4, 3",
+        "Hit level": "lh, m",
+        "Damage": "6,10,40",
+        "Start up frame": "14,31",
+        "Block frame": "-2~-1",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "Tail spin"
+    },
+    {
+        "Command": "1+4, 3, b (Cancel)",
+        "Hit level": "lh",
+        "Damage": "6,10",
+        "Start up frame": "14,31",
+        "Block frame": "-21",
+        "Hit frame": "-10",
+        "Counter hit frame": "-10",
+        "Notes": "-"
+    },
+    {
+        "Command": "1+4, 2, 4",
+        "Hit level": "lh, h, m",
+        "Damage": "6,10,13,31",
+        "Start up frame": "14,31",
+        "Block frame": "-9?",
+        "Hit frame": "+",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "1+4, 2, d+4",
+        "Hit level": "lh, h, l",
+        "Damage": "6,10,13,24",
+        "Start up frame": "14,31",
+        "Block frame": "-23",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "1+4, 2, 1",
+        "Hit level": "lh, h, h",
+        "Damage": "6,10,13,16",
+        "Start up frame": "14,31",
+        "Block frame": "-3",
+        "Hit frame": "+8",
+        "Counter hit frame": "+8",
+        "Notes": "-"
+    },
+    {
+        "Command": "2+3",
+        "Hit level": "h(Absorbs 1 h/m hit)",
+        "Damage": "21",
+        "Start up frame": "28",
+        "Block frame": "0",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "f+2",
+        "Hit level": "m",
+        "Damage": "27",
+        "Start up frame": "17~18",
+        "Block frame": "-18~-17",
+        "Hit frame": "Launch (JG?)",
+        "Counter hit frame": "Launch (JG?)",
+        "Notes": "-"
+    },
+    {
+        "Command": "f+2, d/b or d or D/F (Cancel)",
+        "Hit level": "(Special) (TC)",
+        "Damage": "-",
+        "Start up frame": " RC",
+        "Block frame": "-",
+        "Hit frame": "-",
+        "Counter hit frame": "-",
+        "Notes": "-"
+    },
+    {
+        "Command": "f+3",
+        "Hit level": "m",
+        "Damage": "\uff5e25?",
+        "Start up frame": "31~32",
+        "Block frame": "-2~-1",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "Tail spin"
+    },
+    {
+        "Command": "f+3, *, n (two spins)",
+        "Hit level": "m",
+        "Damage": "\uff5e30?",
+        "Start up frame": "52",
+        "Block frame": "+6",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "Tail spin"
+    },
+    {
+        "Command": "f+3, * (three spins)",
+        "Hit level": "!",
+        "Damage": "\uff5e35?",
+        "Start up frame": "70",
+        "Block frame": "KND",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "Tail spin"
+    },
+    {
+        "Command": "f+4",
+        "Hit level": "h",
+        "Damage": "21",
+        "Start up frame": "19~20",
+        "Block frame": "+3~+4",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "Homing, Tail spin"
+    },
+    {
+        "Command": "f+1+2",
+        "Hit level": "h",
+        "Damage": "43",
+        "Start up frame": "15~16",
+        "Block frame": "-11~-10?",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "Power crush"
+    },
+    {
+        "Command": "d/f+1",
+        "Hit level": "m",
+        "Damage": "13",
+        "Start up frame": "13~14",
+        "Block frame": "-3~-2",
+        "Hit frame": "+8~+9",
+        "Counter hit frame": "+8~+9",
+        "Notes": "-"
+    },
+    {
+        "Command": "d/f+1, 2",
+        "Hit level": "m, h(, (throw))",
+        "Damage": "13,17(,20)",
+        "Start up frame": "13~14",
+        "Block frame": "-3?",
+        "Hit frame": "KND(Throw)",
+        "Counter hit frame": "KND(Throw)",
+        "Notes": "-"
+    },
+    {
+        "Command": "d/f+1, 4",
+        "Hit level": "m, m",
+        "Damage": "13,29",
+        "Start up frame": "13~14",
+        "Block frame": "-12",
+        "Hit frame": "KND",
+        "Counter hit frame": "CS",
+        "Notes": "-"
+    },
+    {
+        "Command": "d/f+2",
+        "Hit level": "m",
+        "Damage": "14",
+        "Start up frame": "15~16",
+        "Block frame": "-6~-5",
+        "Hit frame": "Launch (JG?)(+5)",
+        "Counter hit frame": "Launch (JG?)",
+        "Notes": "-"
+    },
+    {
+        "Command": "d/f+3",
+        "Hit level": "m",
+        "Damage": "-",
+        "Start up frame": "20",
+        "Block frame": "-8",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "d+2",
+        "Hit level": "m",
+        "Damage": "24",
+        "Start up frame": "18",
+        "Block frame": "-4 OC",
+        "Hit frame": "+9 OC",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "d+1+2 or FC+d+1+2",
+        "Hit level": "l (TC)",
+        "Damage": "27",
+        "Start up frame": "20",
+        "Block frame": "-18",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "d+3+4",
+        "Hit level": "lh (TJ)",
+        "Damage": "6,27",
+        "Start up frame": "14,24",
+        "Block frame": "-6(-25 OC)",
+        "Hit frame": "Launch (JG?)",
+        "Counter hit frame": "Launch (JG?)",
+        "Notes": "-"
+    },
+    {
+        "Command": "d/b+1",
+        "Hit level": "m (TC)",
+        "Damage": "17",
+        "Start up frame": "14",
+        "Block frame": "-9",
+        "Hit frame": "+4",
+        "Counter hit frame": "+4",
+        "Notes": "-"
+    },
+    {
+        "Command": "d/b+1, 2",
+        "Hit level": "m (TC), l",
+        "Damage": "17,22",
+        "Start up frame": "14",
+        "Block frame": "-13",
+        "Hit frame": "+3 OC",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "d/b+2",
+        "Hit level": "m (TC)",
+        "Damage": "29",
+        "Start up frame": "23",
+        "Block frame": "-13?",
+        "Hit frame": "Launch",
+        "Counter hit frame": "Launch",
+        "Notes": "-"
+    },
+    {
+        "Command": "d/b+3",
+        "Hit level": "l",
+        "Damage": "20",
+        "Start up frame": "21",
+        "Block frame": "-12",
+        "Hit frame": "+4 OC",
+        "Counter hit frame": "+4 OC",
+        "Notes": "-"
+    },
+    {
+        "Command": "b+1",
+        "Hit level": "l (TC)(, (throw))",
+        "Damage": "25",
+        "Start up frame": "29 RC",
+        "Block frame": "-12",
+        "Hit frame": "+4",
+        "Counter hit frame": "Throw(KND)",
+        "Notes": "-"
+    },
+    {
+        "Command": "b+2",
+        "Hit level": "m",
+        "Damage": "16",
+        "Start up frame": "15",
+        "Block frame": "-4 OC",
+        "Hit frame": "+1 OC",
+        "Counter hit frame": "+1 OC",
+        "Notes": "-"
+    },
+    {
+        "Command": "b+2, 1",
+        "Hit level": "m, m",
+        "Damage": "16,18",
+        "Start up frame": "15",
+        "Block frame": "-7",
+        "Hit frame": "+4",
+        "Counter hit frame": "+4",
+        "Notes": "-"
+    },
+    {
+        "Command": "b+2, 4",
+        "Hit level": "m, l",
+        "Damage": "16,18",
+        "Start up frame": "15",
+        "Block frame": "-11",
+        "Hit frame": "0",
+        "Counter hit frame": "0",
+        "Notes": "-"
+    },
+    {
+        "Command": "b+2, 4, D",
+        "Hit level": "m, l",
+        "Damage": "16,18",
+        "Start up frame": "15 RC",
+        "Block frame": "-11",
+        "Hit frame": "0",
+        "Counter hit frame": "0",
+        "Notes": "-"
+    },
+    {
+        "Command": "b+2, 1+2",
+        "Hit level": "m, h",
+        "Damage": "16,9",
+        "Start up frame": "15",
+        "Block frame": "-10",
+        "Hit frame": "+1",
+        "Counter hit frame": "+1",
+        "Notes": "-"
+    },
+    {
+        "Command": "b+2, 1+2, d (Cancel)",
+        "Hit level": "m",
+        "Damage": "16",
+        "Start up frame": "15s",
+        "Block frame": "\u2013",
+        "Hit frame": "-",
+        "Counter hit frame": "-",
+        "Notes": "-"
+    },
+    {
+        "Command": "b+2, 1+2, 4",
+        "Hit level": "m, h, m",
+        "Damage": "16,9,27",
+        "Start up frame": "15",
+        "Block frame": "-13",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "Tail spin"
+    },
+    {
+        "Command": "b+3",
+        "Hit level": "m (TJ)",
+        "Damage": "20?",
+        "Start up frame": "16~17",
+        "Block frame": "-19~-18?",
+        "Hit frame": "Launch (JG?)",
+        "Counter hit frame": "Launch (JG?)",
+        "Notes": "-"
+    },
+    {
+        "Command": "b+3, 2",
+        "Hit level": "m (TJ), m",
+        "Damage": "20?,27",
+        "Start up frame": "16~17",
+        "Block frame": "-18(15~)",
+        "Hit frame": "Launch (JG?)",
+        "Counter hit frame": "Launch (JG?)",
+        "Notes": "-"
+    },
+    {
+        "Command": "b+3, 2, d/b or d or d/f (Cancel)",
+        "Hit level": "m (TJ)",
+        "Damage": "20?",
+        "Start up frame": "16~17 RC",
+        "Block frame": "-32",
+        "Hit frame": "Launch (JG?)",
+        "Counter hit frame": "Launch (JG?)",
+        "Notes": "-"
+    },
+    {
+        "Command": "b+3, 4",
+        "Hit level": "m (TJ), l (TC)",
+        "Damage": "20?,18",
+        "Start up frame": "16~17",
+        "Block frame": "-11",
+        "Hit frame": "0",
+        "Counter hit frame": "+3",
+        "Notes": "-"
+    },
+    {
+        "Command": "b+3, 4, D",
+        "Hit level": "m (TJ), l (TC)",
+        "Damage": "20?,18",
+        "Start up frame": "16~17 RC",
+        "Block frame": "-11",
+        "Hit frame": "0",
+        "Counter hit frame": "+3",
+        "Notes": "-"
+    },
+    {
+        "Command": "b+4",
+        "Hit level": "m",
+        "Damage": "22",
+        "Start up frame": "15",
+        "Block frame": "-8",
+        "Hit frame": "+8",
+        "Counter hit frame": "CS",
+        "Notes": "-"
+    },
+    {
+        "Command": "b+4, 2",
+        "Hit level": "m, m",
+        "Damage": "22,22",
+        "Start up frame": "15",
+        "Block frame": "-12?",
+        "Hit frame": "+4~+5 OC",
+        "Counter hit frame": "KND?",
+        "Notes": "-"
+    },
+    {
+        "Command": "b+4, 2, 3",
+        "Hit level": "m, m, m",
+        "Damage": "22,22,",
+        "Start up frame": "15",
+        "Block frame": "-16",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND?",
+        "Notes": "-"
+    },
+    {
+        "Command": "b+1+4",
+        "Hit level": "hl",
+        "Damage": "20,10",
+        "Start up frame": "12,29",
+        "Block frame": "-8",
+        "Hit frame": "+5",
+        "Counter hit frame": "+7",
+        "Notes": "-"
+    },
+    {
+        "Command": "b+1+4 (First hit only, Second hit miss)",
+        "Hit level": "h",
+        "Damage": "20",
+        "Start up frame": "12",
+        "Block frame": "-25",
+        "Hit frame": "-14",
+        "Counter hit frame": "-14",
+        "Notes": "-"
+    },
+    {
+        "Command": "b+1+4, 3",
+        "Hit level": "hl, l",
+        "Damage": "20,10,24",
+        "Start up frame": "12",
+        "Block frame": "-13",
+        "Hit frame": "-2",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "b+1+4, 4",
+        "Hit level": "hl, m",
+        "Damage": "20,10,31",
+        "Start up frame": "12",
+        "Block frame": "-14",
+        "Hit frame": "+5OB",
+        "Counter hit frame": "+5OB",
+        "Notes": "Tail spin"
+    },
+    {
+        "Command": "u/f+2",
+        "Hit level": "h (throw)",
+        "Damage": "27(,20)",
+        "Start up frame": "14",
+        "Block frame": "-9",
+        "Hit frame": "KND(Throw)",
+        "Counter hit frame": "KND(Throw)",
+        "Notes": "-"
+    },
+    {
+        "Command": "u/f+2 (No throw)",
+        "Hit level": "h",
+        "Damage": "27",
+        "Start up frame": "14",
+        "Block frame": "-9",
+        "Hit frame": "+7",
+        "Counter hit frame": "+7",
+        "Notes": "-"
+    },
+    {
+        "Command": "u/b or u or u/f+3",
+        "Hit level": "m (TJ)",
+        "Damage": "22",
+        "Start up frame": "20~21",
+        "Block frame": "-3~-2?",
+        "Hit frame": "+8~+9",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "u/b+4",
+        "Hit level": "m (TJ)",
+        "Damage": "33",
+        "Start up frame": "20",
+        "Block frame": "-15",
+        "Hit frame": "Launch (JG?)",
+        "Counter hit frame": "Launch (JG?)",
+        "Notes": "-"
+    },
+    {
+        "Command": "u or u/f+4",
+        "Hit level": "m (TJ)",
+        "Damage": "33",
+        "Start up frame": "20",
+        "Block frame": "-13",
+        "Hit frame": "Launch (JG?)",
+        "Counter hit frame": "Launch (JG?)",
+        "Notes": "-"
+    },
+    {
+        "Command": "f, F+1",
+        "Hit level": "m",
+        "Damage": "-",
+        "Start up frame": "20?(21?~)",
+        "Block frame": "+4?",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "in rage f, F+1+2",
+        "Hit level": "m",
+        "Damage": "30",
+        "Start up frame": "18?(19?~)",
+        "Block frame": "+9?s",
+        "Hit frame": "Launch",
+        "Counter hit frame": "Launch",
+        "Notes": "Rage art"
+    },
+    {
+        "Command": "f, F+2",
+        "Hit level": "m",
+        "Damage": "21",
+        "Start up frame": "15(16~)",
+        "Block frame": "-13",
+        "Hit frame": "-3",
+        "Counter hit frame": "-3",
+        "Notes": "-"
+    },
+    {
+        "Command": "f, F+2, 1",
+        "Hit level": "m, h",
+        "Damage": "21,28",
+        "Start up frame": "15(16~)",
+        "Block frame": "-5",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "f, F+2, 3",
+        "Hit level": "m, m",
+        "Damage": "21,",
+        "Start up frame": "15(16~)",
+        "Block frame": "-8",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "f, F+2, 1+2",
+        "Hit level": "m, m",
+        "Damage": "21,33",
+        "Start up frame": "15(16~)",
+        "Block frame": "-13",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "f, F+3",
+        "Hit level": "m (TC)",
+        "Damage": "31",
+        "Start up frame": "20~21 RC (21~)",
+        "Block frame": "-9~-8",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "Homing"
+    },
+    {
+        "Command": "f, F+4",
+        "Hit level": "h (TJ)",
+        "Damage": "28",
+        "Start up frame": "22(23~)",
+        "Block frame": "-3",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "Tail spin"
+    },
+    {
+        "Command": "u/b, b",
+        "Hit level": "(Special) (TJ)",
+        "Damage": "-",
+        "Start up frame": " Air",
+        "Block frame": "-",
+        "Hit frame": "-",
+        "Counter hit frame": "-",
+        "Notes": "-"
+    },
+    {
+        "Command": "u/b, b, 3",
+        "Hit level": "m (TJ)",
+        "Damage": "43",
+        "Start up frame": "24~28 (69~)",
+        "Block frame": "-3~+1",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "f, f, f+3",
+        "Hit level": "m (TJ)",
+        "Damage": "43",
+        "Start up frame": "24~28 (27~)",
+        "Block frame": "0~+4",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "WS+1",
+        "Hit level": "m",
+        "Damage": "22",
+        "Start up frame": "15~16",
+        "Block frame": "-7~-6",
+        "Hit frame": "+4~+5",
+        "Counter hit frame": "+4~+5",
+        "Notes": "-"
+    },
+    {
+        "Command": "WS+1, 4",
+        "Hit level": "m, h",
+        "Damage": "22,28",
+        "Start up frame": "15~16",
+        "Block frame": "-12",
+        "Hit frame": "ATD",
+        "Counter hit frame": "ATD",
+        "Notes": "-"
+    },
+    {
+        "Command": "WS+2",
+        "Hit level": "m",
+        "Damage": "24",
+        "Start up frame": "13~14",
+        "Block frame": "-8~-7?",
+        "Hit frame": "+8~+9?",
+        "Counter hit frame": "+8~+9?",
+        "Notes": "-"
+    },
+    {
+        "Command": "WS+3",
+        "Hit level": "m",
+        "Damage": "27",
+        "Start up frame": "19",
+        "Block frame": "-16?",
+        "Hit frame": "Launch (JG?)",
+        "Counter hit frame": "Launch (JG?)",
+        "Notes": "-"
+    },
+    {
+        "Command": "WS+1+2",
+        "Hit level": "m (TC)",
+        "Damage": "27",
+        "Start up frame": "21",
+        "Block frame": "-2",
+        "Hit frame": "+5",
+        "Counter hit frame": "CS(18)",
+        "Notes": "-"
+    },
+    {
+        "Command": "WS+1+2, D (Cancel)",
+        "Hit level": "(Special) (TC)",
+        "Damage": "-",
+        "Start up frame": " RC",
+        "Block frame": "-",
+        "Hit frame": "-",
+        "Counter hit frame": "-",
+        "Notes": "-"
+    },
+    {
+        "Command": "FC+3+4",
+        "Hit level": "mm (TJ)",
+        "Damage": "13,13",
+        "Start up frame": "21,31",
+        "Block frame": "-6",
+        "Hit frame": "+5 OC",
+        "Counter hit frame": "+5 OC",
+        "Notes": "-"
+    },
+    {
+        "Command": "FC+3+4, D",
+        "Hit level": "mm (TJ)",
+        "Damage": "13,13",
+        "Start up frame": "21,31 RC",
+        "Block frame": "-6",
+        "Hit frame": "+5 OC",
+        "Counter hit frame": "+5 OC",
+        "Notes": "-"
+    },
+    {
+        "Command": "FC+3+4, 3",
+        "Hit level": "mm (TJ), mm (TJ)",
+        "Damage": "13,13,13,13",
+        "Start up frame": "21,31",
+        "Block frame": "0 OC",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "FC+3+4, 3, D",
+        "Hit level": "mm (TJ), mm (TJ)",
+        "Damage": "13,13,13,13",
+        "Start up frame": "21,31 RC",
+        "Block frame": "0 OC",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "FC+d/f+2",
+        "Hit level": "l (TC)",
+        "Damage": "16",
+        "Start up frame": "16s",
+        "Block frame": "-11",
+        "Hit frame": "0",
+        "Counter hit frame": "+15?",
+        "Notes": "-"
+    },
+    {
+        "Command": "FC+d/f+3",
+        "Hit level": "m",
+        "Damage": "29",
+        "Start up frame": "18",
+        "Block frame": "-13?",
+        "Hit frame": "+?",
+        "Counter hit frame": "uKZD",
+        "Notes": "-"
+    },
+    {
+        "Command": "SS+2",
+        "Hit level": "m",
+        "Damage": "31",
+        "Start up frame": "13(22~)",
+        "Block frame": "-9?",
+        "Hit frame": "KND(KND)",
+        "Counter hit frame": "KND(KND)",
+        "Notes": "-"
+    },
+    {
+        "Command": "SS+4",
+        "Hit level": "h",
+        "Damage": "24",
+        "Start up frame": "17(26~)",
+        "Block frame": "-6",
+        "Hit frame": "+7",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "f+1",
+        "Hit level": "m",
+        "Damage": "22",
+        "Start up frame": "20",
+        "Block frame": "-7",
+        "Hit frame": "+4",
+        "Counter hit frame": "+4",
+        "Notes": "-"
+    },
+    {
+        "Command": "f+1, 3",
+        "Hit level": "m, m",
+        "Damage": "22,21",
+        "Start up frame": "20",
+        "Block frame": "-5",
+        "Hit frame": "+6",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "f+1, 3, 1",
+        "Hit level": "m, m, h",
+        "Damage": "22,21,16",
+        "Start up frame": "20",
+        "Block frame": "-8",
+        "Hit frame": "+3",
+        "Counter hit frame": "+3",
+        "Notes": "-"
+    },
+    {
+        "Command": "f+1, 4",
+        "Hit level": "m, lh (TJ)",
+        "Damage": "22,6,27",
+        "Start up frame": "20",
+        "Block frame": "-6(-25 OC)",
+        "Hit frame": "Launch (JG?)",
+        "Counter hit frame": "Launch (JG?)",
+        "Notes": "-"
+    },
+    {
+        "Command": "f+1, d+4",
+        "Hit level": "m, l (TC)",
+        "Damage": "22,29",
+        "Start up frame": "20 RC",
+        "Block frame": "-18",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "f+1, d+4, D/B (Cancel)",
+        "Hit level": "m",
+        "Damage": "22",
+        "Start up frame": "20 RC",
+        "Block frame": "-26",
+        "Hit frame": "-15",
+        "Counter hit frame": "-15",
+        "Notes": "-"
+    },
+    {
+        "Command": "d/b+4",
+        "Hit level": "l (TC)",
+        "Damage": "18",
+        "Start up frame": "22",
+        "Block frame": "-11",
+        "Hit frame": "0",
+        "Counter hit frame": "+3",
+        "Notes": "-"
+    },
+    {
+        "Command": "d/b+4, D",
+        "Hit level": "l (TC)",
+        "Damage": "18",
+        "Start up frame": "22 RC",
+        "Block frame": "-11",
+        "Hit frame": "0",
+        "Counter hit frame": "+3",
+        "Notes": "-"
+    },
+    {
+        "Command": "d/b+4, 4",
+        "Hit level": "l (TC), l (TC)",
+        "Damage": "18,20",
+        "Start up frame": "22",
+        "Block frame": "-7",
+        "Hit frame": "+4",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "d/b+4, 4, D",
+        "Hit level": "l (TC), l (TC)",
+        "Damage": "18,20",
+        "Start up frame": "22",
+        "Block frame": "-11",
+        "Hit frame": "0",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "d/b+4, 4, 4",
+        "Hit level": "l (TC), l (TC), l (TC)",
+        "Damage": "18,20,21",
+        "Start up frame": "22",
+        "Block frame": "-7",
+        "Hit frame": "+4",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "d/b+4, 4, 4, D",
+        "Hit level": "l (TC), l (TC), l (TC)",
+        "Damage": "18,20,21",
+        "Start up frame": "22 RC",
+        "Block frame": "-11",
+        "Hit frame": "0",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "d/b+4, 3",
+        "Hit level": "l, h",
+        "Damage": "18,28",
+        "Start up frame": "22",
+        "Block frame": "-3",
+        "Hit frame": "Launch",
+        "Counter hit frame": "Launch",
+        "Notes": "-"
+    },
+    {
+        "Command": "d/b+4, 1+4",
+        "Hit level": "l (TC), lh",
+        "Damage": "18,6,10",
+        "Start up frame": "22",
+        "Block frame": "-2(-19 OC)",
+        "Hit frame": "+9",
+        "Counter hit frame": "+9",
+        "Notes": "-"
+    },
+    {
+        "Command": "1",
+        "Hit level": "h",
+        "Damage": "10",
+        "Start up frame": "10",
+        "Block frame": "-2",
+        "Hit frame": "+9",
+        "Counter hit frame": "+9",
+        "Notes": "-"
+    },
+    {
+        "Command": "2",
+        "Hit level": "h",
+        "Damage": "12",
+        "Start up frame": "12",
+        "Block frame": "-11",
+        "Hit frame": "0",
+        "Counter hit frame": "0",
+        "Notes": "-"
+    },
+    {
+        "Command": "3",
+        "Hit level": "m",
+        "Damage": "22",
+        "Start up frame": "14",
+        "Block frame": "-7",
+        "Hit frame": "+9",
+        "Counter hit frame": "+9",
+        "Notes": "-"
+    },
+    {
+        "Command": "4",
+        "Hit level": "h",
+        "Damage": "24",
+        "Start up frame": "11",
+        "Block frame": "-9",
+        "Hit frame": "+7",
+        "Counter hit frame": "Launch (JG?)",
+        "Notes": "-"
+    },
+    {
+        "Command": "b+1",
+        "Hit level": "l (TC)",
+        "Damage": "25",
+        "Start up frame": "29 RC",
+        "Block frame": "-12",
+        "Hit frame": "+4",
+        "Counter hit frame": "Throw(KND)",
+        "Notes": "-"
+    },
+    {
+        "Command": "b+2",
+        "Hit level": "m",
+        "Damage": "16",
+        "Start up frame": "15",
+        "Block frame": "-4 OC",
+        "Hit frame": "+1 OC",
+        "Counter hit frame": "+1 OC",
+        "Notes": "-"
+    },
+    {
+        "Command": "b+3",
+        "Hit level": "m (TJ)",
+        "Damage": "24?",
+        "Start up frame": "16~17",
+        "Block frame": "-19~-18?",
+        "Hit frame": "Launch (JG?)",
+        "Counter hit frame": "Launch (JG?)",
+        "Notes": "-"
+    },
+    {
+        "Command": "b+4",
+        "Hit level": "m",
+        "Damage": "22",
+        "Start up frame": "15",
+        "Block frame": "-8",
+        "Hit frame": "+8",
+        "Counter hit frame": "CS",
+        "Notes": "-"
+    },
+    {
+        "Command": "f+1",
+        "Hit level": "m",
+        "Damage": "22",
+        "Start up frame": "20",
+        "Block frame": "-7",
+        "Hit frame": "+4",
+        "Counter hit frame": "+4",
+        "Notes": "-"
+    },
+    {
+        "Command": "f+2",
+        "Hit level": "m",
+        "Damage": "27",
+        "Start up frame": "17~18",
+        "Block frame": "-18~-17",
+        "Hit frame": "Launch (JG?)",
+        "Counter hit frame": "Launch (JG?)",
+        "Notes": "-"
+    },
+    {
+        "Command": "f+3",
+        "Hit level": "m",
+        "Damage": "40",
+        "Start up frame": "31~32",
+        "Block frame": "-2~-1",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "Tail spin"
+    },
+    {
+        "Command": "f+4",
+        "Hit level": "h",
+        "Damage": "28",
+        "Start up frame": "19~20",
+        "Block frame": "+3~+4",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "Homing, Tail spin"
+    },
+    {
+        "Command": "f, F+1",
+        "Hit level": "m",
+        "Damage": "-",
+        "Start up frame": "20?(21?~)",
+        "Block frame": "+4?",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "f, F+2",
+        "Hit level": "m",
+        "Damage": "21",
+        "Start up frame": "15(16~)",
+        "Block frame": "-13",
+        "Hit frame": "-3",
+        "Counter hit frame": "-3",
+        "Notes": "-"
+    },
+    {
+        "Command": "f, F+3",
+        "Hit level": "m (TC)",
+        "Damage": "31",
+        "Start up frame": "20~21 RC (21~)",
+        "Block frame": "-9~-8",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "Homing"
+    },
+    {
+        "Command": "f, F+4",
+        "Hit level": "h (TJ)",
+        "Damage": "33",
+        "Start up frame": "22(23~)",
+        "Block frame": "-3",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "Tail spin"
+    },
+    {
+        "Command": "d+1",
+        "Hit level": "Sm",
+        "Damage": "6",
+        "Start up frame": "10 RC",
+        "Block frame": "-5",
+        "Hit frame": "+6",
+        "Counter hit frame": "+6",
+        "Notes": "-"
+    },
+    {
+        "Command": "d+2",
+        "Hit level": "m",
+        "Damage": "24",
+        "Start up frame": "18",
+        "Block frame": "-4 OC",
+        "Hit frame": "+9 OC",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "d+3",
+        "Hit level": "l (TC)",
+        "Damage": "16",
+        "Start up frame": "16 RC",
+        "Block frame": "-17",
+        "Hit frame": "-3",
+        "Counter hit frame": "-3",
+        "Notes": "-"
+    },
+    {
+        "Command": "d+4",
+        "Hit level": "l (TC)",
+        "Damage": "9",
+        "Start up frame": "12 RC",
+        "Block frame": "-13",
+        "Hit frame": "-2",
+        "Counter hit frame": "-2",
+        "Notes": "-"
+    },
+    {
+        "Command": "d/b+1",
+        "Hit level": "m (TC)",
+        "Damage": "17",
+        "Start up frame": "14",
+        "Block frame": "-9",
+        "Hit frame": "+4",
+        "Counter hit frame": "+4",
+        "Notes": "-"
+    },
+    {
+        "Command": "d/b+2",
+        "Hit level": "m (TC)",
+        "Damage": "29",
+        "Start up frame": "23",
+        "Block frame": "-13?",
+        "Hit frame": "Launch",
+        "Counter hit frame": "Launch",
+        "Notes": "-"
+    },
+    {
+        "Command": "d/b+3",
+        "Hit level": "l",
+        "Damage": "20",
+        "Start up frame": "21",
+        "Block frame": "-12",
+        "Hit frame": "+4 OC",
+        "Counter hit frame": "+4 OC",
+        "Notes": "-"
+    },
+    {
+        "Command": "d/b+4",
+        "Hit level": "l (TC)",
+        "Damage": "18",
+        "Start up frame": "22",
+        "Block frame": "-11",
+        "Hit frame": "0",
+        "Counter hit frame": "+3",
+        "Notes": "-"
+    },
+    {
+        "Command": "FC+1",
+        "Hit level": "Sm (TC)",
+        "Damage": "6",
+        "Start up frame": "10 RC",
+        "Block frame": "-5",
+        "Hit frame": "+6",
+        "Counter hit frame": "+6",
+        "Notes": "-"
+    },
+    {
+        "Command": "FC+d/b or d+2",
+        "Hit level": "Sm (TC)",
+        "Damage": "10",
+        "Start up frame": "11 RC",
+        "Block frame": "-4",
+        "Hit frame": "+7",
+        "Counter hit frame": "+7",
+        "Notes": "-"
+    },
+    {
+        "Command": "FC+d/b or d+3",
+        "Hit level": "l (TC)",
+        "Damage": "16",
+        "Start up frame": "16 RC",
+        "Block frame": "-17",
+        "Hit frame": "-3",
+        "Counter hit frame": "-3",
+        "Notes": "-"
+    },
+    {
+        "Command": "FC+4",
+        "Hit level": "l (TC)",
+        "Damage": "13",
+        "Start up frame": "12 RC",
+        "Block frame": "-15",
+        "Hit frame": "-4",
+        "Counter hit frame": "-4",
+        "Notes": "-"
+    },
+    {
+        "Command": "WS+1",
+        "Hit level": "m",
+        "Damage": "22",
+        "Start up frame": "15~16",
+        "Block frame": "-7~-6",
+        "Hit frame": "+4~+5",
+        "Counter hit frame": "+4~+5",
+        "Notes": "-"
+    },
+    {
+        "Command": "WS+2",
+        "Hit level": "m",
+        "Damage": "24",
+        "Start up frame": "13~14",
+        "Block frame": "-8~-7?",
+        "Hit frame": "+8~+9?",
+        "Counter hit frame": "+8~+9?",
+        "Notes": "-"
+    },
+    {
+        "Command": "WS+3",
+        "Hit level": "m",
+        "Damage": "27",
+        "Start up frame": "19",
+        "Block frame": "-16?",
+        "Hit frame": "Launch (JG?)",
+        "Counter hit frame": "Launch (JG?)",
+        "Notes": "-"
+    },
+    {
+        "Command": "WS+4",
+        "Hit level": "m",
+        "Damage": "20",
+        "Start up frame": "11~12",
+        "Block frame": "-3~-2",
+        "Hit frame": "+8~+9",
+        "Counter hit frame": "+8~+9",
+        "Notes": "-"
+    },
+    {
+        "Command": "d/f+1",
+        "Hit level": "m",
+        "Damage": "13",
+        "Start up frame": "13~14",
+        "Block frame": "-3~-2",
+        "Hit frame": "+8~+9",
+        "Counter hit frame": "+8~+9",
+        "Notes": "-"
+    },
+    {
+        "Command": "d/f+2",
+        "Hit level": "m",
+        "Damage": "18",
+        "Start up frame": "15~16",
+        "Block frame": "-6~-5",
+        "Hit frame": "Launch (JG?)(+5)",
+        "Counter hit frame": "Launch (JG?)",
+        "Notes": "-"
+    },
+    {
+        "Command": "d/f+3",
+        "Hit level": "m",
+        "Damage": "-",
+        "Start up frame": "20",
+        "Block frame": "-8",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "d/f+4",
+        "Hit level": "m",
+        "Damage": "21",
+        "Start up frame": "12",
+        "Block frame": "-9",
+        "Hit frame": "+2",
+        "Counter hit frame": "+2",
+        "Notes": "-"
+    },
+    {
+        "Command": "u/b or u or u/f+1",
+        "Hit level": "m (TJ)",
+        "Damage": "16",
+        "Start up frame": "18",
+        "Block frame": "-8",
+        "Hit frame": "+3",
+        "Counter hit frame": "+3",
+        "Notes": "-"
+    },
+    {
+        "Command": "u/b or u+2",
+        "Hit level": "h",
+        "Damage": "22",
+        "Start up frame": "15",
+        "Block frame": "-12",
+        "Hit frame": "+9",
+        "Counter hit frame": "+9",
+        "Notes": "-"
+    },
+    {
+        "Command": "u/f+2",
+        "Hit level": "h (throw)",
+        "Damage": "27(,20)",
+        "Start up frame": "14",
+        "Block frame": "-9",
+        "Hit frame": "KND(Throw)",
+        "Counter hit frame": "KND(Throw)",
+        "Notes": "-"
+    },
+    {
+        "Command": "u/f+2 (No throw)",
+        "Hit level": "h",
+        "Damage": "27",
+        "Start up frame": "14",
+        "Block frame": "-9",
+        "Hit frame": "+7",
+        "Counter hit frame": "+7",
+        "Notes": "-"
+    },
+    {
+        "Command": "u/b or u or u/f+3",
+        "Hit level": "m (TJ)",
+        "Damage": "22",
+        "Start up frame": "20~21",
+        "Block frame": "-3~-2?",
+        "Hit frame": "+7~+8",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "u/b+4",
+        "Hit level": "m (TJ)",
+        "Damage": "33",
+        "Start up frame": "20",
+        "Block frame": "-15",
+        "Hit frame": "Launch (JG?)",
+        "Counter hit frame": "Launch (JG?)",
+        "Notes": "-"
+    },
+    {
+        "Command": "u or u/f+4",
+        "Hit level": "m (TJ)",
+        "Damage": "33",
+        "Start up frame": "20",
+        "Block frame": "-13",
+        "Hit frame": "Launch (JG?)",
+        "Counter hit frame": "Launch (JG?)",
+        "Notes": "-"
+    },
+    {
+        "Command": "SS+1",
+        "Hit level": "h",
+        "Damage": "10",
+        "Start up frame": "10(11~)",
+        "Block frame": "-2",
+        "Hit frame": "+9",
+        "Counter hit frame": "+9",
+        "Notes": "-"
+    },
+    {
+        "Command": "SS+2",
+        "Hit level": "m",
+        "Damage": "31",
+        "Start up frame": "13(22~)",
+        "Block frame": "-9?",
+        "Hit frame": "KND(KND)",
+        "Counter hit frame": "KND(KND)",
+        "Notes": "-"
+    },
+    {
+        "Command": "SS+3",
+        "Hit level": "m",
+        "Damage": "22",
+        "Start up frame": "14(15~)",
+        "Block frame": "-7",
+        "Hit frame": "+9",
+        "Counter hit frame": "+9",
+        "Notes": "-"
+    },
+    {
+        "Command": "SS+4",
+        "Hit level": "h",
+        "Damage": "24",
+        "Start up frame": "17(26~)",
+        "Block frame": "-6",
+        "Hit frame": "+7",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "BT 1 or 2",
+        "Hit level": "h",
+        "Damage": "20",
+        "Start up frame": "8",
+        "Block frame": "-8",
+        "Hit frame": "+3",
+        "Counter hit frame": "+3",
+        "Notes": "-"
+    },
+    {
+        "Command": "BT 3 or 4",
+        "Hit level": "h",
+        "Damage": "33",
+        "Start up frame": "10",
+        "Block frame": "-8",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    }
+]
