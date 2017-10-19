@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 import json
 
-chara_misc_file = open('json/character_misc.json', 'r')
-contents = chara_misc_file.read()
-chara_misc_file.close()
+
+with chara_misc_file open('json/character_misc.json') as contents:
+    contents = chara_misc_file.read()
 chara_misc_json = json.loads(contents)
 
 def character_exists(chara_name):

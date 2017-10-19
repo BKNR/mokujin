@@ -12,9 +12,8 @@ description = 'A Tekken 7 Frame bot in construction... Made by Baikonur'
 bot = commands.Bot(command_prefix=prefix, description=description)
 
 # Get token from local txt file
-token_file = open('token.txt', 'r')
-token = token_file.read()
-token_file.close()
+with open('token.txt') as token_file:
+    token = token_file.read().strip()
 
 
 @bot.event
