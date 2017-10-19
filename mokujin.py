@@ -12,10 +12,10 @@ description = 'A Tekken 7 Frame bot in construction... Made by Baikonur'
 bot = commands.Bot(command_prefix=prefix, description=description)
 
 # Get token from local txt file
-#token_file = open('token.txt', 'r')
-#token = token_file.read()
-#token_file.close()
-#print(token)
+token_file = open('token.txt', 'r')
+token = token_file.read()
+token_file.close()
+
 
 @bot.event
 @asyncio.coroutine 
@@ -85,4 +85,4 @@ def on_message(message):
             # send char doesn't exist msg
             # return
     yield from bot.process_commands(message)
-bot.run('MzY4ODgwODM5ODA0NTgzOTM3.DMqJXQ.Kfj21_mIHns000umuJ1CUB8dRwM')
+bot.run(token)
