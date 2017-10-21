@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+import asyncio
 
 import discord
 from discord.ext import commands
-import asyncio
 
-import characters
+import tkfinder
 
 prefix = '.'
 description = 'A Tekken 7 Frame bot in construction... Made by Baikonur'
@@ -35,7 +34,7 @@ def test():
 @bot.event
 @asyncio.coroutine
 def on_message(message):
-    if message.content.startswith('!'):
+    if message.content.startswith('!') and message.channel == 'tekken':
         user_message = message.content
         user_message = user_message.replace('!', '')
         user_message_list = user_message.split(' ', 1)
@@ -61,7 +60,7 @@ def on_message(message):
         elif chara_name == 'ling':
            chara_name = 'xiaoyu'
 
-        character_exists = characters.character_exists(chara_name)
+        character_exists = tkfinder.character_exists(chara_name)
         if character_exists:
             bot_msg = 'Character ' + chara_name + ' exists!'
             print(bot_msg)
