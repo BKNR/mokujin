@@ -14,6 +14,9 @@ bot = commands.Bot(command_prefix=prefix, description=description)
 with open('token.txt') as token_file:
     token = token_file.read().strip()
 
+def make_move_embed(character, move):
+
+
 
 @bot.event
 @asyncio.coroutine 
@@ -34,7 +37,7 @@ def test():
 @bot.event
 @asyncio.coroutine
 def on_message(message):
-    if message.content.startswith('!') and message.channel == 'tekken':
+    if message.content.startswith('!') and message.channel.name == 'tekken':
         user_message = message.content
         user_message = user_message.replace('!', '')
         user_message_list = user_message.split(' ', 1)
@@ -53,6 +56,8 @@ def on_message(message):
             chara_name = 'jack7'
         elif chara_name == 'chloe' or chara_name == 'lc' or chara_name == 'lucky':
             chara_name = 'lucky_chloe'
+        elif chara_name == "hei":
+            chara_name = 'heihachi'
         elif chara_name == 'raven':
             chara_name = 'master_raven'
         elif chara_name == 'yoshi':
@@ -60,11 +65,16 @@ def on_message(message):
         elif chara_name == 'ling':
            chara_name = 'xiaoyu'
 
-        character_exists = tkfinder.character_exists(chara_name)
-        if character_exists:
+        character = tkfinder.get_character(chara_name)
+        if character is not None§:
             bot_msg = 'Character ' + chara_name + ' exists!'
             print(bot_msg)
             yield from bot.send_message(message.channel, bot_msg)
+            move = tkfinder.get_move(character, chara_move)
+            if move is not None:
+                print(move)
+            else:
+                print('Move not found: ' + chara_move)
         else:
             bot_msg = 'Character ' + chara_name + ' does not exist.'
             print(bot_msg)

@@ -1,78 +1,91 @@
 [
     {
         "name": "akuma",
+        "proper_name": "Akuma",
         "local_json": "akuma.json",
         "online_webpage": "http://rbnorway.org/akuma-t7-frames",
         "portrait": "https://i.imgur.com/igzyOMS.jpg"
     },
     {
         "name": "alisa",
+        "proper_name": "Alisa",
         "local_json": "alisa.json",
         "online_webpage": "http://rbnorway.org/alisa-t7-frames",
         "portrait": "https://i.imgur.com/yeyRqH2.jpg"
     },
     {
         "name": "asuka",
+        "proper_name": "Asuka",
         "local_json": "asuka.json",
         "online_webpage": "http://rbnorway.org/asuka-t7-frames",
         "portrait": "https://i.imgur.com/w9j6B9X.jpg"
     },
     {
         "name": "bob",
+        "proper_name": "Bob",
         "local_json": "bob.json",
         "online_webpage": "http://rbnorway.org/bob-t7-frames",
         "portrait": "https://i.imgur.com/xS7RO6y.jpg"
     },
     {
         "name": "bryan",
+        "proper_name": "Bryan",
         "local_json": "bryan.json",
         "online_webpage": "http://rbnorway.org/bryan-t7-frames",
         "portrait": "https://i.imgur.com/PV9xTeM.jpg"
     },
     {
         "name": "claudio",
+        "proper_name": "Claudio",
         "local_json": "claudio.json",
         "online_webpage": "http://rbnorway.org/claudio-t7-frames",
         "portrait": "https://i.imgur.com/iCqFIii.jpg"
     },
     {
         "name": "devil_jin",
+        "proper_name": "Devil Jin",
         "local_json": "devil_jin.json",
         "online_webpage": "http://rbnorway.org/devil-jin-t7-frames",
         "portrait": "https://i.imgur.com/bhZbto7.jpg"
     },
     {
         "name": "dragunov",
+        "proper_name": "Dragunov",
         "local_json": "dragunov.json",
         "online_webpage": "http://rbnorway.org/dragunov-t7-frames",
         "portrait": "https://i.imgur.com/oHXfXO7.jpg"
     },
     {
         "name": "eddy",
+        "proper_name": "Eddy",
         "local_json": "eddy.json",
         "online_webpage": "http://rbnorway.org/eddy-t7-frames/",
         "portrait": "https://i.imgur.com/rporala.jpg"
     },
     {
-        "name": "eliza",
+        "name": "eliza", 
+        "proper_name": "Eliza",
         "local_json": "eliza.json",
         "online_webpage": "http://rbnorway.org/eliza-t7-frames/",
         "portrait": "https://i.imgur.com/pf6xWtq.jpg"
     },
     {
         "name": "feng",
+        "proper_name": "Feng",
         "local_json": "feng.json",
         "online_webpage": "http://rbnorway.org/feng-t7-frames",
         "portrait": "https://i.imgur.com/pL9icRr.jpg"
     },
     {
         "name": "gigas",
+        "proper_name": "Gigas",
         "local_json": "gigas.json",
         "online_webpage": "http://rbnorway.org/gigas-t7-frames/",
         "portrait": "https://i.imgur.com/jTGmJyf.jpg"
     },
     {
         "name": "heihachi",
+        "proper_name": "Heihachi",
         "local_json": "heihachi.json",
         "online_webpage": "http://rbnorway.org/heihachi-t7-frames",
         "portrait": "https://i.imgur.com/o2bKXeP.jpg"
