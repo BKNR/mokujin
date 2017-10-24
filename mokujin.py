@@ -15,7 +15,7 @@ with open('token.txt') as token_file:
     token = token_file.read().strip()
 
 def make_move_embed(character, move):
-
+    pass
 
 
 @bot.event
@@ -66,13 +66,13 @@ def on_message(message):
            chara_name = 'xiaoyu'
 
         character = tkfinder.get_character(chara_name)
-        if character is not None§:
+        if character is not None:
             bot_msg = 'Character ' + chara_name + ' exists!'
             print(bot_msg)
             yield from bot.send_message(message.channel, bot_msg)
             move = tkfinder.get_move(character, chara_move)
             if move is not None:
-                print(move)
+                pass
             else:
                 print('Move not found: ' + chara_move)
         else:
