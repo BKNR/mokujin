@@ -17,17 +17,19 @@ def get_character(chara_name: str) -> dict:
     else:
         return None
 
-def get_move(character: dict, move_command: str) -> dict:
+def get_move(character: dict, move_command: str, case_important: bool) -> dict:
     '''Gets move from local_json, if exists
     returns move if exists, else None
     '''
-    print(character)
     move_file_name = 'json/' + character.get('local_json')
     with open(move_file_name) as move_file:
         move_file_contents = move_file.read()
     move_json = json.loads(move_file_contents)
     
-    move = list(filter(lambda x: (x['Command'] == move_command), move_json))
+    if case_important:
+        move = list(filter(lambda x: (x['Command'] == move_command), move_json))
+    else: 
+        move = list(filter(lambda x: (x['Command'].lower() == move_command.lower()), move_json)
     if  move:
         return move[0]
     else:

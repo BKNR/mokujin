@@ -70,11 +70,15 @@ def on_message(message):
             bot_msg = 'Character ' + chara_name + ' exists!'
             print(bot_msg)
             yield from bot.send_message(message.channel, bot_msg)
-            move = tkfinder.get_move(character, chara_move)
+            move = tkfinder.get_move(character, chara_move, True)
             if move is not None:
                 pass
             else:
-                print('Move not found: ' + chara_move)
+                move = tkfinder.get_move(character, chara_move, False)
+                if move is not None:
+                    pass
+                else:
+                    print('Move not found: ' + chara_move)
         else:
             bot_msg = 'Character ' + chara_name + ' does not exist.'
             print(bot_msg)
