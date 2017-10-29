@@ -29,8 +29,8 @@ def get_move(character: dict, move_command: str, case_important: bool) -> dict:
     if case_important:
         move = list(filter(lambda x: (x['Command'] == move_command), move_json))
     else: 
-        move = list(filter(lambda x: (x['Command'].lower() == move_command.lower()), move_json)
-    if  move:
+        move = list(filter(lambda x: (x['Command'].lower() == move_command.lower()), move_json))
+    if move:
         return move[0]
     else:
         return None

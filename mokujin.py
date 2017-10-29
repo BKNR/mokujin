@@ -15,8 +15,22 @@ with open('token.txt') as token_file:
     token = token_file.read().strip()
 
 def make_move_embed(character, move):
-    pass
 
+    embed = discord.Embed(title=character['proper_name'], 
+            colour=0x0000FF,
+            url=character['online_webpage'],
+            description="Move: " + move['Command'])
+    
+    embed.set_thumbnail(url=character['portrait'])
+    embed.add_field(name="Property", value=move['Hit level'])
+    embed.add_field(name="Damage", value=move['Damage'])
+    embed.add_field(name="Startup", value='i' + move['Start up frame'])
+    embed.add_field(name="Block", value=move['Block frame'])
+    embed.add_field(name="Hit", value=move['Hit frame'])
+    embed.add_field(name="Counter Hit", value=move['Counter hit frame'])
+    embed.add_field(name="Notes", value=move['Notes'])
+    
+    return embed
 
 @bot.event
 @asyncio.coroutine 
@@ -72,11 +86,14 @@ def on_message(message):
             yield from bot.send_message(message.channel, bot_msg)
             move = tkfinder.get_move(character, chara_move, True)
             if move is not None:
-                pass
+                embed = make_move_embed(character, move)
+                #check how delete_after works in send_message()
+                yield from bot.send_message(message.channel, embed=embed)
             else:
                 move = tkfinder.get_move(character, chara_move, False)
                 if move is not None:
-                    pass
+                    embed = make_move_embed(character, move)
+                    yield from bot.send_message(message.channel, embed=embed)
                 else:
                     print('Move not found: ' + chara_move)
         else:
