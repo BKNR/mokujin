@@ -14,10 +14,10 @@ bot = commands.Bot(command_prefix=prefix, description=description)
 with open('token.txt') as token_file:
     token = token_file.read().strip()
 
-def make_move_embed(character, move):
-
+def move_embed(character, move):
+    '''Returns the embed message for character and move'''
     embed = discord.Embed(title=character['proper_name'], 
-            colour=0x0000FF,
+            colour=0x00EAFF,
             url=character['online_webpage'],
             description="Move: " + move['Command'])
     
@@ -30,6 +30,13 @@ def make_move_embed(character, move):
     embed.add_field(name="Counter Hit", value=move['Counter hit frame'])
     embed.add_field(name="Notes", value=move['Notes'])
     
+    return embed
+
+def error_embed(err):
+    embed = discord.Embed(title='Error',
+            colour=0xFF4500,
+            description=err)
+
     return embed
 
 @bot.event
@@ -83,23 +90,25 @@ def on_message(message):
         if character is not None:
             bot_msg = 'Character ' + chara_name + ' exists!'
             print(bot_msg)
-            yield from bot.send_message(message.channel, bot_msg)
             move = tkfinder.get_move(character, chara_move, True)
             if move is not None:
-                embed = make_move_embed(character, move)
+                embed = move_embed(character, move)
                 #check how delete_after works in send_message()
                 yield from bot.send_message(message.channel, embed=embed)
             else:
                 move = tkfinder.get_move(character, chara_move, False)
                 if move is not None:
-                    embed = make_move_embed(character, move)
+                    embed = move_embed(character, move)
                     yield from bot.send_message(message.channel, embed=embed)
                 else:
                     print('Move not found: ' + chara_move)
+                    embed = error_embed('Move not found: ' + chara_move)
+                    yield from bot.send_message(message.channel, embed=embed)
         else:
             bot_msg = 'Character ' + chara_name + ' does not exist.'
             print(bot_msg)
-            yield from bot.send_message(message.channel, bot_msg)
+            embed = error_embed(bot_msg)
+            yield from bot.send_message(message.channel, embed=embed)
             return
         # if character_exists:
             # move_dict = get_move_details(chara_name, chara_move)
