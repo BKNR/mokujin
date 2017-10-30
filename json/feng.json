@@ -1,10 +1,10 @@
 [
     {
         "Command": "in rage d+1+2",
-        "Hit level": "-",
-        "Damage": "-",
-        "Start up frame": "-",
-        "Block frame": "\u2013",
+        "Hit level": "m",
+        "Damage": "55",
+        "Start up frame": "20 pc8~17",
+        "Block faame": "-22",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Notes": "Rage art"
@@ -692,11 +692,11 @@
     {
         "Command": "in rage b+1+2*",
         "Hit level": "m",
-        "Damage": "40?",
+        "Damage": "35",
         "Start up frame": "13~14?",
-        "Block frame": "+9?",
-        "Hit frame": "KFUD",
-        "Counter hit frame": "KFUD",
+        "Block frame": "+3~+4 (wl+9)",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
         "Notes": "Rage art"
     },
     {
