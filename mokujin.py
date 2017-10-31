@@ -92,35 +92,35 @@ def on_message(message):
             print(bot_msg)
             move = tkfinder.get_move(character, chara_move, True)
             if move is not None:
-                embed = move_embed(character, move)
-                #check how delete_after works in send_message()
-                yield from bot.send_message(message.channel, embed=embed)
+                embed = move_embed(character, move) 
+                
+                msg = yield from bot.send_message(message.channel, embed=embed)
+                yield from asyncio.sleep(300)
+                yield from bot.delete_message(msg)
             else:
                 move = tkfinder.get_move(character, chara_move, False)
                 if move is not None:
                     embed = move_embed(character, move)
-                    yield from bot.send_message(message.channel, embed=embed)
+                    
+                    msg = yield from bot.send_message(message.channel, embed=embed)
+                    yield from asyncio.sleep(300)
+                    yield from bot.delete_message(msg)
                 else:
                     print('Move not found: ' + chara_move)
                     embed = error_embed('Move not found: ' + chara_move)
-                    yield from bot.send_message(message.channel, embed=embed)
+                    
+                    msg = yield from bot.send_message(message.channel, embed=embed)
+                    yield from asyncio.sleep(150)
+                    yield from bot.delete_message(msg)
         else:
             bot_msg = 'Character ' + chara_name + ' does not exist.'
             print(bot_msg)
             embed = error_embed(bot_msg)
-            yield from bot.send_message(message.channel, embed=embed)
+            
+            msg = yield from bot.send_message(message.channel, embed=embed)
+            yield from asyncio.sleep(150)
+            yield from bot.delete_message(msg)
+
             return
-        # if character_exists:
-            # move_dict = get_move_details(chara_name, chara_move)
-            # if validate move:
-                # construct the message
-                # send message
-            # else move doesn't exist:
-                # construct error msg
-                # send error msg
-            # return
-        # else:
-            # send char doesn't exist msg
-            # return
     yield from bot.process_commands(message)
 bot.run(token)
