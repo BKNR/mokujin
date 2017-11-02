@@ -19,16 +19,16 @@ def move_embed(character, move):
     embed = discord.Embed(title=character['proper_name'], 
             colour=0x00EAFF,
             url=character['online_webpage'],
-            description="Move: " + move['Command'])
+            description='Move: ' + move['Command'])
     
     embed.set_thumbnail(url=character['portrait'])
-    embed.add_field(name="Property", value=move['Hit level'])
-    embed.add_field(name="Damage", value=move['Damage'])
-    embed.add_field(name="Startup", value='i' + move['Start up frame'])
-    embed.add_field(name="Block", value=move['Block frame'])
-    embed.add_field(name="Hit", value=move['Hit frame'])
-    embed.add_field(name="Counter Hit", value=move['Counter hit frame'])
-    embed.add_field(name="Notes", value=move['Notes'])
+    embed.add_field(name='Property', value=move['Hit level'])
+    embed.add_field(name='Damage', value=move['Damage'])
+    embed.add_field(name='Startup', value='i' + move['Start up frame'])
+    embed.add_field(name='Block', value=move['Block frame'])
+    embed.add_field(name='Hit', value=move['Hit frame'])
+    embed.add_field(name='Counter Hit', value=move['Counter hit frame'])
+    embed.add_field(name='Notes', value=move['Notes'])
     
     return embed
 
@@ -39,6 +39,17 @@ def error_embed(err):
 
     return embed
 
+def move_simplifier(move_input):
+    short_input = move_input.replace(' ', '')
+    short_input = short_input.replace('/', '')
+    short_input = short_input.replace('+', '')
+
+    if short_input[:2].lower() == 'cd':
+        short_input = short_input.lower().replace('cd', 'f,n,d,df')
+    if short_input[:4].lower() == 'ewgf':
+        short_input = short_input.lower().replace('ewgf', 'f,n,df2')
+    return short_input
+        
 @bot.event
 @asyncio.coroutine 
 def on_ready():

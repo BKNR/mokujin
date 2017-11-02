@@ -29,8 +29,21 @@ def get_move(character: dict, move_command: str, case_important: bool) -> dict:
     if case_important:
         move = list(filter(lambda x: (x['Command'] == move_command), move_json))
     else: 
-        move = list(filter(lambda x: (x['Command'].lower() == move_command.lower()), move_json))
+        move = list(filter(lambda x: (move_simplifier(x['Command'].lower()) \
+        == move_simplifier(move_command.lower())), move_json))
     if move:
         return move[0]
     else:
         return None
+
+def move_simplifier(move_input):
+    short_input = move_input.replace(' ', '')
+    short_input = short_input.replace('/', '')
+    short_input = short_input.replace('+', '')
+
+    if short_input[:2].lower() == 'cd':
+        short_input = short_input.lower().replace('cd', 'f,n,d,df')
+    if short_input[:4].lower() == 'ewgf':
+        short_input = short_input.lower().replace('ewgf', 'f,n,df2')
+    
+    return short_input
