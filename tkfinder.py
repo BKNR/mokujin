@@ -37,13 +37,15 @@ def get_move(character: dict, move_command: str, case_important: bool) -> dict:
         return None
 
 def move_simplifier(move_input):
+    '''Removes bells and whistles from the move_input'''
     short_input = move_input.replace(' ', '')
     short_input = short_input.replace('/', '')
     short_input = short_input.replace('+', '')
-
+    
+    #cd works, ewgf doesn't, for some reason
     if short_input[:2].lower() == 'cd':
         short_input = short_input.lower().replace('cd', 'f,n,d,df')
-    if short_input[:4].lower() == 'ewgf':
-        short_input = short_input.lower().replace('ewgf', 'f,n,df2')
+    if short_input[:2].lower() == 'wr':
+        short_input = short_input.lower().replace('wr', 'f,f,f')
     
     return short_input

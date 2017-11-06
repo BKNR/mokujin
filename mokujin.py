@@ -39,17 +39,6 @@ def error_embed(err):
 
     return embed
 
-def move_simplifier(move_input):
-    short_input = move_input.replace(' ', '')
-    short_input = short_input.replace('/', '')
-    short_input = short_input.replace('+', '')
-
-    if short_input[:2].lower() == 'cd':
-        short_input = short_input.lower().replace('cd', 'f,n,d,df')
-    if short_input[:4].lower() == 'ewgf':
-        short_input = short_input.lower().replace('ewgf', 'f,n,df2')
-    return short_input
-        
 @bot.event
 @asyncio.coroutine 
 def on_ready():
@@ -69,6 +58,10 @@ def test():
 @bot.event
 @asyncio.coroutine
 def on_message(message):
+    '''This has the main functionality of the bot. It has a lot of
+    things that would be better suited elsewhere but I don't know
+    if I'm going to change it.
+    '''
     if message.content.startswith('!') and message.channel.name == 'tekken':
         user_message = message.content
         user_message = user_message.replace('!', '')
@@ -99,9 +92,14 @@ def on_message(message):
 
         character = tkfinder.get_character(chara_name)
         if character is not None:
+            #All the console prints should be removed from the "release" version
             bot_msg = 'Character ' + chara_name + ' exists!'
             print(bot_msg)
             move = tkfinder.get_move(character, chara_move, True)
+            
+            #First checks the move as case sensitive, if it doesn't find it
+            #it checks it case unsensitive
+            
             if move is not None:
                 embed = move_embed(character, move) 
                 
