@@ -843,7 +843,7 @@
 		"Command": "f, F+3+4",
 		"Hit level": "m (TJ)",
 		"Damage": "25",
-		"Start up frame": "37~45<br clear="all" />~js9~",
+		"Start up frame": "37~45~ js9~",
 		"Block frame": "-5~+3",
 		"Hit frame": "KND",
 		"Counter hit frame": "KND",
