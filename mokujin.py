@@ -124,6 +124,8 @@ def on_message(message):
         else:
             bot_msg = 'Character ' + chara_name + ' does not exist.'
             print(bot_msg)
+            if chara_name == 'geese':
+                bot_msg = 'Sori nyt ei pysty.'
             embed = error_embed(bot_msg)
             
             msg = yield from bot.send_message(message.channel, embed=embed)

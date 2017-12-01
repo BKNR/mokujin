@@ -41,7 +41,8 @@ def get_move(character: dict, move_command: str, case_important: bool) -> dict:
 
 def move_simplifier(move_input):
     '''Removes bells and whistles from the move_input'''
-    short_input = move_input.replace(' ', '')
+    short_input = move_input.replace('ff', 'f,f')
+    short_input = short_input.replace(' ', '')
     short_input = short_input.replace('/', '')
     short_input = short_input.replace('+', '')
     
