@@ -62,7 +62,7 @@ def on_message(message):
     things that would be better suited elsewhere but I don't know
     if I'm going to change it.
     '''
-    if message.content.startswith('!') and message.channel.name == 'tekken':
+    if message.content.startswith('!') and (message.channel.name == 'tekken' or message.channel.name == 'raamikeskustelu'):
         user_message = message.content
         user_message = user_message.replace('!', '')
         user_message_list = user_message.split(' ', 1)
