@@ -47,7 +47,7 @@ def move_simplifier(move_input):
     short_input = short_input.replace('+', '')
     
     #cd works, ewgf doesn't, for some reason
-    if short_input[:2].lower() == 'cd':
+    if short_input[:2].lower() == 'cd' and short_input[:3].lower() != 'cds':
         short_input = short_input.lower().replace('cd', 'f,n,d,df')
     if short_input[:2].lower() == 'wr':
         short_input = short_input.lower().replace('wr', 'f,f,f')
