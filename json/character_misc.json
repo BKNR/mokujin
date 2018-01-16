@@ -77,6 +77,13 @@
         "portrait": "https://i.imgur.com/pL9icRr.jpg"
     },
     {
+        "name": "geese",
+        "proper_name": "Geese",
+        "local_json": "geese.json",
+        "online_webpage": "http://rbnorway.org/geese-t7-frames/",
+        "portrait": "https://i.imgur.com/yw4se0X.jpg"
+    },
+    {
         "name": "gigas",
         "proper_name": "Gigas",
         "local_json": "gigas.json",

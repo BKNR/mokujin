@@ -77,13 +77,17 @@ def on_message(message):
             chara_name = 'devil_jin'
         elif chara_name == 'sergei':
             chara_name = 'dragunov'
+        elif chara_name == 'goose':
+            chara_name = 'geese'
+        elif chara_name == 'hwo' or chara_name == 'hwoa':
+            chara_name == 'hwoarang'
         elif chara_name == 'jack':
             chara_name = 'jack7'
         elif chara_name == 'chloe' or chara_name == 'lc' or chara_name == 'lucky':
             chara_name = 'lucky_chloe'
-        elif chara_name == "hei" or chara_name == 'hessu':
+        elif chara_name == "hei" or chara_name == 'hessu' or chara_name == 'heiska':
             chara_name = 'heihachi'
-        elif chara_name == 'raven':
+        elif chara_name == 'raven' or chara_name == 'mraven' or chara_name == 'masterraven':
             chara_name = 'master_raven'
         elif chara_name == 'yoshi':
             chara_name = 'yoshimitsu'
@@ -92,9 +96,6 @@ def on_message(message):
 
         character = tkfinder.get_character(chara_name)
         if character is not None:
-            #All the console prints should be removed from the "release" version
-            bot_msg = 'Character ' + chara_name + ' exists!'
-            print(bot_msg)
             move = tkfinder.get_move(character, chara_move, True)
             
             #First checks the move as case sensitive, if it doesn't find it
@@ -124,8 +125,6 @@ def on_message(message):
         else:
             bot_msg = 'Character ' + chara_name + ' does not exist.'
             print(bot_msg)
-            if chara_name == 'geese':
-                bot_msg = 'Sori nyt ei pysty.'
             embed = error_embed(bot_msg)
             
             msg = yield from bot.send_message(message.channel, embed=embed)
