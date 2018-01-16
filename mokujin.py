@@ -62,7 +62,7 @@ def on_message(message):
     things that would be better suited elsewhere but I don't know
     if I'm going to change it.
     '''
-    if message.content.startswith('!') and message.channel.name == 'tekken':
+    if message.content.startswith('!') and (message.channel.name == 'tekken' or message.channel.name == 'raamikysely'):
         user_message = message.content
         user_message = user_message.replace('!', '')
         user_message_list = user_message.split(' ', 1)
@@ -73,7 +73,7 @@ def on_message(message):
 
         chara_name = user_message_list[0].lower()
         chara_move = user_message_list[1]
-        if chara_name == 'dj' or chara_name == 'dvj' or chara_name == 'devil' or chara_name == 'deviljin':
+        if chara_name == 'dj' or chara_name == 'dvj' or chara_name == 'djin' or chara_name == 'devil' or chara_name == 'deviljin' or chara_name == 'diablojim':
             chara_name = 'devil_jin'
         elif chara_name == 'sergei':
             chara_name = 'dragunov'
@@ -81,7 +81,7 @@ def on_message(message):
             chara_name = 'jack7'
         elif chara_name == 'chloe' or chara_name == 'lc' or chara_name == 'lucky':
             chara_name = 'lucky_chloe'
-        elif chara_name == "hei":
+        elif chara_name == "hei" or chara_name == 'hessu':
             chara_name = 'heihachi'
         elif chara_name == 'raven':
             chara_name = 'master_raven'
@@ -124,6 +124,8 @@ def on_message(message):
         else:
             bot_msg = 'Character ' + chara_name + ' does not exist.'
             print(bot_msg)
+            if chara_name == 'geese':
+                bot_msg = 'Sori nyt ei pysty.'
             embed = error_embed(bot_msg)
             
             msg = yield from bot.send_message(message.channel, embed=embed)

@@ -853,7 +853,7 @@
 		"Command": "u/f+3+4",
 		"Hit level": "h(Throw)?,  (TJ)",
 		"Damage": "36",
-		"Start up frame": "38~42(d)<br clear="all" />~js20~",
+		"Start up frame": "38~42(d) ~js20~",
 		"Block frame": "-",
 		"Hit frame": "Throw(KND)",
 		"Counter hit frame": "-",
