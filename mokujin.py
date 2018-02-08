@@ -40,24 +40,21 @@ def error_embed(err):
     return embed
 
 @bot.event
-@asyncio.coroutine 
-def on_ready():
+async def on_ready():
     print('Logged in as')
     print(bot.user.name)
     print(bot.user.id)
     print('------')
 
 @bot.command()
-@asyncio.coroutine 
-def test():
+async def test():
     print('Testing...')
     embed = discord.Embed(title='Test title', description='A test embed thing.', colour=0x0000FF)
     embed.set_author(name='Test name', icon_url=bot.user.default_avatar_url)
-    yield from bot.say(embed=embed, delete_after=60)
+    await bot.say(embed=embed, delete_after=60)
 
 @bot.event
-@asyncio.coroutine
-def on_message(message):
+async def on_message(message):
     '''This has the main functionality of the bot. It has a lot of
     things that would be better suited elsewhere but I don't know
     if I'm going to change it.
@@ -75,7 +72,7 @@ def on_message(message):
         chara_move = user_message_list[1]
         if chara_name == 'dj' or chara_name == 'dvj' or chara_name == 'djin' or chara_name == 'devil' or chara_name == 'deviljin' or chara_name == 'diablojim':
             chara_name = 'devil_jin'
-        elif chara_name == 'sergei':
+        elif chara_name == 'sergei' or chara_name == 'drag':
             chara_name = 'dragunov'
         elif chara_name == 'goose':
             chara_name = 'geese'
@@ -104,33 +101,33 @@ def on_message(message):
             if move is not None:
                 embed = move_embed(character, move) 
                 
-                msg = yield from bot.send_message(message.channel, embed=embed)
-                yield from asyncio.sleep(300)
-                yield from bot.delete_message(msg)
+                msg = await bot.send_message(message.channel, embed=embed)
+                await asyncio.sleep(300)
+                await bot.delete_message(msg)
             else:
                 move = tkfinder.get_move(character, chara_move, False)
                 if move is not None:
                     embed = move_embed(character, move)
                     
-                    msg = yield from bot.send_message(message.channel, embed=embed)
-                    yield from asyncio.sleep(300)
-                    yield from bot.delete_message(msg)
+                    msg = await bot.send_message(message.channel, embed=embed)
+                    await asyncio.sleep(300)
+                    await bot.delete_message(msg)
                 else:
                     print('Move not found: ' + chara_move)
                     embed = error_embed('Move not found: ' + chara_move)
                     
-                    msg = yield from bot.send_message(message.channel, embed=embed)
-                    yield from asyncio.sleep(150)
-                    yield from bot.delete_message(msg)
+                    msg = await bot.send_message(message.channel, embed=embed)
+                    await asyncio.sleep(150)
+                    await bot.delete_message(msg)
         else:
             bot_msg = 'Character ' + chara_name + ' does not exist.'
             print(bot_msg)
             embed = error_embed(bot_msg)
             
-            msg = yield from bot.send_message(message.channel, embed=embed)
-            yield from asyncio.sleep(150)
-            yield from bot.delete_message(msg)
+            msg = await bot.send_message(message.channel, embed=embed)
+            await asyncio.sleep(150)
+            await bot.delete_message(msg)
 
             return
-    yield from bot.process_commands(message)
+    await bot.process_commands(message)
 bot.run(token)
