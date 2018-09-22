@@ -234,7 +234,7 @@
         "Hit level": "m (TJ), l",
         "Damage": "27,21",
         "Start up frame": "s cs6~",
-        "Block frame": "-15~-13",
+        "Block frame": "-26~-14",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Notes": "-"
@@ -417,7 +417,7 @@
         "Block frame": "-6~-5",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "Wall bounce"
     },
     {
         "Command": "d/f+3",
@@ -447,7 +447,7 @@
         "Block frame": "-8~-4",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Homing"
+        "Notes": "Homing, Tail spin"
     },
     {
         "Command": "d+2",
@@ -626,7 +626,7 @@
         "Start up frame": "s cs8~",
         "Block frame": "-11~-10",
         "Hit frame": "0~+1",
-        "Counter hit frame": "0~+1",
+        "Counter hit frame": "KND",
         "Notes": "-"
     },
     {
@@ -884,9 +884,9 @@
         "Hit level": "m",
         "Damage": "30",
         "Start up frame": "32~33 (33~)",
-        "Block frame": "+4~+5s",
+        "Block frame": "+8~+9s",
         "Hit frame": "+8~+9s",
-        "Counter hit frame": "KND",
+        "Counter hit frame": "JG",
         "Notes": "-"
     },
     {
@@ -1054,7 +1054,7 @@
         "Hit level": "h",
         "Damage": "18",
         "Start up frame": "15b(24~)",
-        "Block frame": "-1",
+        "Block frame": "+1",
         "Hit frame": "+9",
         "Counter hit frame": "+9",
         "Notes": "Homing"
@@ -1444,9 +1444,9 @@
         "Hit level": "m",
         "Damage": "30",
         "Start up frame": "32~33",
-        "Block frame": "+4~+5s",
+        "Block frame": "+8~+9s",
         "Hit frame": "+8~+9s",
-        "Counter hit frame": "KND",
+        "Counter hit frame": "JG",
         "Notes": "-"
     },
     {
@@ -2004,9 +2004,9 @@
         "Hit level": "m",
         "Damage": "30",
         "Start up frame": "32~33",
-        "Block frame": "+4~+5s",
+        "Block frame": "+8~+9s",
         "Hit frame": "+8~+9s",
-        "Counter hit frame": "KND",
+        "Counter hit frame": "JG",
         "Notes": "-"
     },
     {

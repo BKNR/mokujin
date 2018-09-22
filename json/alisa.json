@@ -122,7 +122,7 @@
     {
         "Command": "2, 3",
         "Hit level": "h, m",
-        "Damage": "10,7",
+        "Damage": "10,8",
         "Start up frame": "12",
         "Block frame": "-10~-9",
         "Hit frame": "+1~+2",
@@ -132,7 +132,7 @@
     {
         "Command": "2, 3, 3",
         "Hit level": "h, m, m (TJ)",
-        "Damage": "10,7,20",
+        "Damage": "10,8,25",
         "Start up frame": "12a",
         "Block frame": "-11~-9",
         "Hit frame": "KND",
@@ -214,7 +214,7 @@
         "Hit level": "m, m, (DES)",
         "Damage": "12,20",
         "Start up frame": "17~18",
-        "Block frame": "-20~-19",
+        "Block frame": "-14",
         "Hit frame": "CS",
         "Counter hit frame": "CS",
         "Notes": "-"
@@ -252,12 +252,12 @@
     {
         "Command": "f+2, 3, 3",
         "Hit level": "m, h (TJ), m",
-        "Damage": "12,8,20",
+        "Damage": "12,8,22",
         "Start up frame": "js1~12",
         "Block frame": "-10~-9",
         "Hit frame": "ED",
         "Counter hit frame": "ED",
-        "Notes": "-"
+        "Notes": "wb!"
     },
     {
         "Command": "f+3",
@@ -433,11 +433,11 @@
         "Command": "d/f+1+2",
         "Hit level": "m, (DES)",
         "Damage": "25",
-        "Start up frame": "18~19",
-        "Block frame": "-11~-10",
+        "Start up frame": "18",
+        "Block frame": "-14",
         "Hit frame": "CS",
         "Counter hit frame": "CS",
-        "Notes": "-"
+        "Notes": "Power Crush"
     },
     {
         "Command": "d+2",
@@ -504,7 +504,7 @@
         "Hit level": "l, h",
         "Damage": "15,20",
         "Start up frame": "17~18",
-        "Block frame": "-1~0",
+        "Block frame": "+2",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Notes": "Tail spin"
@@ -652,7 +652,7 @@
     {
         "Command": "b+4, 3",
         "Hit level": "m, m",
-        "Damage": "17,15",
+        "Damage": "17,20",
         "Start up frame": "js1~27",
         "Block frame": "-11~-10",
         "Hit frame": "+6~+7s",
@@ -734,9 +734,9 @@
         "Hit level": "m (TJ)",
         "Damage": "15",
         "Start up frame": "20~21 js9~",
-        "Block frame": "-57~-56",
-        "Hit frame": "-29~-28 (SH)",
-        "Counter hit frame": "-29~-28 (SH)",
+        "Block frame": "-52~-51",
+        "Hit frame": "-24~-23 (SH)",
+        "Counter hit frame": "-24~-23 (SH)",
         "Notes": "-"
     },
     {
@@ -1044,7 +1044,7 @@
         "Hit level": "m, (Special)",
         "Damage": "18",
         "Start up frame": "19~20a",
-        "Block frame": "-137~-136",
+        "Block frame": "-135~-134",
         "Hit frame": "-126~-125",
         "Counter hit frame": "-126~-125",
         "Notes": "-"
@@ -1155,7 +1155,7 @@
         "Damage": "15",
         "Start up frame": "24~25 (33~) cs6~",
         "Block frame": "-12~-11",
-        "Hit frame": "-1~0",
+        "Hit frame": "+2",
         "Counter hit frame": "+7~+8",
         "Notes": "-"
     },
@@ -1184,7 +1184,7 @@
         "Hit level": "l(On grounded opponent)",
         "Damage": "20",
         "Start up frame": "24~26",
-        "Block frame": "-17~-15",
+        "Block frame": "-14",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Notes": "-"
@@ -1284,7 +1284,7 @@
         "Hit level": "m (TJ)",
         "Damage": "30",
         "Start up frame": "24~27 (39~) js15~",
-        "Block frame": "-10~-7",
+        "Block frame": "-9",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Notes": "-"
@@ -1481,7 +1481,7 @@
     },
     {
         "Command": "DES 3 or 4",
-        "Hit level": "(Special)",
+        "Hit level": "-",
         "Damage": "-",
         "Start up frame": "20,,",
         "Block frame": "-",
@@ -1544,7 +1544,7 @@
         "Hit level": "l x 5 (TC)",
         "Damage": "4*4,8",
         "Start up frame": "20~21, cs4~",
-        "Block frame": "-12",
+        "Block frame": "+3",
         "Hit frame": "-2s",
         "Counter hit frame": "-2s",
         "Notes": "-"
@@ -1614,10 +1614,20 @@
         "Hit level": "(Special) (TJ), m",
         "Damage": "25",
         "Start up frame": "20~21 (44~)",
-        "Block frame": "-20~-19",
+        "Block frame": "-10",
         "Hit frame": "CS",
         "Counter hit frame": "CS",
         "Notes": "-"
+    },
+    {
+        "Command": "DES d/f+1+2",
+        "Hit level": "m, (DES)",
+        "Damage": "25",
+        "Start up frame": "18",
+        "Block frame": "-14",
+        "Hit frame": "CS",
+        "Counter hit frame": "CS",
+        "Notes": "Power Crush"
     },
     {
         "Command": "DES u/b or u or u/f+1+2",
@@ -1734,7 +1744,7 @@
         "Hit level": "mmmm",
         "Damage": "5,5,5,20",
         "Start up frame": "12,,, js1~",
-        "Block frame": "-5",
+        "Block frame": "0",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Notes": "-"

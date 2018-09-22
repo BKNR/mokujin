@@ -222,7 +222,7 @@
     {
         "Command": "4, 4",
         "Hit level": "h, m (TJ)",
-        "Damage": "15,28",
+        "Damage": "15,25",
         "Start up frame": "s js22~",
         "Block frame": "+3~+4",
         "Hit frame": "KND",
@@ -234,7 +234,7 @@
         "Hit level": "m",
         "Damage": "25",
         "Start up frame": "21~22 pc8~20",
-        "Block frame": "-12~-11",
+        "Block frame": "-14",
         "Hit frame": "KND",
         "Counter hit frame": "TUKD",
         "Notes": "Power crush"
@@ -465,7 +465,7 @@
         "Damage": "17",
         "Start up frame": "18~19s cs6~",
         "Block frame": "-13~-12",
-        "Hit frame": "0~+1s",
+        "Hit frame": "-1",
         "Counter hit frame": "+13~+14g",
         "Notes": "-"
     },
@@ -792,11 +792,11 @@
     {
         "Command": "u/f+1",
         "Hit level": "h",
-        "Damage": "18",
-        "Start up frame": "16",
+        "Damage": "20",
+        "Start up frame": "15",
         "Block frame": "-7",
-        "Hit frame": "+9",
-        "Counter hit frame": "uKZD",
+        "Hit frame": "+9?",
+        "Counter hit frame": "KND",
         "Notes": "-"
     },
     {
@@ -852,7 +852,7 @@
     {
         "Command": "u/f+3+4",
         "Hit level": "h(Throw)?,  (TJ)",
-        "Damage": "36",
+        "Damage": "42",
         "Start up frame": "38~42(d)",
         "Block frame": "-",
         "Hit frame": "Throw(KND)",
@@ -1151,10 +1151,10 @@
     },
     {
         "Command": "qcf+2",
-        "Hit level": "m?",
+        "Hit level": "m",
         "Damage": "25",
         "Start up frame": "18~19 (20~)",
-        "Block frame": "-13~-12",
+        "Block frame": "-14",
         "Hit frame": "Launch (JG?)",
         "Counter hit frame": "Launch (JG?)",
         "Notes": "-"
@@ -1164,8 +1164,8 @@
         "Hit level": "l (TC)",
         "Damage": "17(,20)",
         "Start up frame": "17s(19~) cs12~ ar10~",
-        "Block frame": "-14",
-        "Hit frame": "-5",
+        "Block frame": "-15",
+        "Hit frame": "-6",
         "Counter hit frame": "Throw(KND)",
         "Notes": "-"
     },
@@ -1617,7 +1617,7 @@
         "Block frame": "-9~-8",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "wb!"
     },
     {
         "Command": "WS+4",
