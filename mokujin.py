@@ -124,13 +124,6 @@ async def on_message(message):
                     await asyncio.sleep(150)
                     await bot.delete_message(msg)
         
-        elif chara_name == 'anna':
-            bot_msg = 'Ei ota, ei Anna.'
-            embed = error_embed(bot_msg)
-            msg = await bot.send_message(message.channel, embed=embed)
-            await asyncio.sleep(150)
-            await bot.delete_message(msg)
-
         elif chara_name == 'lei':
             bot_msg = 'Lei: havaijilainen kaulaseppele.'
             embed = error_embed(bot_msg)

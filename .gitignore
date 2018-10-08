@@ -1,3 +1,4 @@
 #ignore configuration text files
 *.txt
 __pycache__
+nohup.out

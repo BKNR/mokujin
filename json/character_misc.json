@@ -14,6 +14,13 @@
         "portrait": "https://i.imgur.com/yeyRqH2.jpg"
     },
     {
+        "name": "anna",
+        "proper_name": "Anna",
+        "local_json": "anna.json",
+        "online_webpage": "http://rbnorway.org/anna-t7-frames",
+        "portrait": "https://i.imgur.com/kiZ6oC8.jpg"
+    },
+    {
         "name": "asuka",
         "proper_name": "Asuka",
         "local_json": "asuka.json",
