@@ -27,7 +27,7 @@
         "Block frame": "+1",
         "Hit frame": "+8",
         "Counter hit frame": "+8",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "1, 2",
@@ -37,7 +37,7 @@
         "Block frame": "-1",
         "Hit frame": "+5",
         "Counter hit frame": "+5",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "1, 2, 1",
@@ -47,7 +47,7 @@
         "Block frame": "-3",
         "Hit frame": "+4",
         "Counter hit frame": "+4",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "1, 2, 1, 4",
@@ -57,7 +57,7 @@
         "Block frame": "+7",
         "Hit frame": "JG",
         "Counter hit frame": "JG",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "1, 2, 1, d+4",
@@ -67,7 +67,7 @@
         "Block frame": "-13",
         "Hit frame": "-2",
         "Counter hit frame": "-2",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "1, 2, 3",
@@ -77,7 +77,7 @@
         "Block frame": "-14",
         "Hit frame": "-3",
         "Counter hit frame": "-3",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "1, 2, 4",
@@ -97,7 +97,7 @@
         "Block frame": "-13",
         "Hit frame": "-2",
         "Counter hit frame": "-2",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "2",
@@ -107,7 +107,7 @@
         "Block frame": "+1",
         "Hit frame": "+7",
         "Counter hit frame": "+7",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "2, 1",
@@ -117,7 +117,7 @@
         "Block frame": "-3",
         "Hit frame": "+4",
         "Counter hit frame": "+4",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "2, 1, 4",
@@ -127,7 +127,7 @@
         "Block frame": "7",
         "Hit frame": "JG",
         "Counter hit frame": "JG",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "2, 1, d+4",
@@ -137,7 +137,7 @@
         "Block frame": "-13",
         "Hit frame": "-2",
         "Counter hit frame": "-2",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "2, 3",
@@ -147,7 +147,7 @@
         "Block frame": "-11",
         "Hit frame": "0",
         "Counter hit frame": "0",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "2, 3, B",
@@ -157,7 +157,7 @@
         "Block frame": "-3",
         "Hit frame": "+8",
         "Counter hit frame": "+8",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "2, 4",
@@ -177,7 +177,7 @@
         "Block frame": "-14",
         "Hit frame": "-3",
         "Counter hit frame": "-3",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "3",
@@ -187,7 +187,7 @@
         "Block frame": "-16",
         "Hit frame": "-5",
         "Counter hit frame": "-5",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "3, 3",
@@ -197,7 +197,7 @@
         "Block frame": "-17",
         "Hit frame": "-6",
         "Counter hit frame": "-6",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "3, 3, 2",
@@ -207,7 +207,7 @@
         "Block frame": "-13",
         "Hit frame": "JG",
         "Counter hit frame": "JG",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "3, 3, 3",
@@ -217,7 +217,7 @@
         "Block frame": "-6",
         "Hit frame": "+5",
         "Counter hit frame": "JG",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "3, 3, 3, 1",
@@ -227,7 +227,7 @@
         "Block frame": "+2s",
         "Hit frame": "+5s",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "3, 4",
@@ -237,7 +237,7 @@
         "Block frame": "-6",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "4",
@@ -247,7 +247,7 @@
         "Block frame": "-9",
         "Hit frame": "+8",
         "Counter hit frame": "JG",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "4, 3",
@@ -257,7 +257,7 @@
         "Block frame": "-14",
         "Hit frame": "-3",
         "Counter hit frame": "-3",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "f+2",
@@ -267,7 +267,7 @@
         "Block frame": "-2",
         "Hit frame": "+4",
         "Counter hit frame": "+4",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "f+2, 2",
@@ -287,7 +287,7 @@
         "Block frame": "-13",
         "Hit frame": "-4",
         "Counter hit frame": "-4",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "f+3, B",
@@ -297,7 +297,7 @@
         "Block frame": "-5",
         "Hit frame": "+4",
         "Counter hit frame": "+4",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "f+3, 2",
@@ -317,7 +317,7 @@
         "Block frame": "-14",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "f+1+2 or WS+1+2",
@@ -327,7 +327,7 @@
         "Block frame": "-18",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "f+2+3",
@@ -337,7 +337,7 @@
         "Block frame": "-16",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/f+1",
@@ -347,7 +347,7 @@
         "Block frame": "-1",
         "Hit frame": "+5",
         "Counter hit frame": "+5",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/f+1, 2",
@@ -357,7 +357,7 @@
         "Block frame": "-3",
         "Hit frame": "+2",
         "Counter hit frame": "+9",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/f+1, 2, 3",
@@ -367,7 +367,7 @@
         "Block frame": "-12",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/f+1, 2, 3, b",
@@ -377,7 +377,7 @@
         "Block frame": "-17",
         "Hit frame": "-12",
         "Counter hit frame": "-5",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/f+1, 2, 4",
@@ -397,7 +397,7 @@
         "Block frame": "-12",
         "Hit frame": "JG",
         "Counter hit frame": "JG",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/f+3",
@@ -407,7 +407,7 @@
         "Block frame": "-11",
         "Hit frame": "+1",
         "Counter hit frame": "+1",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/f+3, 1, u or d",
@@ -417,7 +417,7 @@
         "Block frame": "-12",
         "Hit frame": "0",
         "Counter hit frame": "0",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/f+3, 1, b",
@@ -427,7 +427,7 @@
         "Block frame": "-15",
         "Hit frame": "-3",
         "Counter hit frame": "-3",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/f+3, 1",
@@ -437,7 +437,7 @@
         "Block frame": "-3",
         "Hit frame": "+7",
         "Counter hit frame": "7",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/f+3, 1, 2",
@@ -447,7 +447,7 @@
         "Block frame": "-2",
         "Hit frame": "+9",
         "Counter hit frame": "+9",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/f+3, 1, 4",
@@ -457,7 +457,7 @@
         "Block frame": "-3",
         "Hit frame": "-3",
         "Counter hit frame": "2",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/f+3, 1, 4, 2",
@@ -467,7 +467,7 @@
         "Block frame": "-4",
         "Hit frame": "0",
         "Counter hit frame": "0",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/f+3, 1, 4, 2, u or b",
@@ -477,7 +477,7 @@
         "Block frame": "-5",
         "Hit frame": "6",
         "Counter hit frame": "6",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/f+3, 1, 4, 2, 3",
@@ -487,7 +487,7 @@
         "Block frame": "0",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/f+3, 1, 4, 2, u/f+3",
@@ -497,7 +497,7 @@
         "Block frame": "-3",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/f+3, 1, 4, 2, 1+2",
@@ -507,7 +507,7 @@
         "Block frame": "-18",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/f+3, 2",
@@ -517,7 +517,7 @@
         "Block frame": "0",
         "Hit frame": "+1",
         "Counter hit frame": "+11",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/f+3, 2, D/F",
@@ -527,7 +527,7 @@
         "Block frame": "-1",
         "Hit frame": "0",
         "Counter hit frame": "10",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/f+3, 2, u or b",
@@ -537,7 +537,7 @@
         "Block frame": "-1",
         "Hit frame": "0",
         "Counter hit frame": "10",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/f+3, 2, 1",
@@ -547,7 +547,7 @@
         "Block frame": "-3",
         "Hit frame": "4",
         "Counter hit frame": "4",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/f+3, 2, 1, 4",
@@ -557,7 +557,7 @@
         "Block frame": "7",
         "Hit frame": "JG",
         "Counter hit frame": "JG",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/f+3, 2, 1, d+4",
@@ -567,7 +567,7 @@
         "Block frame": "-13",
         "Hit frame": "-2",
         "Counter hit frame": "-2",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/f+3, 2, 3",
@@ -577,7 +577,7 @@
         "Block frame": "-10",
         "Hit frame": "1",
         "Counter hit frame": "1",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/f+3, 2, 4",
@@ -597,7 +597,7 @@
         "Block frame": "-14",
         "Hit frame": "-3",
         "Counter hit frame": "-3",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/f+3, 3",
@@ -607,7 +607,7 @@
         "Block frame": "-14",
         "Hit frame": "-3",
         "Counter hit frame": "-3",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/f+3, 3, 3",
@@ -617,7 +617,7 @@
         "Block frame": "-11",
         "Hit frame": "0",
         "Counter hit frame": "0",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/f+3, 3, 3, 1",
@@ -627,7 +627,7 @@
         "Block frame": "-9",
         "Hit frame": "15",
         "Counter hit frame": "15",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/f+3, 3, 3, 3",
@@ -657,7 +657,7 @@
         "Block frame": "-16",
         "Hit frame": "+5s",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/f+1+2 or CJM d/f+1+2",
@@ -667,7 +667,7 @@
         "Block frame": "1",
         "Hit frame": "5",
         "Counter hit frame": "19",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d+1",
@@ -677,7 +677,7 @@
         "Block frame": "-5",
         "Hit frame": "6",
         "Counter hit frame": "6",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d+1 or FC+1, 4",
@@ -687,7 +687,7 @@
         "Block frame": "-11",
         "Hit frame": "0",
         "Counter hit frame": "0",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d+2",
@@ -697,7 +697,7 @@
         "Block frame": "-1s",
         "Hit frame": "+5s",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d+3",
@@ -707,7 +707,7 @@
         "Block frame": "-17",
         "Hit frame": "-3",
         "Counter hit frame": "-3",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d+3 or FC+3, 2",
@@ -717,7 +717,7 @@
         "Block frame": "-13",
         "Hit frame": "JG",
         "Counter hit frame": "JG",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d+3 or FC+3, 4",
@@ -727,7 +727,7 @@
         "Block frame": "-6",
         "Hit frame": "5",
         "Counter hit frame": "JG",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d+3 or FC+3, 4, 1",
@@ -737,7 +737,7 @@
         "Block frame": "+2s",
         "Hit frame": "+5s",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d+4",
@@ -747,7 +747,7 @@
         "Block frame": "-13",
         "Hit frame": "-2",
         "Counter hit frame": "-2",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d+4 or FC+4, 1",
@@ -757,7 +757,7 @@
         "Block frame": "0",
         "Hit frame": "6",
         "Counter hit frame": "11",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d+4 or FC+4, 1, u or d",
@@ -767,7 +767,7 @@
         "Block frame": "-15",
         "Hit frame": "-4",
         "Counter hit frame": "-4",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d+4 or FC+4, 1, b",
@@ -777,7 +777,7 @@
         "Block frame": "-10",
         "Hit frame": "1",
         "Counter hit frame": "1",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d+1+2",
@@ -787,7 +787,7 @@
         "Block frame": "KND",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/b+1",
@@ -797,7 +797,7 @@
         "Block frame": "-12",
         "Hit frame": "3",
         "Counter hit frame": "3",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/b+1, D",
@@ -807,7 +807,7 @@
         "Block frame": "-12",
         "Hit frame": "3",
         "Counter hit frame": "3",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/b+1, 4",
@@ -817,7 +817,7 @@
         "Block frame": "-15",
         "Hit frame": "-1",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/b+2",
@@ -827,7 +827,7 @@
         "Block frame": "-4",
         "Hit frame": "7",
         "Counter hit frame": "7",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/b+2 or FC+d/b+2 or FC+d+2, 4",
@@ -837,7 +837,7 @@
         "Block frame": "-10",
         "Hit frame": "1",
         "Counter hit frame": "1",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/b+3",
@@ -847,7 +847,7 @@
         "Block frame": "-17",
         "Hit frame": "JG",
         "Counter hit frame": "JG",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/b+4",
@@ -857,7 +857,7 @@
         "Block frame": "-18",
         "Hit frame": "-7",
         "Counter hit frame": "-7",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/b+4, 3",
@@ -867,7 +867,7 @@
         "Block frame": "-16",
         "Hit frame": "-5",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/b+4, 4",
@@ -877,7 +877,7 @@
         "Block frame": "-20S",
         "Hit frame": "Throw(KND)",
         "Counter hit frame": "Throw(KND)",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/b+1+2",
@@ -897,7 +897,7 @@
         "Block frame": "-26",
         "Hit frame": "-4",
         "Counter hit frame": "-4",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/b+3+4",
@@ -907,7 +907,7 @@
         "Block frame": "-26",
         "Hit frame": "-6",
         "Counter hit frame": "-4",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "d/b+3+4, 3",
@@ -917,7 +917,7 @@
         "Block frame": "-7",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "b+1",
@@ -927,7 +927,7 @@
         "Block frame": "-11",
         "Hit frame": "0",
         "Counter hit frame": "0",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "b+1, 2",
@@ -937,7 +937,7 @@
         "Block frame": "-12",
         "Hit frame": "-1",
         "Counter hit frame": "-1",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "b+1, 2, 2",
@@ -947,7 +947,7 @@
         "Block frame": "-11",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "b+2",
@@ -967,7 +967,7 @@
         "Block frame": "-7",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "b+4",
@@ -987,7 +987,7 @@
         "Block frame": "-12",
         "Hit frame": "3",
         "Counter hit frame": "3",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "u/b or u or u/f+1",
@@ -997,7 +997,7 @@
         "Block frame": "-12",
         "Hit frame": "9",
         "Counter hit frame": "9",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "u/f+1",
@@ -1007,7 +1007,7 @@
         "Block frame": "-4",
         "Hit frame": "7",
         "Counter hit frame": "7",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "u/f+1, 3",
@@ -1017,7 +1017,7 @@
         "Block frame": "-16",
         "Hit frame": "7",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "u/f+1, 3, 3+4",
@@ -1027,7 +1027,7 @@
         "Block frame": "-4",
         "Hit frame": "JG",
         "Counter hit frame": "JG",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "u/b+3",
@@ -1037,7 +1037,7 @@
         "Block frame": "-15",
         "Hit frame": "-4",
         "Counter hit frame": "-4",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "u+3",
@@ -1047,7 +1047,7 @@
         "Block frame": "-15",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "u/f+3",
@@ -1057,7 +1057,7 @@
         "Block frame": "-3",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "u/f+4",
@@ -1067,7 +1067,7 @@
         "Block frame": "-11",
         "Hit frame": "-3",
         "Counter hit frame": "-3",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "u/f+4, 3",
@@ -1077,7 +1077,7 @@
         "Block frame": "-17",
         "Hit frame": "-6",
         "Counter hit frame": "-6",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "u/f+4, 3, 4",
@@ -1087,7 +1087,7 @@
         "Block frame": "-6",
         "Hit frame": "5",
         "Counter hit frame": "JG",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "u/f+4, 3, 4, u or b",
@@ -1097,7 +1097,7 @@
         "Block frame": "-7",
         "Hit frame": "4",
         "Counter hit frame": "4",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "U/B+4",
@@ -1107,7 +1107,7 @@
         "Block frame": "-18",
         "Hit frame": "-12",
         "Counter hit frame": "-12",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "U/B+4, D",
@@ -1117,7 +1117,7 @@
         "Block frame": "-19",
         "Hit frame": "-13",
         "Counter hit frame": "-13",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "U+4",
@@ -1127,7 +1127,7 @@
         "Block frame": "-18",
         "Hit frame": "JG",
         "Counter hit frame": "JG",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "U+4, D",
@@ -1137,7 +1137,7 @@
         "Block frame": "-19",
         "Hit frame": "JG",
         "Counter hit frame": "JG",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "U/F+4",
@@ -1147,7 +1147,7 @@
         "Block frame": "-18",
         "Hit frame": "JG",
         "Counter hit frame": "JG",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "U/F+4, D",
@@ -1157,7 +1157,7 @@
         "Block frame": "-19",
         "Hit frame": "JG",
         "Counter hit frame": "JG",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "u/f+3+4",
@@ -1167,7 +1167,7 @@
         "Block frame": "-3s",
         "Hit frame": "+5s",
         "Counter hit frame": "+5s",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "u/f, N, 4",
@@ -1177,7 +1177,7 @@
         "Block frame": "-9",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "U/B,b",
@@ -1187,7 +1187,7 @@
         "Block frame": " ",
         "Hit frame": " ",
         "Counter hit frame": " ",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "f, F+2",
@@ -1207,7 +1207,7 @@
         "Block frame": "-13",
         "Hit frame": "JG",
         "Counter hit frame": "JG",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "f, F+3, 4",
@@ -1217,7 +1217,7 @@
         "Block frame": "-23",
         "Hit frame": "JG",
         "Counter hit frame": "JG",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "f, F+3, 4, 3",
@@ -1227,7 +1227,7 @@
         "Block frame": "-14",
         "Hit frame": "-3",
         "Counter hit frame": "-3",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "f, F+3, 4, b+3",
@@ -1237,7 +1237,7 @@
         "Block frame": "-1",
         "Hit frame": "10",
         "Counter hit frame": "10",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "f, F+3, 4, b+3, 4, 1+2",
@@ -1247,7 +1247,7 @@
         "Block frame": "KND",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "f, F+4",
@@ -1257,7 +1257,7 @@
         "Block frame": "0",
         "Hit frame": "KNd",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "f, F+4, B",
@@ -1267,7 +1267,7 @@
         "Block frame": "-9",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "f, F+1+2",
@@ -1277,7 +1277,7 @@
         "Block frame": "-9",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "f, f, f+3",
@@ -1287,7 +1287,7 @@
         "Block frame": "-23",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "FC+1",
@@ -1297,7 +1297,7 @@
         "Block frame": "-5",
         "Hit frame": "6",
         "Counter hit frame": "6",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "FC+d/b or d+2",
@@ -1307,7 +1307,7 @@
         "Block frame": "-4",
         "Hit frame": "7",
         "Counter hit frame": "7",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "FC+3",
@@ -1317,7 +1317,7 @@
         "Block frame": "-17",
         "Hit frame": "-3",
         "Counter hit frame": "-3",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "FC+4",
@@ -1327,7 +1327,7 @@
         "Block frame": "-15",
         "Hit frame": "-4",
         "Counter hit frame": "-4",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "WS+1",
@@ -1337,7 +1337,7 @@
         "Block frame": "-3",
         "Hit frame": "7",
         "Counter hit frame": "7",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "WS+2",
@@ -1347,7 +1347,7 @@
         "Block frame": "-13",
         "Hit frame": "JG",
         "Counter hit frame": "JG",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "WS+3",
@@ -1357,7 +1357,7 @@
         "Block frame": "-11",
         "Hit frame": "0",
         "Counter hit frame": "0",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "WS+3, B",
@@ -1367,7 +1367,7 @@
         "Block frame": "-3",
         "Hit frame": "8",
         "Counter hit frame": "8",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "WS+4",
@@ -1377,7 +1377,7 @@
         "Block frame": "-6",
         "Hit frame": "5",
         "Counter hit frame": "5",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "FC+f+1",
@@ -1397,7 +1397,7 @@
         "Block frame": "-14s",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "FC+d/f+2",
@@ -1407,7 +1407,7 @@
         "Block frame": "-21",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "FC+d/f+2~1",
@@ -1417,7 +1417,7 @@
         "Block frame": "-21",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "FC+u/b+4",
@@ -1427,7 +1427,7 @@
         "Block frame": "-18",
         "Hit frame": "-12",
         "Counter hit frame": "-12",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "FC+u/b+4, D",
@@ -1437,7 +1437,7 @@
         "Block frame": "-19",
         "Hit frame": "-13",
         "Counter hit frame": "-13",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "FC+u+4",
@@ -1447,7 +1447,7 @@
         "Block frame": "-18",
         "Hit frame": "JG",
         "Counter hit frame": "JG",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "FC+u+4, D",
@@ -1457,7 +1457,7 @@
         "Block frame": "-19",
         "Hit frame": "JG",
         "Counter hit frame": "JG",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "FC+u/f+4",
@@ -1467,7 +1467,7 @@
         "Block frame": "-18",
         "Hit frame": "JG",
         "Counter hit frame": "JG",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "FC+u/f+4, D",
@@ -1477,7 +1477,7 @@
         "Block frame": "-19",
         "Hit frame": "JG",
         "Counter hit frame": "JG",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "FC+U/B+4",
@@ -1487,7 +1487,7 @@
         "Block frame": "-33",
         "Hit frame": "-22",
         "Counter hit frame": "-22",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "FC+U/B+4, D",
@@ -1497,7 +1497,7 @@
         "Block frame": "-27",
         "Hit frame": "-16",
         "Counter hit frame": "-16",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "FC+U+4",
@@ -1507,7 +1507,7 @@
         "Block frame": "-33",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "FC+U+4, D",
@@ -1517,7 +1517,7 @@
         "Block frame": "-27",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "FC+U/F+4",
@@ -1527,7 +1527,7 @@
         "Block frame": "-33",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "FC+U/F+4, D",
@@ -1537,7 +1537,7 @@
         "Block frame": "-27",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "SS+2",
@@ -1547,7 +1547,7 @@
         "Block frame": "-12",
         "Hit frame": "0",
         "Counter hit frame": "1",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "SS+3",
@@ -1557,7 +1557,7 @@
         "Block frame": "4s",
         "Hit frame": "8s",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "SS+1+2",
@@ -1567,7 +1567,7 @@
         "Block frame": "-4",
         "Hit frame": "JG",
         "Counter hit frame": "JG",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "Opponent down d+3+4",
@@ -1577,7 +1577,7 @@
         "Block frame": "-17",
         "Hit frame": "-6",
         "Counter hit frame": "-6",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "Back against wall b,b,u/b",
@@ -1587,7 +1587,7 @@
         "Block frame": "1",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "BT+1 or 2",
@@ -1597,7 +1597,7 @@
         "Block frame": "-8",
         "Hit frame": "3",
         "Counter hit frame": "3",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "BT+3 or 4",
@@ -1607,7 +1607,7 @@
         "Block frame": "-8",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "BT+d+1 or d+2",
@@ -1617,7 +1617,7 @@
         "Block frame": "-2",
         "Hit frame": "9",
         "Counter hit frame": "9",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "BT+d+3 or d+4",
@@ -1627,7 +1627,7 @@
         "Block frame": "-11",
         "Hit frame": "3",
         "Counter hit frame": "3",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "b+3 (to CJM)",
@@ -1637,7 +1637,7 @@
         "Block frame": " ",
         "Hit frame": " ",
         "Counter hit frame": " ",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "CJM d/f",
@@ -1647,7 +1647,7 @@
         "Block frame": " ",
         "Hit frame": " ",
         "Counter hit frame": " ",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "CJM 1",
@@ -1657,7 +1657,7 @@
         "Block frame": "-9",
         "Hit frame": "15",
         "Counter hit frame": "15",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "CJM 1",
@@ -1667,7 +1667,7 @@
         "Block frame": "-13",
         "Hit frame": "-2",
         "Counter hit frame": "-2",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "CJM 2, 1",
@@ -1677,7 +1677,7 @@
         "Block frame": "-7",
         "Hit frame": "4",
         "Counter hit frame": "4",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "CJM 3",
@@ -1687,7 +1687,7 @@
         "Block frame": "-12",
         "Hit frame": "3",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "CJM 4",
@@ -1697,7 +1697,7 @@
         "Block frame": "-29",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "CJM 1+2",
@@ -1707,7 +1707,7 @@
         "Block frame": "-4s",
         "Hit frame": "+6s",
         "Counter hit frame": "+6s",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "CJM 2+3",
@@ -1717,7 +1717,7 @@
         "Block frame": "-16",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "CJM d/b or d+3",
@@ -1727,7 +1727,7 @@
         "Block frame": "-11",
         "Hit frame": "0",
         "Counter hit frame": "0",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "CJM d/b or d+3, 3",
@@ -1737,7 +1737,7 @@
         "Block frame": "-7",
         "Hit frame": "7",
         "Counter hit frame": "7",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "CJM u/b+4",
@@ -1747,7 +1747,7 @@
         "Block frame": "-16",
         "Hit frame": "-5",
         "Counter hit frame": "-5",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "CJM u+4",
@@ -1757,7 +1757,7 @@
         "Block frame": "-16",
         "Hit frame": "-5",
         "Counter hit frame": "-5",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "CJM u/f+4",
@@ -1767,7 +1767,7 @@
         "Block frame": "-14",
         "Hit frame": "JG",
         "Counter hit frame": "JG",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "CJM f, F",
@@ -1777,7 +1777,7 @@
         "Block frame": " ",
         "Hit frame": " ",
         "Counter hit frame": " ",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "CJM f, F+3",
@@ -1787,7 +1787,7 @@
         "Block frame": "-11",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "CJM f, F+4",
@@ -1797,7 +1797,7 @@
         "Block frame": "7",
         "Hit frame": "JG",
         "Counter hit frame": "JG",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "qcf",
@@ -1807,7 +1807,7 @@
         "Block frame": " ",
         "Hit frame": " ",
         "Counter hit frame": " ",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "qcf+1",
@@ -1817,7 +1817,7 @@
         "Block frame": "2",
         "Hit frame": "4",
         "Counter hit frame": "JG",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "qcf+2",
@@ -1827,7 +1827,7 @@
         "Block frame": "-12",
         "Hit frame": "3",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "qcf+2, 1",
@@ -1837,7 +1837,7 @@
         "Block frame": "-14",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "qcf+2, 1, B",
@@ -1847,7 +1847,7 @@
         "Block frame": "-13",
         "Hit frame": "2",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "qcf+3",
@@ -1857,7 +1857,7 @@
         "Block frame": "-13",
         "Hit frame": "-2",
         "Counter hit frame": "-2",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "qcf+3, 2",
@@ -1877,7 +1877,7 @@
         "Block frame": "-11",
         "Hit frame": "0",
         "Counter hit frame": "0",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "qcf+3, 3, 1",
@@ -1887,7 +1887,7 @@
         "Block frame": "-9",
         "Hit frame": "15",
         "Counter hit frame": "15",
-        "Notes": " "
+        "Notes": "-"
     },
     {
         "Command": "qcf+3, 3, 4",
@@ -1907,6 +1907,436 @@
         "Block frame": "-12",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": " "
+        "Notes": "-"
+    },
+    {
+        "Command": "1+3",
+        "Hit level": "h",
+        "Damage": "35",
+        "Start up frame": "12",
+        "Block frame": "1 or 2",
+        "Hit frame": "-6",
+        "Counter hit frame": " ",
+        "Notes": "-"
+    },
+    {
+        "Command": "f+1+3",
+        "Hit level": "h",
+        "Damage": "35",
+        "Start up frame": "15",
+        "Block frame": "1 or 2",
+        "Hit frame": "-6",
+        "Counter hit frame": " ",
+        "Notes": "-"
+    },
+    {
+        "Command": "2+4",
+        "Hit level": "h",
+        "Damage": "35",
+        "Start up frame": "12",
+        "Block frame": "1 or 2",
+        "Hit frame": "-3",
+        "Counter hit frame": " ",
+        "Notes": "-"
+    },
+    {
+        "Command": "f+2+4",
+        "Hit level": "h",
+        "Damage": "35",
+        "Start up frame": "15",
+        "Block frame": "1 or 2",
+        "Hit frame": "-3",
+        "Counter hit frame": " ",
+        "Notes": "-"
+    },
+    {
+        "Command": "Left side throw",
+        "Hit level": "h",
+        "Damage": "40",
+        "Start up frame": "12",
+        "Block frame": "1",
+        "Hit frame": "-3",
+        "Counter hit frame": " ",
+        "Notes": "-"
+    },
+    {
+        "Command": "Right side throw",
+        "Hit level": "h",
+        "Damage": "38",
+        "Start up frame": "12",
+        "Block frame": "2",
+        "Hit frame": "-3",
+        "Counter hit frame": " ",
+        "Notes": "-"
+    },
+    {
+        "Command": "Back trhow",
+        "Hit level": "h",
+        "Damage": "60",
+        "Start up frame": "12",
+        "Block frame": "None",
+        "Hit frame": " ",
+        "Counter hit frame": " ",
+        "Notes": "-"
+    },
+    {
+        "Command": "u/f+1+2",
+        "Hit level": "h",
+        "Damage": "30(,20)",
+        "Start up frame": "12",
+        "Block frame": "1+2",
+        "Hit frame": "0",
+        "Counter hit frame": " ",
+        "Notes": "-"
+    },
+    {
+        "Command": "d/f,d/f+1",
+        "Hit level": "h",
+        "Damage": "43",
+        "Start up frame": "12",
+        "Block frame": "1+2",
+        "Hit frame": "-6",
+        "Counter hit frame": " ",
+        "Notes": "-"
+    },
+    {
+        "Command": "b+1+3 or b+2+4",
+        "Hit level": "h and m reversal",
+        "Damage": "25 + opp attack",
+        "Start up frame": "3~8",
+        "Block frame": "f+1+3 or f+2+4",
+        "Hit frame": "-6",
+        "Counter hit frame": " ",
+        "Notes": "-"
+    },
+    {
+        "Command": "CJM auto low parry",
+        "Hit level": "m",
+        "Damage": "20",
+        "Start up frame": "3",
+        "Block frame": " ",
+        "Hit frame": " ",
+        "Counter hit frame": " ",
+        "Notes": "-"
+    },
+    {
+        "Command": "CJM throw reversal",
+        "Hit level": "h",
+        "Damage": "25",
+        "Start up frame": "8",
+        "Block frame": "NONE",
+        "Hit frame": " ",
+        "Counter hit frame": " ",
+        "Notes": "-"
+    },
+    {
+        "Command": "qcf+1+2",
+        "Hit level": "h",
+        "Damage": "15",
+        "Start up frame": "11",
+        "Block frame": "2",
+        "Hit frame": "-2 (0 if not broken)",
+        "Counter hit frame": " ",
+        "Notes": "-"
+    },
+    {
+        "Command": "->  3, 4,3, 1+2",
+        "Hit level": " ",
+        "Damage": "30",
+        "Start up frame": " ",
+        "Block frame": "1+2",
+        "Hit frame": "-4",
+        "Counter hit frame": " ",
+        "Notes": "-"
+    },
+    {
+        "Command": "-> 1, 3, 2, 1",
+        "Hit level": " ",
+        "Damage": "18",
+        "Start up frame": " ",
+        "Block frame": "1",
+        "Hit frame": "-4",
+        "Counter hit frame": " ",
+        "Notes": "-"
+    },
+    {
+        "Command": "-> -> 3, 1, 4, 1+2, 1+2",
+        "Hit level": " ",
+        "Damage": "25",
+        "Start up frame": " ",
+        "Block frame": "1",
+        "Hit frame": "-4",
+        "Counter hit frame": " ",
+        "Notes": "-"
+    },
+    {
+        "Command": "-> -> 2, 1, 3, 4, 1+2",
+        "Hit level": " ",
+        "Damage": "25",
+        "Start up frame": " ",
+        "Block frame": "2",
+        "Hit frame": "-4",
+        "Counter hit frame": " ",
+        "Notes": "-"
+    },
+    {
+        "Command": "-> -> 2, 3, 1+2, 3+4, 1+2",
+        "Hit level": " ",
+        "Damage": "30",
+        "Start up frame": " ",
+        "Block frame": "1+2",
+        "Hit frame": "-4",
+        "Counter hit frame": " ",
+        "Notes": "-"
+    },
+    {
+        "Command": "-> 1+3, 3, 1+2",
+        "Hit level": " ",
+        "Damage": "25",
+        "Start up frame": " ",
+        "Block frame": "2",
+        "Hit frame": "-4",
+        "Counter hit frame": " ",
+        "Notes": "-"
+    },
+    {
+        "Command": "-> -> 4, 3, 4, 3+4, 1+2",
+        "Hit level": " ",
+        "Damage": "30",
+        "Start up frame": " ",
+        "Block frame": "2",
+        "Hit frame": "-3",
+        "Counter hit frame": " ",
+        "Notes": "-"
+    },
+    {
+        "Command": "-> -> 1+2, 4, 3, 1+2, 1+2, 1+3",
+        "Hit level": " ",
+        "Damage": "28",
+        "Start up frame": " ",
+        "Block frame": "1",
+        "Hit frame": "-3",
+        "Counter hit frame": " ",
+        "Notes": "-"
+    },
+    {
+        "Command": "Input",
+        "Hit level": "1",
+        "Damage": "2",
+        "Start up frame": "1",
+        "Block frame": "2",
+        "Hit frame": "3",
+        "Counter hit frame": "3",
+        "Notes": "2"
+    },
+    {
+        "Command": "1",
+        "Hit level": "2",
+        "Damage": "4",
+        "Start up frame": "Level",
+        "Block frame": "h",
+        "Hit frame": "h",
+        "Counter hit frame": "h",
+        "Notes": "h"
+    },
+    {
+        "Command": "h",
+        "Hit level": "l",
+        "Damage": "h",
+        "Start up frame": "h",
+        "Block frame": "h",
+        "Hit frame": "h",
+        "Counter hit frame": "dmg",
+        "Notes": "7"
+    },
+    {
+        "Command": "10",
+        "Hit level": "6",
+        "Damage": "6",
+        "Start up frame": "7",
+        "Block frame": "9",
+        "Hit frame": "6",
+        "Counter hit frame": "6",
+        "Notes": "6"
+    },
+    {
+        "Command": "30",
+        "Hit level": "hit",
+        "Damage": "8",
+        "Start up frame": "5",
+        "Block frame": "4",
+        "Hit frame": "1",
+        "Counter hit frame": "-14",
+        "Notes": "-15"
+    },
+    {
+        "Command": "-13",
+        "Hit level": "1",
+        "Damage": "-4",
+        "Start up frame": "KND",
+        "Block frame": "guard",
+        "Hit frame": "1",
+        "Counter hit frame": "-1",
+        "Notes": "-3"
+    },
+    {
+        "Command": "-10",
+        "Hit level": "-25",
+        "Damage": "-26",
+        "Start up frame": "-24",
+        "Block frame": "-15",
+        "Hit frame": "-10",
+        "Counter hit frame": "-20",
+        "Notes": "-"
+    },
+    {
+        "Command": " ",
+        "Hit level": " ",
+        "Damage": " ",
+        "Start up frame": " ",
+        "Block frame": " ",
+        "Hit frame": " ",
+        "Counter hit frame": " ",
+        "Notes": "-"
+    },
+    {
+        "Command": " ",
+        "Hit level": " ",
+        "Damage": "Input",
+        "Start up frame": "1",
+        "Block frame": "2",
+        "Hit frame": "1",
+        "Counter hit frame": "2",
+        "Notes": "4"
+    },
+    {
+        "Command": "1",
+        "Hit level": "2",
+        "Damage": "2",
+        "Start up frame": "3+4",
+        "Block frame": "2",
+        "Hit frame": "Level",
+        "Counter hit frame": "h",
+        "Notes": "h"
+    },
+    {
+        "Command": "h",
+        "Hit level": "h",
+        "Damage": "m",
+        "Start up frame": "m",
+        "Block frame": "h",
+        "Hit frame": "h",
+        "Counter hit frame": "mm",
+        "Notes": "m"
+    },
+    {
+        "Command": "dmg",
+        "Hit level": "7",
+        "Damage": "10",
+        "Start up frame": "6",
+        "Block frame": "6",
+        "Hit frame": "18",
+        "Counter hit frame": "7",
+        "Notes": "8"
+    },
+    {
+        "Command": "8",
+        "Hit level": "10,8",
+        "Damage": "25",
+        "Start up frame": "Hit",
+        "Block frame": "8",
+        "Hit frame": "5",
+        "Counter hit frame": "4",
+        "Notes": "1"
+    },
+    {
+        "Command": "-8",
+        "Hit level": "-11",
+        "Damage": "-9",
+        "Start up frame": "-18",
+        "Block frame": "3",
+        "Hit frame": "KND",
+        "Counter hit frame": "Grd",
+        "Notes": "1"
+    },
+    {
+        "Command": "-1",
+        "Hit level": "-3",
+        "Damage": "-10",
+        "Start up frame": "-19",
+        "Block frame": "-22",
+        "Hit frame": "-20",
+        "Counter hit frame": "-24",
+        "Notes": "-8"
+    },
+    {
+        "Command": "-21",
+        "Hit level": "Input",
+        "Damage": "1",
+        "Start up frame": "2",
+        "Block frame": "1",
+        "Hit frame": "2",
+        "Counter hit frame": "4,B",
+        "Notes": "-"
+    },
+    {
+        "Command": " ",
+        "Hit level": " ",
+        "Damage": " ",
+        "Start up frame": " ",
+        "Block frame": "Level",
+        "Hit frame": "h",
+        "Counter hit frame": "h",
+        "Notes": "h"
+    },
+    {
+        "Command": "h",
+        "Hit level": "m",
+        "Damage": " ",
+        "Start up frame": " ",
+        "Block frame": " ",
+        "Hit frame": " ",
+        "Counter hit frame": " ",
+        "Notes": "dmg"
+    },
+    {
+        "Command": "7",
+        "Hit level": "10",
+        "Damage": "6",
+        "Start up frame": "6",
+        "Block frame": "18",
+        "Hit frame": " ",
+        "Counter hit frame": " ",
+        "Notes": "-"
+    },
+    {
+        "Command": " ",
+        "Hit level": " ",
+        "Damage": "hit",
+        "Start up frame": "8",
+        "Block frame": "5",
+        "Hit frame": "4",
+        "Counter hit frame": "1",
+        "Notes": "-10"
+    },
+    {
+        "Command": " ",
+        "Hit level": " ",
+        "Damage": " ",
+        "Start up frame": " ",
+        "Block frame": " ",
+        "Hit frame": "guard",
+        "Counter hit frame": "1",
+        "Notes": "-1"
+    },
+    {
+        "Command": "-3",
+        "Hit level": "-10",
+        "Damage": "-21",
+        "Start up frame": " ",
+        "Block frame": " ",
+        "Hit frame": " ",
+        "Counter hit frame": " ",
+        "Notes": "-"
     }
 ]
