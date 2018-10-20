@@ -17,12 +17,12 @@
         "Block frame": "-9(wl~3)",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Rage art"
+        "Notes": "Rage drive"
     },
     {
         "Command": "1",
         "Hit level": "h",
-        "Damage": "14",
+        "Damage": "11",
         "Start up frame": "13",
         "Block frame": "-2",
         "Hit frame": "+6",
@@ -32,9 +32,9 @@
     {
         "Command": "1, 1",
         "Hit level": "h, m",
-        "Damage": "14,28",
+        "Damage": "14,25",
         "Start up frame": "13",
-        "Block frame": "-12~-11s",
+        "Block frame": "-14~-13s",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Notes": "-"
@@ -224,9 +224,9 @@
         "Hit level": "m",
         "Damage": "17",
         "Start up frame": "20~21",
-        "Block frame": "-10~-9",
-        "Hit frame": "+4~+5",
-        "Counter hit frame": "CS",
+        "Block frame": "-7~-6",
+        "Hit frame": "+7~+8",
+        "Counter hit frame": "+7~+8",
         "Notes": "-"
     },
     {
@@ -234,14 +234,14 @@
         "Hit level": "m, m",
         "Damage": "17,22",
         "Start up frame": "20~21",
-        "Block frame": "-13~-12s",
+        "Block frame": "-9~-8s",
         "Hit frame": "KND",
-        "Counter hit frame": "KND",
+        "Counter hit frame": "JG",
         "Notes": "-"
     },
     {
         "Command": "f+4~1",
-        "Hit level": "!",
+        "Hit level": "h!",
         "Damage": "80",
         "Start up frame": "65(66~)",
         "Block frame": "CS",
@@ -442,7 +442,7 @@
     {
         "Command": "d/f+3+4",
         "Hit level": "m",
-        "Damage": "30",
+        "Damage": "28",
         "Start up frame": "13",
         "Block frame": "-23",
         "Hit frame": "KND",
@@ -484,9 +484,9 @@
         "Hit level": "l",
         "Damage": "13",
         "Start up frame": "12s",
-        "Block frame": "-11",
-        "Hit frame": "+3",
-        "Counter hit frame": "+3",
+        "Block frame": "-12",
+        "Hit frame": "+2",
+        "Counter hit frame": "+2",
         "Notes": "-"
     },
     {
@@ -494,9 +494,9 @@
         "Hit level": "l, l",
         "Damage": "13,5",
         "Start up frame": "12s",
-        "Block frame": "-11",
-        "Hit frame": "0",
-        "Counter hit frame": "0",
+        "Block frame": "-12",
+        "Hit frame": "-1",
+        "Counter hit frame": "-1",
         "Notes": "-"
     },
     {
@@ -504,9 +504,9 @@
         "Hit level": "l, l, l",
         "Damage": "13,5,5",
         "Start up frame": "12s",
-        "Block frame": "-11",
-        "Hit frame": "0",
-        "Counter hit frame": "0",
+        "Block frame": "-12",
+        "Hit frame": "-1",
+        "Counter hit frame": "-1",
         "Notes": "-"
     },
     {
@@ -525,7 +525,7 @@
         "Damage": "24",
         "Start up frame": "22 cs6~",
         "Block frame": "-18",
-        "Hit frame": "0s",
+        "Hit frame": "+3s",
         "Counter hit frame": "KND",
         "Notes": "-"
     },
@@ -641,12 +641,12 @@
     },
     {
         "Command": "b+1",
-        "Hit level": "m?",
-        "Damage": "20",
+        "Hit level": "m",
+        "Damage": "17",
         "Start up frame": "20~21",
-        "Block frame": "-10~-9",
+        "Block frame": "-8~-7",
         "Hit frame": "+5~+6",
-        "Counter hit frame": "+5~+6",
+        "Counter hit frame": "KND",
         "Notes": "-"
     },
     {
@@ -792,7 +792,7 @@
     {
         "Command": "f, F+1",
         "Hit level": "m",
-        "Damage": "30",
+        "Damage": "25",
         "Start up frame": "15~16 (16~)",
         "Block frame": "-6~-5",
         "Hit frame": "KND",
@@ -833,11 +833,11 @@
         "Command": "f, F+4",
         "Hit level": "m",
         "Damage": "35",
-        "Start up frame": "16~21 (17~)",
-        "Block frame": "-9~-4",
+        "Start up frame": "16~20 (17~)",
+        "Block frame": "-14~-10",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "Power crush"
     },
     {
         "Command": "f, F+1+2",
@@ -902,12 +902,12 @@
     {
         "Command": "b, d/b, d, d/f+2",
         "Hit level": "m",
-        "Damage": "42",
+        "Damage": "32",
         "Start up frame": "22s(23?~)",
         "Block frame": "-11",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "Wall bounce"
     },
     {
         "Command": "HCF",
@@ -1132,7 +1132,7 @@
     {
         "Command": "WS+f+1, 2, d/f+1",
         "Hit level": "m, m, m",
-        "Damage": "15,12,15(12)",
+        "Damage": "15,12,12",
         "Start up frame": "17~18s",
         "Block frame": "-2~-1",
         "Hit frame": "+9~+10 (Launch (JG?))",
@@ -1552,7 +1552,7 @@
     {
         "Command": "1",
         "Hit level": "h",
-        "Damage": "14",
+        "Damage": "11",
         "Start up frame": "13",
         "Block frame": "-2",
         "Hit frame": "+6",
@@ -1614,9 +1614,9 @@
         "Hit level": "m",
         "Damage": "17",
         "Start up frame": "20~21",
-        "Block frame": "-10~-9",
-        "Hit frame": "+4~+5",
-        "Counter hit frame": "CS",
+        "Block frame": "-7~-6",
+        "Hit frame": "+7~+8",
+        "Counter hit frame": "+7~+8",
         "Notes": "-"
     },
     {
@@ -1714,9 +1714,9 @@
         "Hit level": "l",
         "Damage": "13",
         "Start up frame": "12s",
-        "Block frame": "-11",
-        "Hit frame": "+3",
-        "Counter hit frame": "+3",
+        "Block frame": "-12",
+        "Hit frame": "+2",
+        "Counter hit frame": "+2",
         "Notes": "-"
     },
     {
@@ -1725,7 +1725,7 @@
         "Damage": "24",
         "Start up frame": "22 cs6~",
         "Block frame": "-18",
-        "Hit frame": "0s",
+        "Hit frame": "+3s",
         "Counter hit frame": "KND",
         "Notes": "-"
     },
@@ -1751,12 +1751,12 @@
     },
     {
         "Command": "b+1",
-        "Hit level": "m?",
-        "Damage": "20",
+        "Hit level": "m",
+        "Damage": "17",
         "Start up frame": "20~21",
-        "Block frame": "-10~-9",
+        "Block frame": "-8~-7",
         "Hit frame": "+5~+6",
-        "Counter hit frame": "+5~+6",
+        "Counter hit frame": "KND",
         "Notes": "-"
     },
     {
