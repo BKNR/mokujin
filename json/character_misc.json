@@ -189,6 +189,13 @@
         "portrait": "https://i.imgur.com/HhB6oCg.jpg"
     },
     {
+        "name": "lei",
+        "proper_name": "Lei",
+        "local_json": "lei.json",
+        "online_webpage": "http://rbnorway.org/lei-t7-frames",
+        "portrait", "https://i.imgur.com/viHXqvl.jpg"
+    },
+    {
         "name": "leo",
         "proper_name": "Leo",
         "local_json": "leo.json",
