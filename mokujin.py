@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import os, sys
 import asyncio
 
 import discord
@@ -11,7 +12,10 @@ description = 'A Tekken 7 Frame bot in construction... Made by Baikonur'
 bot = commands.Bot(command_prefix=prefix, description=description)
 
 # Get token from local txt file
-with open('token.txt') as token_file:
+dirname, pyfilename = os.path.split(os.path.abspath(sys.argv[0]))
+tfilename = os.path.join(dirname, 'token.txt')
+
+with open(tfilename) as token_file:
     token = token_file.read().strip()
 
 def move_embed(character, move):
