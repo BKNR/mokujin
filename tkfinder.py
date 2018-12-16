@@ -1,12 +1,16 @@
 # -*- coding: utf-8 -*-
+import os
 import json
+
+dirname = os.path.dirname(__file__)
 
 def get_character(chara_name: str) -> dict:
     '''Gets character details from character_misc.json, if character exists
     returns character details as dict if exists, else None
     '''
-
-    with open('json/character_misc.json') as chara_misc_file:
+   
+    filepath = dirname + '/json/character_misc.json'
+    with open(filepath) as chara_misc_file:
         contents = chara_misc_file.read()
     
     chara_misc_json = json.loads(contents) 
@@ -21,8 +25,10 @@ def get_move(character: dict, move_command: str, case_important: bool) -> dict:
     '''Gets move from local_json, if exists
     returns move if exists, else None
     '''
-    move_file_name = 'json/' + character.get('local_json')
-    with open(move_file_name) as move_file:
+
+    move_file_name = '/json/' + character.get('local_json')
+    filepath = dirname + move_file_name
+    with open(filepath) as move_file:
         move_file_contents = move_file.read()
     move_json = json.loads(move_file_contents)
     
@@ -41,6 +47,7 @@ def get_move(character: dict, move_command: str, case_important: bool) -> dict:
 
 def move_simplifier(move_input):
     '''Removes bells and whistles from the move_input'''
+    
     short_input = move_input.replace('ff', 'f,f')
     short_input = short_input.replace(' ', '')
     short_input = short_input.replace('/', '')
