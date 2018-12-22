@@ -21,6 +21,13 @@
         "portrait": "https://i.imgur.com/kiZ6oC8.jpg"
     },
     {
+        "name": "armor_king",
+        "proper_name": "Armor King",
+        "local_json": "armor_king.json",
+        "online_webpage": "http://rbnorway.org/armor-king-t7-frames",
+        "portrait": "https://i.imgur.com/aiZSjIv.jpg"
+    },
+    {
         "name": "asuka",
         "proper_name": "Asuka",
         "local_json": "asuka.json",
@@ -215,6 +222,13 @@
         "local_json": "lucky_chloe.json",
         "online_webpage": "http://rbnorway.org/lucky-chloe-t7-frames",
         "portrait": "https://i.imgur.com/iNXYpwT.jpg"
+    },
+    {
+        "name": "marduk",
+        "proper_name": "Marduk",
+        "local_json": "marduk.json",
+        "online_webpage": "http://rbnorway.org/marduk-t7-frames",
+        "portrait": "https://i.imgur.com/aFYcBdu.jpg"
     },
     {
         "name": "master_raven", 

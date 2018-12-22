@@ -74,7 +74,9 @@ async def on_message(message):
 
         chara_name = user_message_list[0].lower()
         chara_move = user_message_list[1]
-        if chara_name == 'dj' or chara_name == 'dvj' or chara_name == 'djin' or chara_name == 'devil' or chara_name == 'deviljin' or chara_name == 'diablojim':
+        if chara_name == 'ak':
+            chara_name = 'armor_king'
+        elif chara_name == 'dj' or chara_name == 'dvj' or chara_name == 'djin' or chara_name == 'devil' or chara_name == 'deviljin' or chara_name == 'diablojim':
             chara_name = 'devil_jin'
         elif chara_name == 'sergei' or chara_name == 'drag':
             chara_name = 'dragunov'
@@ -90,8 +92,12 @@ async def on_message(message):
             chara_name = 'heihachi'
         elif chara_name == 'kata':
             chara_name = 'katarina'
-        elif chara_name == 'kaz':
+        elif chara_name == 'kaz' or chara_name == 'kazze':
             chara_name = 'kazuya'
+        elif chara_name == 'karhu' or chara_name == 'panda':
+            chara_name = 'kuma'
+        elif chara_name == 'mara':
+            chara_name = 'marduk'
         elif chara_name == 'raven' or chara_name == 'mraven' or chara_name == 'masterraven':
             chara_name = 'master_raven'
         elif chara_name == 'yoshi':
