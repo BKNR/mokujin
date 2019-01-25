@@ -76,9 +76,9 @@ async def on_message(message):
         chara_move = user_message_list[1]
         if chara_name == 'ak':
             chara_name = 'armor_king'
-        elif chara_name == 'dj' or chara_name == 'dvj' or chara_name == 'djin' or chara_name == 'devil' or chara_name == 'deviljin' or chara_name == 'diablojim':
+        elif chara_name == 'dj' or chara_name == 'dvj' or chara_name == 'djin' or chara_name == 'devil' or chara_name == 'deviljin' or chara_name == 'diablojim' or chara_name == 'taika-jim':
             chara_name = 'devil_jin'
-        elif chara_name == 'sergei' or chara_name == 'drag':
+        elif chara_name == 'sergei' or chara_name == 'drag' or chara_name == 'dragu':
             chara_name = 'dragunov'
         elif chara_name == 'goose':
             chara_name = 'geese'
@@ -90,7 +90,7 @@ async def on_message(message):
             chara_name = 'lucky_chloe'
         elif chara_name == 'hei' or chara_name == 'hessu' or chara_name == 'heiska':
             chara_name = 'heihachi'
-        elif chara_name == 'kata':
+        elif chara_name == 'kata' or chara_name == 'kat':
             chara_name = 'katarina'
         elif chara_name == 'kaz' or chara_name == 'kazze':
             chara_name = 'kazuya'
