@@ -17,7 +17,7 @@
         "Block frame": "-12~-10",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Rage art"
+        "Notes": "Rage drive"
     },
     {
         "Command": "1",
@@ -432,7 +432,7 @@
     {
         "Command": "d/b+1+2, 1+2, 2",
         "Hit level": "mm, mm, m",
-        "Damage": "5,5,5,5,24",
+        "Damage": "5,5,5,5,27",
         "Start up frame": "14~15",
         "Block frame": "-13~-12",
         "Hit frame": "Launch",
@@ -520,9 +520,9 @@
         "Notes": "-"
     },
     {
-        "Command": "b+3+4",
+        "Command": "b+3+4 or WS+3+4",
         "Hit level": "m?",
-        "Damage": "23(,3)",
+        "Damage": "20(,3)",
         "Start up frame": "22~23a",
         "Block frame": "-28~-27",
         "Hit frame": "Launch",
@@ -775,9 +775,9 @@
         "Damage": "18",
         "Start up frame": "18s(19~)",
         "Block frame": "-8",
-        "Hit frame": "+3",
-        "Counter hit frame": "+3",
-        "Notes": "-"
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "Wall bounce"
     },
     {
         "Command": "b, d/b, d, d/f+2, 1",
@@ -1122,7 +1122,7 @@
     {
         "Command": "SS+1+2",
         "Hit level": "m",
-        "Damage": "20",
+        "Damage": "23",
         "Start up frame": "22(31~)",
         "Block frame": "-9s",
         "Hit frame": "KND",
@@ -1281,10 +1281,10 @@
     },
     {
         "Command": "HBS d/b or d or d/f+1+2",
-        "Hit level": "m (TJ), (HBS)",
+        "Hit level": "m (TJ) (HBS)",
         "Damage": "22",
         "Start up frame": "16~20 (31~) js10~",
-        "Block frame": "-7~-3",
+        "Block frame": "-9~-5",
         "Hit frame": "0~+4",
         "Counter hit frame": "+17~+21 (SH)",
         "Notes": "-"

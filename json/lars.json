@@ -161,7 +161,7 @@
     },
     {
         "Command": "f+1, 2",
-        "Hit level": "h, m, (SEN)",
+        "Hit level": "h, m",
         "Damage": "10,11",
         "Start up frame": "13",
         "Block frame": "-5",
@@ -170,11 +170,31 @@
         "Notes": "-"
     },
     {
+        "Command": "f+1, 2, B",
+        "Hit level": "h, m (SEN)",
+        "Damage": "10,11",
+        "Start up frame": "13",
+        "Block frame": "-8",
+        "Hit frame": "+3",
+        "Counter hit frame": "+3",
+        "Notes": "-"
+    },
+    {
         "Command": "f+1, 2, 3",
-        "Hit level": "h, m, m, (DEN)",
+        "Hit level": "h, m, m",
         "Damage": "10,11,20",
         "Start up frame": "13",
         "Block frame": "-9",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "f+1, 2, 3, B",
+        "Hit level": "h, m, m, (DEN)",
+        "Damage": "10,11,20",
+        "Start up frame": "13",
+        "Block frame": "-12",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Notes": "-"
@@ -197,6 +217,16 @@
         "Block frame": "-5",
         "Hit frame": "+6",
         "Counter hit frame": "+6",
+        "Notes": "-"
+    },
+    {
+        "Command": "f+2, 1, B",
+        "Hit level": "h, h (SEN)",
+        "Damage": "10,12",
+        "Start up frame": "12",
+        "Block frame": "-6",
+        "Hit frame": "+5",
+        "Counter hit frame": "+5",
         "Notes": "-"
     },
     {
@@ -254,7 +284,7 @@
         "Hit level": "m",
         "Damage": "20",
         "Start up frame": "15~16",
-        "Block frame": "-14~-13",
+        "Block frame": "-13~-12",
         "Hit frame": "CS",
         "Counter hit frame": "CS",
         "Notes": "-"
@@ -281,12 +311,12 @@
     },
     {
         "Command": "d/f+2",
-        "Hit level": "m?",
+        "Hit level": "m",
         "Damage": "15",
-        "Start up frame": "16",
+        "Start up frame": "16~17",
         "Block frame": "-8",
-        "Hit frame": "+3a",
-        "Counter hit frame": "+3a",
+        "Hit frame": "+3~-4a",
+        "Counter hit frame": "+3~-4a",
         "Notes": "-"
     },
     {
@@ -496,7 +526,7 @@
         "Start up frame": "15~17",
         "Block frame": "-9~-7",
         "Hit frame": "+4~+6",
-        "Counter hit frame": "+6~+8",
+        "Counter hit frame": "KND",
         "Notes": "Homing, Tail spin"
     },
     {
@@ -554,10 +584,10 @@
         "Hit level": "m, h",
         "Damage": "14,20",
         "Start up frame": "17",
-        "Block frame": "-12~-11",
+        "Block frame": "-8~-7",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "Tail spin"
     },
     {
         "Command": "b+4",
@@ -587,7 +617,7 @@
         "Block frame": "-11~-10",
         "Hit frame": "+6k",
         "Counter hit frame": "+6k",
-        "Notes": "Homing"
+        "Notes": "Homing, Tail spin"
     },
     {
         "Command": "b+2+3",
@@ -785,7 +815,7 @@
         "Damage": "10,17",
         "Start up frame": "13~14",
         "Block frame": "-12~-11s",
-        "Hit frame": "+2~+3s",
+        "Hit frame": "+3~+4s",
         "Counter hit frame": "KND",
         "Notes": "-"
     },
@@ -832,7 +862,7 @@
     {
         "Command": "Opponent Down d+3+4",
         "Hit level": "l",
-        "Damage": "16",
+        "Damage": "25",
         "Start up frame": "22~23",
         "Block frame": "-14~-13",
         "Hit frame": "-3~-2",
@@ -841,8 +871,8 @@
     },
     {
         "Command": "Opponent Down d+3+4*, F",
-        "Hit level": "l, (SEN)",
-        "Damage": "16",
+        "Hit level": "l (SEN)",
+        "Damage": "20",
         "Start up frame": "22~23",
         "Block frame": "-14~-13",
         "Hit frame": "-3~-2",
@@ -922,8 +952,18 @@
     {
         "Command": "f+3 or Form certain moves",
         "Hit level": "(Special)",
-        "Damage": "-",
+        "Damage": "cs 4~10",
         "Start up frame": "14~15",
+        "Block frame": "-",
+        "Hit frame": "-",
+        "Counter hit frame": "-",
+        "Notes": "-"
+    },
+    {
+        "Command": "DEN F",
+        "Hit level": "(SEN)",
+        "Damage": "-",
+        "Start up frame": "-",
         "Block frame": "-",
         "Hit frame": "-",
         "Counter hit frame": "-",
@@ -974,10 +1014,20 @@
         "Hit level": "m",
         "Damage": "25",
         "Start up frame": "27~30 (42~)",
-        "Block frame": "+6~+9",
+        "Block frame": "+4~+7",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "Wall bounce"
+    },
+    {
+        "Command": "DEN 4, 3",
+        "Hit level": "l, m",
+        "Damage": "14,20",
+        "Start up frame": "21",
+        "Block frame": "-16",
+        "Hit frame": "+5",
+        "Counter hit frame": "+5",
+        "Notes": "Same as f, F+4, 3"
     },
     {
         "Command": "DEN 1+2",
@@ -1256,7 +1306,7 @@
         "Start up frame": "15~17",
         "Block frame": "-9~-7",
         "Hit frame": "+4~+6",
-        "Counter hit frame": "+6~+8",
+        "Counter hit frame": "KND",
         "Notes": "Homing, Tail spin"
     },
     {
