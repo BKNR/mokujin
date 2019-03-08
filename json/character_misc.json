@@ -245,6 +245,13 @@
         "portrait": "https://i.imgur.com/AxToATM.jpg"
     },
     {
+        "name": "negan",
+        "proper_name": "Negan",
+        "local_json": "negan.json",
+        "online_webpage": "http://rbnorway.org/negan-t7-frames",
+        "portrait": "https://i.imgur.com/RIey2pq.jpg"
+    },
+    {
         "name": "nina",
         "proper_name": "Nina",
         "local_json": "nina.json",
