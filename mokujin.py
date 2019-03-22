@@ -86,6 +86,8 @@ async def on_message(message):
             chara_name = 'hwoarang'
         elif chara_name == 'jack':
             chara_name = 'jack7'
+        elif chara_name == 'julle':
+            chara_name = 'julia'
         elif chara_name == 'chloe' or chara_name == 'lc' or chara_name == 'lucky':
             chara_name = 'lucky_chloe'
         elif chara_name == 'hei' or chara_name == 'hessu' or chara_name == 'heiska':
