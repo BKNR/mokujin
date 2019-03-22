@@ -139,6 +139,12 @@
         "online_webpage": "http://rbnorway.org/Josie-t7-frames",
         "portrait": "https://i.imgur.com/G5xSqEH.jpg"
     },
+        "name": "julia",
+        "proper_name": "Julia",
+        "local_json": "julia.json",
+        "online_webpage": "http://rbnorway.org/julia-t7-frames",
+        "portrait": "https://i.imgur.com/ngnoGFu.jpg"
+    },
     {
         "name": "katarina",
         "proper_name": "Katarina",
