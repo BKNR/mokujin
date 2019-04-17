@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import os, sys
+import datetime
 import asyncio
 
 import discord
@@ -7,8 +8,8 @@ from discord.ext import commands
 
 import tkfinder
 
-prefix = '.'
-description = 'A Tekken 7 Frame bot in construction... Made by Baikonur'
+prefix = '§'
+description = 'The premier Tekken 7 Frame bot, made by Baikonur#4927'
 bot = commands.Bot(command_prefix=prefix, description=description)
 
 # Get token from local txt file
@@ -45,17 +46,18 @@ def error_embed(err):
 
 @bot.event
 async def on_ready():
+    print(datetime.datetime.utcnow().isoformat())
     print('Logged in as')
     print(bot.user.name)
     print(bot.user.id)
     print('------')
 
 @bot.command()
-async def test():
+async def test(ctx):
     print('Testing...')
     embed = discord.Embed(title='Test title', description='A test embed thing.', colour=0x0000FF)
     embed.set_author(name='Test name', icon_url=bot.user.default_avatar_url)
-    await bot.say(embed=embed, delete_after=60)
+    await ctx.send(embed=embed, delete_after=60)
 
 @bot.event
 async def on_message(message):
@@ -64,6 +66,8 @@ async def on_message(message):
     if I'm going to change it.
     '''
     if message.content.startswith('!') and (message.channel.name == 'tekken' or message.channel.name == 'raamikysely'):
+        channel = message.channel
+
         user_message = message.content
         user_message = user_message.replace('!', '')
         user_message_list = user_message.split(' ', 1)
@@ -117,33 +121,20 @@ async def on_message(message):
             if move is not None:
                 embed = move_embed(character, move) 
                 
-                msg = await bot.send_message(message.channel, embed=embed)
-                await asyncio.sleep(300)
-                await bot.delete_message(msg)
+                msg = await channel.send(embed=embed, delete_after=300)
             else:
                 move = tkfinder.get_move(character, chara_move, False)
                 if move is not None:
                     embed = move_embed(character, move)
                     
-                    msg = await bot.send_message(message.channel, embed=embed)
-                    await asyncio.sleep(300)
-                    await bot.delete_message(msg)
+                    msg = await channel_send(embed=embed, delete_after=300)
                 else:
-                    print('Move not found: ' + chara_move)
                     embed = error_embed('Move not found: ' + chara_move)
-                    
-                    msg = await bot.send_message(message.channel, embed=embed)
-                    await asyncio.sleep(150)
-                    await bot.delete_message(msg)
-        
+                    msg = await channel.send(embed=embed, delete_after=150)
         else:
             bot_msg = 'Character ' + chara_name + ' does not exist.'
-            print(bot_msg)
             embed = error_embed(bot_msg)
-            
-            msg = await bot.send_message(message.channel, embed=embed)
-            await asyncio.sleep(150)
-            await bot.delete_message(msg)
+            msg = await message.channel.send(embed=embed, delete_after=150)
 
             return
     await bot.process_commands(message)
