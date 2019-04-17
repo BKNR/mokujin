@@ -127,7 +127,7 @@ async def on_message(message):
                 if move is not None:
                     embed = move_embed(character, move)
                     
-                    msg = await channel_send(embed=embed, delete_after=300)
+                    msg = await channel.send(embed=embed, delete_after=300)
                 else:
                     embed = error_embed('Move not found: ' + chara_move)
                     msg = await channel.send(embed=embed, delete_after=150)
