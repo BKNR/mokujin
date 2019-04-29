@@ -107,7 +107,7 @@ async def on_message(message):
         elif chara_name == 'raven' or chara_name == 'mraven' or chara_name == 'masterraven':
             chara_name = 'master_raven'
         elif chara_name == 'sha':
-            chara_name == 'shaheen'
+            chara_name = 'shaheen'
         elif chara_name == 'yoshi':
             chara_name = 'yoshimitsu'
         elif chara_name == 'ling':
