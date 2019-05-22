@@ -87,7 +87,7 @@
         "Block frame": "-7",
         "Hit frame": "+4",
         "Counter hit frame": "CS",
-        "Notes": "Rage art, Rage art"
+        "Notes": "-"
     },
     {
         "Command": "1, 4, 2, 1",
@@ -97,7 +97,7 @@
         "Block frame": "0",
         "Hit frame": "CS",
         "Counter hit frame": "CS",
-        "Notes": "Rage art, Rage art"
+        "Notes": "-"
     },
     {
         "Command": "1, 4, 2, 1, 2",
