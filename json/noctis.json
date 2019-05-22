@@ -7,7 +7,7 @@
         "Block frame": "-32",
         "Hit frame": "throw",
         "Counter hit frame": "throw",
-        "Notes": "rage art"
+        "Notes": "Rage art"
     },
     {
         "Command": "in rage f+2+3",
@@ -17,7 +17,7 @@
         "Block frame": "+2",
         "Hit frame": "throw",
         "Counter hit frame": "throw",
-        "Notes": "rage drive"
+        "Notes": "Rage drive"
     },
     {
         "Command": "1",
