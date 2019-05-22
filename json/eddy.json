@@ -640,7 +640,7 @@
         "Notes": "-"
     },
     {
-        "Command": "d/b+4, 4, ,",
+        "Command": "d/b+4, 4",
         "Hit level": "m, m, , ",
         "Damage": "18,19,19,,",
         "Start up frame": "18 4~",
@@ -650,14 +650,14 @@
         "Notes": "-"
     },
     {
-        "Command": "d/b+4, 4, 4, 4, ,",
+        "Command": "d/b+4, 4, 4, 4",
         "Hit level": "m x 4, , ",
         "Damage": "18,19,19,20,,",
         "Start up frame": "18 4~",
         "Block frame": "-13",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Rage art, Rage art"
+        "Notes": "-"
     },
     {
         "Command": "d/b+4, b+4",
