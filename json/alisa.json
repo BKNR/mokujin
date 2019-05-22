@@ -17,7 +17,7 @@
         "Block frame": "0~+1",
         "Hit frame": "SPD",
         "Counter hit frame": "SPD",
-        "Notes": "Rage art, Tail spin"
+        "Notes": "Rage drive, Tail spin"
     },
     {
         "Command": "in rage f+2+3, 3+4",
@@ -27,7 +27,7 @@
         "Block frame": "+5~+6",
         "Hit frame": "SPD",
         "Counter hit frame": "SPD",
-        "Notes": "Rage art, Tail spin"
+        "Notes": "Rage drive, Tail spin"
     },
     {
         "Command": "in rage f+2+3, f+3+4",
@@ -37,7 +37,7 @@
         "Block frame": "+5~+6",
         "Hit frame": "SPD",
         "Counter hit frame": "SPD",
-        "Notes": "Rage art, Tail spin"
+        "Notes": "Rage drive, Tail spin"
     },
     {
         "Command": "1",

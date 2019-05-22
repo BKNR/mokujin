@@ -45,6 +45,26 @@ def get_move(character: dict, move_command: str, case_important: bool) -> dict:
     else:
         return None
 
+def get_by_move_type(character: dict, move_type: str) -> list:
+    '''Gets a list of moves that match move_type from local_json
+    returns a list of move Commands if finds match(es), else empty list'''
+
+    move_file_name = '/json/' + character.get('local_json')
+    filepath = dirname + move_file_name
+    with open(filepath) as move_file:
+        move_file_contents = move_file.read()
+    move_json = json.loads(move_file_contents)
+
+    moves = list(filter(lambda x: (move_type in x['Notes']), move_json))
+    
+    if moves:
+        move_list = []
+        for move in moves:
+            move_list.append(move['Command'])
+        return move_list
+    else:
+        return []
+
 def move_simplifier(move_input):
     '''Removes bells and whistles from the move_input'''
     

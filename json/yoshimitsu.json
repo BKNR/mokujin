@@ -2,22 +2,22 @@
     {
         "Command": "in rage b+1+2",
         "Hit level": "m",
-        "Damage": "-",
+        "Damage": "55",
         "Start up frame": "20?",
-        "Block frame": "\u2013",
+        "Block frame": "-22",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "Rage art"
     },
     {
         "Command": "in rage u/b+1+4",
         "Hit level": "Attack returned",
         "Damage": "20",
         "Start up frame": "6~",
-        "Block frame": "\u2013",
+        "Block frame": "-",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Rage drive"
+        "Notes": "Rage art"
     },
     {
         "Command": "1",
@@ -1470,14 +1470,14 @@
         "Notes": "Tail spin"
     },
     {
-        "Command": "in rage f, nf, n, d, d/f+1+2",
+        "Command": "in rage f, n, d, d/f+1+2",
         "Hit level": "m (TC)?",
         "Damage": "-",
         "Start up frame": "14(14~)",
         "Block frame": "+2?",
         "Hit frame": "SCD",
         "Counter hit frame": "SCD",
-        "Notes": "Rage art, Tail spin"
+        "Notes": "Rage drive, Tail spin"
     },
     {
         "Command": "qcf+1",

@@ -17,7 +17,7 @@
         "Block frame": "+7~+8",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Rage art"
+        "Notes": "Rage drive"
     },
     {
         "Command": "in rage SEN 1+2, b+2+3",
@@ -27,7 +27,7 @@
         "Block frame": "KND",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "Rage drive"
     },
     {
         "Command": "1",

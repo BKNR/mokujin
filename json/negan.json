@@ -27,7 +27,7 @@
         "Block frame": "6g",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Wall bounce"
+        "Notes": "Rage drive, Wall bounce"
     },
     {
         "Command": "In rage b+2+3, B",
@@ -37,7 +37,7 @@
         "Block frame": "-7",
         "Hit frame": "JG",
         "Counter hit frame": "JG",
-        "Notes": "-"
+        "Notes": "Rage Drive"
     },
     {
         "Command": "1",

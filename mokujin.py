@@ -12,6 +12,22 @@ prefix = '§'
 description = 'The premier Tekken 7 Frame bot, made by Baikonur#4927'
 bot = commands.Bot(command_prefix=prefix, description=description)
 
+# Dict for searching special move types
+move_types = {  'ra': 'Rage art',
+                'rage_art': 'Rage art',
+                'rd': 'Rage drive',
+                'rage_drive': 'Rage drive',
+                'wb': 'Wall bounce',
+                'wall_bounce': 'Wall bounce',
+                'ts': 'Tail spin',
+                'tail_spin': 'Tail spin',
+                'screw': 'Tail spin',
+                'homing': 'Homing',
+                'homari': 'Homing',
+                'pc': 'Power crush',
+                'power': 'Power crush',
+                'power_crush': 'Power crush'}
+
 # Get token from local txt file
 dirname, pyfilename = os.path.split(os.path.abspath(sys.argv[0]))
 tfilename = os.path.join(dirname, 'token.txt')
@@ -35,6 +51,18 @@ def move_embed(character, move):
     embed.add_field(name='Counter Hit', value=move['Counter hit frame'])
     embed.add_field(name='Notes', value=move['Notes'])
     
+    return embed
+
+def move_list_embed(character, move_list, move_type):
+    '''Returns the embed message for a list of moves matching to a special move type'''
+    desc_string = ''
+    for move in move_list:
+        desc_string += move + '\n'
+
+    embed = discord.Embed(title=character['proper_name'] + ' ' + move_type.lower() + ':',
+            colour=0x00EAFF,
+            description=desc_string)
+
     return embed
 
 def error_embed(err):
@@ -78,7 +106,7 @@ async def on_message(message):
 
         chara_name = user_message_list[0].lower()
         chara_move = user_message_list[1]
-        if chara_name == 'ak':
+        if chara_name == 'armor' or chara_name == 'ak':
             chara_name = 'armor_king'
         elif chara_name == 'dj' or chara_name == 'dvj' or chara_name == 'djin' or chara_name == 'devil' or chara_name == 'deviljin' or chara_name == 'diablojim' or chara_name == 'taika-jim':
             chara_name = 'devil_jin'
@@ -104,7 +132,7 @@ async def on_message(message):
             chara_name = 'kuma'
         elif chara_name == 'mara':
             chara_name = 'marduk'
-        elif chara_name == 'raven' or chara_name == 'mraven' or chara_name == 'masterraven':
+        elif chara_name == 'master' or chara_name == 'raven' or chara_name == 'mraven' or chara_name == 'masterraven':
             chara_name = 'master_raven'
         elif chara_name == 'sha':
             chara_name = 'shaheen'
@@ -115,24 +143,37 @@ async def on_message(message):
 
         character = tkfinder.get_character(chara_name)
         if character is not None:
-            move = tkfinder.get_move(character, chara_move, True)
-            
-            #First checks the move as case sensitive, if it doesn't find it
-            #it checks it case unsensitive
-            
-            if move is not None:
-                embed = move_embed(character, move) 
-                
-                msg = await channel.send(embed=embed, delete_after=300)
-            else:
-                move = tkfinder.get_move(character, chara_move, False)
-                if move is not None:
+            if chara_move in move_types:
+                move_list = tkfinder.get_by_move_type(character, move_types[chara_move])
+                if  len(move_list) < 1:
+                    embed = error_embed('No ' + move_types[chara_move].lower() + ' for ' + character['proper_name'])
+                    msg = await channel.send(embed=embed, delete_after=150)
+                elif len(move_list) == 1:
+                    move = tkfinder.get_move(character, move_list[0], False)
                     embed = move_embed(character, move)
-                    
+                    msg = await channel.send(embed=embed, delete_after=300)
+                elif len(move_list) > 1:
+                    embed = move_list_embed(character, move_list, move_types[chara_move])
+                    msg = await channel.send(embed=embed, delete_after=300)
+
+            else:
+                move = tkfinder.get_move(character, chara_move, True)
+            
+                #First checks the move as case sensitive, if it doesn't find it
+                #it checks it case unsensitive
+            
+                if move is not None:
+                    embed = move_embed(character, move) 
                     msg = await channel.send(embed=embed, delete_after=300)
                 else:
-                    embed = error_embed('Move not found: ' + chara_move)
-                    msg = await channel.send(embed=embed, delete_after=150)
+                    move = tkfinder.get_move(character, chara_move, False)
+                    if move is not None:
+                        embed = move_embed(character, move)
+                    
+                        msg = await channel.send(embed=embed, delete_after=300)
+                    else:
+                        embed = error_embed('Move not found: ' + chara_move)
+                        msg = await channel.send(embed=embed, delete_after=150)
         else:
             bot_msg = 'Character ' + chara_name + ' does not exist.'
             embed = error_embed(bot_msg)

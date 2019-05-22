@@ -17,7 +17,7 @@
         "Block frame": "+6~+7",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Rage art, Tail spin"
+        "Notes": "Rage drive, Tail spin"
     },
     {
         "Command": "in rage d/b+2, 4, d/f",
@@ -27,7 +27,7 @@
         "Block frame": "+19~+20g",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Rage art, Tail spin"
+        "Notes": "Rage drive, Tail spin"
     },
     {
         "Command": "1",

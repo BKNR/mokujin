@@ -17,7 +17,7 @@
         "Block frame": "-7~-6",
         "Hit frame": "Launch(Launch (JG?))",
         "Counter hit frame": "Launch(Launch (JG?))",
-        "Notes": "Rage art"
+        "Notes": "Rage drive"
     },
     {
         "Command": "in rage f, n, d, d/f+1+2, D/F",
@@ -27,7 +27,7 @@
         "Block frame": "+14~+15g",
         "Hit frame": "Launch(Launch (JG?))",
         "Counter hit frame": "Launch(Launch (JG?))",
-        "Notes": "Rage art"
+        "Notes": "Rage drive"
     },
     {
         "Command": "in rage f, n, d, d/f+1+2, 3",
@@ -37,7 +37,7 @@
         "Block frame": "+8~+13g",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Rage art"
+        "Notes": "Rage drive"
     },
     {
         "Command": "in rage f, n, d, d/f+1+2, 3, 1",
@@ -47,7 +47,7 @@
         "Block frame": "+9(wl+15g)",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Rage art"
+        "Notes": "Rage drive"
     },
     {
         "Command": "1",
