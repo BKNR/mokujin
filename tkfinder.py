@@ -61,7 +61,7 @@ def get_by_move_type(character: dict, move_type: str) -> list:
         move_list = []
         for move in moves:
             move_list.append(move['Command'])
-        return move_list
+        return list(set(move_list))
     else:
         return []
 
