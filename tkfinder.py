@@ -55,7 +55,7 @@ def get_by_move_type(character: dict, move_type: str) -> list:
         move_file_contents = move_file.read()
     move_json = json.loads(move_file_contents)
 
-    moves = list(filter(lambda x: (move_type in x['Notes']), move_json))
+    moves = list(filter(lambda x: (move_type.lower() in x['Notes'].lower()), move_json))
     
     if moves:
         move_list = []
