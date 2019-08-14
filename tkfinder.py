@@ -69,6 +69,10 @@ def move_simplifier(move_input):
     '''Removes bells and whistles from the move_input'''
     
     short_input = move_input.replace('ff', 'f,f')
+    short_input = short_input.replace('bf', 'b,f')
+    short_input = short_input.replace('fb', 'f,b')
+    short_input = short_input.replace('ddf', 'd,df')
+
     short_input = short_input.replace(' ', '')
     short_input = short_input.replace('/', '')
     short_input = short_input.replace('+', '')
