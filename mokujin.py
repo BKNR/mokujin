@@ -24,6 +24,8 @@ move_types = {  'ra': 'Rage art',
                 'screw': 'Tail spin',
                 'homing': 'Homing',
                 'homari': 'Homing',
+                'armor': 'Power crush',
+                'armori': 'Power crush',
                 'pc': 'Power crush',
                 'power': 'Power crush',
                 'power_crush': 'Power crush'}
@@ -147,7 +149,8 @@ async def on_message(message):
 
         character = tkfinder.get_character(chara_name)
         if character is not None:
-            if chara_move in move_types:
+            if chara_move.lower() in move_types:
+                chara_move = chara_move.lower()
                 move_list = tkfinder.get_by_move_type(character, move_types[chara_move])
                 if  len(move_list) < 1:
                     embed = error_embed('No ' + move_types[chara_move].lower() + ' for ' + character['proper_name'])
