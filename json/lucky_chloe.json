@@ -17,7 +17,7 @@
         "Block frame": "+3~+5s",
         "Hit frame": "Launch",
         "Counter hit frame": "Launch",
-        "Notes": "Rage art"
+        "Notes": "Rage drive"
     },
     {
         "Command": "in rage d/f+3+4B",
@@ -27,7 +27,7 @@
         "Block frame": "-4~-2s",
         "Hit frame": "Launch",
         "Counter hit frame": "Launch",
-        "Notes": "Rage art"
+        "Notes": "Rage drive"
     },
     {
         "Command": "in rage d/f+3+4, When hit 1+2",
@@ -37,7 +37,7 @@
         "Block frame": "-",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Rage art"
+        "Notes": "Rage drive"
     },
     {
         "Command": "1 or BT 1 or 2",
@@ -67,7 +67,7 @@
         "Block frame": "-11",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Wall Bound"
+        "Notes": "Wall Bounce"
     },
     {
         "Command": "1, 2, 2",
