@@ -215,7 +215,7 @@
         "Damage": "21",
         "Start up frame": "30~31 (2~)",
         "Block frame": "-8~-7",
-        "Hit frame": "+5~+6 (KND)",
+        "Hit frame": "+22g (KND on parry)",
         "Counter hit frame": "KND",
         "Notes": "-"
     },
@@ -404,8 +404,8 @@
         "Hit level": "h, m",
         "Damage": "11,17",
         "Start up frame": "14~15",
-        "Block frame": "-7~-6",
-        "Hit frame": "+5~+6s",
+        "Block frame": "-4~-3",
+        "Hit frame": "+8~+9s",
         "Counter hit frame": "KND",
         "Notes": "-"
     },
@@ -572,7 +572,7 @@
     {
         "Command": "b+4",
         "Hit level": "m",
-        "Damage": "15",
+        "Damage": "13",
         "Start up frame": "18",
         "Block frame": "-8",
         "Hit frame": "+5",
@@ -582,12 +582,22 @@
     {
         "Command": "b+4, 1+2",
         "Hit level": "m, m",
-        "Damage": "15,21",
+        "Damage": "15,20",
         "Start up frame": "18",
-        "Block frame": "-9~-8",
+        "Block frame": "-12~-11",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "Wall bounce"
+    },
+    {
+        "Command": "b+4, 1+2, d",
+        "Hit level": "m, m",
+        "Damage": "15",
+        "Start up frame": "18",
+        "Block frame": "-12~-11",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "Ends in crouch"
     },
     {
         "Command": "b+1+4",
@@ -1092,7 +1102,7 @@
     {
         "Command": "KNK 1",
         "Hit level": "h",
-        "Damage": "14",
+        "Damage": "12",
         "Start up frame": "18~19",
         "Block frame": "-9~-8",
         "Hit frame": "+2~+3",
@@ -1102,17 +1112,17 @@
     {
         "Command": "KNK 1, 2",
         "Hit level": "h, m",
-        "Damage": "14,17",
+        "Damage": "12,20",
         "Start up frame": "18~19",
         "Block frame": "-9~-8",
         "Hit frame": "+8~+9",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "Wall bounce"
     },
     {
         "Command": "KNK 1, D",
         "Hit level": "m, (BOK)",
-        "Damage": "14",
+        "Damage": "12",
         "Start up frame": "18~19",
         "Block frame": "-7~-6",
         "Hit frame": "+4~+5",
@@ -1132,7 +1142,7 @@
     {
         "Command": "KNK 3",
         "Hit level": "m (TJ)",
-        "Damage": "17",
+        "Damage": "13",
         "Start up frame": "20~21a",
         "Block frame": "-13~-12",
         "Hit frame": "Launch (JG?)",
@@ -1142,7 +1152,7 @@
     {
         "Command": "KNK 3, 4",
         "Hit level": "m (TJ), m",
-        "Damage": "17,20",
+        "Damage": "13,27",
         "Start up frame": "20~21a",
         "Block frame": "-12~-10",
         "Hit frame": "Launch (JG?)",
@@ -1157,6 +1167,16 @@
         "Block frame": "-12~-11",
         "Hit frame": "+4~+5",
         "Counter hit frame": "+10~+11",
+        "Notes": "-"
+    },
+    {
+        "Command": "KNK 1+2",
+        "Hit level": "m",
+        "Damage": "20",
+        "Start up frame": "24",
+        "Block frame": "-6",
+        "Hit frame": "KND",
+        "Counter hit frame": "Launch",
         "Notes": "-"
     },
     {
@@ -1185,8 +1205,8 @@
         "Damage": "14,20",
         "Start up frame": "13(33~) 1~12",
         "Block frame": "-14~-13",
-        "Hit frame": "+2~+3",
-        "Counter hit frame": "+2~+3",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
         "Notes": "-"
     },
     {
