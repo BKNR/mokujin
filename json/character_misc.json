@@ -306,5 +306,12 @@
         "local_json": "yoshimitsu.json",
         "online_webpage": "http://rbnorway.org/yoshimitsu-t7-frames",
         "portrait": "https://i.imgur.com/eguFrUh.jpg"
+    },
+    {
+        "name": "zafina",
+        "proper_name": "Zafina",
+        "local_json": "zafina.json",
+        "online_webpage": "http://rbnorway.org/zafina-t7-frames",
+        "portrait": "https://i.imgur.com/sXwy7Pw.jpg"
     }
 ]
