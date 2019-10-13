@@ -174,9 +174,9 @@
         "Hit level": "m",
         "Damage": "16",
         "Start up frame": "17",
-        "Block frame": "-9",
-        "Hit frame": "+1",
-        "Counter hit frame": "+1",
+        "Block frame": "-4",
+        "Hit frame": "+7",
+        "Counter hit frame": "+7",
         "Notes": "-"
     },
     {
@@ -184,7 +184,7 @@
         "Hit level": "h",
         "Damage": "20",
         "Start up frame": "16~17",
-        "Block frame": "-9~-8",
+        "Block frame": "-5~-4",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Notes": "Tail spin, Homing"
@@ -192,11 +192,11 @@
     {
         "Command": "f+1+2",
         "Hit level": "mm",
-        "Damage": "5,15",
+        "Damage": "8,17",
         "Start up frame": "20,32",
         "Block frame": "-8s",
-        "Hit frame": "+5s",
-        "Counter hit frame": "+5s",
+        "Hit frame": "+7s",
+        "Counter hit frame": "+7s",
         "Notes": "-"
     },
     {
@@ -245,8 +245,8 @@
         "Damage": "10,5,15",
         "Start up frame": "13~14",
         "Block frame": "-13s",
-        "Hit frame": "+5s",
-        "Counter hit frame": "+5s",
+        "Hit frame": "+7s",
+        "Counter hit frame": "+7s",
         "Notes": "-"
     },
     {
@@ -320,6 +320,16 @@
         "Notes": "-"
     },
     {
+        "Command": "d/f+1+2",
+        "Hit level": "m",
+        "Damage": "23",
+        "Start up frame": "20 pc8~",
+        "Block frame": "-14",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "Power crush"
+    },
+    {
         "Command": "d/b or d+1 or FC+1",
         "Hit level": "Sm (TC)",
         "Damage": "5",
@@ -332,7 +342,7 @@
     {
         "Command": "d/b or d+1, 2 or FC+1, 2",
         "Hit level": "Sm (TC), Sm (TC)",
-        "Damage": "5,8",
+        "Damage": "5,6",
         "Start up frame": "s js1~",
         "Block frame": "-13",
         "Hit frame": "-2",
@@ -382,7 +392,7 @@
     {
         "Command": "b+1",
         "Hit level": "h",
-        "Damage": "17",
+        "Damage": "15",
         "Start up frame": "14~15",
         "Block frame": "-14~-13",
         "Hit frame": "KND",
@@ -612,7 +622,7 @@
     {
         "Command": "qcf+1 or qcf+2",
         "Hit level": "Sm",
-        "Damage": "14",
+        "Damage": "12",
         "Start up frame": "19~",
         "Block frame": "-13~",
         "Hit frame": "-5~",
@@ -620,9 +630,9 @@
         "Notes": "-"
     },
     {
-        "Command": "qcf+1, 1+2f, f",
+        "Command": "qcf+1, 1+2, f, f",
         "Hit level": "Sm",
-        "Damage": "14",
+        "Damage": "12",
         "Start up frame": "19~",
         "Block frame": "+7?~",
         "Hit frame": "+15~",
@@ -632,7 +642,7 @@
     {
         "Command": "hcb+1",
         "Hit level": "Sm",
-        "Damage": "15",
+        "Damage": "12",
         "Start up frame": "28~",
         "Block frame": "-9~",
         "Hit frame": "-1",
@@ -784,7 +794,7 @@
         "Hit level": "Sm (TJ), h x 3",
         "Damage": "13,6,6,6",
         "Start up frame": "10,25,44,54a js13~",
-        "Block frame": "-14",
+        "Block frame": "-15",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Notes": "-"
@@ -867,7 +877,7 @@
         "Block frame": "-22",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "Tail spin"
     },
     {
         "Command": "Jump qcf+1+2",
@@ -982,7 +992,7 @@
     {
         "Command": "b+1",
         "Hit level": "h",
-        "Damage": "17",
+        "Damage": "15",
         "Start up frame": "14~15",
         "Block frame": "-14~-13?",
         "Hit frame": "KND",
@@ -1044,9 +1054,9 @@
         "Hit level": "m",
         "Damage": "18",
         "Start up frame": "17",
-        "Block frame": "-9",
-        "Hit frame": "+1",
-        "Counter hit frame": "+1",
+        "Block frame": "-4",
+        "Hit frame": "+7",
+        "Counter hit frame": "+7",
         "Notes": "-"
     },
     {
@@ -1054,7 +1064,7 @@
         "Hit level": "h",
         "Damage": "20",
         "Start up frame": "16-17",
-        "Block frame": "-9",
+        "Block frame": "-5~-4",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Notes": "Tail spin, Homing"
