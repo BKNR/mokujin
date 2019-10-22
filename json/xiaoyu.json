@@ -206,7 +206,7 @@
         "Start up frame": "16~17",
         "Block frame": "-12~-11",
         "Hit frame": "KND",
-        "Counter hit frame": "KND",
+        "Counter hit frame": "Tail spin",
         "Notes": "Tail spin"
     },
     {
@@ -293,7 +293,7 @@
         "Command": "f+3+4, d+1+2",
         "Hit level": "(Special), (AOP)",
         "Damage": "-",
-        "Start up frame": "20~21 (46~)",
+        "Start up frame": "18~19 (44~)",
         "Block frame": "-",
         "Hit frame": "-",
         "Counter hit frame": "-",
@@ -446,7 +446,7 @@
         "Start up frame": "15",
         "Block frame": "+2",
         "Hit frame": "+2s",
-        "Counter hit frame": "+2s",
+        "Counter hit frame": "+12s",
         "Notes": "-"
     },
     {
@@ -906,7 +906,7 @@
         "Start up frame": "22~23",
         "Block frame": "+3~+4s",
         "Hit frame": "+6~+7s (KND)",
-        "Counter hit frame": "KND",
+        "Counter hit frame": "Launch",
         "Notes": "-"
     },
     {
@@ -1266,7 +1266,7 @@
         "Start up frame": "js12~",
         "Block frame": "-6~-3",
         "Hit frame": "KND",
-        "Counter hit frame": "KND",
+        "Counter hit frame": "Tail spin",
         "Notes": "Tail spin"
     },
     {
@@ -1337,7 +1337,7 @@
         "Block frame": "-19~-18",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "Wall bounce"
     },
     {
         "Command": "RDS 4",
@@ -1456,7 +1456,7 @@
         "Start up frame": "16",
         "Block frame": "-5~-4",
         "Hit frame": "KND",
-        "Counter hit frame": "KND",
+        "Counter hit frame": "Tail spin",
         "Notes": "Tail spin"
     },
     {
@@ -1496,7 +1496,7 @@
         "Start up frame": "15",
         "Block frame": "+2",
         "Hit frame": "+2s",
-        "Counter hit frame": "+2s",
+        "Counter hit frame": "+12s",
         "Notes": "-"
     },
     {
@@ -1642,11 +1642,11 @@
     {
         "Command": "AOP 1+2",
         "Hit level": "m",
-        "Damage": "24",
+        "Damage": "25",
         "Start up frame": "19",
         "Block frame": "-5",
         "Hit frame": "KND",
-        "Counter hit frame": "CS",
+        "Counter hit frame": "KND",
         "Notes": "Wall bounce"
     },
     {
@@ -2086,7 +2086,7 @@
         "Start up frame": "15",
         "Block frame": "+2",
         "Hit frame": "+2s",
-        "Counter hit frame": "+2s",
+        "Counter hit frame": "+12s",
         "Notes": "-"
     },
     {
@@ -2242,11 +2242,21 @@
     {
         "Command": "WS+1",
         "Hit level": "m",
-        "Damage": "12",
-        "Start up frame": "11~12",
+        "Damage": "10",
+        "Start up frame": "13~14",
         "Block frame": "-4~-3",
         "Hit frame": "+7~+8",
         "Counter hit frame": "+7~+8",
+        "Notes": "-"
+    },
+    {
+        "Command": "WS+1, 4",
+        "Hit level": "m, m",
+        "Damage": "10,20",
+        "Start up frame": "13~14",
+        "Block frame": "-10",
+        "Hit frame": "+12?",
+        "Counter hit frame": "+12?",
         "Notes": "-"
     },
     {
@@ -2266,7 +2276,7 @@
         "Start up frame": "22~23",
         "Block frame": "+3~+4s",
         "Hit frame": "+6~+7s (KND)",
-        "Counter hit frame": "KND",
+        "Counter hit frame": "Launch",
         "Notes": "-"
     },
     {
@@ -2387,7 +2397,7 @@
         "Block frame": "-19~-18",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "Wall bounce"
     },
     {
         "Command": "RDS 4",
@@ -2446,7 +2456,7 @@
         "Start up frame": "15",
         "Block frame": "+2",
         "Hit frame": "+2s",
-        "Counter hit frame": "+2s",
+        "Counter hit frame": "+12s",
         "Notes": "-"
     }
 ]
