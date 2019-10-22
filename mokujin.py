@@ -45,14 +45,15 @@ def move_embed(character, move):
             description='Move: ' + move['Command'])
     
     embed.set_thumbnail(url=character['portrait'])
-    embed.add_field(name='Property', value=move['Hit level'])
-    embed.add_field(name='Damage', value=move['Damage'])
-    embed.add_field(name='Startup', value='i' + move['Start up frame'])
-    embed.add_field(name='Block', value=move['Block frame'])
-    embed.add_field(name='Hit', value=move['Hit frame'])
-    embed.add_field(name='Counter Hit', value=move['Counter hit frame'])
-    embed.add_field(name='Notes', value=move['Notes'])
-    
+    embed.add_field(name='Property', value='-' if move['Hit level'].strip() == '' else move['Hit level'])
+    embed.add_field(name='Damage', value='-' if move['Damage'].strip() == '' else move['Damage'])
+    embed.add_field(name='Startup', value='-' if move['Start up frame'].strip() == '' else ('i' + move['Start up frame']))
+    embed.add_field(name='Block', value='-' if move['Block frame'].strip() == '' else move['Block frame'])
+    embed.add_field(name='Hit', value='-' if move['Hit frame'].strip() == '' else move['Hit frame'])
+    embed.add_field(name='Counter Hit', value='-' if move['Counter hit frame'].strip() == '' else move['Counter hit frame'])
+    embed.add_field(name='Notes', value=('-' if move['Notes'].strip() == '' else move['Notes']))
+    print(move['Hit level'], move['Damage'], move['Start up frame'], move['Block frame'],
+    move['Hit frame'], move['Counter hit frame'], move['Notes'])
     return embed
 
 def move_list_embed(character, move_list, move_type):
@@ -170,7 +171,7 @@ async def on_message(message):
                 #it checks it case unsensitive
             
                 if move is not None:
-                    embed = move_embed(character, move) 
+                    embed = move_embed(character, move)
                     msg = await channel.send(embed=embed, delete_after=300)
                 else:
                     move = tkfinder.get_move(character, chara_move, False)
