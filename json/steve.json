@@ -47,7 +47,7 @@
         "Block frame": "+1 (wl+7)",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Rage drive"
+        "Notes": "Rage art"
     },
     {
         "Command": "1",
@@ -900,6 +900,26 @@
         "Notes": "-"
     },
     {
+        "Command": "qcf+2",
+        "Hit level": "l",
+        "Damage": "18",
+        "Start up frame": "19",
+        "Block frame": "-19",
+        "Hit frame": "+2",
+        "Counter hit frame": "+2",
+        "Notes": "-"
+    },
+    {
+        "Command": "qcf+2 f",
+        "Hit level": "l (PAB)",
+        "Damage": "18",
+        "Start up frame": "19",
+        "Block frame": "-19",
+        "Hit frame": "+2",
+        "Counter hit frame": "+2",
+        "Notes": "-"
+    },
+    {
         "Command": "qcb, f+2+3",
         "Hit level": "!",
         "Damage": "70",
@@ -1197,7 +1217,7 @@
         "Block frame": "-13~-12",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "Wallbounce"
     },
     {
         "Command": "3+4 (to ALB)",
@@ -1556,7 +1576,7 @@
         "Start up frame": "12~13 (13~)",
         "Block frame": "-13~-11",
         "Hit frame": "+8~+10s",
-        "Counter hit frame": "KND",
+        "Counter hit frame": "Launch (3rd hit)",
         "Notes": "-"
     },
     {
@@ -1945,8 +1965,8 @@
         "Damage": "14,23",
         "Start up frame": "12",
         "Block frame": "0~+2",
-        "Hit frame": "KND",
-        "Counter hit frame": "CS",
+        "Hit frame": "+18",
+        "Counter hit frame": "Tail spin",
         "Notes": "Tail spin"
     },
     {
@@ -1956,7 +1976,7 @@
         "Start up frame": "18~19 (23~)",
         "Block frame": "-5",
         "Hit frame": "KND",
-        "Counter hit frame": "KND",
+        "Counter hit frame": "Launch",
         "Notes": "-"
     },
     {
@@ -1974,7 +1994,7 @@
         "Hit level": "h",
         "Damage": "27",
         "Start up frame": "14~15 (19~) pc8~13",
-        "Block frame": "-10~-9",
+        "Block frame": "-9",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Notes": "Power crush"
@@ -2106,7 +2126,7 @@
         "Start up frame": "16~17",
         "Block frame": "-11~-10",
         "Hit frame": "+6~+7",
-        "Counter hit frame": "CS",
+        "Counter hit frame": "KND (JG?)",
         "Notes": "Homing"
     },
     {
@@ -2224,7 +2244,7 @@
         "Hit level": "m?",
         "Damage": "20",
         "Start up frame": "17~18",
-        "Block frame": "-13~-12",
+        "Block frame": "-14",
         "Hit frame": "CS",
         "Counter hit frame": "CS",
         "Notes": "-"

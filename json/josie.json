@@ -260,6 +260,16 @@
         "Notes": "-"
     },
     {
+        "Command": "f+2, 3, 3",
+        "Hit level": "h, l",
+        "Damage": "10,13, 30",
+        "Start up frame": "12",
+        "Block frame": "-16",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
         "Command": "f+2, 3, 4",
         "Hit level": "h, l, h",
         "Damage": "10,13,20",
@@ -350,6 +360,16 @@
         "Notes": "-"
     },
     {
+        "Command": "d/f+1, 2, f",
+        "Hit level": "m, h",
+        "Damage": "14",
+        "Start up frame": "16~17",
+        "Block frame": "+4~+5",
+        "Hit frame": "+7~+8",
+        "Counter hit frame": "+7~+8",
+        "Notes": "Transitions to CD"
+    },
+    {
         "Command": "d/f+1, 4",
         "Hit level": "m, l",
         "Damage": "14,12",
@@ -374,8 +394,8 @@
         "Hit level": "m, m",
         "Damage": "14,20",
         "Start up frame": "16~17",
-        "Block frame": "-11",
-        "Hit frame": "CS",
+        "Block frame": "-7",
+        "Hit frame": "KND",
         "Counter hit frame": "CS",
         "Notes": "-"
     },
@@ -434,7 +454,7 @@
         "Hit level": "m (TJ)",
         "Damage": "30",
         "Start up frame": "26 pc8~25 ar26~",
-        "Block frame": "-12",
+        "Block frame": "-13",
         "Hit frame": "Launch",
         "Counter hit frame": "Launch",
         "Notes": "Power crush"
@@ -442,7 +462,7 @@
     {
         "Command": "d+2",
         "Hit level": "m",
-        "Damage": "20",
+        "Damage": "25",
         "Start up frame": "20",
         "Block frame": "-2",
         "Hit frame": "+3s",
@@ -492,7 +512,7 @@
     {
         "Command": "d/b+2",
         "Hit level": "m (TC)",
-        "Damage": "20",
+        "Damage": "25",
         "Start up frame": "20 cs6~",
         "Block frame": "-11",
         "Hit frame": "KND",
@@ -565,8 +585,8 @@
         "Damage": "10,12,12",
         "Start up frame": "11",
         "Block frame": "-10",
-        "Hit frame": "+1",
-        "Counter hit frame": "+1",
+        "Hit frame": "+6",
+        "Counter hit frame": "+6",
         "Notes": "-"
     },
     {
@@ -592,7 +612,7 @@
     {
         "Command": "b+2",
         "Hit level": "h",
-        "Damage": "12",
+        "Damage": "17",
         "Start up frame": "14",
         "Block frame": "+1",
         "Hit frame": "+7",
@@ -664,8 +684,8 @@
         "Hit level": "m, m, m",
         "Damage": "14,14,20",
         "Start up frame": "16",
-        "Block frame": "-11",
-        "Hit frame": "CS",
+        "Block frame": "-7",
+        "Hit frame": "KND",
         "Counter hit frame": "CS",
         "Notes": "-"
     },
@@ -907,7 +927,7 @@
         "Block frame": "-9",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "Wall bounce"
     },
     {
         "Command": "SWS F (to CD)",
