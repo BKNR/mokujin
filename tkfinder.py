@@ -9,7 +9,7 @@ def get_character(chara_name: str) -> dict:
     returns character details as dict if exists, else None
     '''
    
-    filepath = dirname + '/json/character_misc.json'
+    filepath = dirname + '/newjsons/character_misc.json'
     with open(filepath) as chara_misc_file:
         contents = chara_misc_file.read()
     
