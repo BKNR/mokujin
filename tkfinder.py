@@ -15,7 +15,7 @@ def get_character(chara_name: str) -> dict:
     
     chara_misc_json = json.loads(contents) 
     chara_details = list(filter(lambda x: (x['name'] == chara_name), chara_misc_json))
-
+    print(chara_name)
     if chara_details:
         return chara_details[0]
     else:
@@ -26,7 +26,7 @@ def get_move(character: dict, move_command: str, case_important: bool) -> dict:
     returns move if exists, else None
     '''
 
-    move_file_name = '/json/' + character.get('local_json')
+    move_file_name = '/newjsons/' + character.get('local_json')
     filepath = dirname + move_file_name
     with open(filepath) as move_file:
         move_file_contents = move_file.read()
@@ -40,6 +40,8 @@ def get_move(character: dict, move_command: str, case_important: bool) -> dict:
         if not move:
             move = list(filter(lambda x: move_simplifier(move_command.lower()) 
             in move_simplifier(x['Command'].lower()), move_json))
+    
+    print(move, "bab")
     if move:
         return move[0]
     else:
@@ -49,7 +51,7 @@ def get_by_move_type(character: dict, move_type: str) -> list:
     '''Gets a list of moves that match move_type from local_json
     returns a list of move Commands if finds match(es), else empty list'''
 
-    move_file_name = '/json/' + character.get('local_json')
+    move_file_name = '/newjsons/' + character.get('local_json')
     filepath = dirname + move_file_name
     with open(filepath) as move_file:
         move_file_contents = move_file.read()
