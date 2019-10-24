@@ -56,6 +56,19 @@ def move_embed(character, move):
     move['Hit frame'], move['Counter hit frame'], move['Notes'])
     return embed
 
+def sidestep_direction_embed(character):
+    '''Returns the embed message for character and move'''
+    embed = discord.Embed(title=character['proper_name'], 
+            colour=0x00EAFF,
+            url=character['online_webpage'])
+    
+    embed.set_thumbnail(url=character['portrait'])
+    embed.add_field(name='Sidestep (Close Range)', value=character['sidestep']['close'])
+    embed.add_field(name='Sidestep (Mid Range)', value=character['sidestep']['mid'])
+    embed.add_field(name='Obs', value='-')
+   
+    return embed
+
 def move_list_embed(character, move_list, move_type):
     '''Returns the embed message for a list of moves matching to a special move type'''
     desc_string = ''
@@ -149,6 +162,12 @@ async def on_message(message):
            chara_name = 'xiaoyu'
 
         character = tkfinder.get_character(chara_name)
+        if chara_move.lower() == 'sidestep':
+            embed = sidestep_direction_embed(character)
+            msg = await channel.send(embed=embed, delete_after=300)
+            return
+
+
         if character is not None:
             if chara_move.lower() in move_types:
                 chara_move = chara_move.lower()
@@ -180,6 +199,7 @@ async def on_message(message):
                     
                         msg = await channel.send(embed=embed, delete_after=300)
                     else:
+                        
                         embed = error_embed('Move not found: ' + chara_move)
                         msg = await channel.send(embed=embed, delete_after=150)
         else:
