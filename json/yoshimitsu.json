@@ -2,12 +2,12 @@
     {
         "Command": "in rage b+1+2",
         "Hit level": "m",
-        "Damage": "55",
+        "Damage": "-",
         "Start up frame": "20?",
-        "Block frame": "-22",
+        "Block frame": "-",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Rage art"
+        "Notes": "-"
     },
     {
         "Command": "in rage u/b+1+4",
@@ -17,7 +17,7 @@
         "Block frame": "-",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Rage art"
+        "Notes": "Rage drive"
     },
     {
         "Command": "1",
@@ -104,7 +104,7 @@
         "Hit level": "h, h, (KIN)",
         "Damage": "13,10",
         "Start up frame": "10",
-        "Block frame": "\u2013",
+        "Block frame": "-",
         "Hit frame": "+",
         "Counter hit frame": "+",
         "Notes": "-"
@@ -404,7 +404,7 @@
         "Hit level": "m, m",
         "Damage": "14,17",
         "Start up frame": "13",
-        "Block frame": "-14?",
+        "Block frame": "-12",
         "Hit frame": "+4?",
         "Counter hit frame": "+",
         "Notes": "-"
@@ -452,7 +452,7 @@
     {
         "Command": "d/f+1+2",
         "Hit level": "l (TC)",
-        "Damage": "16",
+        "Damage": "12",
         "Start up frame": "26 RC",
         "Block frame": "-11",
         "Hit frame": "+4",
@@ -465,8 +465,8 @@
         "Damage": "16,27",
         "Start up frame": "26",
         "Block frame": "-13",
-        "Hit frame": "0?",
-        "Counter hit frame": "+k",
+        "Hit frame": "0",
+        "Counter hit frame": "+6k",
         "Notes": "-"
     },
     {
@@ -1102,7 +1102,7 @@
     {
         "Command": "u/f+2",
         "Hit level": "l (TJ)",
-        "Damage": "20 js10",
+        "Damage": "25 js10",
         "Start up frame": "35s",
         "Block frame": "-16",
         "Hit frame": "+6g",
@@ -1470,14 +1470,14 @@
         "Notes": "Tail spin"
     },
     {
-        "Command": "in rage f, n, d, d/f+1+2",
+        "Command": "in rage f, nf, n, d, d/f+1+2",
         "Hit level": "m (TC)?",
         "Damage": "-",
         "Start up frame": "14(14~)",
         "Block frame": "+2?",
         "Hit frame": "SCD",
         "Counter hit frame": "SCD",
-        "Notes": "Rage drive, Tail spin"
+        "Notes": "Rage art, Tail spin"
     },
     {
         "Command": "qcf+1",
@@ -1927,6 +1927,26 @@
         "Block frame": "-13",
         "Hit frame": "KND",
         "Counter hit frame": "SCD",
+        "Notes": "-"
+    },
+    {
+        "Command": "KIN b+2",
+        "Hit level": "m",
+        "Damage": "15",
+        "Start up frame": "12(27~)",
+        "Block frame": "-9",
+        "Hit frame": "+2",
+        "Counter hit frame": "+2",
+        "Notes": "-"
+    },
+    {
+        "Command": "KIN b+2,1",
+        "Hit level": "m",
+        "Damage": "15,19",
+        "Start up frame": "12(27~)",
+        "Block frame": "-12",
+        "Hit frame": "Launch",
+        "Counter hit frame": "Launch",
         "Notes": "-"
     },
     {
@@ -2405,8 +2425,8 @@
         "Damage": "33",
         "Start up frame": "19~20 (29~)",
         "Block frame": "-6~-5?",
-        "Hit frame": "+13k",
-        "Counter hit frame": "SCD",
+        "Hit frame": "+14k",
+        "Counter hit frame": "KND",
         "Notes": "Tail spin"
     },
     {
