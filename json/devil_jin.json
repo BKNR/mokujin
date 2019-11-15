@@ -1147,7 +1147,8 @@
         "Block frame": "+5~+6",
         "Hit frame": "Launch (JG?)",
         "Counter hit frame": "Launch (JG?)",
-        "Notes": "-"
+        "Notes": "-",
+		"Alias": "electric"
     },
     {
         "Command": "f, n, d, D/F (Hold as long as possible)2",

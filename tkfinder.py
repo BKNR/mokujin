@@ -25,6 +25,7 @@ def get_move(character: dict, move_command: str, case_important: bool) -> dict:
     '''Gets move from local_json, if exists
     returns move if exists, else None
     '''
+    
 
     move_file_name = '/json/' + character.get('local_json')
     filepath = dirname + move_file_name
@@ -40,6 +41,13 @@ def get_move(character: dict, move_command: str, case_important: bool) -> dict:
         if not move:
             move = list(filter(lambda x: move_simplifier(move_command.lower())
             in move_simplifier(x['Command'].lower()), move_json))
+
+            if not move:
+                for item in move_json:
+                    if 'Alias' in item:
+                        move = list(filter(lambda x: ( move_command.lower()in x['Alias'].lower()), [item]))
+
+
     if move:
         return move[0]
     else:

@@ -917,7 +917,8 @@
         "Block frame": "+5~+6",
         "Hit frame": "Launch (JG?)",
         "Counter hit frame": "Launch (JG?)",
-        "Notes": "-"
+        "Notes": "-",
+		"Alias": "electric, ewgf"
     },
     {
         "Command": "f, n, d, d/f+3",

@@ -887,7 +887,8 @@
         "Block frame": "-10",
         "Hit frame": "Launch(JG?)",
         "Counter hit frame": "Launch(JG?)",
-        "Notes": "47"
+        "Notes": "47",
+		"Alias": "jfsr"
     },
     {
         "Command": "f, f, f+3",

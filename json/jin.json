@@ -1127,7 +1127,8 @@
         "Block frame": "+5~+6",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "-",
+		"Alias": "electric"
     },
     {
         "Command": "f, n, d, d/f+3",

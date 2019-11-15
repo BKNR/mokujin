@@ -1207,7 +1207,8 @@
         "Block frame": "-10",
         "Hit frame": "JG",
         "Counter hit frame": "JG",
-        "Notes": "-"
+        "Notes": "-",
+		"Alias": "du"
     },
     {
         "Command": "f, N, d, d/f+3",
