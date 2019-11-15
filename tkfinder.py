@@ -45,7 +45,7 @@ def get_move(character: dict, move_command: str, case_important: bool) -> dict:
             if not move:
                 for item in move_json:
                     if 'Alias' in item:
-                        move = list(filter(lambda x: ( move_command.lower()in x['Alias'].lower()), [item]))
+                        move = list(filter(lambda x: ( move_command.lower() in x['Alias'].lower()), [item]))
 
 
     if move:
