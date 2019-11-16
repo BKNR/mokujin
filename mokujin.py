@@ -96,7 +96,7 @@ async def on_message(message):
     if I'm going to change it.
     '''
     channel = message.channel
-    if message.content.startswith('?') and (('tekken' in channel.name) or ('frame' in channel.name)):
+    if message.content.startswith('!') and (('tekken' in channel.name) or ('frame' in channel.name)):
 
         user_message = message.content
         user_message = user_message.replace('!', '')
