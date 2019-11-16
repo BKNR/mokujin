@@ -734,6 +734,7 @@
         "Hit level": "h",
         "Damage": "23",
         "Start up frame": "11~12 (13~)",
+        "Start up frame": "11~12 (14~)",
         "Block frame": "+5~+6",
         "Hit frame": "Launch (JG?)",
         "Counter hit frame": "Launch (JG?)",
