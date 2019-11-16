@@ -747,7 +747,8 @@
         "Block frame": "-16~-15",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "-",
+		"Alias": "hs, hellsweep"
     },
     {
         "Command": "RSS 1+2",

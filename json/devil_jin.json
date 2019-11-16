@@ -1188,7 +1188,8 @@
         "Block frame": "-23",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "-",
+		"Alias": "hs, hellsweep"
     },
     {
         "Command": "f, n, d, d/f+4, 4",

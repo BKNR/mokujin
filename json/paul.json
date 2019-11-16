@@ -367,7 +367,8 @@
         "Block frame": "-17~-16",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "-",
+		"Alias": "demoman"
     },
     {
         "Command": "d+4, 2:1+2",

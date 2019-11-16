@@ -849,7 +849,8 @@
         "Block frame": "-16",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "-",
+		"Alias": "hs, hellsweep"
     },
     {
         "Command": "in rage u/b+1+2 (to DVK)",
