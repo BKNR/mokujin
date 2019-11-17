@@ -111,10 +111,10 @@
     },
     {
         "Command": "1+2",
-        "Hit level": "mh",
+        "Hit level": "mm",
         "Damage": "15,27",
         "Start up frame": "15~16, 45~46",
-        "Block frame": "-9~-8",
+        "Block frame": "-13",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Notes": "-"
