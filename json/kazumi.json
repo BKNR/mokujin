@@ -7,7 +7,8 @@
         "Block frame": "-22",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Rage art"
+        "Notes": "Rage art",
+		"Gif": ""
     },
     {
         "Command": "in rage f, F+1+2",
@@ -17,7 +18,8 @@
         "Block frame": "-12 (wl-6)",
         "Hit frame": "Launch",
         "Counter hit frame": "Launch",
-        "Notes": "Rage drive"
+        "Notes": "Rage drive",
+		"Gif": ""
     },
     {
         "Command": "1",
@@ -27,7 +29,8 @@
         "Block frame": "+1",
         "Hit frame": "+8",
         "Counter hit frame": "+8",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "1, 1",
@@ -37,7 +40,8 @@
         "Block frame": "-3~-2",
         "Hit frame": "+6~+7",
         "Counter hit frame": "+6~+7",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "1, 1, 2",
@@ -47,7 +51,8 @@
         "Block frame": "-17",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "1, 2",
@@ -57,7 +62,8 @@
         "Block frame": "-3",
         "Hit frame": "+5",
         "Counter hit frame": "+5",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "1, 2, 2",
@@ -67,7 +73,8 @@
         "Block frame": "-12",
         "Hit frame": "+4",
         "Counter hit frame": "+4",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "2",
@@ -77,7 +84,8 @@
         "Block frame": "-3",
         "Hit frame": "+8",
         "Counter hit frame": "+8",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "2, 1",
@@ -87,7 +95,8 @@
         "Block frame": "-5",
         "Hit frame": "+7",
         "Counter hit frame": "+7",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "3",
@@ -97,7 +106,8 @@
         "Block frame": "-8~-7",
         "Hit frame": "+8~+9",
         "Counter hit frame": "+8~+9",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "3, 1",
@@ -107,7 +117,8 @@
         "Block frame": "-13~-12",
         "Hit frame": "+8k",
         "Counter hit frame": "+8k",
-        "Notes": "Tail spin"
+        "Notes": "Tail spin",
+		"Gif": ""
     },
     {
         "Command": "3, 2",
@@ -117,7 +128,8 @@
         "Block frame": "-1~0s",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "4",
@@ -127,7 +139,8 @@
         "Block frame": "-9~-8",
         "Hit frame": "+5~+6",
         "Counter hit frame": "Launch (JG?)",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "1+2",
@@ -137,7 +150,8 @@
         "Block frame": "-14~-13",
         "Hit frame": "-8",
         "Counter hit frame": "-8",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "1+2f",
@@ -147,7 +161,8 @@
         "Block frame": "-14~-13",
         "Hit frame": "+9",
         "Counter hit frame": "?",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "2+3",
@@ -157,7 +172,8 @@
         "Block frame": "-44~-12",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "f+2",
@@ -167,7 +183,8 @@
         "Block frame": "-9~-8",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Power crush"
+        "Notes": "Power crush",
+		"Gif": ""
     },
     {
         "Command": "f+3",
@@ -177,7 +194,8 @@
         "Block frame": "-8",
         "Hit frame": "0",
         "Counter hit frame": "0",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "f+3, f",
@@ -187,7 +205,8 @@
         "Block frame": "+5",
         "Hit frame": "+18g",
         "Counter hit frame": "+18g",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "f+4",
@@ -197,7 +216,8 @@
         "Block frame": "-8~-7",
         "Hit frame": "+11~+12kg",
         "Counter hit frame": "+11~+12kg",
-        "Notes": "Tail spin, Homing"
+        "Notes": "Tail spin, Homing",
+		"Gif": ""
     },
     {
         "Command": "d/f+1",
@@ -207,7 +227,8 @@
         "Block frame": "-3~-2",
         "Hit frame": "+6~+7",
         "Counter hit frame": "+6~+7",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "d/f+1, 2",
@@ -217,7 +238,8 @@
         "Block frame": "-13s",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "d/f+2",
@@ -227,7 +249,8 @@
         "Block frame": "-24",
         "Hit frame": "Launch",
         "Counter hit frame": "Launch",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "d/f+3",
@@ -237,7 +260,8 @@
         "Block frame": "-9",
         "Hit frame": "+2",
         "Counter hit frame": "+2",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "d/f+4",
@@ -247,7 +271,8 @@
         "Block frame": "-5",
         "Hit frame": "+6",
         "Counter hit frame": "+6",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "d+1",
@@ -257,7 +282,8 @@
         "Block frame": "-9~-8",
         "Hit frame": "+2~+3",
         "Counter hit frame": "+5~+6s",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "d+1, 2",
@@ -267,7 +293,8 @@
         "Block frame": "-13~-12",
         "Hit frame": "Throw",
         "Counter hit frame": "Throw",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "d+4",
@@ -277,7 +304,8 @@
         "Block frame": "-13~-12",
         "Hit frame": "-2~-1",
         "Counter hit frame": "-2~-1",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "d+3+4",
@@ -287,7 +315,8 @@
         "Block frame": "-13",
         "Hit frame": "-2",
         "Counter hit frame": "-2",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "d/b+2",
@@ -297,7 +326,8 @@
         "Block frame": "-14s",
         "Hit frame": "-3",
         "Counter hit frame": "+6s",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "d/b+2, 3",
@@ -307,7 +337,8 @@
         "Block frame": "-14~-13s",
         "Hit frame": "0~+1",
         "Counter hit frame": "+6~+7s",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "d/b+2, 3, 4",
@@ -317,7 +348,8 @@
         "Block frame": "-14~-13s",
         "Hit frame": "+5~+6s",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "d/b+3",
@@ -327,7 +359,8 @@
         "Block frame": "-14",
         "Hit frame": "+2s",
         "Counter hit frame": "+2s",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "d/b+4",
@@ -337,7 +370,8 @@
         "Block frame": "-12",
         "Hit frame": "+4",
         "Counter hit frame": "+15g",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "d/b+1+2",
@@ -347,7 +381,8 @@
         "Block frame": "-4~-3",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "b+1",
@@ -357,7 +392,8 @@
         "Block frame": "-16",
         "Hit frame": "-5",
         "Counter hit frame": "-5",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "b+1, 2",
@@ -367,7 +403,8 @@
         "Block frame": "-9~-10",
         "Hit frame": "+7~+8",
         "Counter hit frame": "+7~+8",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "b+2",
@@ -377,7 +414,8 @@
         "Block frame": "-9~-8",
         "Hit frame": "+4~5",
         "Counter hit frame": "+4~5",
-        "Notes": "Tail spin, Homing"
+        "Notes": "Tail spin, Homing",
+		"Gif": ""
     },
     {
         "Command": "b+3",
@@ -387,7 +425,8 @@
         "Block frame": "-8",
         "Hit frame": "+3",
         "Counter hit frame": "+3",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "b+4",
@@ -397,7 +436,8 @@
         "Block frame": "-13",
         "Hit frame": "+9",
         "Counter hit frame": "CS",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "b+1+2",
@@ -407,7 +447,8 @@
         "Block frame": "-13",
         "Hit frame": "TKF(+17)",
         "Counter hit frame": "TKF(+17)",
-        "Notes": "Power crush"
+        "Notes": "Power crush",
+		"Gif": ""
     },
     {
         "Command": "b+3+4 or RSS B",
@@ -417,7 +458,8 @@
         "Block frame": "-",
         "Hit frame": "-",
         "Counter hit frame": "-",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "u/b or u or u/f+2",
@@ -427,7 +469,8 @@
         "Block frame": "-14",
         "Hit frame": "-8",
         "Counter hit frame": "-8",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "u/b or u or u/f+2f",
@@ -437,7 +480,8 @@
         "Block frame": "-14",
         "Hit frame": "+9",
         "Counter hit frame": "+9",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "u/f+3",
@@ -447,7 +491,8 @@
         "Block frame": "-12~-11",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "u/f+3, 4",
@@ -457,7 +502,8 @@
         "Block frame": "-7~-6",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "u/f+3, 4, 1",
@@ -467,7 +513,8 @@
         "Block frame": "-11~-6",
         "Hit frame": "-5~0s",
         "Counter hit frame": "-5~0s",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "u/f+3, 4, 3",
@@ -477,7 +524,8 @@
         "Block frame": "-11~-10",
         "Hit frame": "+8~+9k",
         "Counter hit frame": "+8~+9k",
-        "Notes": "Tail spin"
+        "Notes": "Tail spin",
+		"Gif": ""
     },
     {
         "Command": "u/b+4",
@@ -487,7 +535,8 @@
         "Block frame": "-15~-14",
         "Hit frame": "-4~-3",
         "Counter hit frame": "-4~-3",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "u+4",
@@ -497,7 +546,8 @@
         "Block frame": "-13~-12",
         "Hit frame": "KND",
         "Counter hit frame": "Launch (JG?)",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "u/f+4",
@@ -507,7 +557,8 @@
         "Block frame": "-13~-12",
         "Hit frame": "Launch (JG?)",
         "Counter hit frame": "Launch (JG?)",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "f, F+2",
@@ -517,7 +568,8 @@
         "Block frame": "-13",
         "Hit frame": "Throw(KND)",
         "Counter hit frame": "Throw(KND)",
-        "Notes": "Power crush"
+        "Notes": "Power crush",
+		"Gif": ""
     },
     {
         "Command": "f, F+4",
@@ -527,7 +579,8 @@
         "Block frame": "-7~-6",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "b, f+2",
@@ -537,7 +590,8 @@
         "Block frame": "-12~-11",
         "Hit frame": "-~01",
         "Counter hit frame": "FS (+6~+7) 19~20",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "b, f+2, 1",
@@ -547,7 +601,8 @@
         "Block frame": "-14~-13",
         "Hit frame": "-1~0",
         "Counter hit frame": "-1~0",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "b, f+2, 1, 4",
@@ -557,7 +612,8 @@
         "Block frame": "-6~-5",
         "Hit frame": "+13kg",
         "Counter hit frame": "+13kg",
-        "Notes": "Tail spin, Homing"
+        "Notes": "Tail spin, Homing",
+		"Gif": ""
     },
     {
         "Command": "b, f+2, 1, 1+2",
@@ -567,7 +623,8 @@
         "Block frame": "-14~-13",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "f, f, f+2",
@@ -577,7 +634,8 @@
         "Block frame": "-4~-3",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "WS+1",
@@ -587,7 +645,8 @@
         "Block frame": "-4~-3",
         "Hit frame": "+7~+8",
         "Counter hit frame": "+7~+8",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "WS+1, 2",
@@ -597,7 +656,8 @@
         "Block frame": "-13~-12",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "WS+2",
@@ -607,7 +667,8 @@
         "Block frame": "-12~-11",
         "Hit frame": "Launch (JG?)",
         "Counter hit frame": "Launch (JG?)",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "WS+3",
@@ -617,7 +678,8 @@
         "Block frame": "-11~-10",
         "Hit frame": "-8",
         "Counter hit frame": "-8",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "WS+3f",
@@ -627,7 +689,8 @@
         "Block frame": "-11~-10",
         "Hit frame": "-8",
         "Counter hit frame": "-8",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "WS+4",
@@ -637,7 +700,8 @@
         "Block frame": "-3~-2",
         "Hit frame": "+8~+9",
         "Counter hit frame": "+8~+9",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "WS+4, 4",
@@ -647,7 +711,8 @@
         "Block frame": "-6~-5",
         "Hit frame": "+13~+14kg",
         "Counter hit frame": "+13~+14kg",
-        "Notes": "Tail spin, Homing"
+        "Notes": "Tail spin, Homing",
+		"Gif": ""
     },
     {
         "Command": "FC+d/b or d+4",
@@ -657,7 +722,8 @@
         "Block frame": "-15~-14",
         "Hit frame": "-4~-3",
         "Counter hit frame": "-4~-3",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "FC+d/f+4",
@@ -667,7 +733,8 @@
         "Block frame": "-15",
         "Hit frame": "-4",
         "Counter hit frame": "-4",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "Opponent Down d+2",
@@ -677,7 +744,8 @@
         "Block frame": "-13~-12",
         "Hit frame": "-2~-1",
         "Counter hit frame": "-2~-1",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "2+3+4",
@@ -687,7 +755,8 @@
         "Block frame": "-",
         "Hit frame": "-",
         "Counter hit frame": "-",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "f+3+4 or f, f+3+4 or b+3+4, f",
@@ -697,7 +766,8 @@
         "Block frame": "-",
         "Hit frame": "-",
         "Counter hit frame": "-",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "RSS 1",
@@ -707,7 +777,8 @@
         "Block frame": "-11",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Wall bounce"
+        "Notes": "Wall bounce",
+		"Gif": ""
     },
     {
         "Command": "RSS 2",
@@ -717,7 +788,8 @@
         "Block frame": "-10",
         "Hit frame": "Launch (JG?)",
         "Counter hit frame": "Launch (JG?)",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "RSS 3",
@@ -727,7 +799,8 @@
         "Block frame": "-7~-3",
         "Hit frame": "+7s~+11s",
         "Counter hit frame": "+7s~+11s",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "RSS 4",
@@ -737,7 +810,8 @@
         "Block frame": "-31",
         "Hit frame": "+5s(KND)",
         "Counter hit frame": "+5s(KND)",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "RSS 4, 2",
@@ -758,7 +832,8 @@
         "Block frame": "+4",
         "Hit frame": "+8",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "RSS 3+4",
@@ -768,7 +843,8 @@
         "Block frame": "-15",
         "Hit frame": "Launch",
         "Counter hit frame": "Launch",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "RSS f+1+2",
@@ -778,7 +854,8 @@
         "Block frame": "CS",
         "Hit frame": "CS",
         "Counter hit frame": "CS",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "RSS 1+3",
@@ -788,7 +865,8 @@
         "Block frame": "-",
         "Hit frame": "Throw(+8)",
         "Counter hit frame": "-",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "1",
@@ -798,7 +876,8 @@
         "Block frame": "+1",
         "Hit frame": "+8",
         "Counter hit frame": "+8",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "2",
@@ -808,7 +887,8 @@
         "Block frame": "-3",
         "Hit frame": "+8",
         "Counter hit frame": "+8",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "3",
@@ -818,7 +898,8 @@
         "Block frame": "-8~-7",
         "Hit frame": "+8~+9",
         "Counter hit frame": "+8~+9",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "4",
@@ -828,7 +909,8 @@
         "Block frame": "-9~-8",
         "Hit frame": "+5~+6",
         "Counter hit frame": "Launch (JG?)",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "f+1",
@@ -838,7 +920,8 @@
         "Block frame": "+1",
         "Hit frame": "+8",
         "Counter hit frame": "+8",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "f+2",
@@ -848,7 +931,8 @@
         "Block frame": "-9~-8",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Power crush"
+        "Notes": "Power crush",
+		"Gif": ""
     },
     {
         "Command": "f+3",
@@ -858,7 +942,8 @@
         "Block frame": "-8",
         "Hit frame": "0",
         "Counter hit frame": "0",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "f+4",
@@ -868,7 +953,8 @@
         "Block frame": "-8~-7",
         "Hit frame": "+11~+12kg",
         "Counter hit frame": "+11~+12kg",
-        "Notes": "Tail spin, Homing"
+        "Notes": "Tail spin, Homing",
+		"Gif": ""
     },
     {
         "Command": "d/f+1",
@@ -878,7 +964,8 @@
         "Block frame": "-3~-2",
         "Hit frame": "+6~+7",
         "Counter hit frame": "+6~+7",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "d/f+2",
@@ -888,7 +975,8 @@
         "Block frame": "-24",
         "Hit frame": "Launch",
         "Counter hit frame": "Launch",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "d/f+3",
@@ -898,7 +986,8 @@
         "Block frame": "-9",
         "Hit frame": "+2",
         "Counter hit frame": "+2",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "d/f+4",
@@ -908,7 +997,8 @@
         "Block frame": "-5",
         "Hit frame": "+6",
         "Counter hit frame": "+6",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "d+1",
@@ -918,7 +1008,8 @@
         "Block frame": "-9~-8",
         "Hit frame": "+2~+3",
         "Counter hit frame": "+5~+6s",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "d+2",
@@ -928,7 +1019,8 @@
         "Block frame": "-4",
         "Hit frame": "+7",
         "Counter hit frame": "+7",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "d+3",
@@ -938,7 +1030,8 @@
         "Block frame": "-17",
         "Hit frame": "-3",
         "Counter hit frame": "-3",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "d+4",
@@ -948,7 +1041,8 @@
         "Block frame": "-13~-12",
         "Hit frame": "-2~-1",
         "Counter hit frame": "-2~-1",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "d+3+4",
@@ -958,7 +1052,8 @@
         "Block frame": "-13",
         "Hit frame": "-2",
         "Counter hit frame": "-2",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "d/b+1",
@@ -968,7 +1063,8 @@
         "Block frame": "-5",
         "Hit frame": "+6",
         "Counter hit frame": "+6",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "d/b+2",
@@ -978,7 +1074,8 @@
         "Block frame": "-14s",
         "Hit frame": "-3",
         "Counter hit frame": "+6s",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "d/b+3",
@@ -988,7 +1085,8 @@
         "Block frame": "-14",
         "Hit frame": "+2s",
         "Counter hit frame": "+2s",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "d/b+4",
@@ -998,7 +1096,8 @@
         "Block frame": "-12",
         "Hit frame": "+4",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "b+1",
@@ -1008,7 +1107,8 @@
         "Block frame": "-16",
         "Hit frame": "-5",
         "Counter hit frame": "-5",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "b+2",
@@ -1018,7 +1118,8 @@
         "Block frame": "-9~-8",
         "Hit frame": "+12~+13kg",
         "Counter hit frame": "+12~+13kg",
-        "Notes": "Tail spin, Homing"
+        "Notes": "Tail spin, Homing",
+		"Gif": ""
     },
     {
         "Command": "b+3",
@@ -1028,7 +1129,8 @@
         "Block frame": "-8",
         "Hit frame": "+3",
         "Counter hit frame": "+3",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "b+4",
@@ -1038,7 +1140,8 @@
         "Block frame": "-13",
         "Hit frame": "+9",
         "Counter hit frame": "CS",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "u/b or u or u/f+1",
@@ -1048,7 +1151,8 @@
         "Block frame": "-8",
         "Hit frame": "+3",
         "Counter hit frame": "+3",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "u/b or u or u/f+2",
@@ -1058,7 +1162,8 @@
         "Block frame": "-14",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "u/b+3",
@@ -1068,7 +1173,8 @@
         "Block frame": "-20~-19",
         "Hit frame": "-9~-8",
         "Counter hit frame": "-9~-8",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "u+3",
@@ -1078,7 +1184,8 @@
         "Block frame": "-20~-19",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "u/f+3",
@@ -1088,7 +1195,8 @@
         "Block frame": "-12~-11",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "u/b+4",
@@ -1098,7 +1206,8 @@
         "Block frame": "-15~-14",
         "Hit frame": "-4~-3",
         "Counter hit frame": "-4~-3",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "u+4",
@@ -1108,7 +1217,8 @@
         "Block frame": "-13~-12",
         "Hit frame": "KND",
         "Counter hit frame": "Launch (JG?)",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "u/f+4",
@@ -1118,7 +1228,8 @@
         "Block frame": "-13~-12",
         "Hit frame": "Launch (JG?)",
         "Counter hit frame": "Launch (JG?)",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "u/f, n+4",
@@ -1128,7 +1239,8 @@
         "Block frame": "-11(-13)",
         "Hit frame": "Launch (JG?)",
         "Counter hit frame": "Launch (JG?)",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "WS+1",
@@ -1138,7 +1250,8 @@
         "Block frame": "-4~-3",
         "Hit frame": "+7~+8",
         "Counter hit frame": "+7~+8",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "WS+2",
@@ -1148,7 +1261,8 @@
         "Block frame": "-12~-11",
         "Hit frame": "Launch (JG?)",
         "Counter hit frame": "Launch (JG?)",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "WS+3",
@@ -1158,7 +1272,8 @@
         "Block frame": "-11~-10",
         "Hit frame": "-8",
         "Counter hit frame": "-8",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "WS+3f",
@@ -1168,7 +1283,8 @@
         "Block frame": "-11~-10",
         "Hit frame": "+9",
         "Counter hit frame": "+9",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "WS+4",
@@ -1178,7 +1294,8 @@
         "Block frame": "-3~-2",
         "Hit frame": "+8~+9",
         "Counter hit frame": "+8~+9",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "FC+1",
@@ -1188,7 +1305,8 @@
         "Block frame": "-5",
         "Hit frame": "+6",
         "Counter hit frame": "+6",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "FC+2",
@@ -1198,7 +1316,8 @@
         "Block frame": "-4",
         "Hit frame": "+7",
         "Counter hit frame": "+7",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "FC+3",
@@ -1208,7 +1327,8 @@
         "Block frame": "-17",
         "Hit frame": "-3",
         "Counter hit frame": "-3",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "FC+d/b or d+4",
@@ -1218,7 +1338,8 @@
         "Block frame": "-15~-14",
         "Hit frame": "-4~-3",
         "Counter hit frame": "-4~-3",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "FC+d/f+4",
@@ -1228,7 +1349,8 @@
         "Block frame": "-15",
         "Hit frame": "-4",
         "Counter hit frame": "-4",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "SS+1",
@@ -1238,7 +1360,8 @@
         "Block frame": "+1",
         "Hit frame": "+8",
         "Counter hit frame": "+8",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "SS+2",
@@ -1248,7 +1371,8 @@
         "Block frame": "-3",
         "Hit frame": "+8",
         "Counter hit frame": "+8",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "SS+3",
@@ -1258,7 +1382,8 @@
         "Block frame": "-8~-7",
         "Hit frame": "+8~+9",
         "Counter hit frame": "+8~+9",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "SS+4",
@@ -1268,7 +1393,8 @@
         "Block frame": "-7~-6",
         "Hit frame": "+5~+6",
         "Counter hit frame": "Launch (JG?)",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "BT 1 or 2",
@@ -1278,7 +1404,8 @@
         "Block frame": "-8",
         "Hit frame": "+3",
         "Counter hit frame": "+3",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "BT 3 or 4",
@@ -1288,7 +1415,8 @@
         "Block frame": "-8",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "BT d+1 or 2",
@@ -1298,7 +1426,8 @@
         "Block frame": "-2",
         "Hit frame": "+9",
         "Counter hit frame": "+9",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     },
     {
         "Command": "BT d+3 or 4",
@@ -1308,6 +1437,7 @@
         "Block frame": "-11",
         "Hit frame": "+3",
         "Counter hit frame": "+3",
-        "Notes": "-"
+        "Notes": "-",
+		"Gif": ""
     }
 ]
