@@ -496,7 +496,7 @@
     },
     {
         "Command": "d+1+4 or d+2+3",
-        "Hit level": "l (special)",
+        "Hit level": "l (SHS)",
         "Damage": "-",
         "Start up frame": "total 27",
         "Block frame": "-",
@@ -936,7 +936,7 @@
     },
     {
         "Command": "f, F+3, D",
-        "Hit level": "h (special)",
+        "Hit level": "h (SHS)",
         "Damage": "23",
         "Start up frame": "-",
         "Block frame": "+8",
@@ -1352,6 +1352,28 @@
         "Counter hit frame": "KND",
         "Notes": "-",
 		"Gif": ""
+    },
+    {
+        "Command": "SHS 1+2",
+        "Hit level": "m",
+        "Damage": "?",
+        "Start up frame": "14(~34)",
+        "Block frame": "FDFA",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "-",
+        "Gif": ""
+    },
+    {
+        "Command": "SHS 2",
+        "Hit level": "l",
+        "Damage": "?",
+        "Start up frame": "19(~39)",
+        "Block frame": "-13",
+        "Hit frame": "+5s",
+        "Counter hit frame": "KND",
+        "Notes": "-",
+        "Gif": ""
     },
     {
         "Command": "f, N, d, d/f+1+2",
