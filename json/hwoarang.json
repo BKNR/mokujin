@@ -964,7 +964,7 @@
         "Block frame": "-18",
         "Hit frame": "Launch(JG?)",
         "Counter hit frame": "Launch(JG?)",
-        "Notes": "53",
+        "Notes": "",
 		"Gif": ""
     },
     {
@@ -975,7 +975,7 @@
         "Block frame": "-10",
         "Hit frame": "Launch(JG?)",
         "Counter hit frame": "Launch(JG?)",
-        "Notes": "47",
+        "Notes": "",
 		"Alias": "jfsr",
         "Gif": ""
     },
