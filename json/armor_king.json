@@ -1328,7 +1328,8 @@
         "Hit frame": "JG",
         "Counter hit frame": "JG",
         "Notes": "-",
-		"Alias": "du"
+		"Alias": "du",
+        "Gif": ""
     },
     {
         "Command": "f, N, d, d/f+3",

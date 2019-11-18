@@ -756,7 +756,8 @@
         "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Notes": "-",
-		"Alias": "slide"
+		"Alias": "slide",
+        "Gif": ""
     },
     {
         "Command": "BT 2",

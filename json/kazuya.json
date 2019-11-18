@@ -738,7 +738,8 @@
         "Hit frame": "Launch (JG?)",
         "Counter hit frame": "Launch (JG?)",
         "Notes": "-",
-		"Alias": "electric, ewgf"
+		"Alias": "electric, ewgf",
+        "Gif": ""
 
     },
     {
@@ -850,7 +851,8 @@
         "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Notes": "-",
-		"Alias": "hs, hellsweep"
+		"Alias": "hs, hellsweep",
+        "Gif": ""
     },
     {
         "Command": "in rage u/b+1+2 (to DVK)",

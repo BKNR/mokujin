@@ -1152,6 +1152,7 @@
         "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Notes": "-",
+        "Alias" : "hs, hellsweep",
 		"Gif": ""
     },
     {
@@ -1240,7 +1241,8 @@
         "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Notes": "-",
-		"Alias": "electric, ewgf, ewhf"
+		"Alias": "electric, ewgf, ewhf",
+        "Gif": ""
     },
     {
         "Command": "f, n, d, d/f+3",

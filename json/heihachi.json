@@ -1009,7 +1009,8 @@
         "Hit frame": "Launch (JG?)",
         "Counter hit frame": "Launch (JG?)",
         "Notes": "-",
-		"Alias": "electric, ewgf"
+		"Alias": "electric, ewgf",
+        "Gif": ""
     },
     {
         "Command": "f, n, d, d/f+3",

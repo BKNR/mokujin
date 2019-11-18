@@ -976,7 +976,8 @@
         "Hit frame": "Launch(JG?)",
         "Counter hit frame": "Launch(JG?)",
         "Notes": "47",
-		"Alias": "jfsr"
+		"Alias": "jfsr",
+        "Gif": ""
     },
     {
         "Command": "f, f, f+3",

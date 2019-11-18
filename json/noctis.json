@@ -470,7 +470,8 @@
         "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Notes": "-",
-		"Alias": "demoman"
+		"Alias": "demoman",
+        "Gif": ""
     },
     {
         "Command": "d/b+1",

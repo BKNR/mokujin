@@ -1647,7 +1647,8 @@
         "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Notes": "-",
-		"Alias": "slide"
+		"Alias": "slide",
+        "Gif": ""
     },
     {
         "Command": "SSR+3+4",

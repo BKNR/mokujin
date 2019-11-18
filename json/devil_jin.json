@@ -1262,7 +1262,8 @@
         "Hit frame": "Launch (JG?)",
         "Counter hit frame": "Launch (JG?)",
         "Notes": "-",
-		"Alias": "electric, ewgf"
+		"Alias": "electric, ewgf",
+        "Gif": ""
     },
     {
         "Command": "f, n, d, D/F (Hold as long as possible)2",
@@ -1306,7 +1307,8 @@
         "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Notes": "-",
-		"Alias": "hs, hellsweep"
+		"Alias": "hs, hellsweep",
+        "Gif": ""
     },
     {
         "Command": "f, n, d, d/f+4, 4",
