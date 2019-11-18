@@ -12,5 +12,13 @@ class MyTestCase(unittest.TestCase):
         close_moves = tkfinder.get_similar_moves("d/f+1, 2", "hwoarang")
         self.assertIn("d/f+1, 3", close_moves)
 
+    def test_is_command_in_alias(self):
+        item = {'Alias' : "hs, hellsweep, Giant swing"}
+        result = tkfinder.is_command_in_alias("hellsweep",item)
+        self.assertTrue(result)
+
+        result = tkfinder.is_command_in_alias("he",item)
+        self.assertFalse(result)
+
 if __name__ == '__main__':
     unittest.main()

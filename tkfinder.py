@@ -73,7 +73,7 @@ def get_move(character: dict, move_command: str, case_important: bool) -> dict:
             if not move:
                 for item in move_json:
                     if 'Alias' in item:
-                        move = list(filter(lambda x: (move_command.lower() in x['Alias'].lower()), [item]))
+                        move = list(filter(lambda x: (is_command_in_alias(move_command,item)), [item]))
                         if move:
                             return move[0]
 
@@ -82,6 +82,12 @@ def get_move(character: dict, move_command: str, case_important: bool) -> dict:
     else:
         return None
 
+def is_command_in_alias (command :str, item :dict) -> bool:
+    words = item['Alias'].split(",")
+    newWords = []
+    for word in words:
+        newWords.append(str(word).strip().lower())
+    return command.lower().strip() in newWords
 
 def get_by_move_type(character: dict, move_type: str) -> list:
     '''Gets a list of moves that match move_type from local_json

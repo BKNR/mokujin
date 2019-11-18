@@ -41,7 +41,7 @@ def move_embed(character, move):
     embed = discord.Embed(title=character['proper_name'],
             colour=0x00EAFF,
             url=character['online_webpage'],
-            description='__**Move: ' + move['Command'] + "**__")
+            description='__**Move: ' + move['Command'] + '**__')
 
     embed.set_thumbnail(url=character['portrait'])
     embed.add_field(name='Property', value=move['Hit level'])
@@ -76,7 +76,7 @@ def error_embed(err):
 def similar_moves_embed(similar_moves):
     embed = discord.Embed(title='Move not found', colour=0xfcba03,
                           description= 'Similar moves:\n**{}**'
-                          .format('**; **\n'.join(similar_moves)))
+                          .format('** **\n'.join(similar_moves)))
     return embed
 @bot.event
 async def on_ready():
@@ -150,6 +150,8 @@ async def on_message(message):
             chara_name = 'yoshimitsu'
         elif chara_name == 'ling':
            chara_name = 'xiaoyu'
+        elif chara_name == "zaffy" or chara_name == 'zaf':
+            chara_name = 'zafina'
 
         character = tkfinder.get_character(chara_name)
         if character is not None:
