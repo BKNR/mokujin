@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import os, sys
 import datetime
-import asyncio
 
 import discord
 from discord.ext import commands
@@ -74,6 +73,11 @@ def error_embed(err):
 
     return embed
 
+def similar_moves_embed(similar_moves):
+    embed = discord.Embed(title='Move not found', colour=0xfcba03,
+                          description= 'Similar moves:\n**{}**'
+                          .format('**; **\n'.join(similar_moves)))
+    return embed
 @bot.event
 async def on_ready():
     print(datetime.datetime.utcnow().isoformat())
@@ -178,7 +182,8 @@ async def on_message(message):
                         embed = move_embed(character, move)
                         msg = await channel.send(embed=embed, delete_after=300)
                     else:
-                        embed = error_embed('Move not found: ' + chara_move)
+                        similar_moves = tkfinder.get_similar_moves(chara_move, chara_name)
+                        embed = similar_moves_embed(similar_moves)
                         msg = await channel.send(embed=embed, delete_after=150)
         else:
             bot_msg = 'Character ' + chara_name + ' does not exist.'
