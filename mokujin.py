@@ -41,7 +41,7 @@ def move_embed(character, move):
     embed = discord.Embed(title=character['proper_name'],
             colour=0x00EAFF,
             url=character['online_webpage'],
-            description='__**Move: ' + move['Command'] + '**__')
+            description='__**Move: ' + move['Command'] + "**__")
 
     embed.set_thumbnail(url=character['portrait'])
     embed.add_field(name='Property', value=move['Hit level'])
@@ -50,7 +50,7 @@ def move_embed(character, move):
     embed.add_field(name='Block', value=move['Block frame'])
     embed.add_field(name='Hit', value=move['Hit frame'])
     embed.add_field(name='Counter Hit', value=move['Counter hit frame'])
-    embed.add_field(name='Notes', value=move['Notes'])
+    embed.add_field(name='Notes', value=(move['Notes'] if move['Notes'] else "-"))
 
     return embed
 
