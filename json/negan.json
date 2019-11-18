@@ -504,7 +504,7 @@
         "Hit level": "l",
         "Damage": "25",
         "Start up frame": "24",
-        "Block frame": "-15",
+        "Block frame": "-14",
         "Hit frame": "+7",
         "Counter hit frame": "+7",
         "Notes": "-"

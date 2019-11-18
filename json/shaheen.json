@@ -753,7 +753,7 @@
     {
         "Command": "SNK 4",
         "Hit level": "l",
-        "Damage": "17",
+        "Damage": "14",
         "Start up frame": "16",
         "Block frame": "-15",
         "Hit frame": "0",

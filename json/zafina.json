@@ -1064,8 +1064,8 @@
         "Hit level": "m",
         "Damage": "18",
         "Start up frame": "11",
-        "Block frame": "-9",
-        "Hit frame": "+2",
+        "Block frame": "-7",
+        "Hit frame": "+7",
         "Counter hit frame": "+2",
         "Notes": "-"
     },

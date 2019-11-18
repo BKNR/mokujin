@@ -992,7 +992,7 @@
     {
         "Command": "WS+1, 3",
         "Hit level": "m, m",
-        "Damage": "12,20",
+        "Damage": "11,17",
         "Start up frame": "12~13",
         "Block frame": "-13~-12",
         "Hit frame": "KND",
