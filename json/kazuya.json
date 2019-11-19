@@ -881,7 +881,7 @@
     },
     {
         "Command": "f, n, d, d/f+1",
-        "Hit level": "m?",
+        "Hit level": "m",
         "Damage": "30",
         "Start up frame": "22~24 (25~) ar22~",
         "Block frame": "-16~-14",

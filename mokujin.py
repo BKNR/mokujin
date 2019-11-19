@@ -80,6 +80,7 @@ def similar_moves_embed(similar_moves):
                           description= 'Similar moves:\n**{}**'
                           .format('** **\n'.join(similar_moves)))
     return embed
+
 @bot.event
 async def on_ready():
     print(datetime.datetime.utcnow().isoformat())
@@ -113,6 +114,11 @@ async def on_message(message):
 
     try :
         channel = message.channel
+
+        if message.content == '!auto-delete':
+            deleted = await channel.purge(limit=200, check=is_me)
+            return
+
         if message.content.startswith('!'):
 
             delete_after = 13
@@ -208,11 +214,13 @@ async def on_message(message):
                 bot_msg = 'Character ' + chara_name + ' does not exist.'
                 embed = error_embed(bot_msg)
                 msg = await message.channel.send(embed=embed, delete_after=5)
-
                 return
         await bot.process_commands(message)
     except Exception as e:
         print(e)
         logger.error(e)
+
+def is_me(m):
+    return m.author == bot.user
 
 bot.run(token)
