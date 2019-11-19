@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import os, sys
 import datetime
-
+import logging
 import discord
 from discord.ext import commands
 
@@ -99,99 +99,113 @@ async def on_message(message):
     things that would be better suited elsewhere but I don't know
     if I'm going to change it.
     '''
-    channel = message.channel
-    if message.content.startswith('!') and (('tekken' in channel.name) or ('frame' in channel.name)):
 
-        user_message = message.content
-        user_message = user_message.replace('!', '')
-        user_message_list = user_message.split(' ', 1)
+    logger = logging.getLogger(__name__)
+    logger.setLevel(logging.WARNING)
+    file_handler = logging.FileHandler('log/logfile.log')
 
-        if len(user_message_list) <= 1:
-            # malformed command
-            return
+    formatter    = logging.Formatter('%(asctime)s : %(levelname)s : %(name)s : %(message)s')
+    file_handler.setFormatter(formatter)
 
-        chara_name = user_message_list[0].lower()
-        chara_move = user_message_list[1]
-        if chara_name == 'armor' or chara_name == 'ak':
-            chara_name = 'armor_king'
-        elif chara_name == 'dj' or chara_name == 'dvj' or chara_name == 'djin' or chara_name == 'devil' or chara_name == 'deviljin' or chara_name == 'diablojim' or chara_name == 'taika-jim':
-            chara_name = 'devil_jin'
-        elif chara_name == 'sergei' or chara_name == 'drag' or chara_name == 'dragu':
-            chara_name = 'dragunov'
-        elif chara_name == 'goose':
-            chara_name = 'geese'
-        elif chara_name == 'hwo' or chara_name == 'hwoa':
-            chara_name = 'hwoarang'
-        elif chara_name == 'jack'or chara_name == 'jack-7' or chara_name == "jaska":
-            chara_name = 'jack7'
-        elif chara_name == 'julle':
-            chara_name = 'julia'
-        elif chara_name == 'chloe' or chara_name == 'lc' or chara_name == 'lucky':
-            chara_name = 'lucky_chloe'
-        elif chara_name == 'hei' or chara_name == 'hessu' or chara_name == 'heiska':
-            chara_name = 'heihachi'
-        elif chara_name == 'kata' or chara_name == 'kat':
-            chara_name = 'katarina'
-        elif chara_name == 'kaz' or chara_name == 'kazze':
-            chara_name = 'kazuya'
-        elif chara_name == 'karhu' or chara_name == 'panda':
-            chara_name = 'kuma'
-        elif chara_name == 'mara':
-            chara_name = 'marduk'
-        elif chara_name == 'master' or chara_name == 'raven' or chara_name == 'mraven' or chara_name == 'masterraven':
-            chara_name = 'master_raven'
-        elif chara_name == 'nocto':
-            chara_name = 'noctis'
-        elif chara_name == 'pave':
-            chara_name = 'paul'
-        elif chara_name == 'sha':
-            chara_name = 'shaheen'
-        elif chara_name == 'yoshi':
-            chara_name = 'yoshimitsu'
-        elif chara_name == 'ling':
-           chara_name = 'xiaoyu'
-        elif chara_name == "zaffy" or chara_name == 'zaf':
-            chara_name = 'zafina'
+    logger.addHandler(file_handler)
 
-        character = tkfinder.get_character(chara_name)
-        if character is not None:
-            if chara_move.lower() in move_types:
-                chara_move = chara_move.lower()
-                move_list = tkfinder.get_by_move_type(character, move_types[chara_move])
-                if  len(move_list) < 1:
-                    embed = error_embed('No ' + move_types[chara_move].lower() + ' for ' + character['proper_name'])
-                    msg = await channel.send(embed=embed, delete_after=150)
-                elif len(move_list) == 1:
-                    move = tkfinder.get_move(character, move_list[0], False)
-                    embed = move_embed(character, move)
-                    msg = await channel.send(embed=embed, delete_after=300)
-                elif len(move_list) > 1:
-                    embed = move_list_embed(character, move_list, move_types[chara_move])
-                    msg = await channel.send(embed=embed, delete_after=300)
+    try :
+        channel = message.channel
+        if message.content.startswith('!') and (('tekken' in channel.name) or ('frame' in channel.name)):
 
-            else:
-                move = tkfinder.get_move(character, chara_move, True)
+            user_message = message.content
+            user_message = user_message.replace('!', '')
+            user_message_list = user_message.split(' ', 1)
 
-                #First checks the move as case sensitive, if it doesn't find it
-                #it checks it case unsensitive
+            if len(user_message_list) <= 1:
+                # malformed command
+                return
 
-                if move is not None:
-                    embed = move_embed(character, move)
-                    msg = await channel.send(embed=embed, delete_after=300)
+            chara_name = user_message_list[0].lower()
+            chara_move = user_message_list[1]
+            if chara_name == 'armor' or chara_name == 'ak':
+                chara_name = 'armor_king'
+            elif chara_name == 'dj' or chara_name == 'dvj' or chara_name == 'djin' or chara_name == 'devil' or chara_name == 'deviljin' or chara_name == 'diablojim' or chara_name == 'taika-jim':
+                chara_name = 'devil_jin'
+            elif chara_name == 'sergei' or chara_name == 'drag' or chara_name == 'dragu':
+                chara_name = 'dragunov'
+            elif chara_name == 'goose':
+                chara_name = 'geese'
+            elif chara_name == 'hwo' or chara_name == 'hwoa':
+                chara_name = 'hwoarang'
+            elif chara_name == 'jack'or chara_name == 'jack-7' or chara_name == "jaska":
+                chara_name = 'jack7'
+            elif chara_name == 'julle':
+                chara_name = 'julia'
+            elif chara_name == 'chloe' or chara_name == 'lc' or chara_name == 'lucky':
+                chara_name = 'lucky_chloe'
+            elif chara_name == 'hei' or chara_name == 'hessu' or chara_name == 'heiska':
+                chara_name = 'heihachi'
+            elif chara_name == 'kata' or chara_name == 'kat':
+                chara_name = 'katarina'
+            elif chara_name == 'kaz' or chara_name == 'kazze':
+                chara_name = 'kazuya'
+            elif chara_name == 'karhu' or chara_name == 'panda':
+                chara_name = 'kuma'
+            elif chara_name == 'mara':
+                chara_name = 'marduk'
+            elif chara_name == 'master' or chara_name == 'raven' or chara_name == 'mraven' or chara_name == 'masterraven':
+                chara_name = 'master_raven'
+            elif chara_name == 'nocto':
+                chara_name = 'noctis'
+            elif chara_name == 'pave':
+                chara_name = 'paul'
+            elif chara_name == 'sha':
+                chara_name = 'shaheen'
+            elif chara_name == 'yoshi':
+                chara_name = 'yoshimitsu'
+            elif chara_name == 'ling':
+                chara_name = 'xiaoyu'
+            elif chara_name == "zaffy" or chara_name == 'zaf':
+                chara_name = 'zafina'
+
+            character = tkfinder.get_character(chara_name)
+            if character is not None:
+                if chara_move.lower() in move_types:
+                    chara_move = chara_move.lower()
+                    move_list = tkfinder.get_by_move_type(character, move_types[chara_move])
+                    if  len(move_list) < 1:
+                        embed = error_embed('No ' + move_types[chara_move].lower() + ' for ' + character['proper_name'])
+                        msg = await channel.send(embed=embed, delete_after=150)
+                    elif len(move_list) == 1:
+                        move = tkfinder.get_move(character, move_list[0], False)
+                        embed = move_embed(character, move)
+                        msg = await channel.send(embed=embed, delete_after=300)
+                    elif len(move_list) > 1:
+                        embed = move_list_embed(character, move_list, move_types[chara_move])
+                        msg = await channel.send(embed=embed, delete_after=300)
+
                 else:
-                    move = tkfinder.get_move(character, chara_move, False)
+                    move = tkfinder.get_move(character, chara_move, True)
+
+                    #First checks the move as case sensitive, if it doesn't find it
+                    #it checks it case unsensitive
+
                     if move is not None:
                         embed = move_embed(character, move)
                         msg = await channel.send(embed=embed, delete_after=300)
                     else:
-                        similar_moves = tkfinder.get_similar_moves(chara_move, chara_name)
-                        embed = similar_moves_embed(similar_moves)
-                        msg = await channel.send(embed=embed, delete_after=150)
-        else:
-            bot_msg = 'Character ' + chara_name + ' does not exist.'
-            embed = error_embed(bot_msg)
-            msg = await message.channel.send(embed=embed, delete_after=150)
+                        move = tkfinder.get_move(character, chara_move, False)
+                        if move is not None:
+                            embed = move_embed(character, move)
+                            msg = await channel.send(embed=embed, delete_after=300)
+                        else:
+                            similar_moves = tkfinder.get_similar_moves(chara_move, chara_name)
+                            embed = similar_moves_embed(similar_moves)
+                            msg = await channel.send(embed=embed, delete_after=150)
+            else:
+                bot_msg = 'Character ' + chara_name + ' does not exist.'
+                embed = error_embed(bot_msg)
+                msg = await message.channel.send(embed=embed, delete_after=150)
 
-            return
-    await bot.process_commands(message)
+                return
+        await bot.process_commands(message)
+    except Exception as e:
+        logger.error(e)
+
 bot.run(token)
