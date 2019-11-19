@@ -41,7 +41,7 @@ def move_embed(character, move):
     embed = discord.Embed(title=character['proper_name'],
             colour=0x00EAFF,
             url=character['online_webpage'],
-            description='__**Move: ' + move['Command'] + '**__')
+            description='**Move: ' + move['Command'] + '**')
 
     embed.set_thumbnail(url=character['portrait'])
     embed.add_field(name='Property', value=move['Hit level'])

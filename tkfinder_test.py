@@ -13,12 +13,15 @@ class MyTestCase(unittest.TestCase):
         self.assertIn("d/f+1, 3", close_moves)
 
     def test_is_command_in_alias(self):
-        item = {'Alias' : "hs, hellsweep, Giant swing"}
+        item = {'Alias' : "hs, hellsweep, Giant swing, u/f3"}
         result = tkfinder.is_command_in_alias("hellsweep",item)
         self.assertTrue(result)
 
         result = tkfinder.is_command_in_alias("he",item)
         self.assertFalse(result)
+
+        result = tkfinder.is_command_in_alias("uf3", item)
+        self.assertTrue(result)
 
 if __name__ == '__main__':
     unittest.main()

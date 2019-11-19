@@ -83,11 +83,19 @@ def get_move(character: dict, move_command: str, case_important: bool) -> dict:
         return None
 
 def is_command_in_alias (command :str, item :dict) -> bool:
+    command = command.lower().strip()
+
     words = item['Alias'].split(",")
     newWords = []
     for word in words:
         newWords.append(str(word).strip().lower())
-    return command.lower().strip() in newWords
+
+    if not command in newWords :
+        for newWord in newWords:
+            if move_simplifier(command) == move_simplifier(newWord):
+                return True
+
+    return command in newWords
 
 def get_by_move_type(character: dict, move_type: str) -> list:
     '''Gets a list of moves that match move_type from local_json
