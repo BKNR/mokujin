@@ -111,7 +111,11 @@ async def on_message(message):
 
     try :
         channel = message.channel
-        if message.content.startswith('!') and (('tekken' in channel.name) or ('frame' in channel.name)):
+        if message.content.startswith('!'):
+
+            delete_after = 5
+            if ('tekken' in channel.name) or ('frame' in channel.name):
+                delete_after = None
 
             user_message = message.content
             user_message = user_message.replace('!', '')
@@ -171,14 +175,14 @@ async def on_message(message):
                     move_list = tkfinder.get_by_move_type(character, move_types[chara_move])
                     if  len(move_list) < 1:
                         embed = error_embed('No ' + move_types[chara_move].lower() + ' for ' + character['proper_name'])
-                        msg = await channel.send(embed=embed, delete_after=150)
+                        msg = await channel.send(embed=embed, delete_after=delete_after)
                     elif len(move_list) == 1:
                         move = tkfinder.get_move(character, move_list[0], False)
                         embed = move_embed(character, move)
-                        msg = await channel.send(embed=embed, delete_after=300)
+                        msg = await channel.send(embed=embed, delete_after=delete_after)
                     elif len(move_list) > 1:
                         embed = move_list_embed(character, move_list, move_types[chara_move])
-                        msg = await channel.send(embed=embed, delete_after=300)
+                        msg = await channel.send(embed=embed, delete_after=delete_after)
 
                 else:
                     move = tkfinder.get_move(character, chara_move, True)
@@ -188,20 +192,20 @@ async def on_message(message):
 
                     if move is not None:
                         embed = move_embed(character, move)
-                        msg = await channel.send(embed=embed, delete_after=300)
+                        msg = await channel.send(embed=embed, delete_after=delete_after)
                     else:
                         move = tkfinder.get_move(character, chara_move, False)
                         if move is not None:
                             embed = move_embed(character, move)
-                            msg = await channel.send(embed=embed, delete_after=300)
+                            msg = await channel.send(embed=embed, delete_after=delete_after)
                         else:
                             similar_moves = tkfinder.get_similar_moves(chara_move, chara_name)
                             embed = similar_moves_embed(similar_moves)
-                            msg = await channel.send(embed=embed, delete_after=150)
+                            msg = await channel.send(embed=embed, delete_after=delete_after)
             else:
                 bot_msg = 'Character ' + chara_name + ' does not exist.'
                 embed = error_embed(bot_msg)
-                msg = await message.channel.send(embed=embed, delete_after=150)
+                msg = await message.channel.send(embed=embed, delete_after=5)
 
                 return
         await bot.process_commands(message)
