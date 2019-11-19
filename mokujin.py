@@ -51,6 +51,8 @@ def move_embed(character, move):
     embed.add_field(name='Hit', value=move['Hit frame'])
     embed.add_field(name='Counter Hit', value=move['Counter hit frame'])
     embed.add_field(name='Notes', value=(move['Notes'] if move['Notes'] else "-"))
+    if move['Gif'] :
+        embed.add_field(name='Gif', value=move['Gif'], inline=False)
 
     return embed
 
