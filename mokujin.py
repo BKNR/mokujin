@@ -113,7 +113,7 @@ async def on_message(message):
         channel = message.channel
         if message.content.startswith('!'):
 
-            delete_after = 5
+            delete_after = 13
             if ('tekken' in channel.name) or ('frame' in channel.name):
                 delete_after = None
 
