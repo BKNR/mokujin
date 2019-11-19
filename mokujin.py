@@ -212,6 +212,7 @@ async def on_message(message):
                 return
         await bot.process_commands(message)
     except Exception as e:
+        print(e)
         logger.error(e)
 
 bot.run(token)
