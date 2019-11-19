@@ -115,7 +115,7 @@ async def on_message(message):
     try :
         channel = message.channel
 
-        if message.content == '!frame-delete':
+        if message.content == '!delete-data':
             deleted = await channel.purge(limit=200, check=is_me)
             return
 
