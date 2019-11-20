@@ -11,6 +11,14 @@ prefix = '§'
 description = 'The premier Tekken 7 Frame bot, made by Baikonur#4927'
 bot = commands.Bot(command_prefix=prefix, description=description)
 
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.WARNING)
+file_handler = logging.FileHandler('log/logfile.log')
+
+formatter    = logging.Formatter('%(asctime)s : %(levelname)s : %(name)s : %(message)s')
+file_handler.setFormatter(formatter)
+logger.addHandler(file_handler)
+
 # Dict for searching special move types
 move_types = {  'ra': 'Rage art',
                 'rage_art': 'Rage art',
@@ -39,9 +47,9 @@ with open(tfilename) as token_file:
 def move_embed(character, move):
     '''Returns the embed message for character and move'''
     embed = discord.Embed(title=character['proper_name'],
-            colour=0x00EAFF,
-            url=character['online_webpage'],
-            description='**Move: ' + move['Command'] + '**')
+                          colour=0x00EAFF,
+                          url=character['online_webpage'],
+                          description='**Move: ' + move['Command'] + '**')
 
     embed.set_thumbnail(url=character['portrait'])
     embed.add_field(name='Property', value=move['Hit level'])
@@ -63,15 +71,15 @@ def move_list_embed(character, move_list, move_type):
         desc_string += move + '\n'
 
     embed = discord.Embed(title=character['proper_name'] + ' ' + move_type.lower() + ':',
-            colour=0x00EAFF,
-            description=desc_string)
+                          colour=0x00EAFF,
+                          description=desc_string)
 
     return embed
 
 def error_embed(err):
     embed = discord.Embed(title='Error',
-            colour=0xFF4500,
-            description=err)
+                          colour=0xFF4500,
+                          description=err)
 
     return embed
 
@@ -102,15 +110,6 @@ async def on_message(message):
     things that would be better suited elsewhere but I don't know
     if I'm going to change it.
     '''
-
-    logger = logging.getLogger(__name__)
-    logger.setLevel(logging.WARNING)
-    file_handler = logging.FileHandler('log/logfile.log')
-
-    formatter    = logging.Formatter('%(asctime)s : %(levelname)s : %(name)s : %(message)s')
-    file_handler.setFormatter(formatter)
-
-    logger.addHandler(file_handler)
 
     try :
         channel = message.channel
