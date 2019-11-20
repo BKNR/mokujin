@@ -15,27 +15,27 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.WARNING)
 file_handler = logging.FileHandler('log/logfile.log')
 
-formatter    = logging.Formatter('%(asctime)s : %(levelname)s : %(name)s : %(message)s')
+formatter = logging.Formatter('%(asctime)s : %(levelname)s : %(name)s : %(message)s')
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
 # Dict for searching special move types
-move_types = {  'ra': 'Rage art',
-                'rage_art': 'Rage art',
-                'rd': 'Rage drive',
-                'rage_drive': 'Rage drive',
-                'wb': 'Wall bounce',
-                'wall_bounce': 'Wall bounce',
-                'ts': 'Tail spin',
-                'tail_spin': 'Tail spin',
-                'screw': 'Tail spin',
-                'homing': 'Homing',
-                'homari': 'Homing',
-                'armor': 'Power crush',
-                'armori': 'Power crush',
-                'pc': 'Power crush',
-                'power': 'Power crush',
-                'power_crush': 'Power crush'}
+move_types = {'ra': 'Rage art',
+              'rage_art': 'Rage art',
+              'rd': 'Rage drive',
+              'rage_drive': 'Rage drive',
+              'wb': 'Wall bounce',
+              'wall_bounce': 'Wall bounce',
+              'ts': 'Tail spin',
+              'tail_spin': 'Tail spin',
+              'screw': 'Tail spin',
+              'homing': 'Homing',
+              'homari': 'Homing',
+              'armor': 'Power crush',
+              'armori': 'Power crush',
+              'pc': 'Power crush',
+              'power': 'Power crush',
+              'power_crush': 'Power crush'}
 
 # Get token from local txt file
 dirname, pyfilename = os.path.split(os.path.abspath(sys.argv[0]))
@@ -43,6 +43,7 @@ tfilename = os.path.join(dirname, 'token.txt')
 
 with open(tfilename) as token_file:
     token = token_file.read().strip()
+
 
 def move_embed(character, move):
     '''Returns the embed message for character and move'''
@@ -59,10 +60,11 @@ def move_embed(character, move):
     embed.add_field(name='Hit', value=move['Hit frame'])
     embed.add_field(name='Counter Hit', value=move['Counter hit frame'])
     embed.add_field(name='Notes', value=(move['Notes'] if move['Notes'] else "-"))
-    if move['Gif'] :
+    if move['Gif']:
         embed.add_field(name='Gif', value=move['Gif'], inline=False)
 
     return embed
+
 
 def move_list_embed(character, move_list, move_type):
     '''Returns the embed message for a list of moves matching to a special move type'''
@@ -76,6 +78,7 @@ def move_list_embed(character, move_list, move_type):
 
     return embed
 
+
 def error_embed(err):
     embed = discord.Embed(title='Error',
                           colour=0xFF4500,
@@ -83,11 +86,13 @@ def error_embed(err):
 
     return embed
 
+
 def similar_moves_embed(similar_moves):
     embed = discord.Embed(title='Move not found', colour=0xfcba03,
-                          description= 'Similar moves:\n**{}**'
+                          description='Similar moves:\n**{}**'
                           .format('** **\n'.join(similar_moves)))
     return embed
+
 
 @bot.event
 async def on_ready():
@@ -97,12 +102,14 @@ async def on_ready():
     print(bot.user.id)
     print('------')
 
+
 @bot.command()
 async def test(ctx):
     print('Testing...')
     embed = discord.Embed(title='Test title', description='A test embed thing.', colour=0x0000FF)
     embed.set_author(name='Test name', icon_url=bot.user.default_avatar_url)
     await ctx.send(embed=embed, delete_after=60)
+
 
 @bot.event
 async def on_message(message):
@@ -111,8 +118,11 @@ async def on_message(message):
     if I'm going to change it.
     '''
 
-    try :
+    try:
         channel = message.channel
+
+        if message.content == '?help':
+            msg = await channel.send(embed=help_embed())
 
         if message.content == '!delete-data':
             deleted = await channel.purge(limit=200, check=is_me)
@@ -144,7 +154,7 @@ async def on_message(message):
                 chara_name = 'geese'
             elif chara_name == 'hwo' or chara_name == 'hwoa':
                 chara_name = 'hwoarang'
-            elif chara_name == 'jack'or chara_name == 'jack-7' or chara_name == "jaska":
+            elif chara_name == 'jack' or chara_name == 'jack-7' or chara_name == "jaska":
                 chara_name = 'jack7'
             elif chara_name == 'julle':
                 chara_name = 'julia'
@@ -180,7 +190,7 @@ async def on_message(message):
                 if chara_move.lower() in move_types:
                     chara_move = chara_move.lower()
                     move_list = tkfinder.get_by_move_type(character, move_types[chara_move])
-                    if  len(move_list) < 1:
+                    if len(move_list) < 1:
                         embed = error_embed('No ' + move_types[chara_move].lower() + ' for ' + character['proper_name'])
                         msg = await channel.send(embed=embed, delete_after=delete_after)
                     elif len(move_list) == 1:
@@ -194,8 +204,8 @@ async def on_message(message):
                 else:
                     move = tkfinder.get_move(character, chara_move, True)
 
-                    #First checks the move as case sensitive, if it doesn't find it
-                    #it checks it case unsensitive
+                    # First checks the move as case sensitive, if it doesn't find it
+                    # it checks it case unsensitive
 
                     if move is not None:
                         embed = move_embed(character, move)
@@ -219,7 +229,23 @@ async def on_message(message):
         print(e)
         logger.error(e)
 
+
+def help_embed():
+    text = "```" \
+           "!character move -   get frame data of a move from a character \n" \
+           "!delete-data -      deletes bot's last own messages\n" \
+           "\n" \
+           "The bot automatically deletes it's own messages after 10 seconds except in channel with the 'tekken' or 'frame' in it```\n\n" \
+           "Much thanks and love to T7Chicken Team, BKNR, Dreamotion, Jacket, Cangu and Vesper. \n\n" \
+           "This project won't be possible without you guys <3"
+    embed = discord.Embed(title='Commands', description=text, colour=0x37ba25)
+    embed.set_author(name='Author: Tib')
+
+    return embed
+
+
 def is_me(m):
     return m.author == bot.user
+
 
 bot.run(token)
