@@ -69,6 +69,7 @@ def move_simplifier(move_input):
     '''Removes bells and whistles from the move_input'''
 
     move_replacements = {
+        'fff': 'f,f,f',
         'ff': 'f,f',
         'bf': 'b,f',
         'fb': 'f,b',
