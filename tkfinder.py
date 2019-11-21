@@ -79,8 +79,11 @@ def move_simplifier(move_input):
         'ewgf': 'f,n,d,df+2',
     }
 
+    # Don't apply the above replacements for any of the moves with the following notation
+    replacements_blacklist = ["cds"]
+
     for move in move_replacements:
-        if move in move_input:
+        if not any([mv in move_input for mv in replacements_blacklist]) and move in move_input:
             move_input = move_input.replace(move, move_replacements[move])
 
     move_input = move_input.replace(' ', '')
