@@ -5,6 +5,7 @@ import logging
 import discord
 from discord.ext import commands
 
+from config import const
 import tkfinder
 
 prefix = '§'
@@ -18,24 +19,6 @@ file_handler = logging.FileHandler('config/logfile.log')
 formatter = logging.Formatter('%(asctime)s : %(levelname)s : %(name)s : %(message)s')
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
-
-# Dict for searching special move types
-move_types = {'ra': 'Rage art',
-              'rage_art': 'Rage art',
-              'rd': 'Rage drive',
-              'rage_drive': 'Rage drive',
-              'wb': 'Wall bounce',
-              'wall_bounce': 'Wall bounce',
-              'ts': 'Tail spin',
-              'tail_spin': 'Tail spin',
-              'screw': 'Tail spin',
-              'homing': 'Homing',
-              'homari': 'Homing',
-              'armor': 'Power crush',
-              'armori': 'Power crush',
-              'pc': 'Power crush',
-              'power': 'Power crush',
-              'power_crush': 'Power crush'}
 
 # Get token from local txt file
 dirname, pyfilename = os.path.split(os.path.abspath(sys.argv[0]))
@@ -75,7 +58,6 @@ def move_list_embed(character, move_list, move_type):
     embed = discord.Embed(title=character['proper_name'] + ' ' + move_type.lower() + ':',
                           colour=0x00EAFF,
                           description=desc_string)
-
     return embed
 
 
@@ -83,7 +65,6 @@ def error_embed(err):
     embed = discord.Embed(title='Error',
                           colour=0xFF4500,
                           description=err)
-
     return embed
 
 
@@ -148,18 +129,19 @@ async def on_message(message):
             chara_name = tkfinder.correct_character_name(chara_name)
             character = tkfinder.get_character_data(chara_name)
             if character is not None:
-                if chara_move.lower() in move_types:
+                if chara_move.lower() in const.MOVE_TYPES:
                     chara_move = chara_move.lower()
-                    move_list = tkfinder.get_by_move_type(character, move_types[chara_move])
+                    move_list = tkfinder.get_by_move_type(character, const.MOVE_TYPES[chara_move])
                     if len(move_list) < 1:
-                        embed = error_embed('No ' + move_types[chara_move].lower() + ' for ' + character['proper_name'])
+                        embed = error_embed(
+                            'No ' + const.MOVE_TYPES[chara_move].lower() + ' for ' + character['proper_name'])
                         msg = await channel.send(embed=embed, delete_after=delete_after)
                     elif len(move_list) == 1:
                         move = tkfinder.get_move(character, move_list[0], False)
                         embed = move_embed(character, move)
                         msg = await channel.send(embed=embed, delete_after=delete_after)
                     elif len(move_list) > 1:
-                        embed = move_list_embed(character, move_list, move_types[chara_move])
+                        embed = move_list_embed(character, move_list, const.MOVE_TYPES[chara_move])
                         msg = await channel.send(embed=embed, delete_after=delete_after)
 
                 else:

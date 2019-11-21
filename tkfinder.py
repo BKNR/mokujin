@@ -2,7 +2,7 @@
 import os
 import json
 import difflib
-from config import alias
+from config import const
 
 dirname = os.path.dirname(__file__)
 
@@ -17,7 +17,7 @@ def load_characters_config():
 
 
 def correct_character_name(input: str) -> str:
-    for key, value in alias.CHARACTER_ALIAS.items():
+    for key, value in const.CHARACTER_ALIAS.items():
         if input in value:
             return key
 
