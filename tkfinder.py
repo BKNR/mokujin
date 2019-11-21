@@ -2,8 +2,26 @@
 import os
 import json
 import difflib
+from config import alias
 
 dirname = os.path.dirname(__file__)
+
+
+def load_characters_config():
+    filepath = dirname + '/config/character_misc.json'
+    with open(filepath) as chara_misc_file:
+        contents = chara_misc_file.read()
+
+    chara_misc_json = json.loads(contents)
+    return chara_misc_json
+
+
+def correct_character_name(input: str) -> str:
+    for key, value in alias.CHARACTER_ALIAS.items():
+        if input in value:
+            return key
+
+    return input
 
 
 def get_character_json(character):
@@ -16,8 +34,8 @@ def get_character_json(character):
     return move_json
 
 
-def get_commands_character(chara_name: str) -> list:
-    character = get_character(chara_name)
+def get_commands_from(chara_name: str) -> list:
+    character = get_character_data(chara_name)
     move_json = get_character_json(character)
     result = []
     for move in move_json:
@@ -27,21 +45,17 @@ def get_commands_character(chara_name: str) -> list:
 
 
 def get_similar_moves(move: str, chara_name: str) -> list:
-    movelist = get_commands_character(chara_name)
+    movelist = get_commands_from(chara_name)
     moves = difflib.get_close_matches(move, movelist, 5)
     return list(moves)
 
 
-def get_character(chara_name: str) -> dict:
+def get_character_data(chara_name: str) -> dict:
     '''Gets character details from character_misc.json, if character exists
     returns character details as dict if exists, else None
     '''
 
-    filepath = dirname + '/json/character_misc.json'
-    with open(filepath) as chara_misc_file:
-        contents = chara_misc_file.read()
-
-    chara_misc_json = json.loads(contents)
+    chara_misc_json = load_characters_config()
     chara_details = list(filter(lambda x: (x['name'] == chara_name), chara_misc_json))
 
     if chara_details:
@@ -73,7 +87,7 @@ def get_move(character: dict, move_command: str, case_important: bool) -> dict:
             if not move:
                 for item in move_json:
                     if 'Alias' in item:
-                        move = list(filter(lambda x: (is_command_in_alias(move_command,item)), [item]))
+                        move = list(filter(lambda x: (is_command_in_alias(move_command, item)), [item]))
                         if move:
                             return move[0]
 
@@ -82,20 +96,6 @@ def get_move(character: dict, move_command: str, case_important: bool) -> dict:
     else:
         return None
 
-def is_command_in_alias (command :str, item :dict) -> bool:
-    command = command.lower().strip()
-
-    words = item['Alias'].split(",")
-    newWords = []
-    for word in words:
-        newWords.append(str(word).strip().lower())
-
-    if not command in newWords :
-        for newWord in newWords:
-            if move_simplifier(command) == move_simplifier(newWord):
-                return True
-
-    return command in newWords
 
 def get_by_move_type(character: dict, move_type: str) -> list:
     '''Gets a list of moves that match move_type from local_json
@@ -112,6 +112,22 @@ def get_by_move_type(character: dict, move_type: str) -> list:
         return list(set(move_list))
     else:
         return []
+
+
+def is_command_in_alias(command: str, item: dict) -> bool:
+    command = command.lower().strip()
+
+    words = item['Alias'].split(",")
+    newWords = []
+    for word in words:
+        newWords.append(str(word).strip().lower())
+
+    if not command in newWords:
+        for newWord in newWords:
+            if move_simplifier(command) == move_simplifier(newWord):
+                return True
+
+    return command in newWords
 
 
 def move_simplifier(move_input):
