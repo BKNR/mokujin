@@ -62,11 +62,11 @@
     {
         "Command": "1, 2, 4, F",
         "Hit level": "h, h, h, (SAV)",
-        "Damage": "7,12,16",
+        "Damage": "7,12,20",
         "Start up frame": "10",
         "Block frame": "+3",
-        "Hit frame": "+8",
-        "Counter hit frame": "+8",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
         "Notes": "-"
     },
     {
@@ -132,7 +132,7 @@
     {
         "Command": "3, 4",
         "Hit level": "h, m",
-        "Damage": "16,20",
+        "Damage": "14,20",
         "Start up frame": "13",
         "Block frame": "-12~-11",
         "Hit frame": "KND",
@@ -142,7 +142,7 @@
     {
         "Command": "4",
         "Hit level": "h",
-        "Damage": "17",
+        "Damage": "14",
         "Start up frame": "12",
         "Block frame": "-9",
         "Hit frame": "+5",
@@ -334,8 +334,8 @@
         "Hit level": "m, h, l, (SAV)",
         "Damage": "12,13,13",
         "Start up frame": "13",
-        "Block frame": "-11~-10",
-        "Hit frame": "+3~+4",
+        "Block frame": "-12~-11",
+        "Hit frame": "+2~+3",
         "Counter hit frame": "KND",
         "Notes": "-"
     },
@@ -654,10 +654,10 @@
         "Hit level": "m",
         "Damage": "25",
         "Start up frame": "19 pc8~18",
-        "Block frame": "-13",
+        "Block frame": "-14",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Power crush"
+        "Notes": "Power crush, Wall bounce"
     },
     {
         "Command": "u/b+1",
@@ -832,7 +832,7 @@
     {
         "Command": "f, F+3",
         "Hit level": "h",
-        "Damage": "33",
+        "Damage": "28",
         "Start up frame": "20~21 (21~)",
         "Block frame": "-9~-8",
         "Hit frame": "KND",
@@ -846,6 +846,26 @@
         "Start up frame": "21~22 (21~)",
         "Block frame": "-8~-7",
         "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "b, d/f+4",
+        "Hit level": "l",
+        "Damage": "24",
+        "Start up frame": "27",
+        "Block frame": "-15",
+        "Hit frame": "+8s",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "b, d/f+4, F",
+        "Hit level": "l (SAV)",
+        "Damage": "24",
+        "Start up frame": "27",
+        "Block frame": "-15",
+        "Hit frame": "+8s",
         "Counter hit frame": "KND",
         "Notes": "-"
     },
@@ -1074,7 +1094,7 @@
         "Hit level": "m",
         "Damage": "32",
         "Start up frame": "16(26~)",
-        "Block frame": "-12~-11",
+        "Block frame": "-9~-8",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Notes": "-"
@@ -1222,7 +1242,7 @@
     {
         "Command": "SAV d+4, 3",
         "Hit level": "l, m",
-        "Damage": "8,12",
+        "Damage": "8,15",
         "Start up frame": "15(25~)",
         "Block frame": "-15",
         "Hit frame": "-2",
@@ -1245,7 +1265,7 @@
         "Damage": "20",
         "Start up frame": "19~20 (29~)",
         "Block frame": "-13~-12",
-        "Hit frame": "+5~+6s",
+        "Hit frame": "+4~+5",
         "Counter hit frame": "KND",
         "Notes": "-"
     },
@@ -1255,7 +1275,7 @@
         "Damage": "20",
         "Start up frame": "19~20 (29~)",
         "Block frame": "-13~-12",
-        "Hit frame": "+5~+6s",
+        "Hit frame": "+4~+5",
         "Counter hit frame": "KND",
         "Notes": "-"
     },
@@ -1334,7 +1354,7 @@
         "Hit level": "h, (SAV)",
         "Damage": "20",
         "Start up frame": "17~18 (27~) pc8~16",
-        "Block frame": "-9~-8",
+        "Block frame": "-7~-6",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Notes": "Power crush"
@@ -1392,7 +1412,7 @@
     {
         "Command": "4",
         "Hit level": "h",
-        "Damage": "17",
+        "Damage": "14",
         "Start up frame": "12",
         "Block frame": "-9",
         "Hit frame": "+5",
@@ -1604,10 +1624,10 @@
         "Hit level": "m",
         "Damage": "25",
         "Start up frame": "19 pc8~18",
-        "Block frame": "-13",
+        "Block frame": "-14",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Power crush"
+        "Notes": "Power crush, Wall bounce"
     },
     {
         "Command": "u/b+1",
