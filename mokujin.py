@@ -236,7 +236,7 @@ def help_embed():
            "!delete-data -      deletes bot's last own messages\n" \
            "\n" \
            "The bot automatically deletes it's own messages after 10 seconds except in channel with the 'tekken' or 'frame' in it```\n\n" \
-           "Much thanks and love to T7Chicken Team, BKNR, Dreamotion, Jacket, Cangu and Vesper. \n\n" \
+           "Much thanks and love to T7Chicken Team, Ruxx, BKNR, Dramen, Dreamotion, Jacket, Cangu and Vesper. \n\n" \
            "This project won't be possible without you guys <3"
     embed = discord.Embed(title='Commands', description=text, colour=0x37ba25)
     embed.set_author(name='Author: Tib')
