@@ -506,22 +506,11 @@
         "Start up frame": "18"
     },
     {
-        "Block frame": "-",
-        "Command": "b+1",
-        "Counter hit frame": "+1",
-        "Damage": "10",
-        "Gif": "https://gfycat.com/SilverAlarmingBellsnake.gif",
-        "Hit frame": "+1",
-        "Hit level": "m(RDS)",
-        "Notes": "-",
-        "Start up frame": "8~13(b)"
-    },
-    {
         "Block frame": "-12~-7",
         "Command": "B+1",
         "Counter hit frame": "-1~+4",
         "Damage": "10",
-        "Gif": "",
+        "Gif": "https://gfycat.com/SilverAlarmingBellsnake.gif",
         "Hit frame": "-1~+4",
         "Hit level": "m",
         "Notes": "-",
@@ -1830,7 +1819,7 @@
         "Command": "AOP f+4",
         "Counter hit frame": "+4~+6",
         "Damage": "10",
-        "Gif": null,
+        "Gif": "https://gfycat.com/HastyThisBuzzard.gif",
         "Hit frame": "+4~+6",
         "Hit level": "l (TC), (Special)",
         "Notes": "-",

@@ -638,17 +638,6 @@
         "Start up frame": "16"
     },
     {
-        "Block frame": "-14",
-        "Command": "D+3",
-        "Counter hit frame": "-3",
-        "Damage": "8",
-        "Gif": "",
-        "Hit frame": "-3",
-        "Hit level": "l",
-        "Notes": "-",
-        "Start up frame": "16s"
-    },
-    {
         "Block frame": "-7",
         "Command": "d+3, 3",
         "Counter hit frame": "CS",

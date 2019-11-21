@@ -771,17 +771,6 @@
         "Start up frame": "14"
     },
     {
-        "Block frame": "\u00a0",
-        "Command": "d/f, d/f or From special move (to SNK)",
-        "Counter hit frame": "\u00a0",
-        "Damage": "\u00a0",
-        "Gif": "",
-        "Hit frame": "\u00a0",
-        "Hit level": "(SNK)",
-        "Notes": "-",
-        "Start up frame": "14"
-    },
-    {
         "Block frame": "-1",
         "Command": "SNK 1",
         "Counter hit frame": "+12",
@@ -808,7 +797,7 @@
         "Command": "SNK 3 (Close)",
         "Counter hit frame": "Throw(Launch)",
         "Damage": "13(,5,5)",
-        "Gif": "",
+        "Gif": "https://gfycat.com/VigorousFairGallinule.gif",
         "Hit frame": "Throw(Launch)",
         "Hit level": "m (TJ)(, (throw))",
         "Notes": "-",
