@@ -32,6 +32,28 @@ class MyTestCase(unittest.TestCase):
         result = tkfinder.correct_character_name("kazu")
         self.assertEqual("kazu", result)
 
+    def test_get_cha_move(self):
+        character = {
+            "name": "kazuya",
+            "proper_name": "Kazuya",
+            "local_json": "kazuya.json",
+            "online_webpage": "http://rbnorway.org/kazuya-t7-frames",
+            "portrait": "https://i.imgur.com/kMvhDfU.jpg"
+        }
+
+        self.assertEqual("1, 1, 2",tkfinder.get_move(character, "1 ,1 ,2", False)["Command"])
+        self.assertEqual("f, n, d, d/f+4, 1",tkfinder.get_move(character, "hs", False)["Command"])
+        self.assertEqual("f, n, d/f+2",tkfinder.get_move(character, "ewgf", False)["Command"])
+
+
+def test_none (self):
+        entry = {"Gif" : ""}
+        entry2 = {"Gif" : None}
+        entry3 = {"Gif" : " "}
+        self.assertTrue(not entry["Gif"])
+        self.assertTrue(not entry2["Gif"])
+        self.assertFalse(not entry3["Gif"])
+
 
 if __name__ == '__main__':
     unittest.main()
