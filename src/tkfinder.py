@@ -4,11 +4,11 @@ import json
 import difflib
 from config import const
 
-dirname = os.path.dirname(__file__)
+basepath = os.path.dirname(__file__)
 
 
 def load_characters_config():
-    filepath = dirname + '/config/character_misc.json'
+    filepath = os.path.abspath(os.path.join(basepath, "..", "config", "character_misc.json"))
     with open(filepath) as chara_misc_file:
         contents = chara_misc_file.read()
 
@@ -25,8 +25,8 @@ def correct_character_name(input: str) -> str:
 
 
 def get_character_json(character):
-    move_file_name = '/json/' + character.get('local_json')
-    filepath = dirname + move_file_name
+    os.path.abspath(os.path.join(basepath, "..", "json", character.get('local_json')))
+    filepath = os.path.abspath(os.path.join(basepath, "..", "json", character.get('local_json')))
     with open(filepath) as move_file:
         move_file_contents = move_file.read()
     move_json = json.loads(move_file_contents)
@@ -106,7 +106,6 @@ def get_by_move_type(character: dict, move_type: str) -> list:
 
 
 def is_command_in_alias(command: str, item: dict) -> bool:
-
     if 'Alias' in item:
         command = command.lower().strip()
 

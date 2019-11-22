@@ -41,9 +41,9 @@ class MyTestCase(unittest.TestCase):
             "portrait": "https://i.imgur.com/kMvhDfU.jpg"
         }
 
-        self.assertEqual("1, 1, 2",tkfinder.get_move(character, "1 ,1 ,2", False)["Command"])
-        self.assertEqual("f, n, d, d/f+4, 1",tkfinder.get_move(character, "hs", False)["Command"])
-        self.assertEqual("f, n, d/f+2",tkfinder.get_move(character, "ewgf", False)["Command"])
+        self.assertEqual("1, 1, 2", tkfinder.get_move(character, "1 ,1 ,2", False)["Command"])
+        self.assertEqual("f, n, d, d/f+4, 1", tkfinder.get_move(character, "hs", False)["Command"])
+        self.assertEqual("f, n, d/f+2", tkfinder.get_move(character, "ewgf", False)["Command"])
 
 
 def test_none (self):

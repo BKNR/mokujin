@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import os, sys
+import os
 import datetime
 import logging
 import discord
@@ -8,21 +8,20 @@ from discord.ext import commands
 from config import const
 import tkfinder
 
+basepath = os.path.dirname(__file__)
 prefix = '§'
 description = 'The premier Tekken 7 Frame bot, made by Baikonur#4927'
 bot = commands.Bot(command_prefix=prefix, description=description)
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.WARNING)
-file_handler = logging.FileHandler('config/logfile.log')
-
+file_handler = logging.FileHandler(os.path.abspath(os.path.join(basepath, "..", "config", "logfile.log")))
 formatter = logging.Formatter('%(asctime)s : %(levelname)s : %(name)s : %(message)s')
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
 # Get token from local txt file
-dirname, pyfilename = os.path.split(os.path.abspath(sys.argv[0]))
-tfilename = os.path.join(dirname + "/config/", 'token.txt')
+tfilename = os.path.abspath(os.path.join(basepath, "..", "config", "token.txt"))
 
 with open(tfilename) as token_file:
     token = token_file.read().strip()
