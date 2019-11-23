@@ -127,10 +127,10 @@ def is_command_in_alias(command: str, item: dict) -> bool:
 def move_simplifier(move_input):
     """Removes bells and whistles from the move_input"""
 
-    short_input = move_input.replace('ff', 'f,f')
-    short_input = short_input.replace(' ', '')
-    short_input = short_input.replace('/', '')
-    short_input = short_input.replace('+', '')
+    short_input = move_input
+
+    for old, new in const.REPLACE.items():
+        short_input = move_input.replace(old, new)
 
     # cd works, ewgf doesn't, for some reason
     if short_input[:2].lower() == 'cd' and short_input[:3].lower() != 'cds':
