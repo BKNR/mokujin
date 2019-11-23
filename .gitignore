@@ -1,0 +1,18 @@
+#ignore configuration text files
+*.txt
+__pycache__
+nohup.out
+log
+
+# IntelliJ IDEA
+.idea
+*.iml
+target
+venv
+
+# Eclipse
+.project
+.settings
+
+# VS Code
+.vscode

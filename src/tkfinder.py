@@ -17,11 +17,11 @@ def load_characters_config():
 
 
 def correct_character_name(input: str) -> str:
-    for key, value in const.CHARACTER_ALIAS.items():
-        if input in value:
-            return key
+    # check if input in dictionary or in dictionary values
+    if input in const.CHARACTER_ALIAS or input in const.CHARACTER_ALIAS.values():
+        return input
 
-    return input
+    return None
 
 
 def get_character_json(character):

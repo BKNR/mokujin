@@ -62,37 +62,37 @@ async def on_message(message):
                 delete_after = None
 
             user_message = message.content
-            user_message = user_message.replace('!', '')
+            user_message = user_message[1:]
             user_message_list = user_message.split(' ', 1)
 
             if len(user_message_list) <= 1:
                 # malformed command
                 return
 
-            chara_name = user_message_list[0].lower()
-            chara_move = user_message_list[1]
+            character_name = user_message_list[0].lower()
+            character_move = user_message_list[1]
 
-            chara_name = tkfinder.correct_character_name(chara_name)
-            character = tkfinder.get_character_data(chara_name)
+            character_name = tkfinder.correct_character_name(character_name)
+            character = tkfinder.get_character_data(character_name)
             if character is not None:
-                if chara_move.lower() in const.MOVE_TYPES:
+                if character_move.lower() in const.MOVE_TYPES:
 
-                    chara_move = chara_move.lower()
-                    move_list = tkfinder.get_by_move_type(character, const.MOVE_TYPES[chara_move])
+                    character_move = character_move.lower()
+                    move_list = tkfinder.get_by_move_type(character, const.MOVE_TYPES[character_move])
                     if len(move_list) < 1:
                         result = embed.error_embed(
-                            'No ' + const.MOVE_TYPES[chara_move].lower() + ' for ' + character['proper_name'])
+                            'No ' + const.MOVE_TYPES[character_move].lower() + ' for ' + character['proper_name'])
                         await channel.send(embed=result, delete_after=delete_after)
                     elif len(move_list) == 1:
                         move = tkfinder.get_move(character, move_list[0], False)
                         result = embed.move_embed(character, move)
                         await channel.send(embed=result, delete_after=delete_after)
                     elif len(move_list) > 1:
-                        result = embed.move_list_embed(character, move_list, const.MOVE_TYPES[chara_move])
+                        result = embed.move_list_embed(character, move_list, const.MOVE_TYPES[character_move])
                         await channel.send(embed=result, delete_after=delete_after)
 
                 else:
-                    move = tkfinder.get_move(character, chara_move, True)
+                    move = tkfinder.get_move(character, character_move, True)
 
                     # First checks the move as case sensitive, if it doesn't find it
                     # it checks it case unsensitive
@@ -101,16 +101,16 @@ async def on_message(message):
                         result = embed.move_embed(character, move)
                         await channel.send(embed=result, delete_after=delete_after)
                     else:
-                        move = tkfinder.get_move(character, chara_move, False)
+                        move = tkfinder.get_move(character, character_move, False)
                         if move is not None:
                             result = embed.move_embed(character, move)
                             await channel.send(embed=result, delete_after=delete_after)
                         else:
-                            similar_moves = tkfinder.get_similar_moves(chara_move, chara_name)
+                            similar_moves = tkfinder.get_similar_moves(character_move, character_name)
                             result = embed.similar_moves_embed(similar_moves)
                             await channel.send(embed=result, delete_after=delete_after)
             else:
-                bot_msg = 'Character ' + chara_name + ' does not exist.'
+                bot_msg = 'Character ' + character_name + ' does not exist.'
                 result = embed.error_embed(bot_msg)
                 await message.channel.send(embed=result, delete_after=5)
                 return
