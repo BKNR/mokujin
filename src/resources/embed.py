@@ -2,7 +2,7 @@ import discord
 
 
 def move_embed(character, move):
-    '''Returns the embed message for character and move'''
+    """Returns the embed message for character and move"""
     embed = discord.Embed(title=character['proper_name'],
                           colour=0x00EAFF,
                           url=character['online_webpage'],
@@ -23,7 +23,7 @@ def move_embed(character, move):
 
 
 def move_list_embed(character, move_list, move_type):
-    '''Returns the embed message for a list of moves matching to a special move type'''
+    """Returns the embed message for a list of moves matching to a special move type"""
     desc_string = ''
     for move in move_list:
         desc_string += move + '\n'
@@ -57,6 +57,7 @@ def help_embed():
     embed.set_author(name='Author: Tib')
 
     return embed
+
 
 def thank_embed():
     text = "\n\n" \
