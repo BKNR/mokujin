@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 import os, datetime, logging
 from discord.ext import commands
-from config import const
-import tkfinder, embed
+from src.resources import const, embed
+from src import tkfinder
 
-basepath = os.path.dirname(__file__)
+base_path = os.path.dirname(__file__)
 prefix = '§'
 description = 'The premier Tekken 7 Frame bot, made by Baikonur#4927, continued by Tib#1303'
 bot = commands.Bot(command_prefix=prefix, description=description)
@@ -12,15 +12,15 @@ bot = commands.Bot(command_prefix=prefix, description=description)
 # Set logger to log errors
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.WARNING)
-file_handler = logging.FileHandler(os.path.abspath(os.path.join(basepath, "..", "config", "logfile.log")))
+file_handler = logging.FileHandler(os.path.abspath(os.path.join(base_path, "..", "log", "logfile.log")))
 formatter = logging.Formatter('%(asctime)s : %(levelname)s : %(name)s : %(message)s')
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
 # Get token from local txt file
-tfilename = os.path.abspath(os.path.join(basepath, "..", "config", "token.txt"))
+t_filename = os.path.abspath(os.path.join(base_path, "resources", "token.txt"))
 
-with open(tfilename) as token_file:
+with open(t_filename) as token_file:
     token = token_file.read().strip()
 
 
@@ -35,10 +35,9 @@ async def on_ready():
 
 @bot.event
 async def on_message(message):
-    '''This has the main functionality of the bot. It has a lot of
+    """This has the main functionality of the bot. It has a lot of
     things that would be better suited elsewhere but I don't know
-    if I'm going to change it.
-    '''
+    if I'm going to change it."""
 
     try:
         channel = message.channel
@@ -62,55 +61,56 @@ async def on_message(message):
                 delete_after = None
 
             user_message = message.content
-            user_message = user_message[1:]
-            user_message_list = user_message.split(' ', 1)
+            command = user_message[1:]
+            user_message_list = command.split(' ', 1)
 
             if len(user_message_list) <= 1:
                 # malformed command
                 return
 
-            character_name = user_message_list[0].lower()
-            character_move = user_message_list[1]
+            original_name = user_message_list[0].lower()
+            original_move = user_message_list[1]
 
-            character_name = tkfinder.correct_character_name(character_name)
-            character = tkfinder.get_character_data(character_name)
-            if character is not None:
-                if character_move.lower() in const.MOVE_TYPES:
+            character_name = tkfinder.correct_character_name(original_name)
 
-                    character_move = character_move.lower()
+            if character_name is not None:
+                character = tkfinder.get_character_data(character_name)
+                if original_name.lower() in const.MOVE_TYPES:
+
+                    character_move = original_name.lower()
                     move_list = tkfinder.get_by_move_type(character, const.MOVE_TYPES[character_move])
                     if len(move_list) < 1:
                         result = embed.error_embed(
                             'No ' + const.MOVE_TYPES[character_move].lower() + ' for ' + character['proper_name'])
                         await channel.send(embed=result, delete_after=delete_after)
                     elif len(move_list) == 1:
-                        move = tkfinder.get_move(character, move_list[0], False)
-                        result = embed.move_embed(character, move)
+                        character_move = tkfinder.get_move(character, move_list[0], False)
+                        result = embed.move_embed(character, character_move)
                         await channel.send(embed=result, delete_after=delete_after)
                     elif len(move_list) > 1:
                         result = embed.move_list_embed(character, move_list, const.MOVE_TYPES[character_move])
                         await channel.send(embed=result, delete_after=delete_after)
 
                 else:
-                    move = tkfinder.get_move(character, character_move, True)
+                    character_move = tkfinder.get_move(character, original_move, True)
 
                     # First checks the move as case sensitive, if it doesn't find it
-                    # it checks it case unsensitive
+                    # it checks it case insensitive
 
-                    if move is not None:
-                        result = embed.move_embed(character, move)
+                    if character_move is not None:
+                        result = embed.move_embed(character, character_move)
                         await channel.send(embed=result, delete_after=delete_after)
                     else:
-                        move = tkfinder.get_move(character, character_move, False)
-                        if move is not None:
-                            result = embed.move_embed(character, move)
+                        character_move = tkfinder.get_move(character, original_move, False)
+                        if character_move is not None:
+                            result = embed.move_embed(character, character_move)
                             await channel.send(embed=result, delete_after=delete_after)
                         else:
-                            similar_moves = tkfinder.get_similar_moves(character_move, character_name)
+                            similar_moves = tkfinder.get_similar_moves(original_move, character_name)
                             result = embed.similar_moves_embed(similar_moves)
                             await channel.send(embed=result, delete_after=delete_after)
             else:
-                bot_msg = 'Character ' + character_name + ' does not exist.'
+                bot_msg = f'Character {original_name} does not exist.'
                 result = embed.error_embed(bot_msg)
                 await message.channel.send(embed=result, delete_after=5)
                 return
@@ -122,5 +122,6 @@ async def on_message(message):
 
 def is_me(m):
     return m.author == bot.user
+
 
 bot.run(token)

@@ -2,13 +2,13 @@
 import os
 import json
 import difflib
-from config import const
+from src.resources import const
 
-basepath = os.path.dirname(__file__)
+base_path = os.path.dirname(__file__)
 
 
 def load_characters_config():
-    filepath = os.path.abspath(os.path.join(basepath, "..", "config", "character_misc.json"))
+    filepath = os.path.abspath(os.path.join(base_path, "resources", "character_misc.json"))
     with open(filepath) as chara_misc_file:
         contents = chara_misc_file.read()
 
@@ -16,17 +16,21 @@ def load_characters_config():
     return chara_misc_json
 
 
-def correct_character_name(input: str) -> str:
+def correct_character_name(alias: str):
     # check if input in dictionary or in dictionary values
-    if input in const.CHARACTER_ALIAS or input in const.CHARACTER_ALIAS.values():
-        return input
+    if alias in const.CHARACTER_ALIAS:
+        return alias
+
+    for key, value in const.CHARACTER_ALIAS.items():
+        if alias in value:
+            return key
 
     return None
 
 
 def get_character_json(character):
-    os.path.abspath(os.path.join(basepath, "..", "json", character.get('local_json')))
-    filepath = os.path.abspath(os.path.join(basepath, "..", "json", character.get('local_json')))
+    os.path.abspath(os.path.join(base_path, "..", "json", character.get('local_json')))
+    filepath = os.path.abspath(os.path.join(base_path, "..", "json", character.get('local_json')))
     with open(filepath) as move_file:
         move_file_contents = move_file.read()
     move_json = json.loads(move_file_contents)
@@ -45,15 +49,14 @@ def get_commands_from(chara_name: str) -> list:
 
 
 def get_similar_moves(move: str, chara_name: str) -> list:
-    movelist = get_commands_from(chara_name)
-    moves = difflib.get_close_matches(move, movelist, 5)
+    move_list = get_commands_from(chara_name)
+    moves = difflib.get_close_matches(move, move_list, 5)
     return list(moves)
 
 
 def get_character_data(chara_name: str) -> dict:
-    '''Gets character details from character_misc.json, if character exists
-    returns character details as dict if exists, else None
-    '''
+    """Gets character details from character_misc.json, if character exists
+    returns character details as dict if exists, else None"""
 
     chara_misc_json = load_characters_config()
     chara_details = list(filter(lambda x: (x['name'] == chara_name), chara_misc_json))
@@ -65,9 +68,8 @@ def get_character_data(chara_name: str) -> dict:
 
 
 def get_move(character: dict, move_command: str, case_important: bool) -> dict:
-    '''Gets move from local_json, if exists
-    returns move if exists, else None
-    '''
+    """Gets move from local_json, if exists
+    returns move if exists, else None"""
 
     move_json = get_character_json(character)
 
@@ -89,8 +91,8 @@ def get_move(character: dict, move_command: str, case_important: bool) -> dict:
 
 
 def get_by_move_type(character: dict, move_type: str) -> list:
-    '''Gets a list of moves that match move_type from local_json
-    returns a list of move Commands if finds match(es), else empty list'''
+    """Gets a list of moves that match move_type from local_json
+    returns a list of move Commands if finds match(es), else empty list"""
 
     move_json = get_character_json(character)
 
@@ -110,20 +112,20 @@ def is_command_in_alias(command: str, item: dict) -> bool:
         command = command.lower().strip()
 
         words = item['Alias'].split(",")
-        newWords = []
+        new_words = []
         for word in words:
-            newWords.append(str(word).strip().lower())
+            new_words.append(str(word).strip().lower())
 
-        if not command in newWords:
-            for newWord in newWords:
+        if command not in new_words:
+            for newWord in new_words:
                 if move_simplifier(command) == move_simplifier(newWord):
                     return True
 
-        return command in newWords
+        return command in new_words
 
 
 def move_simplifier(move_input):
-    '''Removes bells and whistles from the move_input'''
+    """Removes bells and whistles from the move_input"""
 
     short_input = move_input.replace('ff', 'f,f')
     short_input = short_input.replace(' ', '')
