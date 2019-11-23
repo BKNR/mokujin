@@ -352,17 +352,6 @@
         "Start up frame": "15"
     },
     {
-        "Block frame": "-13",
-        "Command": "WS+2",
-        "Counter hit frame": "Launch (JG?)",
-        "Damage": "20",
-        "Gif": "",
-        "Hit frame": "Launch (JG?)",
-        "Hit level": "m",
-        "Notes": "-",
-        "Start up frame": "16"
-    },
-    {
         "Block frame": "-",
         "Command": "WS+2 or d/f+2 When hit, 4:3:1",
         "Counter hit frame": "KND",
@@ -742,33 +731,11 @@
         "Command": "WS+1, 4",
         "Counter hit frame": "Launch (JG?)",
         "Damage": "10,10",
-        "Gif": "",
+        "Gif": "https://gfycat.com/MistyMedicalBaldeagle.gif",
         "Hit frame": "Launch (JG?)",
         "Hit level": "m, m?",
         "Notes": "-",
         "Start up frame": "14~15"
-    },
-    {
-        "Block frame": "-13",
-        "Command": "WS+2 ",
-        "Counter hit frame": "Launch (JG?)",
-        "Damage": "20",
-        "Gif": "",
-        "Hit frame": "Launch (JG?)",
-        "Hit level": "m",
-        "Notes": "-",
-        "Start up frame": "16"
-    },
-    {
-        "Block frame": "-12~-11",
-        "Command": "WS+3",
-        "Counter hit frame": "JG",
-        "Damage": "25",
-        "Gif": "",
-        "Hit frame": "KND",
-        "Hit level": "m (TC)",
-        "Notes": "-",
-        "Start up frame": "15~16 cs1~"
     },
     {
         "Block frame": "-3",
@@ -819,7 +786,7 @@
         "Command": "SS+4",
         "Counter hit frame": "KND",
         "Damage": "17",
-        "Gif": "",
+        "Gif": "https://gfycat.com/BeneficialGrimyChrysomelid.gif",
         "Hit frame": "+2~+3",
         "Hit level": "l",
         "Notes": "-",
@@ -1534,7 +1501,7 @@
         "Command": "WS+2",
         "Counter hit frame": "Launch (JG?)",
         "Damage": "20",
-        "Gif": "",
+        "Gif": "https://gfycat.com/ActualDecimalKite.gif\n",
         "Hit frame": "Launch (JG?)",
         "Hit level": "m",
         "Notes": "-",
@@ -1545,7 +1512,7 @@
         "Command": "WS+3",
         "Counter hit frame": "JG",
         "Damage": "25",
-        "Gif": "",
+        "Gif": "https://gfycat.com/IllustriousFrequentHochstettersfrog.gif",
         "Hit frame": "KND",
         "Hit level": "m (TC)",
         "Notes": "-",
@@ -1638,17 +1605,6 @@
         "Hit level": "m",
         "Notes": "-",
         "Start up frame": "15"
-    },
-    {
-        "Block frame": "-9~-8 (11b)",
-        "Command": "SS+4",
-        "Counter hit frame": "KND",
-        "Damage": "17",
-        "Gif": "",
-        "Hit frame": "+2~+3",
-        "Hit level": "l",
-        "Notes": "-",
-        "Start up frame": "21~22b (30~) cs6~"
     },
     {
         "Block frame": "+1~+2",

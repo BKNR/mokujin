@@ -1357,7 +1357,7 @@
         "Command": "SS+1",
         "Counter hit frame": "CS",
         "Damage": "23",
-        "Gif": "",
+        "Gif": "https://gfycat.com/NeighboringDaringDegus.gif",
         "Hit frame": "CS",
         "Hit level": "h",
         "Notes": "Tail spin",
@@ -1379,7 +1379,7 @@
         "Command": "SS+2, 3",
         "Counter hit frame": "KND",
         "Damage": "20,20",
-        "Gif": "",
+        "Gif": "https://gfycat.com/SnoopyCloseBassethound.gif",
         "Hit frame": "+5~+6",
         "Hit level": "m, l",
         "Notes": "-",
@@ -2165,17 +2165,6 @@
         "Hit level": "l (TC)",
         "Notes": "-",
         "Start up frame": "12s cs1~"
-    },
-    {
-        "Block frame": "-5~-4",
-        "Command": "SS+1",
-        "Counter hit frame": "CS",
-        "Damage": "23",
-        "Gif": "",
-        "Hit frame": "CS",
-        "Hit level": "h",
-        "Notes": "Tail spin",
-        "Start up frame": "17~18 (26~)"
     },
     {
         "Block frame": "-6~-5",

@@ -708,7 +708,7 @@
         "Command": "WS+1",
         "Counter hit frame": "+3~+4",
         "Damage": "12",
-        "Gif": "",
+        "Gif": "https://gfycat.com/InfiniteUntimelyBobcat.gif",
         "Hit frame": "+3~+4",
         "Hit level": "m",
         "Notes": "-",
@@ -726,17 +726,6 @@
         "Start up frame": "13~14"
     },
     {
-        "Block frame": "-14",
-        "Command": "WS+2",
-        "Counter hit frame": "-3",
-        "Damage": "10",
-        "Gif": "",
-        "Hit frame": "-3",
-        "Hit level": "m",
-        "Notes": "-",
-        "Start up frame": "18"
-    },
-    {
         "Block frame": "-",
         "Command": "WS+2 When hit F+2",
         "Counter hit frame": "Launch",
@@ -746,17 +735,6 @@
         "Hit level": "m, (throw)",
         "Notes": "-",
         "Start up frame": "18"
-    },
-    {
-        "Block frame": "-8~-7",
-        "Command": "WS+3",
-        "Counter hit frame": "Tail spin",
-        "Damage": "14",
-        "Gif": "",
-        "Hit frame": "Tail spin",
-        "Hit level": "h",
-        "Notes": "Tail spin",
-        "Start up frame": "15~16"
     },
     {
         "Block frame": "-5",
@@ -779,17 +757,6 @@
         "Hit level": "m",
         "Notes": "-",
         "Start up frame": "15"
-    },
-    {
-        "Block frame": "-12",
-        "Command": "SS+3",
-        "Counter hit frame": "KND",
-        "Damage": "18",
-        "Gif": "",
-        "Hit frame": "+6",
-        "Hit level": "l",
-        "Notes": "-",
-        "Start up frame": "19(28~)"
     },
     {
         "Block frame": "-21~+2",
@@ -1397,22 +1364,11 @@
         "Start up frame": "js9~"
     },
     {
-        "Block frame": "-8",
-        "Command": "WS+1",
-        "Counter hit frame": "+3",
-        "Damage": "12",
-        "Gif": "",
-        "Hit frame": "+3",
-        "Hit level": "m",
-        "Notes": "-",
-        "Start up frame": "13"
-    },
-    {
         "Block frame": "-14",
         "Command": "WS+2",
         "Counter hit frame": "-3",
         "Damage": "10",
-        "Gif": "",
+        "Gif": "https://gfycat.com/DescriptiveOptimalKoi.gif",
         "Hit frame": "-3",
         "Hit level": "m",
         "Notes": "-",
@@ -1423,7 +1379,7 @@
         "Command": "WS+3",
         "Counter hit frame": "Tail spin",
         "Damage": "14",
-        "Gif": "",
+        "Gif": "https://gfycat.com/FlickeringEquatorialAmethystsunbird.gif",
         "Hit frame": "Tail spin",
         "Hit level": "h",
         "Notes": "Tail spin",
@@ -1467,7 +1423,7 @@
         "Command": "SS+3",
         "Counter hit frame": "KND",
         "Damage": "18",
-        "Gif": "",
+        "Gif": "https://gfycat.com/LastRigidAmericanalligator.gif",
         "Hit frame": "+6",
         "Hit level": "l",
         "Notes": "-",

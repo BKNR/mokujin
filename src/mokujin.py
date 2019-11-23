@@ -2,12 +2,11 @@
 import os, datetime, logging
 import sys
 
+sys.path.insert(1, (os.path.dirname(os.path.dirname(__file__))))
+
 from discord.ext import commands
 from src.resources import const, embed
 from src import tkfinder
-
-# Insert you location of mokujin here
-sys.path.insert(1, 'absolute/path/to/your/mokujin')
 
 base_path = os.path.dirname(__file__)
 prefix = '§'
@@ -17,7 +16,13 @@ bot = commands.Bot(command_prefix=prefix, description=description)
 # Set logger to log errors
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.WARNING)
-file_handler = logging.FileHandler(os.path.abspath(os.path.join(base_path, "..", "log", "logfile.log")))
+
+logfile_path = os.path.abspath(os.path.join(base_path, "..", "log", "logfile.log"))
+# Create logfile if not exists
+if not os.path.isfile(logfile_path):
+    open(logfile_path, "w")
+file_handler = logging.FileHandler(logfile_path)
+
 formatter = logging.Formatter('%(asctime)s : %(levelname)s : %(name)s : %(message)s')
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
@@ -27,6 +32,17 @@ t_filename = os.path.abspath(os.path.join(base_path, "resources", "token.txt"))
 
 with open(t_filename) as token_file:
     token = token_file.read().strip()
+
+
+def add_feedback(sender_name: str, server_name: str, message: str):
+    path = os.path.abspath(os.path.join(base_path, "..", "log", "feedback.csv"))
+    # Create file if not exists
+    if not os.path.isfile(path):
+        open(path, "w")
+
+    with open(path, "a") as feedback_file:
+        result = "{};{};{};\n".format(sender_name, server_name, message)
+        feedback_file.write(result)
 
 
 @bot.event
@@ -47,19 +63,29 @@ async def on_message(message):
     try:
         channel = message.channel
 
-        if message.content == "?credit" :
+        if message.content == "?credit":
             await channel.send(embed=embed.thank_embed())
             return
 
-        if message.content == '?help':
+        elif message.content == '!help':
             await channel.send(embed=embed.help_embed())
             return
 
-        if message.content == '!delete-data':
+        elif message.content == '!clear-messages':
             await channel.purge(limit=200, check=is_me)
             return
 
-        if message.content.startswith('!'):
+        elif message.content.startswith('?feedback'):
+            user_message = message.content.split(' ', 1)[1]
+            server_name = str(message.channel.guild)
+            try:
+                add_feedback(str(message.author), server_name, user_message)
+                await channel.send(embed=embed.success_embed("Feedback sent"))
+            except Exception as e:
+                await channel.send(embed=embed.error_embed("Feedback couldn't be sent caused by: " + e))
+            return
+
+        elif message.content.startswith('!'):
 
             delete_after = 13
             if ('tekken' in channel.name) or ('frame' in channel.name):

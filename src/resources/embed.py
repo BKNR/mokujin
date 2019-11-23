@@ -40,6 +40,12 @@ def error_embed(err):
                           description=err)
     return embed
 
+def success_embed(message):
+    embed = discord.Embed(title='Success',
+                          colour=0x3ddb2c,
+                          description=message)
+    return embed
+
 
 def similar_moves_embed(similar_moves):
     embed = discord.Embed(title='Move not found', colour=0xfcba03,
@@ -49,9 +55,10 @@ def similar_moves_embed(similar_moves):
 
 
 def help_embed():
-    text = "```" \
-           "!character move -   get frame data of a move from a character \n" \
-           "!delete-data -      deletes bot's last own messages```\n\n " \
+    text = "" \
+           "!character move     - get frame data of a move from a character \n" \
+           "!delete-data        - deletes bot's last own messages\n" \
+           "?feedback message   - send message including sender name to the devs  \n\n " \
             "The bot automatically deletes it's own messages after 10 seconds except in channel with the 'tekken' or 'frame' in it"
     embed = discord.Embed(title='Commands', description=text, colour=0x37ba25)
     embed.set_author(name='Author: Tib')

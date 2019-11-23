@@ -2,7 +2,7 @@
 *.txt
 __pycache__
 nohup.out
-log
+
 
 # IntelliJ IDEA
 .idea
