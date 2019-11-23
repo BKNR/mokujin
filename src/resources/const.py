@@ -42,7 +42,7 @@ CHARACTER_ALIAS = {
     'shaheen': ['sha'],
     'steve': ['stv'],
     'yoshimitsu': ['yoshi', 'manji', 'yos'],
-    'xiaoyu': ['ling'],
+    'xiaoyu': ['xiao', 'ling'],
     'zafina': ['zaffy', 'zaf']
 }
 
