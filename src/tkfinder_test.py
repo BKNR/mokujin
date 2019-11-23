@@ -40,13 +40,13 @@ class MyTestCase(unittest.TestCase):
             "online_webpage": "http://rbnorway.org/kazuya-t7-frames",
             "portrait": "https://i.imgur.com/kMvhDfU.jpg"
         }
-        self.assertEqual("f, f, f+3 or WR+3", tkfinder.get_move(character, "wr3", False)["Command"])
-        self.assertEqual("1, 1, 2", tkfinder.get_move(character, "112", False)["Command"])
-        self.assertEqual("f, n, d, d/f+4, 1", tkfinder.get_move(character, "hs", False)["Command"])
-        self.assertEqual("f, n, d, d/f+4, 1", tkfinder.get_move(character, "cd41", False)["Command"])
-        self.assertEqual("f, n, d/f+2", tkfinder.get_move(character, "ewgf", False)["Command"])
-        self.assertEqual("WS+1, 2", tkfinder.get_move(character, "ws12", False)["Command"])
-        self.assertEqual("b+2,1", tkfinder.get_move(character, "b21", False)["Command"])
+        self.assertEqual("f, f, f+3 or WR+3", tkfinder.get_move(character, "wr3")["Command"])
+        self.assertEqual("1, 1, 2", tkfinder.get_move(character, "112")["Command"])
+        self.assertEqual("f, n, d, d/f+4, 1", tkfinder.get_move(character, "hs")["Command"])
+        self.assertEqual("f, n, d, d/f+4, 1", tkfinder.get_move(character, "cd41")["Command"])
+        self.assertEqual("f, n, d/f+2", tkfinder.get_move(character, "ewgf")["Command"])
+        self.assertEqual("WS+1, 2", tkfinder.get_move(character, "ws12")["Command"])
+        self.assertEqual("b+2,1", tkfinder.get_move(character, "b21")["Command"])
         marduk = {
             "name": "marduk",
             "proper_name": "Marduk",
@@ -54,10 +54,10 @@ class MyTestCase(unittest.TestCase):
             "online_webpage": "http://rbnorway.org/marduk-t7-frames",
             "portrait": "https://i.imgur.com/2OtX6nd.png"
         }
-        self.assertEqual("d/f+3, d/f+1, 2", tkfinder.get_move(marduk, "df3df12", False)["Command"])
-        self.assertEqual("d/f+3, 1, d+2", tkfinder.get_move(marduk, "df31,d+2", False)["Command"])
-        self.assertEqual("d/f+3, 1, d+2", tkfinder.get_move(marduk, "df3,1d+2", False)["Command"])
-        self.assertEqual("d/f+3, 1, d+2", tkfinder.get_move(marduk, "df+3,1d2", False)["Command"])
+        self.assertEqual("d/f+3, d/f+1, 2", tkfinder.get_move(marduk, "df3df12")["Command"])
+        self.assertEqual("d/f+3, 1, d+2", tkfinder.get_move(marduk, "df31,d+2")["Command"])
+        self.assertEqual("d/f+3, 1, d+2", tkfinder.get_move(marduk, "df3,1d+2")["Command"])
+        self.assertEqual("d/f+3, 1, d+2", tkfinder.get_move(marduk, "df+3,1d2")["Command"])
 
         leo = {
             "name": "leo",
@@ -66,10 +66,10 @@ class MyTestCase(unittest.TestCase):
             "online_webpage": "http://rbnorway.org/leo-t7-frames",
             "portrait": "https://i.imgur.com/i1CO8SB.jpg"
         }
-        self.assertEqual("WS+4, 1+2", tkfinder.get_move(leo, "ws41+2", False)["Command"])
-        self.assertEqual("b+1, 4", tkfinder.get_move(leo, "b14", False)["Command"])
-        self.assertEqual("KNK 3, 4", tkfinder.get_move(leo, "knk 34", False)["Command"])
-        self.assertEqual("KNK 1+2", tkfinder.get_move(leo, "knk 1+2", False)["Command"])
+        self.assertEqual("WS+4, 1+2", tkfinder.get_move(leo, "ws41+2")["Command"])
+        self.assertEqual("b+1, 4", tkfinder.get_move(leo, "b14")["Command"])
+        self.assertEqual("KNK 3, 4", tkfinder.get_move(leo, "knk 34")["Command"])
+        self.assertEqual("KNK 1+2", tkfinder.get_move(leo, "knk 1+2")["Command"])
 
         kazumi = {
             "name": "kazumi",
@@ -78,12 +78,12 @@ class MyTestCase(unittest.TestCase):
             "online_webpage": "http://rbnorway.org/kazumi-t7-frames",
             "portrait": "https://i.imgur.com/ZNiaFwL.jpg"
         }
-        self.assertEqual("b, f+2, 1, 1+2", tkfinder.get_move(kazumi, "bf211+2", False)["Command"])
-        self.assertEqual("u/f+4", tkfinder.get_move(kazumi, "uf4", False)["Command"])
+        self.assertEqual("b, f+2, 1, 1+2", tkfinder.get_move(kazumi, "bf211+2")["Command"])
+        self.assertEqual("u/f+4", tkfinder.get_move(kazumi, "uf4")["Command"])
 
-    def test_replace_plus(self):
+    def test_move_simplifier(self):
         move = "df+3, df+1, 1+2"
-        self.assertEqual("df3, df1, 1+2", tkfinder.replace_plus(move))
+        self.assertEqual("df3df11+2", tkfinder.move_simplifier(move))
 
     def test_none(self):
         entry1 = json.loads("[{\"Gif\": \"\"}]")

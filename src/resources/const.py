@@ -42,7 +42,7 @@ CHARACTER_ALIAS = {
     'shaheen': ['sha'],
     'steve': ['stv'],
     'yoshimitsu': ['yoshi', 'manji', 'yos'],
-    'xiaoyu': ['ling'],
+    'xiaoyu': ['xiao', 'ling'],
     'zafina': ['zaffy', 'zaf']
 }
 
@@ -64,4 +64,24 @@ MOVE_TYPES = {
     'pc': 'Power crush',
     'power': 'Power crush',
     'power_crush': 'Power crush'
+}
+
+REPLACE = {
+    ' ': '',
+    ',': '',
+    '/': '',
+    'd+': 'd',
+    'f+': 'f',
+    'u+': 'u',
+    'b+': 'b',
+    'n+': 'n',
+    'ws+': 'ws',
+    'fc+': 'fc',
+    'cd+': 'cd',
+    'wr+': 'wr',
+    'ra+': 'ra',
+    'rd+': 'rd',
+    'ss+': 'ss',
+    '(': '',
+    ')': ''
 }

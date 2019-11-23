@@ -65,22 +65,19 @@ def get_character_data(chara_name: str) -> dict:
         return None
 
 
-def get_move(character: dict, move_command: str, case_important: bool) -> dict:
+def get_move(character: dict, move_command: str) -> dict:
     """Gets move from local_json, if exists
     returns move if exists, else None"""
 
     move_json = get_character_json(character)
 
-    if case_important:
-        move = list(filter(lambda x: (x['Command'] == move_command), move_json))
-    else:
-        move = list(filter(lambda x: (move_simplifier(x['Command'].lower())
-                                      == move_simplifier(move_command.lower())), move_json))
+    move = list(filter(lambda x: (move_simplifier(x['Command'].lower())
+                                  == move_simplifier(move_command.lower())), move_json))
+    if not move:
+        move = list(filter(lambda x: move_simplifier(move_command.lower())
+                                     in move_simplifier(x['Command'].lower()), move_json))
         if not move:
-            move = list(filter(lambda x: move_simplifier(move_command.lower())
-                                         in move_simplifier(x['Command'].lower()), move_json))
-            if not move:
-                move = list(filter(lambda x: (is_command_in_alias(move_command, x)), move_json))
+            move = list(filter(lambda x: (is_command_in_alias(move_command, x)), move_json))
 
     if move:
         return move[0]
@@ -122,14 +119,13 @@ def is_command_in_alias(command: str, item: dict) -> bool:
         return command in alias_list
 
 
-def move_simplifier(move_input):
+def move_simplifier(move_input) -> str:
     """Removes bells and whistles from the move_input"""
 
-    short_input = move_input.replace('ff', 'f,f')
-    short_input = short_input.replace(' ', '')
-    short_input = short_input.replace('/', '')
-    short_input = short_input.replace(',', '')
-    short_input = replace_plus(short_input)
+    short_input = move_input
+
+    for old, new in const.REPLACE.items():
+        short_input = short_input.replace(old, new)
 
     # cd works, ewgf doesn't, for some reason
     if short_input[:2].lower() == 'cd' and short_input[:3].lower() != 'cds':
@@ -137,14 +133,3 @@ def move_simplifier(move_input):
     if short_input[:2].lower() == 'wr':
         short_input = short_input.lower().replace('wr', 'fff')
     return short_input
-
-def replace_plus(move_input :str):
-
-    move_input = move_input.replace("d+","d")
-    move_input = move_input.replace("u+","u")
-    move_input = move_input.replace("f+","f")
-    move_input = move_input.replace("b+","b")
-    move_input = move_input.replace("r+","r")
-    move_input = move_input.replace("s+","s")
-
-    return move_input

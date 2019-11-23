@@ -115,7 +115,7 @@ async def on_message(message):
                             'No ' + const.MOVE_TYPES[character_move].lower() + ' for ' + character['proper_name'])
                         await channel.send(embed=result, delete_after=delete_after)
                     elif len(move_list) == 1:
-                        character_move = tkfinder.get_move(character, move_list[0], False)
+                        character_move = tkfinder.get_move(character, move_list[0])
                         result = embed.move_embed(character, character_move)
                         await channel.send(embed=result, delete_after=delete_after)
                     elif len(move_list) > 1:
@@ -123,7 +123,7 @@ async def on_message(message):
                         await channel.send(embed=result, delete_after=delete_after)
 
                 else:
-                    character_move = tkfinder.get_move(character, original_move, True)
+                    character_move = tkfinder.get_move(character, original_move)
 
                     # First checks the move as case sensitive, if it doesn't find it
                     # it checks it case insensitive
@@ -132,7 +132,7 @@ async def on_message(message):
                         result = embed.move_embed(character, character_move)
                         await channel.send(embed=result, delete_after=delete_after)
                     else:
-                        character_move = tkfinder.get_move(character, original_move, False)
+                        character_move = tkfinder.get_move(character, original_move)
                         if character_move is not None:
                             result = embed.move_embed(character, character_move)
                             await channel.send(embed=result, delete_after=delete_after)
