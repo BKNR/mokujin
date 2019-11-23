@@ -726,17 +726,6 @@
         "Start up frame": "11~12"
     },
     {
-        "Block frame": "-12~-11",
-        "Command": "SS+4",
-        "Counter hit frame": "KND",
-        "Damage": "20",
-        "Gif": "",
-        "Hit frame": "+6~+7s",
-        "Hit level": "l",
-        "Notes": "-",
-        "Start up frame": "20~21s (29~)"
-    },
-    {
         "Block frame": "-",
         "Command": "From special move",
         "Counter hit frame": "-",
@@ -1192,7 +1181,7 @@
         "Command": "WS+3",
         "Counter hit frame": "KND",
         "Damage": "-",
-        "Gif": "",
+        "Gif": "https://giant.gfycat.com/GrimOffensiveDuckling.gif",
         "Hit frame": "KND",
         "Hit level": "m",
         "Notes": "-",
@@ -1346,7 +1335,7 @@
         "Command": "SS+4",
         "Counter hit frame": "KND",
         "Damage": "20",
-        "Gif": "https://gfycat.com/rawmiserableamericanquarterhorse-claudio",
+        "Gif": "https://gfycat.com/rawmiserableamericanquarterhorse.gif",
         "Hit frame": "+6~+7s",
         "Hit level": "l",
         "Notes": "-",

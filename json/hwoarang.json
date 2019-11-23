@@ -1006,7 +1006,7 @@
         "Command": "WS+3",
         "Counter hit frame": "KND",
         "Damage": "20",
-        "Gif": "",
+        "Gif": "https://giant.gfycat.com/ThreadbareElasticIndianpalmsquirrel.gif",
         "Hit frame": "KND",
         "Hit level": "m",
         "Notes": "-",
@@ -1028,7 +1028,7 @@
         "Command": "WS+4, 4",
         "Counter hit frame": "4s",
         "Damage": "12,13",
-        "Gif": "",
+        "Gif": "https://giant.gfycat.com/RapidImperturbableAmoeba.gif",
         "Hit frame": "4s",
         "Hit level": "m, m(RFF)",
         "Notes": "-",
@@ -1077,17 +1077,6 @@
         "Hit level": "m, h(LFS)",
         "Notes": "-",
         "Start up frame": "18"
-    },
-    {
-        "Block frame": "-13",
-        "Command": "SS+4",
-        "Counter hit frame": "KND",
-        "Damage": "18",
-        "Gif": "",
-        "Hit frame": "5s",
-        "Hit level": "l(RFF)",
-        "Notes": "-",
-        "Start up frame": "19"
     },
     {
         "Block frame": "-13",
@@ -1600,7 +1589,7 @@
         "Command": "f+3 ",
         "Counter hit frame": "-",
         "Damage": "-",
-        "Gif": "",
+        "Gif": "https://giant.gfycat.com/ThreadbareElasticIndianpalmsquirrel.gif",
         "Hit frame": "-",
         "Hit level": "(Special)",
         "Notes": "-",
@@ -2542,17 +2531,6 @@
         "Start up frame": "15~16"
     },
     {
-        "Block frame": "-7~-3",
-        "Command": "WS+3",
-        "Counter hit frame": "KND",
-        "Damage": "20",
-        "Gif": "",
-        "Hit frame": "KND",
-        "Hit level": "m",
-        "Notes": "-",
-        "Start up frame": "14~18"
-    },
-    {
         "Block frame": "-3~-2",
         "Command": "WS+4",
         "Counter hit frame": "+8~+9",
@@ -2645,7 +2623,7 @@
         "Command": "SS+4",
         "Counter hit frame": "KND",
         "Damage": "18",
-        "Gif": "",
+        "Gif": "https://giant.gfycat.com/ElaborateBlackAnkolewatusi.gif",
         "Hit frame": "+5~+6s",
         "Hit level": "l(RFF)",
         "Notes": "-",

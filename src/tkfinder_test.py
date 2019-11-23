@@ -1,4 +1,4 @@
-import unittest
+import unittest, json
 from src import tkfinder
 
 
@@ -86,12 +86,17 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual("df3, df1, 1+2", tkfinder.replace_plus(move))
 
     def test_none(self):
-        entry = {"Gif": ""}
-        entry2 = {"Gif": None}
-        entry3 = {"Gif": " "}
-        self.assertTrue(not entry["Gif"])
-        self.assertTrue(not entry2["Gif"])
-        self.assertFalse(not entry3["Gif"])
+        entry1 = json.loads("[{\"Gif\": \"\"}]")
+        entry2 = json.loads("[{\"Gif\": \"something\"}]")
+        entry3 = json.loads("[{\"Gif\": null}]")
+        entry4 = json.loads("[{\"Test\": \"test\"}]")
+
+        self.assertTrue(not entry1[0]["Gif"])
+        self.assertTrue(entry2[0]["Gif"])
+        self.assertTrue(not entry3[0]["Gif"])
+        self.assertTrue(not 'Gif' in entry4)
+
+        self.assertTrue("ws12" == "ws12")
 
 
 if __name__ == '__main__':

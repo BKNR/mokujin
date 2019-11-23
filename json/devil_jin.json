@@ -994,7 +994,7 @@
         "Command": "WS+1, 2",
         "Counter hit frame": "+4~+5",
         "Damage": "12,14",
-        "Gif": "",
+        "Gif": "https://giant.gfycat.com/MatureWillingEeve.gif",
         "Hit frame": "+4~+5",
         "Hit level": "m, m",
         "Notes": "-",
@@ -1005,7 +1005,7 @@
         "Command": "WS+1, 4",
         "Counter hit frame": "KND",
         "Damage": "12,23",
-        "Gif": "",
+        "Gif": "https://giant.gfycat.com/MarriedThriftyBaldeagle.gif",
         "Hit frame": "KND",
         "Hit level": "m, h",
         "Notes": "Tail spin",
@@ -1016,7 +1016,7 @@
         "Command": "WS+2",
         "Counter hit frame": "KND",
         "Damage": "20",
-        "Gif": "",
+        "Gif": "https://giant.gfycat.com/OrnateElementaryIndianrockpython.gif",
         "Hit frame": "KND",
         "Hit level": "m",
         "Notes": "Tail spin",
@@ -1038,7 +1038,7 @@
         "Command": "WS+4, 4",
         "Counter hit frame": "-4~-3s",
         "Damage": "13,16",
-        "Gif": "",
+        "Gif": "https://giant.gfycat.com/AstonishingNauticalIndianelephant.gif",
         "Hit frame": "-4~-3s",
         "Hit level": "m, m",
         "Notes": "-",
@@ -1049,20 +1049,9 @@
         "Command": "SS+2",
         "Counter hit frame": "Launch",
         "Damage": "25",
-        "Gif": "",
+        "Gif": "https://giant.gfycat.com/WhiteHandmadeBirdofparadise.gif",
         "Hit frame": "Launch",
         "Hit level": "m",
-        "Notes": "-",
-        "Start up frame": "17~18 (26~)"
-    },
-    {
-        "Block frame": "-",
-        "Command": "SS+2 U(When hit )",
-        "Counter hit frame": "-",
-        "Damage": "25(,24,20)",
-        "Gif": "",
-        "Hit frame": "Throw(KND)",
-        "Hit level": "m, (throw)",
         "Notes": "-",
         "Start up frame": "17~18 (26~)"
     },
@@ -1674,17 +1663,6 @@
         "Start up frame": "13~14"
     },
     {
-        "Block frame": "-12~-11",
-        "Command": "WS+2",
-        "Counter hit frame": "KND",
-        "Damage": "20",
-        "Gif": "",
-        "Hit frame": "KND",
-        "Hit level": "m",
-        "Notes": "Tail spin",
-        "Start up frame": "15~16"
-    },
-    {
         "Block frame": "-16",
         "Command": "WS+3",
         "Counter hit frame": "KND",
@@ -1760,17 +1738,6 @@
         "Hit level": "h",
         "Notes": "-",
         "Start up frame": "10(11~)"
-    },
-    {
-        "Block frame": "-22~-21",
-        "Command": "SS+2",
-        "Counter hit frame": "Launch",
-        "Damage": "25",
-        "Gif": "",
-        "Hit frame": "Launch",
-        "Hit level": "m",
-        "Notes": "-",
-        "Start up frame": "17~18 (26~)"
     },
     {
         "Block frame": "-14",

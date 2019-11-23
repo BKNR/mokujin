@@ -760,17 +760,6 @@
         "Start up frame": "63~64 (64~)"
     },
     {
-        "Block frame": "-14~-13",
-        "Command": "WS+2",
-        "Counter hit frame": "Launch",
-        "Damage": "20",
-        "Gif": "",
-        "Hit frame": "Launch",
-        "Hit level": "m",
-        "Notes": "-",
-        "Start up frame": "15~16"
-    },
-    {
         "Block frame": "-8~-7",
         "Command": "WS+3",
         "Counter hit frame": "+3~+4",
@@ -786,7 +775,7 @@
         "Command": "WS+3, 2",
         "Counter hit frame": "CS",
         "Damage": "16,21",
-        "Gif": "",
+        "Gif": "https://giant.gfycat.com/VillainousBogusIberianbarbel.gif",
         "Hit frame": "KND",
         "Hit level": "m, h",
         "Notes": "Tail spin",
@@ -859,22 +848,11 @@
         "Start up frame": "46~56d js1~"
     },
     {
-        "Block frame": "+8",
-        "Command": "SS+1",
-        "Counter hit frame": "KND",
-        "Damage": "23",
-        "Gif": "",
-        "Hit frame": "KND",
-        "Hit level": "h",
-        "Notes": "-",
-        "Start up frame": "20(30~)"
-    },
-    {
         "Block frame": "-12",
         "Command": "SS+3",
         "Counter hit frame": "+12",
         "Damage": "18",
-        "Gif": "",
+        "Gif": "https://giant.gfycat.com/PoisedAdoredCanvasback.gif",
         "Hit frame": "+4",
         "Hit level": "l",
         "Notes": "-",
@@ -1479,7 +1457,7 @@
         "Command": "WS+2",
         "Counter hit frame": "Launch",
         "Damage": "20",
-        "Gif": "",
+        "Gif": "https://giant.gfycat.com/EnlightenedQuarterlyBillygoat.gif",
         "Hit frame": "Launch",
         "Hit level": "m",
         "Notes": "-",
@@ -1556,7 +1534,7 @@
         "Command": "SS+1",
         "Counter hit frame": "KND",
         "Damage": "23",
-        "Gif": "",
+        "Gif": "https://giant.gfycat.com/WeepySmartHairstreak.gif",
         "Hit frame": "KND",
         "Hit level": "h",
         "Notes": "-",
@@ -1572,17 +1550,6 @@
         "Hit level": "h",
         "Notes": "-",
         "Start up frame": "10(11~)"
-    },
-    {
-        "Block frame": "-12",
-        "Command": "SS+3",
-        "Counter hit frame": "+12",
-        "Damage": "18",
-        "Gif": "",
-        "Hit frame": "+4",
-        "Hit level": "l",
-        "Notes": "-",
-        "Start up frame": "19(29~)"
     },
     {
         "Block frame": "-7",
