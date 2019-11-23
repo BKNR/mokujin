@@ -67,7 +67,7 @@ async def on_message(message):
             await channel.send(embed=embed.thank_embed())
             return
 
-        elif message.content == '?help':
+        elif message.content == '!help':
             await channel.send(embed=embed.help_embed())
             return
 
