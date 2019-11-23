@@ -40,6 +40,12 @@ def error_embed(err):
                           description=err)
     return embed
 
+def success_embed(message):
+    embed = discord.Embed(title='Success',
+                          colour=0x3ddb2c,
+                          description=message)
+    return embed
+
 
 def similar_moves_embed(similar_moves):
     embed = discord.Embed(title='Move not found', colour=0xfcba03,

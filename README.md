@@ -24,6 +24,7 @@ if ('tekken' in channel.name) or ('frame' in channel.name)
 
 Commands
 ```
-!character move -   get frame data of a move from a character
-!delete-data -      deletes bot's last own messages
+!character move     -   get frame data of a move from a character
+!clear-messages     -   clear bot's last own messages
+?feedback message   -   send message to the author   
 ```
