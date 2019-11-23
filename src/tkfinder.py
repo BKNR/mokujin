@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
-import os
-import json
-import difflib
+import os, json, difflib
 from src.resources import const
 
 base_path = os.path.dirname(__file__)
@@ -111,17 +109,17 @@ def is_command_in_alias(command: str, item: dict) -> bool:
     if 'Alias' in item:
         command = command.lower().strip()
 
-        words = item['Alias'].split(",")
-        new_words = []
-        for word in words:
-            new_words.append(str(word).strip().lower())
+        aliases = item['Alias'].split(",")
+        alias_list = []
+        for word in aliases:
+            alias_list.append(str(word).strip().lower())
 
-        if command not in new_words:
-            for newWord in new_words:
-                if move_simplifier(command) == move_simplifier(newWord):
+        if command not in alias_list:
+            for alias in alias_list:
+                if move_simplifier(command) == move_simplifier(alias):
                     return True
 
-        return command in new_words
+        return command in alias_list
 
 
 def move_simplifier(move_input):
@@ -130,12 +128,23 @@ def move_simplifier(move_input):
     short_input = move_input.replace('ff', 'f,f')
     short_input = short_input.replace(' ', '')
     short_input = short_input.replace('/', '')
-    short_input = short_input.replace('+', '')
+    short_input = short_input.replace(',', '')
+    short_input = replace_plus(short_input)
 
     # cd works, ewgf doesn't, for some reason
     if short_input[:2].lower() == 'cd' and short_input[:3].lower() != 'cds':
-        short_input = short_input.lower().replace('cd', 'f,n,d,df')
+        short_input = short_input.lower().replace('cd', 'fnddf')
     if short_input[:2].lower() == 'wr':
-        short_input = short_input.lower().replace('wr', 'f,f,f')
-
+        short_input = short_input.lower().replace('wr', 'fff')
     return short_input
+
+def replace_plus(move_input :str):
+
+    move_input = move_input.replace("d+","d")
+    move_input = move_input.replace("u+","u")
+    move_input = move_input.replace("f+","f")
+    move_input = move_input.replace("b+","b")
+    move_input = move_input.replace("r+","r")
+    move_input = move_input.replace("s+","s")
+
+    return move_input

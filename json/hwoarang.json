@@ -1685,7 +1685,7 @@
     },
     {
         "Block frame": "-1",
-        "Command": "LFS 3, d/f or f+4",
+        "Command": "LFS 3, f+4",
         "Counter hit frame": "KND",
         "Damage": "10,23",
         "Gif": "",
