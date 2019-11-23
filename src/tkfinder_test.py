@@ -1,5 +1,5 @@
 import unittest
-import tkfinder
+from src import tkfinder
 
 
 class MyTestCase(unittest.TestCase):
@@ -30,7 +30,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual("hwoarang", result)
 
         result = tkfinder.correct_character_name("kazu")
-        self.assertEqual("kazu", result)
+        self.assertEqual(None, result)
 
     def test_get_cha_move(self):
         character = {
