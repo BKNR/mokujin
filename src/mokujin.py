@@ -2,12 +2,13 @@
 import os, datetime, logging
 import sys
 
+# Insert you location of mokujin here
+sys.path.insert(1, 'D:/Mega/mokujin')
+
 from discord.ext import commands
 from src.resources import const, embed
 from src import tkfinder
 
-# Insert you location of mokujin here
-sys.path.insert(1, 'absolute/path/to/your/mokujin')
 
 base_path = os.path.dirname(__file__)
 prefix = '§'
