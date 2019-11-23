@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 import os, datetime, logging
+import sys
+
+### Insert you location of mokujin here
+sys.path.insert(1, 'path/to/your/mokujin')
+
 from discord.ext import commands
 from src.resources import const, embed
 from src import tkfinder
