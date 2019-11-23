@@ -45,11 +45,10 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual("f, n, d, d/f+4, 1", tkfinder.get_move(character, "hs", False)["Command"])
         self.assertEqual("f, n, d/f+2", tkfinder.get_move(character, "ewgf", False)["Command"])
 
-
-def test_none (self):
-        entry = {"Gif" : ""}
-        entry2 = {"Gif" : None}
-        entry3 = {"Gif" : " "}
+    def test_none(self):
+        entry = {"Gif": ""}
+        entry2 = {"Gif": None}
+        entry3 = {"Gif": " "}
         self.assertTrue(not entry["Gif"])
         self.assertTrue(not entry2["Gif"])
         self.assertFalse(not entry3["Gif"])

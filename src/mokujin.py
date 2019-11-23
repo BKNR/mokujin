@@ -2,8 +2,7 @@
 import os, datetime, logging
 import sys
 
-# Insert you location of mokujin here
-sys.path.insert(1, 'absolute/path/to/mokujin')
+sys.path.insert(1, (os.path.dirname(os.path.dirname(__file__))))
 
 from discord.ext import commands
 from src.resources import const, embed
