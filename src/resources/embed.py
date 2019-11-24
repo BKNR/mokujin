@@ -57,7 +57,7 @@ def similar_moves_embed(similar_moves):
 def help_embed():
     text = "" \
            "!character move     - get frame data of a move from a character \n" \
-           "!delete-data        - deletes bot's last own messages\n" \
+           "!clear-messages        - deletes bot's last own messages\n" \
            "?feedback message   - send message including sender name to the devs  \n\n " \
             "The bot automatically deletes it's own messages after 10 seconds except in channel with the 'tekken' or 'frame' in it"
     embed = discord.Embed(title='Commands', description=text, colour=0x37ba25)

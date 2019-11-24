@@ -70,7 +70,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual("b+1, 4", tkfinder.get_move(leo, "b14")["Command"])
         self.assertEqual("KNK 3, 4", tkfinder.get_move(leo, "knk 34")["Command"])
         self.assertEqual("KNK 1+2", tkfinder.get_move(leo, "knk 1+2")["Command"])
-
+        self.assertEqual("FC+d/f+3", tkfinder.get_move(leo, "fc df3")["Command"])
         kazumi = {
             "name": "kazumi",
             "proper_name": "Kazumi",
