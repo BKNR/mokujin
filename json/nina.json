@@ -57,6 +57,7 @@
     {
         "Block frame": "0",
         "Command": "1, 2, u or D",
+		"Alias": ["1,2,u","1,2,u"],
         "Counter hit frame": "+6",
         "Damage": "7,10",
         "Gif": "",
@@ -552,6 +553,7 @@
     {
         "Block frame": "-14",
         "Command": "f+1+2 or WS+1+2",
+		"Alias": ["f+1+2","ws+1+2"],
         "Counter hit frame": "KND",
         "Damage": "24",
         "Gif": "https://gfycat.com/DenseRepentantGemsbok.gif",
@@ -585,6 +587,7 @@
     {
         "Block frame": "-3",
         "Command": "d/f+1, 2, f or d/f",
+		"Alias": ["d/f+1, 2, f","d/f+1, 2,d/f"],
         "Counter hit frame": "+9",
         "Damage": "13,10",
         "Gif": "",
@@ -596,6 +599,7 @@
     {
         "Block frame": "-1",
         "Command": "d/f+1, 2, u or D",
+		"Alias": ["d/f+1, 2, d","d/f+1, 2, u"],
         "Counter hit frame": "+11",
         "Damage": "13,10",
         "Gif": "",
@@ -640,6 +644,7 @@
     {
         "Block frame": "-19",
         "Command": "d/f+3, 1, d or u (Cancel)",
+		"Alias": ["d/f+3, 1, d","d/f+3, 1, u"],
         "Counter hit frame": "-7",
         "Damage": "13",
         "Gif": "",
@@ -684,6 +689,7 @@
     {
         "Block frame": "-1",
         "Command": "d/f+3, 2, f or d/f",
+		"Alias": ["d/f+3, 2, f","d/f+3, 2, d/f"],
         "Counter hit frame": "+10",
         "Damage": "13,12",
         "Gif": "https://gfycat.com/WickedPowerfulKakarikis.gif",
@@ -695,6 +701,7 @@
     {
         "Block frame": "0",
         "Command": "d/f+3, 2, d or u",
+		"Alias": ["d/f+3, 2, d","d/f+3, 2, u"],
         "Counter hit frame": "+11",
         "Damage": "13,12",
         "Gif": "",
@@ -903,7 +910,7 @@
     },
     {
         "Block frame": "-5",
-        "Command": "d+1 or FC+1",
+        "Command": "d+1",
         "Counter hit frame": "+6",
         "Damage": "5",
         "Gif": "",
@@ -914,7 +921,7 @@
     },
     {
         "Block frame": "-6",
-        "Command": "d+1, 2 or FC+1, 2",
+        "Command": "d+1, 2",
         "Counter hit frame": "+5",
         "Damage": "5,8",
         "Gif": "",
@@ -925,7 +932,7 @@
     },
     {
         "Block frame": "-14~-12",
-        "Command": "d+1, 2, 4 or FC+1, 2, 4",
+        "Command": "d+1, 2, 4",
         "Counter hit frame": "-3~-1",
         "Damage": "5,8,10",
         "Gif": "",
@@ -936,7 +943,7 @@
     },
     {
         "Block frame": "-11~-10",
-        "Command": "d+1, n+4 or FC+1, n+4",
+        "Command": "d+1, n+4",
         "Counter hit frame": "0~+1",
         "Damage": "5,10",
         "Gif": "",
@@ -1025,6 +1032,7 @@
     {
         "Block frame": "-15",
         "Command": "FC+d/b or d+4 FC+D/F+4",
+		"Alias": ["FC d+4","FC d/b+4", "FC d/f+4"],
         "Counter hit frame": "-4",
         "Damage": "10",
         "Gif": "",
@@ -1047,6 +1055,7 @@
     {
         "Block frame": "-13(-15)",
         "Command": "d+4, 1, d or u (Cancel)",
+		"Alias": ["d+4,1,d","d+4,1,u"],
         "Counter hit frame": "-2(-4)",
         "Damage": "7(10)",
         "Gif": "",
@@ -1168,6 +1177,7 @@
     {
         "Block frame": "-10~-9",
         "Command": "b+2, 2, 2, u or D (Cancel)",
+		"Alias": ["b+2,2,2,d","b+2,2,2,u"],
         "Counter hit frame": "+1~+2",
         "Damage": "12,14",
         "Gif": "",
@@ -1333,6 +1343,7 @@
     {
         "Block frame": "-5",
         "Command": "u/f+4, 3, 4, d or u (Cancel)",
+		"Alias": ["u/f+4,3,4,d","u/f+4,3,4,u"],
         "Counter hit frame": "+6",
         "Damage": "23,10",
         "Gif": "",
@@ -1596,7 +1607,7 @@
     },
     {
         "Block frame": "-15",
-        "Command": "WR+3 or f, f, f+3, 4",
+        "Command": "WR+3,4 or f, f, f+3, 4",
         "Counter hit frame": "Launch",
         "Damage": "13,23",
         "Gif": "https://gfycat.com/HappyPoliticalCutworm.gif",

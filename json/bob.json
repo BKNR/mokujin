@@ -1067,19 +1067,9 @@
         "Start up frame": "20 js9~"
     },
     {
-        "Block frame": "-9~-7",
-        "Command": "u or u/f+4",
-        "Counter hit frame": "0~+2",
-        "Damage": "14",
-        "Gif": "",
-        "Hit frame": "0~+2",
-        "Hit level": "m (TJ)",
-        "Notes": "-",
-        "Start up frame": "25~27 js15~"
-    },
-    {
         "Block frame": "0~+1",
         "Command": "u or u/f+4, 4",
+		"Alias": ["u+4,4","u/f+4,4"],
         "Counter hit frame": "KND",
         "Damage": "14,18",
         "Gif": "",
@@ -1993,6 +1983,7 @@
     {
         "Block frame": "-8",
         "Command": "u/b or u or u/f+1",
+		"Alias": ["u/b+1","u+1","u/f+1"],
         "Counter hit frame": "+3",
         "Damage": "12",
         "Gif": "",
@@ -2005,6 +1996,7 @@
         "Block frame": "-12~-11",
         "Command": "u/b or u+2",
         "Counter hit frame": "+9~+10g",
+		"Alias": ["u/b+2","u+2"],
         "Damage": "17",
         "Gif": "",
         "Hit frame": "+9~+10g",
@@ -2119,6 +2111,7 @@
         "Gif": "",
         "Hit frame": "0~+2",
         "Hit level": "m (TJ)",
+		"Alias": ["u+3","u/f+4"],
         "Notes": "-",
         "Start up frame": "25~27 js15~"
     },

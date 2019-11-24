@@ -58,6 +58,9 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual("d/f+3, 1, d+2", tkfinder.get_move(marduk, "df31,d+2")["Command"])
         self.assertEqual("d/f+3, 1, d+2", tkfinder.get_move(marduk, "df3,1d+2")["Command"])
         self.assertEqual("d/f+3, 1, d+2", tkfinder.get_move(marduk, "df+3,1d2")["Command"])
+        self.assertEqual("u/b or u or u/f+3", tkfinder.get_move(marduk, "u3")["Command"])
+        self.assertEqual("u/b or u or u/f+3", tkfinder.get_move(marduk, "uf3")["Command"])
+        self.assertEqual("u/b or u or u/f+3", tkfinder.get_move(marduk, "ub3")["Command"])
 
         leo = {
             "name": "leo",
@@ -80,6 +83,19 @@ class MyTestCase(unittest.TestCase):
         }
         self.assertEqual("b, f+2, 1, 1+2", tkfinder.get_move(kazumi, "bf211+2")["Command"])
         self.assertEqual("u/f+4", tkfinder.get_move(kazumi, "uf4")["Command"])
+
+    def test_ling(self):
+        ling = {
+            "name": "xiaoyu",
+            "proper_name": "Xiaoyu",
+            "local_json": "xiaoyu.json",
+            "online_webpage": "http://rbnorway.org/xiaoyu-t7-frames",
+            "portrait": "https://i.imgur.com/zuojLtJ.jpg"
+        }
+        self.assertEqual("AOP u/b or u or u/f+3, 3", tkfinder.get_move(ling, "AOP uf33")["Command"])
+        self.assertEqual("AOP u/b or u or u/f+3, 3", tkfinder.get_move(ling, "AOP ub33")["Command"])
+        self.assertEqual("AOP u/b or u or u/f+3, 3", tkfinder.get_move(ling, "AOP u33")["Command"])
+
 
     def test_move_simplifier(self):
         move = "df+3, df+1, 1+2"

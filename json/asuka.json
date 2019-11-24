@@ -518,13 +518,14 @@
     },
     {
         "Block frame": "-18",
-        "Command": "d+1+2 or FC+d/b or d+1+2",
+        "Command": "d+1+2 or FC+d/b or FC d+1+2",
         "Counter hit frame": "KND",
         "Damage": "20",
         "Gif": "https://gfycat.com/QuarterlySpottedDungbeetle.gif",
         "Hit frame": "KND",
         "Hit level": "l (TC)",
         "Notes": "-",
+		"Alias": ["d+1+2","FC d/b+1+2","FC d+1+2"],
         "Start up frame": "20 cs15~"
     },
     {
@@ -803,30 +804,8 @@
         "Start up frame": "14"
     },
     {
-        "Block frame": "-3~-2",
-        "Command": "u/b or u or u/f+3",
-        "Counter hit frame": "KND",
-        "Damage": "17",
-        "Gif": "",
-        "Hit frame": "+8~+9",
-        "Hit level": "m (TJ)",
-        "Notes": "-",
-        "Start up frame": "20~21 js11~"
-    },
-    {
         "Block frame": "-15~-14",
         "Command": "u/b+4",
-        "Counter hit frame": "Launch (JG?)",
-        "Damage": "25",
-        "Gif": "",
-        "Hit frame": "Launch (JG?)",
-        "Hit level": "m (TJ)",
-        "Notes": "-",
-        "Start up frame": "20~21 js9~"
-    },
-    {
-        "Block frame": "-13~-12",
-        "Command": "u or u/f+4",
         "Counter hit frame": "Launch (JG?)",
         "Damage": "25",
         "Gif": "",
@@ -1531,6 +1510,7 @@
     {
         "Block frame": "-8",
         "Command": "u/b or u or u/f+1",
+		"Alias": ["u/b+1","u+1","u/f+1"],
         "Counter hit frame": "+3",
         "Damage": "12",
         "Gif": "",
@@ -1542,6 +1522,7 @@
     {
         "Block frame": "-12~-11",
         "Command": "u/b or u+2",
+		"Alias": ["u/b+2","u+2"],
         "Counter hit frame": "+9~+10g",
         "Damage": "17",
         "Gif": "",
@@ -1575,6 +1556,7 @@
     {
         "Block frame": "-3~-2",
         "Command": "u/b or u or u/f+3",
+		"Alias": ["u/b+3","u+3","u/f+3"],
         "Counter hit frame": "KND",
         "Damage": "17",
         "Gif": "",
@@ -1598,6 +1580,7 @@
         "Block frame": "-13~-12",
         "Command": "u or u/f+4",
         "Counter hit frame": "Launch (JG?)",
+		"Alias": ["u+4","u/f+4"],
         "Damage": "25",
         "Gif": "",
         "Hit frame": "Launch (JG?)",

@@ -519,6 +519,7 @@
     {
         "Block frame": "-14~-13",
         "Command": "d+3~3 or f, f+3~3",
+		"Alias": ["d+3~3","f,f+3~3"],
         "Counter hit frame": "Launch",
         "Damage": "21",
         "Gif": "https://gfycat.com/DimpledVastIchthyosaurs.gif",
@@ -1113,6 +1114,7 @@
     {
         "Block frame": "-3~-1s",
         "Command": "u/b or u+1+2",
+		"Alias": ["u/b+1+2","u+1+2"],
         "Counter hit frame": "KND",
         "Damage": "20",
         "Gif": "",
@@ -1300,6 +1302,7 @@
     {
         "Block frame": "-13~-8",
         "Command": "WS+3 or d, f+3",
+		"Alias": ["WS+3", "d,f+3"],
         "Counter hit frame": "Launch (JG?)",
         "Damage": "15",
         "Gif": "",
@@ -1322,6 +1325,7 @@
     {
         "Block frame": "-14~-12",
         "Command": "FC+d/b or d+1+2",
+		"Alias": ["FC d/b+1+2","FC d+1+2"],
         "Counter hit frame": "+4~+6",
         "Damage": "11",
         "Gif": "",
@@ -1333,6 +1337,7 @@
     {
         "Block frame": "-14~-12",
         "Command": "FC+d/b or d+1+2, 1+2",
+		"Alias": ["FC d/b+1+2, 1+2","FC d+1+2,1+2"],
         "Counter hit frame": "KND",
         "Damage": "11,12",
         "Gif": "",
@@ -1740,6 +1745,7 @@
     {
         "Block frame": "+2~+4",
         "Command": "HSP F+1+2 or f, f+1+2",
+		"Alias": ["HSP f+1+2","HSP f,f+1+2"],
         "Counter hit frame": "KND",
         "Damage": "18",
         "Gif": "",
@@ -1906,6 +1912,7 @@
         "Block frame": "-45",
         "Command": "HSP u or d 3 or 4",
         "Counter hit frame": "KND",
+		"Alias": ["HSP u,n,3","HSP u,n,4"],
         "Damage": "25",
         "Gif": "https://gfycat.com/CaringJollyAmericanwarmblood.gif",
         "Hit frame": "KND",
@@ -1916,6 +1923,7 @@
     {
         "Block frame": "-13~-12",
         "Command": "HSP u or d+3 or u or d+4",
+		"Alias": ["HSP u+3","HSP u+4"],
         "Counter hit frame": "KND",
         "Damage": "10",
         "Gif": "",
@@ -1926,7 +1934,8 @@
     },
     {
         "Block frame": "-2~-1",
-        "Command": "HSP u or d+3, D or u or d+4, D",
+        "Command": "HSP u+3 or 4, d",
+		"Alias": ["HSP u+3,d","HSP u+4, D"],
         "Counter hit frame": "KND",
         "Damage": "10",
         "Gif": "https://gfycat.com/PolishedVigilantIsabellinewheatear.gif",
@@ -1949,6 +1958,7 @@
     {
         "Block frame": "-",
         "Command": "RLX u or d",
+		"Alias": ["RLX u","RLX d"],
         "Counter hit frame": "-",
         "Damage": "-",
         "Gif": "",
@@ -1961,6 +1971,7 @@
         "Block frame": "-",
         "Command": "RLX b or f",
         "Counter hit frame": "-",
+		"Alias": ["RLX b","RLX f"],
         "Damage": "-",
         "Gif": "",
         "Hit frame": "-",
@@ -2387,17 +2398,6 @@
         "Start up frame": "15~16s cs4~"
     },
     {
-        "Block frame": "-5",
-        "Command": "d/b or d+1 ",
-        "Counter hit frame": "+6",
-        "Damage": "5",
-        "Gif": "",
-        "Hit frame": "+6",
-        "Hit level": "Sm (TC)",
-        "Notes": "-",
-        "Start up frame": "10s cs4~"
-    },
-    {
         "Block frame": "-18",
         "Command": "d/b+2",
         "Counter hit frame": "-7",
@@ -2477,6 +2477,7 @@
     {
         "Block frame": "-8",
         "Command": "u/b or u or u/f+1",
+		"Alias": ["u/b+1","u+1", "u/f+1"],
         "Counter hit frame": "+3",
         "Damage": "12",
         "Gif": "",
@@ -2488,6 +2489,7 @@
     {
         "Block frame": "-12~-11",
         "Command": "u/b or u or u/f+2",
+		"Alias": ["u/b+2","u+2", "u/f+2"],
         "Counter hit frame": "+9~+10g",
         "Damage": "17",
         "Gif": "",

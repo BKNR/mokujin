@@ -116,7 +116,7 @@ def is_command_in_alias(command: str, item: dict) -> bool:
 def move_simplifier(move_input) -> str:
     """Removes bells and whistles from the move_input"""
 
-    short_input = move_input
+    short_input = move_input.strip().lower()
 
     for old, new in const.REPLACE.items():
         short_input = short_input.replace(old, new)
