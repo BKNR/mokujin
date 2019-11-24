@@ -34,17 +34,6 @@ with open(t_filename) as token_file:
     token = token_file.read().strip()
 
 
-def add_feedback(sender_name: str, server_name: str, message: str):
-    path = os.path.abspath(os.path.join(base_path, "..", "log", "feedback.csv"))
-    # Create file if not exists
-    if not os.path.isfile(path):
-        open(path, "w")
-
-    with open(path, "a") as feedback_file:
-        result = "{};{};{};\n".format(sender_name, server_name, message)
-        feedback_file.write(result)
-
-
 @bot.event
 async def on_ready():
     print(datetime.datetime.utcnow().isoformat())
@@ -78,8 +67,14 @@ async def on_message(message):
         elif message.content.startswith('?feedback'):
             user_message = message.content.split(' ', 1)[1]
             server_name = str(message.channel.guild)
+
             try:
-                add_feedback(str(message.author), server_name, user_message)
+
+                feedback_channel = bot.get_channel(const.FEEDBACK_CHANNEL_ID)
+                user_message = user_message.replace("\n", "")
+                result = "{}  ;  {} ;   {};\n".format(str(message.author), server_name, user_message)
+                await feedback_channel.send(result)
+
                 await channel.send(embed=embed.success_embed("Feedback sent"))
             except Exception as e:
                 await channel.send(embed=embed.error_embed("Feedback couldn't be sent caused by: " + e))
@@ -87,7 +82,7 @@ async def on_message(message):
 
         elif message.content.startswith('!'):
 
-            delete_after = 13
+            delete_after = 20
             if ('tekken' in channel.name) or ('frame' in channel.name):
                 delete_after = None
 

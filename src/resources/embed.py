@@ -59,7 +59,7 @@ def help_embed():
            "!character move     - get frame data of a move from a character \n" \
            "!clear-messages        - deletes bot's last own messages\n" \
            "?feedback message   - send message including sender name to the devs  \n\n " \
-            "The bot automatically deletes it's own messages after 10 seconds except in channel with the 'tekken' or 'frame' in it"
+            "The bot automatically deletes it's own messages after 20 seconds except in channel with the 'tekken' or 'frame' in it"
     embed = discord.Embed(title='Commands', description=text, colour=0x37ba25)
     embed.set_author(name='Author: Tib')
 
