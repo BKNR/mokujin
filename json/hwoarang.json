@@ -968,7 +968,7 @@
         "Start up frame": "16"
     },
     {
-        "Alias": "jfsr",
+        "Alias": ["jfsr"],
         "Block frame": "-10",
         "Command": "f, n, d/f+4",
         "Counter hit frame": "Launch(JG?)",

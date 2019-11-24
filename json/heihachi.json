@@ -990,7 +990,7 @@
         "Start up frame": "11~12 (15~)"
     },
     {
-        "Alias": "electric, ewgf",
+        "Alias": ["electric", "ewgf"],
         "Block frame": "+5~+6",
         "Command": "f, n, d, d/f+2",
         "Counter hit frame": "Launch (JG?)",

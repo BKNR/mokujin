@@ -1441,7 +1441,7 @@
         "Start up frame": "17 pc8"
     },
     {
-        "Alias": "hs, hellsweep",
+        "Alias": ["hs", "hellsweep"],
         "Block frame": "-39",
         "Command": "VTS d+1+2",
         "Counter hit frame": "KND",

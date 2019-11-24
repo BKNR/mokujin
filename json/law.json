@@ -1551,7 +1551,7 @@
         "Start up frame": "46~49d js9~"
     },
     {
-        "Alias": "slide",
+        "Alias": ["slide"],
         "Block frame": "-23~-19",
         "Command": "FC+d/f, d, D/F+3",
         "Counter hit frame": "KND",

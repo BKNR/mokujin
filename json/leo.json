@@ -484,7 +484,7 @@
         "Start up frame": "20~22 cs10~"
     },
     {
-        "Alias": "hs, hellsweep",
+        "Alias": ["hs", "hellsweep"],
         "Block frame": "-16~-15",
         "Command": "d/b+4, 1",
         "Counter hit frame": "KND",

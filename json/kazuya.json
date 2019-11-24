@@ -770,7 +770,7 @@
         "Start up frame": "11~12 (14~)"
     },
     {
-        "Alias": "electric, ewgf",
+        "Alias": ["electric", "ewgf"],
         "Block frame": "+5~+6",
         "Command": "f, n, d/f+2",
         "Counter hit frame": "Launch (JG?)",
@@ -892,7 +892,7 @@
         "Start up frame": "16(19~)"
     },
     {
-        "Alias": "hs, hellsweep",
+        "Alias": ["hs", "hellsweep"],
         "Block frame": "-16",
         "Command": "f, n, d, d/f+4, 1",
         "Counter hit frame": "KND",

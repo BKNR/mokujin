@@ -814,7 +814,7 @@
         "Start up frame": "18(34~) js1~10"
     },
     {
-        "Alias": "hs, hellsweep",
+        "Alias": ["hs", "hellsweep"],
         "Block frame": "-16~-15",
         "Command": "RSS 4, 2",
         "Counter hit frame": "KND",

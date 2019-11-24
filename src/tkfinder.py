@@ -106,17 +106,11 @@ def is_command_in_alias(command: str, item: dict) -> bool:
     if 'Alias' in item:
         command = command.lower().strip()
 
-        aliases = item['Alias'].split(",")
-        alias_list = []
-        for word in aliases:
-            alias_list.append(str(word).strip().lower())
-
-        if command not in alias_list:
-            for alias in alias_list:
-                if move_simplifier(command) == move_simplifier(alias):
-                    return True
-
-        return command in alias_list
+        aliases = item['Alias']
+        for alias in aliases:
+            if move_simplifier(command) == move_simplifier(alias):
+                return True
+    return False
 
 
 def move_simplifier(move_input) -> str:

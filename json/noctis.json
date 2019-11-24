@@ -462,7 +462,7 @@
         "Start up frame": "19"
     },
     {
-        "Alias": "demoman",
+        "Alias": ["demoman"],
         "Block frame": "-18s",
         "Command": "d+4, 1, 1+2",
         "Counter hit frame": "KND",

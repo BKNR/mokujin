@@ -12,7 +12,7 @@ class MyTestCase(unittest.TestCase):
         self.assertIn("d/f+1, 3", close_moves)
 
     def test_is_command_in_alias(self):
-        item = {'Alias': "hs, hellsweep, Giant swing, u/f3"}
+        item = {'Alias': ["hs", "hellsweep", "Giant swing", "u/f3"]}
         result = tkfinder.is_command_in_alias("hellsweep", item)
         self.assertTrue(result)
 
