@@ -168,6 +168,7 @@
         "Block frame": "-8",
         "Command": "3 or 3+4",
         "Counter hit frame": "+3",
+		"Alias": ["3","3+4"],
         "Damage": "20",
         "Gif": "",
         "Hit frame": "+3",
@@ -627,17 +628,6 @@
         "Start up frame": "25~26 js9~"
     },
     {
-        "Block frame": "-13~-11",
-        "Command": "u/b or u or u/f+4",
-        "Counter hit frame": "Launch (JG?)",
-        "Damage": "13",
-        "Gif": "",
-        "Hit frame": "Launch (JG?)",
-        "Hit level": "m (TJ)",
-        "Notes": "-",
-        "Start up frame": "15~17 js9~"
-    },
-    {
         "Block frame": "-12",
         "Command": "f, F+3 or f, f, f+3 (Close)",
         "Counter hit frame": "Throw(Launch)",
@@ -651,6 +641,7 @@
     {
         "Block frame": "-12",
         "Command": "f, F+3 or f, f, f+3",
+		"Alias": ["f,f+3","f,f,f+3"],
         "Counter hit frame": "KND",
         "Damage": "13",
         "Gif": "",
@@ -737,7 +728,7 @@
         "Start up frame": "11~12"
     },
     {
-        "Alias": "slide",
+        "Alias": ["slide"],
         "Block frame": "-23~-19",
         "Command": "FC+d/f, d, D/F+3",
         "Counter hit frame": "KND",
@@ -1125,6 +1116,7 @@
     {
         "Block frame": "-8",
         "Command": "u/b or u or u/f+1",
+		"Alias": ["u/b+1","u+1","u/f+1"],
         "Counter hit frame": "+3",
         "Damage": "12",
         "Gif": "",
@@ -1136,6 +1128,7 @@
     {
         "Block frame": "-12~-11",
         "Command": "u/b or u or u/f+2",
+		"Alias": ["u/b+2","u+2","u/f+2"],
         "Counter hit frame": "+9~+10g",
         "Damage": "17",
         "Gif": "",
@@ -1180,6 +1173,7 @@
     {
         "Block frame": "-13~-11",
         "Command": "u/b or u or u/f+4",
+		"Alias": ["u/b+4","u+4","u/f+4"],
         "Counter hit frame": "Launch (JG?)",
         "Damage": "13",
         "Gif": "",

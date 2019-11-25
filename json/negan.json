@@ -695,6 +695,7 @@
     {
         "Block frame": "-12",
         "Command": "u/b or u or u/f+1+2",
+		"Alias": ["u/b+1+2","u+1+2","u/f+1+2"],
         "Counter hit frame": "-1",
         "Damage": "12 js9",
         "Gif": "",
@@ -717,6 +718,7 @@
     {
         "Block frame": "-9",
         "Command": "u or u/f+2",
+		"Alias": ["u+2","u/f+2"],
         "Counter hit frame": "KND",
         "Damage": "25",
         "Gif": "",
@@ -728,6 +730,7 @@
     {
         "Block frame": "-9",
         "Command": "u/b or u or u/f+3",
+		"Alias": ["u/b+3","u+3","u/f+3"],
         "Counter hit frame": "KND",
         "Damage": "25",
         "Gif": "",
@@ -739,6 +742,7 @@
     {
         "Block frame": "-7",
         "Command": "u/b or u or u/f+4",
+		"Alias": ["u/b+4","u+4","u/f+4"],
         "Counter hit frame": "KND",
         "Damage": "20",
         "Gif": "",

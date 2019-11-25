@@ -265,7 +265,7 @@
     },
     {
         "Block frame": "-1",
-        "Command": "3, 3, d/f or f+4",
+        "Command": "3, 3,f+4",
         "Counter hit frame": "KND",
         "Damage": "15,12,23",
         "Gif": "",
@@ -924,12 +924,12 @@
         "Start up frame": "js1~"
     },
     {
-        "Block frame": "6",
+        "Block frame": "+6",
         "Command": "f, F+3",
-        "Counter hit frame": "6s",
+        "Counter hit frame": "+6s",
         "Damage": "24",
         "Gif": "https://gfycat.com/FlawedEducatedJuliabutterfly.gif",
-        "Hit frame": "6s",
+        "Hit frame": "+6s",
         "Hit level": "m(RFF)",
         "Notes": "-",
         "Start up frame": "22"
@@ -968,7 +968,7 @@
         "Start up frame": "16"
     },
     {
-        "Alias": "jfsr",
+        "Alias": ["jfsr"],
         "Block frame": "-10",
         "Command": "f, n, d/f+4",
         "Counter hit frame": "Launch(JG?)",
@@ -1200,17 +1200,6 @@
         "Start up frame": "10"
     },
     {
-        "Block frame": "+6",
-        "Command": "RFF 2, 4, d or u",
-        "Counter hit frame": "+17g (+13)",
-        "Damage": "6,12,20",
-        "Gif": "",
-        "Hit frame": "+17g",
-        "Hit level": "h, h, (RFS)",
-        "Notes": "-",
-        "Start up frame": "10"
-    },
-    {
         "Block frame": "-15",
         "Command": "RFF 2, 4, 3",
         "Counter hit frame": "KND",
@@ -1321,17 +1310,6 @@
         "Start up frame": "12"
     },
     {
-        "Block frame": "+6",
-        "Command": "RFF 4, d or u",
-        "Counter hit frame": "+17g (+13)",
-        "Damage": "12",
-        "Gif": "",
-        "Hit frame": "+17g",
-        "Hit level": "h, (RFS)",
-        "Notes": "-",
-        "Start up frame": "12"
-    },
-    {
         "Block frame": "-15",
         "Command": "RFF 4, 3",
         "Counter hit frame": "KND",
@@ -1421,22 +1399,11 @@
     },
     {
         "Block frame": "+7",
-        "Command": "RFF d/f+4, b or f",
+        "Command": "RFF d/f+4,f",
         "Counter hit frame": "+15",
         "Damage": "12",
         "Gif": "",
         "Hit frame": "+15g",
-        "Hit level": "m, (RFS)",
-        "Notes": "-",
-        "Start up frame": "13"
-    },
-    {
-        "Block frame": "+6",
-        "Command": "RFF d/f+4, d or u",
-        "Counter hit frame": "+14",
-        "Damage": "12",
-        "Gif": "",
-        "Hit frame": "+14g",
         "Hit level": "m, (RFS)",
         "Notes": "-",
         "Start up frame": "13"
@@ -1806,7 +1773,7 @@
     },
     {
         "Block frame": "-23",
-        "Command": "LFS d or d/f+4",
+        "Command": "LFS d+4",
         "Counter hit frame": "KND",
         "Damage": "12",
         "Gif": "",
@@ -2060,6 +2027,7 @@
     {
         "Block frame": "-23",
         "Command": "RFS d/b or d or d/f+3",
+		"Alias": ["RFS d/f+3","RFS d+3","RFS d/b+3"],
         "Counter hit frame": "KND",
         "Damage": "12",
         "Gif": "",
@@ -2311,28 +2279,6 @@
         "Start up frame": "19s cs6~"
     },
     {
-        "Block frame": "-5",
-        "Command": "d/b or d+1 ",
-        "Counter hit frame": "+6",
-        "Damage": "5",
-        "Gif": "",
-        "Hit frame": "+6",
-        "Hit level": "Sm (TC)",
-        "Notes": "-",
-        "Start up frame": "10s cs4~"
-    },
-    {
-        "Block frame": "-4",
-        "Command": "d/b or d+2 ",
-        "Counter hit frame": "+7",
-        "Damage": "8",
-        "Gif": "",
-        "Hit frame": "+7",
-        "Hit level": "Sm (TC)",
-        "Notes": "-",
-        "Start up frame": "11s cs4~"
-    },
-    {
         "Block frame": "-13",
         "Command": "d/b+3",
         "Counter hit frame": "+7",
@@ -2401,6 +2347,7 @@
     {
         "Block frame": "-8",
         "Command": "u/b or u or u/f+1",
+		"Alias": ["u/b+1","u+1","u/f+1"],
         "Counter hit frame": "+3",
         "Damage": "12",
         "Gif": "",
@@ -2411,7 +2358,7 @@
     },
     {
         "Block frame": "-12~-11",
-        "Command": "u/b or u+2",
+        "Command": "u/b+2 or u+2",
         "Counter hit frame": "+9~+10g",
         "Damage": "17",
         "Gif": "",

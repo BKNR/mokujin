@@ -319,7 +319,7 @@
         "Start up frame": "13~14"
     },
     {
-        "Alias": "4~3, ws+4~3",
+        "Alias": ["4~3", "ws+4~3"],
         "Block frame": "-14~-4",
         "Command": "4~3_WS+4~3",
         "Counter hit frame": "KND",
@@ -782,7 +782,7 @@
         "Start up frame": "22~23 js9~"
     },
     {
-        "Alias": "u+3, u/f+3",
+        "Alias": ["u+3", "u/f+3"],
         "Block frame": "-9~-8",
         "Command": "(u_u/f)+3",
         "Counter hit frame": "CS (standing 10~11)",
@@ -1025,7 +1025,7 @@
         "Start up frame": "19~20"
     },
     {
-        "Alias": "zen",
+        "Alias": ["zen"],
         "Block frame": "-",
         "Command": "d+1+2",
         "Counter hit frame": "-",
@@ -1037,7 +1037,7 @@
         "Start up frame": "10~"
     },
     {
-        "Alias": "cds",
+        "Alias": ["cds"],
         "Block frame": "-",
         "Command": "b+1",
         "Counter hit frame": "-",
@@ -1288,11 +1288,11 @@
         "Hit frame": "Launch",
         "Hit level": "m",
         "Notes": "-",
-        "Alias": "cd+1",
+        "Alias": ["cd+1"],
         "Start up frame": "16~17 (20~)"
     },
     {
-        "Alias": "ecd+1",
+        "Alias": ["ecd+1"],
         "Block frame": "-13~-12",
         "Command": "f,n,d,d/f:1",
         "Counter hit frame": "Launch",
@@ -1304,7 +1304,7 @@
         "Start up frame": "16~17 (19~)"
     },
     {
-        "Alias": "wgf, whf",
+        "Alias": ["wgf", "whf"],
         "Block frame": "-10~-9",
         "Command": "f,n,d,d/f+2",
         "Counter hit frame": "Launch (S!)",
@@ -1316,7 +1316,7 @@
         "Start up frame": "11~12 (15~)"
     },
     {
-        "Alias": "electric, ewgf, ewhf",
+        "Alias": ["electric", "ewgf", "ewhf"],
         "Block frame": "+5~+6",
         "Command": "f,n,d,d/f:2",
         "Counter hit frame": "Launch (S!)",
@@ -1339,7 +1339,7 @@
         "Start up frame": "16~18 (20~)"
     },
     {
-        "Alias": "hs, hellsweep",
+        "Alias": ["hs", "hellsweep"],
         "Block frame": "-31",
         "Command": "f,n,d,d/f+4",
         "Counter hit frame": "Launch",
@@ -1626,7 +1626,7 @@
         "Start up frame": "17~18"
     },
     {
-        "Alias": "u/b+1, u+1, u/f+1",
+        "Alias": ["u/b+1", "u+1", "u/f+1"],
         "Block frame": "-8",
         "Command": "(u/b_u_u/f)+1",
         "Counter hit frame": "+3",
@@ -1671,7 +1671,7 @@
         "Start up frame": "22~23 js9~"
     },
     {
-        "Alias": "u+3, u/f+3",
+        "Alias": ["u+3", "u/f+3"],
         "Block frame": "-9~-8",
         "Command": "(u_u/f)+3",
         "Counter hit frame": "CS (10~+11)",
@@ -1859,7 +1859,7 @@
         "Start up frame": "13~14 (14~)"
     },
     {
-        "Alias": "bt 1, bt 2",
+        "Alias": ["bt 1", "bt 2"],
         "Block frame": "-8",
         "Command": "BT (1_2)",
         "Counter hit frame": "+3",
@@ -1871,7 +1871,7 @@
         "Start up frame": "8"
     },
     {
-        "Alias": "bt 3, bt 4",
+        "Alias": ["bt 3", "bt 4"],
         "Block frame": "-8",
         "Command": "BT (3_4)",
         "Counter hit frame": "KND",
@@ -1883,7 +1883,7 @@
         "Start up frame": "10"
     },
     {
-        "Alias": "bt d+1, bt d+2",
+        "Alias": ["bt d+1", "bt d+2"],
         "Block frame": "-2",
         "Command": "BT d+(1_2)",
         "Counter hit frame": "+9",
@@ -1895,7 +1895,7 @@
         "Start up frame": "10s cs1~"
     },
     {
-        "Alias": "bt d+3, bt d+4",
+        "Alias": ["bt d+3", "bt d+4"],
         "Block frame": "-11",
         "Command": "BT d+(3_4)",
         "Counter hit frame": "+3",

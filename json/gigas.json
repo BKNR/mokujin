@@ -1278,6 +1278,7 @@
     {
         "Block frame": "-8",
         "Command": "u/b or u+1",
+		"Alias": ["u/b+1","u+1"],
         "Counter hit frame": "+3",
         "Damage": "16",
         "Gif": "",
@@ -1300,6 +1301,7 @@
     {
         "Block frame": "-12~-11",
         "Command": "u/b or u or u/f+2",
+		"Alias": ["u/b+2","u+2","u/f+2"],
         "Counter hit frame": "+9~+10g",
         "Damage": "17",
         "Gif": "",
@@ -1420,7 +1422,7 @@
     },
     {
         "Block frame": "-4",
-        "Command": "FC+d/b or d+2",
+        "Command": "FC+d/b+2 or FC+d+2",
         "Counter hit frame": "+7",
         "Damage": "8",
         "Gif": "",

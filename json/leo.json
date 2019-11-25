@@ -484,7 +484,7 @@
         "Start up frame": "20~22 cs10~"
     },
     {
-        "Alias": "hs, hellsweep",
+        "Alias": ["hs", "hellsweep"],
         "Block frame": "-16~-15",
         "Command": "d/b+4, 1",
         "Counter hit frame": "KND",
@@ -817,6 +817,7 @@
     {
         "Block frame": "0~+3s",
         "Command": "u or u/f+3+4",
+		"Alias": ["u+3+4","u/f+3+4"],
         "Counter hit frame": "JG",
         "Damage": "26",
         "Gif": "",
@@ -1190,7 +1191,7 @@
     },
     {
         "Block frame": "-5~-4",
-        "Command": "f+4, d/f or KNK d/f (to CD)",
+        "Command": "f+4, d/f",
         "Counter hit frame": "+1~+2",
         "Damage": "14",
         "Gif": "",
@@ -1290,6 +1291,7 @@
     {
         "Block frame": "-",
         "Command": "d+1+2 or FC+d/b or d+1+2",
+		"Alias": ["d+1+2","FC d/b+1+2","FC d+1+2"],
         "Counter hit frame": "-",
         "Damage": "-",
         "Gif": "",
@@ -1752,6 +1754,7 @@
     {
         "Block frame": "-8",
         "Command": "u+1 or u/f+1+2",
+		"Alias": ["u+1+2","u/f+1+2"],
         "Counter hit frame": "+3",
         "Damage": "12",
         "Gif": "",
@@ -1774,6 +1777,7 @@
     {
         "Block frame": "-12~-11",
         "Command": "u/b or u+2",
+		"Alias": ["u/b+2","u+2"],
         "Counter hit frame": "+9~+10g",
         "Damage": "17",
         "Gif": "",

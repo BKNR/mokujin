@@ -836,17 +836,6 @@
         "Start up frame": "js1~20 ar48~"
     },
     {
-        "Block frame": "-52~-51",
-        "Command": "u/b or u or u/f+3",
-        "Counter hit frame": "-24~-23 (SH)",
-        "Damage": "15",
-        "Gif": "",
-        "Hit frame": "-24~-23 (SH)",
-        "Hit level": "m (TJ)",
-        "Notes": "-",
-        "Start up frame": "17~18 js9~"
-    },
-    {
         "Block frame": "-14~-9",
         "Command": "u/f+3, 2",
         "Counter hit frame": "KND",
@@ -1002,7 +991,7 @@
     },
     {
         "Block frame": "-",
-        "Command": "f, F+4 When hit f or b+1",
+        "Command": "f, F+4 When hit f+1",
         "Counter hit frame": "-",
         "Damage": "18,22",
         "Gif": "https://gfycat.com/BonyLimpingHerring.gif",
@@ -1585,7 +1574,7 @@
     },
     {
         "Block frame": "-",
-        "Command": "d+1+2 or From special move (to DES)",
+        "Command": "DES b or DES F",
         "Counter hit frame": "-",
         "Damage": "-",
         "Gif": "",
@@ -1596,18 +1585,7 @@
     },
     {
         "Block frame": "-",
-        "Command": "DES b or F",
-        "Counter hit frame": "-",
-        "Damage": "-",
-        "Gif": "",
-        "Hit frame": "-",
-        "Hit level": "(DES)",
-        "Notes": "-",
-        "Start up frame": "18~19 (43~) 1~"
-    },
-    {
-        "Block frame": "-",
-        "Command": "DES d+1+2 or D/B (Cancel)",
+        "Command": "DES d+1+2 or DES D/B (Cancel)",
         "Counter hit frame": "-",
         "Damage": "-",
         "Gif": "",
@@ -1651,7 +1629,7 @@
     },
     {
         "Block frame": "-",
-        "Command": "DES 3 or 4",
+        "Command": "DES 3 or DES 4",
         "Counter hit frame": "-",
         "Damage": "-",
         "Gif": "https://gfycat.com/RealisticDamagedDogfish.gif",
@@ -1795,6 +1773,7 @@
     {
         "Block frame": "-13",
         "Command": "DES u or d+3+4, 1",
+		"Alias": ["DES u+3+4, 1","DES d+3+4,1"],
         "Counter hit frame": "KND",
         "Damage": "25",
         "Gif": "https://gfycat.com/AgedCriminalBluefintuna.gif",
@@ -1817,6 +1796,7 @@
     {
         "Block frame": "-9s",
         "Command": "DES u/b or u or u/f+1+2",
+		"Alias": ["DES u/b+1+2","DES u+1+2","DES u/f+1+2"],
         "Counter hit frame": "CS",
         "Damage": "9*3",
         "Gif": "",
@@ -1872,6 +1852,7 @@
     {
         "Block frame": "-",
         "Command": "DBT f+3+4, u or D",
+		"Alias": ["DBT f+3+4, u","DBT f+3+4, d"],
         "Counter hit frame": "-",
         "Damage": "-",
         "Gif": "",
@@ -2213,6 +2194,7 @@
     {
         "Block frame": "-8",
         "Command": "u/b or u or u/f+1",
+		"Alias": ["u/b+1","u+1","u/f+1"],
         "Counter hit frame": "+3",
         "Damage": "12",
         "Gif": "",
@@ -2224,6 +2206,7 @@
     {
         "Block frame": "-12~-11",
         "Command": "u/b or u or u/f+2",
+		"Alias": ["u/b+2","u+2","u/f+2"],
         "Counter hit frame": "+9~+10g",
         "Damage": "17",
         "Gif": "",
@@ -2235,6 +2218,7 @@
     {
         "Block frame": "-57~-56",
         "Command": "u/b or u or u/f+3",
+		"Alias": ["u/b+3","u+3","u/f+3"],
         "Counter hit frame": "-29~-28 (SH)",
         "Damage": "15",
         "Gif": "",

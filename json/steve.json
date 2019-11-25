@@ -78,7 +78,7 @@
     },
     {
         "Block frame": "-6",
-        "Command": "1, 1, 3 or 4 to Weave ",
+        "Command": "1, 1, 3 or 1, 1, 4 to Weave ",
         "Counter hit frame": "0",
         "Damage": "7,7",
         "Gif": "",
@@ -100,7 +100,7 @@
     },
     {
         "Block frame": "-3",
-        "Command": "1, 1, 2, f+3 or f+4",
+        "Command": "1, 1, 2, f+3 or 1, 1, 2, f+4",
         "Counter hit frame": "+8",
         "Damage": "7,7,15",
         "Gif": "",
@@ -122,7 +122,7 @@
     },
     {
         "Block frame": "-5",
-        "Command": "1, 1, 2, b+3 or b+4 to Sway ",
+        "Command": "1, 1, 2, b+3 or 1, 1, 2,b+4 to Sway ",
         "Counter hit frame": "+6",
         "Damage": "7,7,15",
         "Gif": "",
@@ -177,7 +177,7 @@
     },
     {
         "Block frame": "-4",
-        "Command": "1, 2, 3 or 4 to Weave ",
+        "Command": "1, 2, 3 or 1, 2,4 to Weave ",
         "Counter hit frame": "+4",
         "Damage": "7,10",
         "Gif": "",
@@ -232,7 +232,7 @@
     },
     {
         "Block frame": "-6",
-        "Command": "1, 2, 1, 3 or 4 to Weave ",
+        "Command": "1, 2, 1, 3 or 1, 2, 1,4 to Weave ",
         "Counter hit frame": "0",
         "Damage": "7,10,15",
         "Gif": "",
@@ -485,7 +485,7 @@
     },
     {
         "Block frame": "-7~-6",
-        "Command": "d/f+1, 3 or 4 to Weave ",
+        "Command": "d/f+1, 3 or d/f+1, 4 to Weave ",
         "Counter hit frame": "0~+1",
         "Damage": "12",
         "Gif": "",
@@ -507,7 +507,7 @@
     },
     {
         "Block frame": "-16~-15",
-        "Command": "d/f+1, 2, 3 or 4 to Weave  (Cancel)",
+        "Command": "d/f+1, 2, 3 or d/f+1, 2, 4 to Weave  (Cancel)",
         "Counter hit frame": "-9~-8",
         "Damage": "12",
         "Gif": "",
@@ -562,7 +562,7 @@
     },
     {
         "Block frame": "-4",
-        "Command": "d/f+1, 2~f+1+2 , 3 or 4 to Weave ",
+        "Command": "d/f+1, 2~f+1+2, 3 or d/f+1, 2~f+1+2, 4 to Weave ",
         "Counter hit frame": "-1(+2)",
         "Damage": "12,8,12",
         "Gif": "",
@@ -650,7 +650,7 @@
     },
     {
         "Block frame": "-6~-5",
-        "Command": "d+2, 1, 3 or 4 to Weave ",
+        "Command": "d+2, 1, 3 or d+2, 1, 4 to Weave ",
         "Counter hit frame": "+5~+6",
         "Damage": "13,8",
         "Gif": "",
@@ -683,7 +683,7 @@
     },
     {
         "Block frame": "-6~-5",
-        "Command": "d+2~n+1, 3 or 4 to Weave ",
+        "Command": "d+2~n+1, 3 or d+2~n+1,4 to Weave ",
         "Counter hit frame": "+5~+6",
         "Damage": "15",
         "Gif": "",
@@ -724,17 +724,6 @@
         "Hit level": "l (TC)",
         "Notes": "-",
         "Start up frame": "26~27 cs6or1~"
-    },
-    {
-        "Block frame": "-12~-11",
-        "Command": "d/b+2, d/b or D",
-        "Counter hit frame": "KND",
-        "Damage": "21",
-        "Gif": "",
-        "Hit frame": "+1~+2s",
-        "Hit level": "l (TC)",
-        "Notes": "-",
-        "Start up frame": "26~27s cs6or1~"
     },
     {
         "Block frame": "-15",
@@ -858,7 +847,7 @@
         "Start up frame": "12~"
     },
     {
-        "Block frame": "-13~-12",
+        "Block frame": "-14",
         "Command": "b+2",
         "Counter hit frame": "CS",
         "Damage": "20",
@@ -902,30 +891,9 @@
         "Start up frame": "19~21 js9~"
     },
     {
-        "Block frame": "-14~-11",
-        "Command": "u or u/f+2",
-        "Counter hit frame": "KND",
-        "Damage": "20",
-        "Gif": "",
-        "Hit frame": "KND",
-        "Hit level": "m (TJ)",
-        "Notes": "-",
-        "Start up frame": "22~25 js9~"
-    },
-    {
-        "Block frame": "-12~-11",
-        "Command": "u or u/f+3",
-        "Counter hit frame": "+9~+10",
-        "Damage": "20",
-        "Gif": "",
-        "Hit frame": "+9~+10",
-        "Hit level": "l (TJ)",
-        "Notes": "-",
-        "Start up frame": "36~37 js9~35"
-    },
-    {
         "Block frame": "-7~-6",
         "Command": "u or u/f+3, 2",
+		"Alias": ["u+3,2","u/f+3,2"],
         "Counter hit frame": "KND",
         "Damage": "20,16",
         "Gif": "",
@@ -933,17 +901,6 @@
         "Hit level": "l (TJ), h",
         "Notes": "-",
         "Start up frame": "36~37 9~35"
-    },
-    {
-        "Block frame": "-14~-13",
-        "Command": "u or u/f+4",
-        "Counter hit frame": "Launch (JG?)",
-        "Damage": "20",
-        "Gif": "",
-        "Hit frame": "Launch (JG?)",
-        "Hit level": "m (TJ)",
-        "Notes": "-",
-        "Start up frame": "23~24 js9~"
     },
     {
         "Block frame": "-13~-10s",
@@ -1420,7 +1377,7 @@
     },
     {
         "Block frame": "-",
-        "Command": "f+3 or f+4 FC+d/f+3 or d/f+4 (to DCK)",
+        "Command": "f+3 or f+4(to DCK)",
         "Counter hit frame": "-",
         "Damage": "-",
         "Gif": "",
@@ -1574,7 +1531,7 @@
     },
     {
         "Block frame": "+1~+2",
-        "Command": "DCK f+2, 3 or 4 to Weave ",
+        "Command": "DCK f+2, 3 or DCK f+2, 4 to Weave ",
         "Counter hit frame": "CS",
         "Damage": "21",
         "Gif": "",
@@ -1629,7 +1586,7 @@
     },
     {
         "Block frame": "+9~+10 (+15~+16)",
-        "Command": "Ext DCK f+2, 3 or 4 to Weave ",
+        "Command": "Ext DCK f+2, 3 or Ext DCK f+2, 4 to Weave ",
         "Counter hit frame": "CS",
         "Damage": "28",
         "Gif": "",
@@ -1718,6 +1675,7 @@
     {
         "Block frame": "-3",
         "Command": "PAB 2 or u/b+2",
+		"Alias": ["PAB u/b+2","PAB u+2"],
         "Counter hit frame": "CS",
         "Damage": "19(31)",
         "Gif": "",
@@ -1927,6 +1885,7 @@
     {
         "Block frame": "-15~-13",
         "Command": "PAB u or u/f+2",
+		"Alias": ["PAB u+2","PAB u/f+2"],
         "Counter hit frame": "Launch",
         "Damage": "23",
         "Gif": "",
@@ -1992,7 +1951,7 @@
     },
     {
         "Block frame": "-",
-        "Command": "b+3+4, 3 or 4 to Weave ",
+        "Command": "b+3+4, 3 or b+3+4,4 to Weave ",
         "Counter hit frame": "-",
         "Damage": "-",
         "Gif": "",
@@ -2135,7 +2094,7 @@
     },
     {
         "Block frame": "0~+2",
-        "Command": "FLIK 1, d or u+1",
+        "Command": "FLIK 1, d+1",
         "Counter hit frame": "Tail spin",
         "Damage": "14,23",
         "Gif": "",
@@ -2477,6 +2436,7 @@
     {
         "Block frame": "-8",
         "Command": "u/b or u+1",
+		"Alias": ["u+1","u/f+1"],
         "Counter hit frame": "+3",
         "Damage": "12",
         "Gif": "",
@@ -2510,6 +2470,7 @@
     {
         "Block frame": "-14~-11",
         "Command": "u or u/f+2",
+		"Alias": ["u+2","u/f+2"],
         "Counter hit frame": "KND",
         "Damage": "20",
         "Gif": "",
@@ -2532,6 +2493,7 @@
     {
         "Block frame": "-12~-11",
         "Command": "u or u/f+3",
+		"Alias": ["u+3","u/f+3"],
         "Counter hit frame": "+9~+10",
         "Damage": "20",
         "Gif": "",
@@ -2549,18 +2511,19 @@
         "Hit frame": "-",
         "Hit level": "(Special)",
         "Notes": "-",
-        "Start up frame": "36~37 9~35"
+        "Start up frame": "36~37 js9~35"
     },
     {
         "Block frame": "-14~-13",
         "Command": "u or u/f+4",
+		"Alias": ["u+4","u/f+4"],
         "Counter hit frame": "Launch (JG?)",
         "Damage": "27",
         "Gif": "",
         "Hit frame": "Launch (JG?)",
         "Hit level": "m (TJ)",
         "Notes": "-",
-        "Start up frame": "23~24"
+        "Start up frame": "23~24 js9"
     },
     {
         "Block frame": "-3~-2",

@@ -392,6 +392,7 @@
         "Gif": "https://gfycat.com/shortreflectingfeline.gif",
         "Hit frame": "+6",
         "Hit level": "sm, m",
+		"Alias": ["d+1,4", "FC d+1,4"],
         "Notes": "-",
         "Start up frame": "-"
     },
@@ -463,7 +464,7 @@
     },
     {
         "Block frame": "-16",
-        "Command": "d+3+4 or FCd+3+4 or FC+d/f+4",
+        "Command": "d+3+4",
         "Counter hit frame": "-3",
         "Damage": "12",
         "Gif": "",
@@ -503,6 +504,7 @@
         "Hit frame": "-",
         "Hit level": "Special (SHS)",
         "Notes": "-",
+		"Alias": ["d+1+4","d+2+3"],
         "Start up frame": "total 27"
     },
     {
@@ -514,12 +516,14 @@
         "Hit frame": "Throw",
         "Hit level": "m (TC) (throw)",
         "Notes": "-",
+		"Alias": ["d+1+4,1+2","d+2+3,1+2"],
         "Start up frame": "14"
     },
     {
         "Block frame": "-13",
         "Command": "d+1+4 or d+2+3, 2",
         "Counter hit frame": "KND",
+		"Alias": ["d+1+4, 2","d+2+3, 2"],
         "Damage": "20",
         "Gif": "",
         "Hit frame": "+5",
@@ -737,17 +741,6 @@
         "Start up frame": "20"
     },
     {
-        "Block frame": "-12",
-        "Command": "u or u/f+1",
-        "Counter hit frame": "-1",
-        "Damage": "12",
-        "Gif": "https://gfycat.com/welllittimelygoldenretriever.gif",
-        "Hit frame": "-1",
-        "Hit level": "m (TJ)",
-        "Notes": "-",
-        "Start up frame": "18 js9"
-    },
-    {
         "Block frame": "-18s",
         "Command": "u/b or u or u/f+2",
         "Counter hit frame": "KND",
@@ -756,6 +749,7 @@
         "Hit frame": "KND",
         "Hit level": "m (TJ)",
         "Notes": "-",
+		"Alias": ["u/b+2","u+2","u/f+2"],
         "Start up frame": "48 js9"
     },
     {
@@ -778,6 +772,7 @@
         "Hit frame": "+5",
         "Hit level": "m (TJ)",
         "Notes": "-",
+		"Alias": ["u+3","u/f+3"],
         "Start up frame": "21 js17"
     },
     {
@@ -1320,7 +1315,7 @@
         "Start up frame": "15"
     },
     {
-        "Alias": "du",
+        "Alias": ["du"],
         "Block frame": "-10",
         "Command": "f, N, d, d/f+2",
         "Counter hit frame": "JG",

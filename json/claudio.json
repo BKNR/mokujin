@@ -365,6 +365,7 @@
     {
         "Block frame": "-18~-17",
         "Command": "d+1+2 or BT 1+2",
+		"Alias": ["d+1+2","BT 1+2"],
         "Counter hit frame": "KND",
         "Damage": "28",
         "Gif": "https://gfycat.com/anguishedcoordinatedflicker.gif",
@@ -563,6 +564,7 @@
     {
         "Block frame": "-9",
         "Command": "u/b or u or u/f+2",
+		"Alias": ["u/b+2","u+2","u/f+2"],
         "Counter hit frame": "KND",
         "Damage": "25",
         "Gif": "",
@@ -607,6 +609,7 @@
     {
         "Block frame": "-13~-11",
         "Command": "u/b or u or u/f+4",
+		"Alias": ["u/b+4","u+4","u/f+4"],
         "Counter hit frame": "Launch (JG?)",
         "Damage": "13",
         "Gif": "",
@@ -629,6 +632,7 @@
     {
         "Block frame": "-18~-16",
         "Command": "f, F+2 or FC+d/f+2",
+		"Alias": ["f,f+2","fc d/f+2"],
         "Counter hit frame": "-7~-5",
         "Damage": "14",
         "Gif": "",
@@ -642,6 +646,7 @@
         "Command": "f, F+2, 2 or FC+d/f+2, 2",
         "Counter hit frame": "KND",
         "Damage": "14,20",
+		"Alias": ["f,f+2,2","fc d/f+2,2"],
         "Gif": "https://gfycat.com/amusedinexperiencedcusimanse.gif",
         "Hit frame": "KND",
         "Hit level": "m, h (STB)",
@@ -651,6 +656,7 @@
     {
         "Block frame": "-13~-12",
         "Command": "f, F+2, 1+2 or FC+d/f+2, 1+2",
+		"Alias": ["f,f+2,1+2","fc d/f+2,1+2"],
         "Counter hit frame": "KND",
         "Damage": "14,20",
         "Gif": "https://gfycat.com/dearestwhoppingcrayfish.gif",
@@ -1245,6 +1251,7 @@
     {
         "Block frame": "-8",
         "Command": "u/b or u or u/f+1",
+		"Alias": ["u/b+1","u+1","u/f+1"],
         "Counter hit frame": "+3",
         "Damage": "16",
         "Gif": "",
@@ -1267,6 +1274,7 @@
     {
         "Block frame": "-9",
         "Command": "u or u/f+2",
+		"Alias": ["u+2","u/f+2"],
         "Counter hit frame": "KND",
         "Damage": "25",
         "Gif": "",
@@ -1290,23 +1298,13 @@
         "Block frame": "+2s",
         "Command": "u or u/f+3",
         "Counter hit frame": "JG",
+		"Alias": ["u+3","u/f+3"],
         "Damage": "20",
         "Gif": "",
         "Hit frame": "+7s",
         "Hit level": "m (TJ)",
         "Notes": "-",
         "Start up frame": "23"
-    },
-    {
-        "Block frame": "-13",
-        "Command": "u/b or u+4",
-        "Counter hit frame": "JG",
-        "Damage": "-",
-        "Gif": "",
-        "Hit frame": "JG",
-        "Hit level": "m (TJ)",
-        "Notes": "-",
-        "Start up frame": "15"
     },
     {
         "Block frame": "-13",

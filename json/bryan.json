@@ -125,6 +125,7 @@
         "Command": "1, 4, 2, 1, u or d (Cancel)",
         "Counter hit frame": "CS",
         "Damage": "7,14,18",
+		"Alias": ["1,4,2,1,u","1,4,2,1,d"],
         "Gif": "",
         "Hit frame": "+1",
         "Hit level": "h, h, h",
@@ -805,6 +806,7 @@
     {
         "Block frame": "-10",
         "Command": "b+2, 1, u or d (Cancel)",
+		"Alias": ["b+2,1,u","b+2,1,d"],
         "Counter hit frame": "CS",
         "Damage": "18",
         "Gif": "",
@@ -853,6 +855,7 @@
         "Damage": "12",
         "Gif": "",
         "Hit frame": "+12g",
+		"Alias": ["b+3,df","b+3,f"],
         "Hit level": "m, (Special) (TC)(CD)",
         "Notes": "-",
         "Start up frame": "20"
@@ -953,7 +956,9 @@
         "Gif": "",
         "Hit frame": "+3",
         "Hit level": "Absorbs 1 h/m hit",
+		"Alias": ["b+2+4","b+1+3"],
         "Notes": "-",
+		
         "Start up frame": "2~10"
     },
     {
@@ -1122,17 +1127,6 @@
         "Start up frame": "15"
     },
     {
-        "Block frame": "0~+1",
-        "Command": "u or u/f+3",
-        "Counter hit frame": "KND",
-        "Damage": "15",
-        "Gif": "",
-        "Hit frame": "KND",
-        "Hit level": "m (TJ)",
-        "Notes": "-",
-        "Start up frame": "27~28 js9~"
-    },
-    {
         "Block frame": "-5~-3",
         "Command": "u+4",
         "Counter hit frame": "KND",
@@ -1258,7 +1252,7 @@
         "Command": "WS+2 (to GUP)",
         "Counter hit frame": "+1",
         "Damage": "18",
-        "Gif": "",
+        "Gif": "https://gfycat.com/PersonalAdorableAfricanporcupine.gif",
         "Hit frame": "+1",
         "Hit level": "m(GUP)",
         "Notes": "-",
@@ -1949,6 +1943,7 @@
     {
         "Block frame": "-8",
         "Command": "u/b or u or u/f+1",
+		"Alias": ["u/b+1","u+1","u/f+1"],
         "Counter hit frame": "+3",
         "Damage": "12",
         "Gif": "",
@@ -1960,6 +1955,7 @@
     {
         "Block frame": "-12~-11",
         "Command": "u/b or u or u/f+2",
+		"Alias": ["u/b+2","u+2","u/f+2"],
         "Counter hit frame": "+9~+10g",
         "Damage": "17",
         "Gif": "",
@@ -1984,6 +1980,7 @@
         "Command": "u or u/f+3",
         "Counter hit frame": "KND",
         "Damage": "15",
+		"Alias": ["u+3","u/f+3"],
         "Gif": "",
         "Hit frame": "KND",
         "Hit level": "m (TJ)",
@@ -2028,6 +2025,7 @@
         "Command": "u or u/f+3+4",
         "Counter hit frame": "KND",
         "Damage": "25",
+		"Alias": ["u+3+4","u/f+3+4"],
         "Gif": "",
         "Hit frame": "KND",
         "Hit level": "m (TJ)",

@@ -12,7 +12,7 @@
     },
     {
         "Block frame": "+1",
-        "Command": "1 or BT 1 or 2",
+        "Command": "1",
         "Counter hit frame": "+8",
         "Damage": "7",
         "Gif": "",
@@ -67,7 +67,7 @@
     },
     {
         "Block frame": "-3",
-        "Command": "2 or f+2",
+        "Command": "2",
         "Counter hit frame": "+8",
         "Damage": "9",
         "Gif": "",
@@ -100,7 +100,7 @@
     },
     {
         "Block frame": "-5",
-        "Command": "4 or BT 3 or 4",
+        "Command": "4",
         "Counter hit frame": "KND",
         "Damage": "21",
         "Gif": "",
@@ -273,17 +273,6 @@
         "Hit level": "l (TC)",
         "Notes": "-",
         "Start up frame": "15s cs4or1~"
-    },
-    {
-        "Block frame": "-27",
-        "Command": "d/b or d+4 or FC+4 or BT d+3 or d+4",
-        "Counter hit frame": "KND",
-        "Damage": "17",
-        "Gif": "",
-        "Hit frame": "+5~+6s",
-        "Hit level": "l (TC)",
-        "Notes": "-",
-        "Start up frame": "20~21s cs6or1~"
     },
     {
         "Block frame": "-",
@@ -518,7 +507,7 @@
     },
     {
         "Block frame": "+2",
-        "Command": "f, F+4, 2, qcf+1, f or d/f+3+4",
+        "Command": "f, F+4, 2, qcf+1, f+3+4",
         "Counter hit frame": "KND",
         "Damage": "10,10,20",
         "Gif": "",
@@ -529,7 +518,7 @@
     },
     {
         "Block frame": "+2~+32",
-        "Command": "f, F+4, 2, qcf+2, f or d/f+3+4",
+        "Command": "f, F+4, 2, qcf+2, f+3+4",
         "Counter hit frame": "+10~+40",
         "Damage": "10,10,20",
         "Gif": "",
@@ -662,6 +651,7 @@
     {
         "Block frame": "-25~0",
         "Command": "Jump 1 BT u or u/f+1",
+		"Alias": ["Jump 1 BT u+1","Jump 1 BT u/f+1"],
         "Counter hit frame": "-15~+10",
         "Damage": "10",
         "Gif": "",
@@ -673,6 +663,7 @@
     {
         "Block frame": "-17~+8",
         "Command": "Jump 2 BT u or u/f+2",
+		"Alias": ["Jump 2 BT u+2","Jump 2 BT u/f+2"],
         "Counter hit frame": "-7~+18",
         "Damage": "15",
         "Gif": "",
@@ -684,6 +675,7 @@
     {
         "Block frame": "-25~0",
         "Command": "Jump 3 BT u or u/f+3",
+		"Alias": ["Jump 3 BT u+3","Jump 3 BT u/f+3"],
         "Counter hit frame": "-15~+10",
         "Damage": "10",
         "Gif": "",
@@ -695,6 +687,7 @@
     {
         "Block frame": "-18~+7",
         "Command": "Jump 4 BT u or u/f+4",
+		"Alias": ["Jump 4 BT u+4","Jump 4 BT u/f+4"],
         "Counter hit frame": "-8~+17",
         "Damage": "15",
         "Gif": "",
@@ -958,7 +951,7 @@
     },
     {
         "Block frame": "+2~",
-        "Command": "qcf+1, f or d/f+3+4",
+        "Command": "qcf+1, f+3+4",
         "Counter hit frame": "KND",
         "Damage": "20",
         "Gif": "",
@@ -969,7 +962,7 @@
     },
     {
         "Block frame": "+2~+32",
-        "Command": "qcf+2, f or d/f+3+4",
+        "Command": "qcf+2, f+3+4",
         "Counter hit frame": "+10~+40",
         "Damage": "20",
         "Gif": "",
@@ -1189,7 +1182,7 @@
     },
     {
         "Block frame": "-7",
-        "Command": "d/b or d+2",
+        "Command": "d/b+2 or d+2",
         "Counter hit frame": "+4",
         "Damage": "8",
         "Gif": "",
@@ -1200,7 +1193,7 @@
     },
     {
         "Block frame": "-16",
-        "Command": "d/b or d+3 (Close)",
+        "Command": "d/b+3 or d+3 (Close)",
         "Counter hit frame": "-5",
         "Damage": "10",
         "Gif": "",
@@ -1211,7 +1204,7 @@
     },
     {
         "Block frame": "-16",
-        "Command": "d/b or d+3",
+        "Command": "d/b+3 or d+3",
         "Counter hit frame": "-5",
         "Damage": "7",
         "Gif": "",
@@ -1222,7 +1215,7 @@
     },
     {
         "Block frame": "-27",
-        "Command": "d/b or d+4",
+        "Command": "d/b+4 or d+4",
         "Counter hit frame": "KND",
         "Damage": "17",
         "Gif": "",

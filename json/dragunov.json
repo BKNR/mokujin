@@ -497,6 +497,7 @@
     {
         "Block frame": "-",
         "Command": "d/f+1+2 or FC+d/f+1+2",
+		"Alias": ["d/f+1+2", "FC d/f+1+2"],
         "Counter hit frame": "-",
         "Damage": "20",
         "Gif": "https://gfycat.com/vigilantbravekusimanse.gif",
@@ -793,7 +794,7 @@
     },
     {
         "Block frame": "-50",
-        "Command": "b+4, 2, 1+2, 1 or 2 or 3 or 4 (Cancel)",
+        "Command": "b+4, 2, 1+2,(Cancel)",
         "Counter hit frame": "-38s",
         "Damage": "15,15",
         "Gif": "",
@@ -1114,6 +1115,7 @@
         "Block frame": "-",
         "Command": "SS+2, 1+2, 1+2",
         "Counter hit frame": "-",
+		"Alias": ["SS+2,1+2,1+2", "SS+2,1+2,1+2"],
         "Damage": "16,8,12,5",
         "Gif": "https://gfycat.com/decimaljealousindianrockpython.gif",
         "Hit frame": "Throw(KND)",
@@ -1123,7 +1125,7 @@
     },
     {
         "Block frame": "-51~-50",
-        "Command": "SS+2, 1+2, 1+2, 1 or 2 or 3 or 4 (Cancel)",
+        "Command": "SS+2, 1+2, 1+2, (Cancel)",
         "Counter hit frame": "-45~-44s (-39~-38s)",
         "Damage": "16,8,12",
         "Gif": "",
@@ -1552,7 +1554,8 @@
     },
     {
         "Block frame": "-8",
-        "Command": "u/b or u+1 or u/f+1+2",
+        "Command": "u/b or u+1+2 or u/f+1+2",
+		"Alias": ["u/b+1+2","u+1+2", "u/f+1+2"],
         "Counter hit frame": "+3",
         "Damage": "12",
         "Gif": "",

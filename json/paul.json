@@ -396,7 +396,7 @@
         "Start up frame": "15"
     },
     {
-        "Alias": "demoman",
+        "Alias": ["demoman"],
         "Block frame": "-17~-16",
         "Command": "d+4:2:1+2",
         "Counter hit frame": "KND",
@@ -586,6 +586,7 @@
     {
         "Block frame": "-13~-12",
         "Command": "u/b or u or u/f+3, 4",
+		"Alias": ["u/b+3,4","u+3,4","u/f+3,4"],
         "Counter hit frame": "Launch (JG?)",
         "Damage": "14,20",
         "Gif": "",
@@ -706,7 +707,7 @@
     },
     {
         "Block frame": "-14~-12",
-        "Command": "f, F+3, 4, f or d/f+4",
+        "Command": "f, F+3, 4, f+4",
         "Counter hit frame": "KND",
         "Damage": "14,15,18",
         "Gif": "",
@@ -717,7 +718,7 @@
     },
     {
         "Block frame": "-17~-16",
-        "Command": "f, F+3, 4, d or d/b+4",
+        "Command": "f, F+3, 4, d+4",
         "Counter hit frame": "-6~-5",
         "Damage": "14,15,15",
         "Gif": "",
@@ -1323,6 +1324,7 @@
     {
         "Block frame": "-8",
         "Command": "u/b or u or u/f+1",
+		"Alias": ["u/b+1","u+1","u/f+1"],
         "Counter hit frame": "+3",
         "Damage": "12",
         "Gif": "",

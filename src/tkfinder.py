@@ -71,11 +71,11 @@ def get_move(character: dict, move_command: str) -> dict:
 
     move_json = get_character_json(character)
 
-    move = list(filter(lambda x: (move_simplifier(x['Command'].lower())
-                                  == move_simplifier(move_command.lower())), move_json))
+    move = list(filter(lambda x: (move_simplifier(x['Command'])
+                                  == move_simplifier(move_command)), move_json))
     if not move:
-        move = list(filter(lambda x: move_simplifier(move_command.lower())
-                                     in move_simplifier(x['Command'].lower()), move_json))
+        move = list(filter(lambda x: move_simplifier(move_command)
+                                     in move_simplifier(x['Command']), move_json))
         if not move:
             move = list(filter(lambda x: (is_command_in_alias(move_command, x)), move_json))
 
@@ -104,25 +104,17 @@ def get_by_move_type(character: dict, move_type: str) -> list:
 
 def is_command_in_alias(command: str, item: dict) -> bool:
     if 'Alias' in item:
-        command = command.lower().strip()
-
-        aliases = item['Alias'].split(",")
-        alias_list = []
-        for word in aliases:
-            alias_list.append(str(word).strip().lower())
-
-        if command not in alias_list:
-            for alias in alias_list:
-                if move_simplifier(command) == move_simplifier(alias):
-                    return True
-
-        return command in alias_list
+        aliases = item['Alias']
+        for alias in aliases:
+            if move_simplifier(command) == move_simplifier(alias):
+                return True
+    return False
 
 
 def move_simplifier(move_input) -> str:
     """Removes bells and whistles from the move_input"""
 
-    short_input = move_input
+    short_input = move_input.strip().lower()
 
     for old, new in const.REPLACE.items():
         short_input = short_input.replace(old, new)

@@ -671,12 +671,12 @@
         "Start up frame": "15"
     },
     {
-        "Block frame": "\u00a0",
+        "Block frame": "-",
         "Command": "b+4(CH in front)",
         "Counter hit frame": "Throw(KND)",
         "Damage": "27,23",
         "Gif": "",
-        "Hit frame": "\u00a0",
+        "Hit frame": "-",
         "Hit level": "m, (throw)",
         "Notes": "-",
         "Start up frame": "15"
@@ -704,30 +704,8 @@
         "Start up frame": "84~85"
     },
     {
-        "Block frame": "-26~-25 (13~6a)",
-        "Command": "u/b or u or u/f+3",
-        "Counter hit frame": "Launch",
-        "Damage": "12(,14)",
-        "Gif": "",
-        "Hit frame": "Launch",
-        "Hit level": "m (TJ)(, m)",
-        "Notes": "-",
-        "Start up frame": "16~17s (,34) js12~"
-    },
-    {
         "Block frame": "-9~-7",
         "Command": "u/b+4",
-        "Counter hit frame": "KND",
-        "Damage": "20",
-        "Gif": "",
-        "Hit frame": "KND",
-        "Hit level": "m (TJ)",
-        "Notes": "-",
-        "Start up frame": "25~27 js9~"
-    },
-    {
-        "Block frame": "-9~-7",
-        "Command": "u or u/f+4",
         "Counter hit frame": "KND",
         "Damage": "20",
         "Gif": "",
@@ -748,7 +726,7 @@
         "Start up frame": "21~22 (22~)"
     },
     {
-        "Block frame": "\u00a0",
+        "Block frame": "-",
         "Command": "f, F+2 When hit f",
         "Counter hit frame": "Launch",
         "Damage": "20",
@@ -794,7 +772,7 @@
     {
         "Block frame": "-11~-10",
         "Command": "f, F+1+2",
-        "Counter hit frame": "\u00a0",
+        "Counter hit frame": "-",
         "Damage": "20",
         "Gif": "https://gfycat.com/ConfusedTimelyBrocketdeer.gif",
         "Hit frame": "KND",
@@ -805,7 +783,7 @@
     {
         "Block frame": "-16~-15",
         "Command": "f, F+3+4",
-        "Counter hit frame": "\u00a0",
+        "Counter hit frame": "-",
         "Damage": "11,15",
         "Gif": "https://gfycat.com/GentleSharpBoilweevil.gif",
         "Hit frame": "0~+1s",
@@ -858,7 +836,7 @@
         "Start up frame": "15~16"
     },
     {
-        "Block frame": "\u00a0",
+        "Block frame": "-",
         "Command": "WS+1 When hit f",
         "Counter hit frame": "Launch",
         "Damage": "16",
@@ -968,12 +946,12 @@
         "Start up frame": "22~23"
     },
     {
-        "Block frame": "\u00a0",
+        "Block frame": "-",
         "Command": "1+2+3+4",
-        "Counter hit frame": "\u00a0",
-        "Damage": "\u00a0",
+        "Counter hit frame": "-",
+        "Damage": "-",
         "Gif": "",
-        "Hit frame": "\u00a0",
+        "Hit frame": "-",
         "Hit level": "(Special)",
         "Notes": "-",
         "Start up frame": "22~23"
@@ -990,12 +968,12 @@
         "Start up frame": "16~17 (46~) js14~"
     },
     {
-        "Block frame": "\u00a0",
+        "Block frame": "-",
         "Command": "SEN only from certain moves",
-        "Counter hit frame": "\u00a0",
-        "Damage": "\u00a0",
+        "Counter hit frame": "-",
+        "Damage": "-",
         "Gif": "",
-        "Hit frame": "\u00a0",
+        "Hit frame": "-",
         "Hit level": "(SEN)",
         "Notes": "-",
         "Start up frame": "16~17 (46~) 14~"
@@ -1056,26 +1034,26 @@
         "Start up frame": "14~15"
     },
     {
-        "Block frame": "\u00a0",
+        "Block frame": "-",
         "Command": "f+3 or Form certain moves",
-        "Counter hit frame": "\u00a0",
+        "Counter hit frame": "-",
         "Damage": "cs 4~10",
         "Gif": "",
-        "Hit frame": "\u00a0",
+        "Hit frame": "-",
         "Hit level": "(Special)",
         "Notes": "-",
         "Start up frame": "14~15"
     },
     {
-        "Block frame": "\u00a0",
+        "Block frame": "-",
         "Command": "DEN F",
-        "Counter hit frame": "\u00a0",
-        "Damage": "\u00a0",
+        "Counter hit frame": "-",
+        "Damage": "-",
         "Gif": "https://gfycat.com/SoupyGoodLadybug.gif",
-        "Hit frame": "\u00a0",
+        "Hit frame": "-",
         "Hit level": "(SEN)",
         "Notes": "-",
-        "Start up frame": "\u00a0"
+        "Start up frame": "-"
     },
     {
         "Block frame": "-1~0",
@@ -1155,9 +1133,9 @@
         "Start up frame": "12~13s (28~)"
     },
     {
-        "Block frame": "\u00a0",
+        "Block frame": "-",
         "Command": "DEN 2+3",
-        "Counter hit frame": "\u00a0",
+        "Counter hit frame": "-",
         "Damage": "20,20",
         "Gif": null,
         "Hit frame": "Throw(KND)",
@@ -1166,9 +1144,9 @@
         "Start up frame": "12(27~)"
     },
     {
-        "Block frame": "\u00a0",
+        "Block frame": "-",
         "Command": "DEN 2+3 (Opponent in air)",
-        "Counter hit frame": "\u00a0",
+        "Counter hit frame": "-",
         "Damage": "23,8",
         "Gif": "",
         "Hit frame": "Throw(KND)",
@@ -1177,20 +1155,22 @@
         "Start up frame": "12(27~)"
     },
     {
-        "Block frame": "\u00a0",
+        "Block frame": "-",
         "Command": "u/b or u or u/f+3+4",
-        "Counter hit frame": "\u00a0",
-        "Damage": "\u00a0",
+		"Alias": ["u+3+4","u/f+3+4","u/b+3+4"],
+        "Counter hit frame": "-",
+        "Damage": "-",
         "Gif": "",
-        "Hit frame": "\u00a0",
+        "Hit frame": "-",
         "Hit level": "(Special) (TJ)",
         "Notes": "-",
         "Start up frame": "lc,a"
     },
     {
-        "Block frame": "\u00a0",
+        "Block frame": "-",
         "Command": "u/b or u or u/f+3+4*",
-        "Counter hit frame": "\u00a0",
+		"Alias": ["u+3+4*","u/f+3+4*","u/b+3+4*"],
+        "Counter hit frame": "-",
         "Damage": "40(50)",
         "Gif": "",
         "Hit frame": "Throw(KND)",
@@ -1287,12 +1267,12 @@
         "Start up frame": "12"
     },
     {
-        "Block frame": "\u00a0",
+        "Block frame": "-",
         "Command": "f+3 (to DEN)",
-        "Counter hit frame": "\u00a0",
-        "Damage": "\u00a0",
+        "Counter hit frame": "-",
+        "Damage": "-",
         "Gif": "",
-        "Hit frame": "\u00a0",
+        "Hit frame": "-",
         "Hit level": "(DEN)",
         "Notes": "-",
         "Start up frame": "12"
@@ -1487,6 +1467,7 @@
     {
         "Block frame": "-8",
         "Command": "u/b or u+1",
+		"Alias": ["u+1","u/b+1"],
         "Counter hit frame": "+3",
         "Damage": "12",
         "Gif": "",
@@ -1509,6 +1490,7 @@
     {
         "Block frame": "-12~-11",
         "Command": "u/b or u or u/f+2",
+		"Alias": ["u+2","u/f+2","u/b+2"],
         "Counter hit frame": "+9~+10g",
         "Damage": "17",
         "Gif": "",
@@ -1520,6 +1502,7 @@
     {
         "Block frame": "-26~-25 (13~6a)",
         "Command": "u/b or u or u/f+3",
+		"Alias": ["u+3","u/f+3","u/b+3"],
         "Counter hit frame": "Launch",
         "Damage": "12(,14)",
         "Gif": "",
@@ -1542,6 +1525,7 @@
     {
         "Block frame": "-9~-7",
         "Command": "u or u/f+4",
+		"Alias": ["u+4","u/f+4"],
         "Counter hit frame": "KND",
         "Damage": "20",
         "Gif": "",
