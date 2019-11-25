@@ -101,9 +101,11 @@ async def on_message(message):
 
             if character_name is not None:
                 character = tkfinder.get_character_data(character_name)
-                if original_name.lower() in const.MOVE_TYPES:
+                character_move = original_move.lower()
 
-                    character_move = original_name.lower()
+                if original_move.lower() in const.MOVE_TYPES.keys():
+
+                    print(character_move)
                     move_list = tkfinder.get_by_move_type(character, const.MOVE_TYPES[character_move])
                     if len(move_list) < 1:
                         result = embed.error_embed(
