@@ -1430,7 +1430,7 @@
   {
     "Alias": [ "grounded opponent d+2", "stomp" ],
     "Block frame": "-13~-12",
-    "Command": "Opponent Down d+2",
+    "Command": "d+2 Opponent Down ",
     "Counter hit frame": "+3~+4",
     "Damage": "24 (grounded 19)",
     "Gif": "",

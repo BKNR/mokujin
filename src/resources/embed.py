@@ -68,7 +68,7 @@ def help_embed():
 
 def thank_embed():
     text = "\n\n" \
-           "Much thanks and love to T7Chicken Team, Ruxx, BKNR, Dramen, Maxwell, Dreamotion, Jacket and Cangu. \n\n" \
+           "Much thanks and love to T7Chicken Team, Ruxx, BKNR, Vesper, Maxwell, Dramen, Dreamotion, Jacket and Cangu. \n\n" \
            "This project won't be possible without you guys <3"
     embed = discord.Embed(title='Commands', description=text, colour=0x37ba25)
     embed.set_author(name='Author: Tib')
