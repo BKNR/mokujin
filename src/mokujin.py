@@ -105,7 +105,6 @@ async def on_message(message):
 
                 if original_move.lower() in const.MOVE_TYPES.keys():
 
-                    print(character_move)
                     move_list = tkfinder.get_by_move_type(character, const.MOVE_TYPES[character_move])
                     if len(move_list) < 1:
                         result = embed.error_embed(
