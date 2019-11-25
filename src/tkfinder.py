@@ -71,11 +71,11 @@ def get_move(character: dict, move_command: str) -> dict:
 
     move_json = get_character_json(character)
 
-    move = list(filter(lambda x: (move_simplifier(x['Command'].lower())
-                                  == move_simplifier(move_command.lower())), move_json))
+    move = list(filter(lambda x: (move_simplifier(x['Command'])
+                                  == move_simplifier(move_command)), move_json))
     if not move:
-        move = list(filter(lambda x: move_simplifier(move_command.lower())
-                                     in move_simplifier(x['Command'].lower()), move_json))
+        move = list(filter(lambda x: move_simplifier(move_command)
+                                     in move_simplifier(x['Command']), move_json))
         if not move:
             move = list(filter(lambda x: (is_command_in_alias(move_command, x)), move_json))
 
@@ -104,8 +104,6 @@ def get_by_move_type(character: dict, move_type: str) -> list:
 
 def is_command_in_alias(command: str, item: dict) -> bool:
     if 'Alias' in item:
-        command = command.lower().strip()
-
         aliases = item['Alias']
         for alias in aliases:
             if move_simplifier(command) == move_simplifier(alias):

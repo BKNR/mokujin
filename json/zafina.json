@@ -783,6 +783,7 @@
     {
         "Block frame": "-12",
         "Command": "u/b or u+1",
+		"Alias": ["u/b+1","u+1"],
         "Counter hit frame": "-1",
         "Damage": "12",
         "Gif": "",
@@ -805,6 +806,7 @@
     {
         "Block frame": "-12",
         "Command": "u/b or u or u/f+22",
+		"Alias": ["u/b+2,2","u+2,2","u/f+2,2"],
         "Counter hit frame": "+9g",
         "Damage": "17",
         "Gif": "",
@@ -1244,7 +1246,7 @@
     },
     {
         "Block frame": "-2",
-        "Command": "BT d+1 or d+2",
+        "Command": "BT d+1 or BT d+2",
         "Counter hit frame": "+9",
         "Damage": "10",
         "Gif": "",
@@ -1255,7 +1257,7 @@
     },
     {
         "Block frame": "-11",
-        "Command": "BT d+3 or d+4",
+        "Command": "BT d+3 or BT d+4",
         "Counter hit frame": "+4",
         "Damage": "12",
         "Gif": "",
@@ -1265,15 +1267,15 @@
         "Start up frame": "10"
     },
     {
-        "Block frame": "\u2013",
+        "Block frame": "-",
         "Command": "d+1+2 or FC+d+1+2",
-        "Counter hit frame": "\u2013",
-        "Damage": "\u2013",
+        "Counter hit frame": "-",
+        "Damage": "-",
         "Gif": "",
-        "Hit frame": "\u2013",
+        "Hit frame": "-",
         "Hit level": "(TRT)",
         "Notes": "-",
-        "Start up frame": "\u2013"
+        "Start up frame": "-"
     },
     {
         "Block frame": "-",
@@ -1397,24 +1399,24 @@
         "Start up frame": "25"
     },
     {
-        "Block frame": "\u2013",
+        "Block frame": "-",
         "Command": "3+4 or FC+d+3",
-        "Counter hit frame": "\u2013",
-        "Damage": "\u2013",
+        "Counter hit frame": "-",
+        "Damage": "-",
         "Gif": "",
-        "Hit frame": "\u2013",
+        "Hit frame": "-",
         "Hit level": "(SCR)",
         "Notes": "-",
-        "Start up frame": "\u2013"
+        "Start up frame": "-"
     },
     {
-        "Block frame": "\u2013",
+        "Block frame": "-",
         "Command": "SCR d/b",
-        "Counter hit frame": "\u2013",
-        "Damage": "\u2013",
+        "Counter hit frame": "-",
+        "Damage": "-",
         "Gif": "",
-        "Hit frame": "\u2013",
-        "Hit level": "\u2013",
+        "Hit frame": "-",
+        "Hit level": "-",
         "Notes": "-",
         "Start up frame": "19"
     },

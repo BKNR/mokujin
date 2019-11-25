@@ -452,7 +452,7 @@
     },
     {
         "Block frame": "-",
-        "Command": "b+3+4 or RSS B",
+        "Command": "b+3+4",
         "Counter hit frame": "-",
         "Damage": "-",
         "Gif": "",
@@ -463,18 +463,8 @@
     },
     {
         "Block frame": "-14",
-        "Command": "u/b or u or u/f+2",
-        "Counter hit frame": "-8",
-        "Damage": "12(,20)",
-        "Gif": "",
-        "Hit frame": "-8",
-        "Hit level": "h(, Sm)",
-        "Notes": "-",
-        "Start up frame": "14(,37)"
-    },
-    {
-        "Block frame": "-14",
         "Command": "u/b or u or u/f+2f",
+		"Alias": ["u/b+2,f","u+2,f","u/f+2,f"],
         "Counter hit frame": "+9",
         "Damage": "12(,20)",
         "Gif": "",
@@ -760,7 +750,7 @@
     },
     {
         "Block frame": "-",
-        "Command": "f+3+4 or f, f+3+4 or b+3+4, f",
+        "Command": "f+3+4",
         "Counter hit frame": "-",
         "Damage": "-",
         "Gif": "",
@@ -1147,6 +1137,7 @@
     {
         "Block frame": "-8",
         "Command": "u/b or u or u/f+1",
+		"Alias": ["u/b+1","u+1","u/f+1"],
         "Counter hit frame": "+3",
         "Damage": "12",
         "Gif": "",
@@ -1154,17 +1145,6 @@
         "Hit level": "m (TJ)",
         "Notes": "-",
         "Start up frame": "18 js9~"
-    },
-    {
-        "Block frame": "-14",
-        "Command": "u/b or u or u/f+2",
-        "Counter hit frame": "KND",
-        "Damage": "12(,20)",
-        "Gif": "",
-        "Hit frame": "KND",
-        "Hit level": "h(, Sm)",
-        "Notes": "-",
-        "Start up frame": "14(,37)"
     },
     {
         "Block frame": "-20~-19",
@@ -1297,17 +1277,6 @@
         "Hit level": "l (TC)",
         "Notes": "-",
         "Start up frame": "16s cs1~"
-    },
-    {
-        "Block frame": "-15~-14",
-        "Command": "FC+d/b or d+4",
-        "Counter hit frame": "-4~-3",
-        "Damage": "10",
-        "Gif": "",
-        "Hit frame": "-4~-3",
-        "Hit level": "l",
-        "Notes": "-",
-        "Start up frame": "16~17s cs1~"
     },
     {
         "Block frame": "-15",

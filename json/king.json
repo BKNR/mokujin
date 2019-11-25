@@ -419,7 +419,7 @@
     },
     {
         "Block frame": "-13~-11",
-        "Command": "d/f+4, 3, d/b or d+4",
+        "Command": "d/f+4, 3,d+4",
         "Counter hit frame": "KND",
         "Damage": "10,11,20",
         "Gif": "",
@@ -1727,17 +1727,6 @@
         "Start up frame": "14 RC"
     },
     {
-        "Block frame": "-5",
-        "Command": "d/b or d+1 ",
-        "Counter hit frame": "+6",
-        "Damage": "6",
-        "Gif": "",
-        "Hit frame": "+6",
-        "Hit level": "Sm (TC)",
-        "Notes": "-",
-        "Start up frame": "10 RC"
-    },
-    {
         "Block frame": "-5 OC",
         "Command": "d/b+2",
         "Counter hit frame": "KND",
@@ -1960,6 +1949,7 @@
     {
         "Block frame": "-19",
         "Command": "u/b or u+3",
+		"Alias": ["u/b+3","u+3"],
         "Counter hit frame": "KND",
         "Damage": "33",
         "Gif": "",

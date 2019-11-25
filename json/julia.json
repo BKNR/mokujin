@@ -79,6 +79,7 @@
     {
         "Block frame": "-9",
         "Command": "1, 2, 3 or 4",
+		"Alias": ["1,2,3","1,2,4"],
         "Counter hit frame": "-3",
         "Damage": "7,10",
         "Gif": "https://gfycat.com/PlumpBlushingHummingbird.gif",
@@ -838,6 +839,7 @@
     {
         "Block frame": "-12",
         "Command": "u/b or u+1",
+		"Alias": ["u/b+1","u+1"],
         "Counter hit frame": "-1",
         "Damage": "12",
         "Gif": "",
@@ -860,6 +862,7 @@
     {
         "Block frame": "-12",
         "Command": "u/b or u or u/f+2",
+		"Alias": ["u/b+2","u+2","u/f+2"],
         "Counter hit frame": "+9",
         "Damage": "17",
         "Gif": "",
@@ -1047,21 +1050,11 @@
     {
         "Block frame": "+2",
         "Command": "d, d/f+1, 3 or 4",
+		"Alias": ["d, d/f+1, 3","d, d/f+1, 4"],
         "Counter hit frame": "+13",
         "Damage": "14",
         "Gif": "https://gfycat.com/FlusteredUnlawfulCockerspaniel.gif",
         "Hit frame": "+8",
-        "Hit level": "m (CES)",
-        "Notes": "-",
-        "Start up frame": "-"
-    },
-    {
-        "Block frame": "-8",
-        "Command": "d, d/f+1, 3 or 4 (no sequential move)",
-        "Counter hit frame": "+3",
-        "Damage": "14",
-        "Gif": "",
-        "Hit frame": "-2",
         "Hit level": "m (CES)",
         "Notes": "-",
         "Start up frame": "-"
@@ -1212,6 +1205,7 @@
     {
         "Block frame": "+2",
         "Command": "WS+2, 3 or 4",
+		"Alias": ["WS+2,3","WS+2,4"],
         "Counter hit frame": "+13",
         "Damage": "11",
         "Gif": "",

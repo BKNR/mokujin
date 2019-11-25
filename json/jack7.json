@@ -858,17 +858,6 @@
         "Start up frame": "24~26 js9~"
     },
     {
-        "Block frame": "-1~+1s",
-        "Command": "u/b or u or u/f, n+2",
-        "Counter hit frame": "+10~+12s",
-        "Damage": "28",
-        "Gif": "",
-        "Hit frame": "+10~+12s",
-        "Hit level": "m (TJ)",
-        "Notes": "-",
-        "Start up frame": "22~24a (32~) js9~"
-    },
-    {
         "Block frame": "-6~-5",
         "Command": "f, F+1",
         "Counter hit frame": "KND",
@@ -1519,7 +1508,7 @@
     },
     {
         "Block frame": "-",
-        "Command": "d/b or d+3+4 (to SIT)",
+        "Command": "d/b+3+4 or d+3+4 (to SIT)",
         "Counter hit frame": "-",
         "Damage": "-",
         "Gif": "https://gfycat.com/finishedrepentantgyrfalcon.gif",
@@ -1530,7 +1519,7 @@
     },
     {
         "Block frame": "-",
-        "Command": "SIT f or b",
+        "Command": "SIT f or SIT b",
         "Counter hit frame": "-",
         "Damage": "-",
         "Gif": "",
@@ -1980,19 +1969,9 @@
         "Start up frame": "17"
     },
     {
-        "Block frame": "+4~+6s",
-        "Command": "u/b or u or u/f+2",
-        "Counter hit frame": "KND",
-        "Damage": "25",
-        "Gif": "https://gfycat.com/smugancientfirecrest.gif",
-        "Hit frame": "+7~+9s",
-        "Hit level": "m (TJ)",
-        "Notes": "-",
-        "Start up frame": "24~26 js9~"
-    },
-    {
         "Block frame": "-21",
         "Command": "u/b or u+3",
+		"Alias": ["u+3","u/b+3"],
         "Counter hit frame": "KND",
         "Damage": "20",
         "Gif": "",
@@ -2026,6 +2005,7 @@
     {
         "Block frame": "-16",
         "Command": "u or u/f+4",
+		"Alias": ["u+4","u/f+4"],
         "Counter hit frame": "KND",
         "Damage": "25",
         "Gif": "",
@@ -2037,6 +2017,7 @@
     {
         "Block frame": "-1~+1s",
         "Command": "u/b or u or u/f, n+2",
+		"Alias": ["u/b,n,2","u,n,2","u/f,n,2"],
         "Counter hit frame": "+10~+12s",
         "Damage": "28",
         "Gif": "",
