@@ -40,17 +40,17 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(None, result)
     def test_get_move_by_type(self):
 
-        self.assertIn("in rage f, n, d, d/f+1+4", tkfinder.get_by_move_type(kazuya, "Rage Drive"))
+        self.assertIn("in rage f,n,d,d/f+1+4", tkfinder.get_by_move_type(kazuya, "Rage Drive"))
         self.assertIn("d/f+2", tkfinder.get_by_move_type(kazuya, "Homing"))
 
     def test_get_cha_move(self):
 
-        self.assertEqual("f, f, f+3 or WR+3", tkfinder.get_move(kazuya, "wr3")["Command"])
-        self.assertEqual("1, 1, 2", tkfinder.get_move(kazuya, "112")["Command"])
-        self.assertEqual("f, n, d, d/f+4, 1", tkfinder.get_move(kazuya, "hs")["Command"])
-        self.assertEqual("f, n, d, d/f+4, 1", tkfinder.get_move(kazuya, "cd41")["Command"])
-        self.assertEqual("f, n, d/f+2", tkfinder.get_move(kazuya, "ewgf")["Command"])
-        self.assertEqual("WS+1, 2", tkfinder.get_move(kazuya, "ws12")["Command"])
+        self.assertEqual("f,f,f+3", tkfinder.get_move(kazuya, "wr3")["Command"])
+        self.assertEqual("1,1,2", tkfinder.get_move(kazuya, "112")["Command"])
+        self.assertEqual("f,n,d,d/f+4,1", tkfinder.get_move(kazuya, "hs")["Command"])
+        self.assertEqual("f,n,d,d/f+4,1", tkfinder.get_move(kazuya, "cd41")["Command"])
+        self.assertEqual("f,n,d/f+2", tkfinder.get_move(kazuya, "ewgf")["Command"])
+        self.assertEqual("WS+1,2", tkfinder.get_move(kazuya, "ws12")["Command"])
         self.assertEqual("b+2,1", tkfinder.get_move(kazuya, "b21")["Command"])
         marduk = {
             "name": "marduk",
@@ -88,6 +88,16 @@ class MyTestCase(unittest.TestCase):
         }
         self.assertEqual("b, f+2, 1, 1+2", tkfinder.get_move(kazumi, "bf211+2")["Command"])
         self.assertEqual("u/f+4", tkfinder.get_move(kazumi, "uf4")["Command"])
+
+        chloe = {
+            "name": "lucky_chloe",
+            "proper_name": "Lucky Chloe",
+            "local_json": "lucky_chloe.json",
+            "online_webpage": "http://rbnorway.org/lucky-chloe-t7-frames",
+            "portrait": "https://i.imgur.com/iNXYpwT.jpg"
+        }
+        self.assertEqual("u/f+3(u+3 or u/b+3)", tkfinder.get_move(chloe, "uf3")["Command"])
+
 
     def test_ling(self):
         ling = {

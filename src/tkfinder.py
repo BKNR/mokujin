@@ -74,11 +74,11 @@ def get_move(character: dict, move_command: str) -> dict:
     move = list(filter(lambda x: (move_simplifier(x['Command'])
                                   == move_simplifier(move_command)), move_json))
     if not move:
-        move = list(filter(lambda x: move_simplifier(move_command)
-                                     in move_simplifier(x['Command']), move_json))
-        if not move:
-            move = list(filter(lambda x: (is_command_in_alias(move_command, x)), move_json))
+        move = list(filter(lambda x: (is_command_in_alias(move_command, x)), move_json))
 
+        if not move:
+            move = list(filter(lambda x: move_simplifier(move_command)
+                                         in move_simplifier(x['Command']), move_json))
     if move:
         return move[0]
     else:
