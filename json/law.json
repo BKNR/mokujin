@@ -1061,7 +1061,7 @@
 		"Alias": ["u/b+3,4","u+3,4","u/f+3,4"],
         "Counter hit frame": "Launch (JG?)",
         "Damage": "25,23",
-        "Gif": "",
+        "Gif": "https://gfycat.com/EveryFantasticJavalina.gif",
         "Hit frame": "Launch (JG?)",
         "Hit level": "m (TJ), m (TJ)",
         "Notes": "-",
@@ -1076,7 +1076,7 @@
         "Hit frame": "Launch (JG?)",
         "Hit level": "m (TJ)",
         "Notes": "-",
-        "Start up frame": "15~17"
+        "Start up frame": "15~17 js9~"
     },
     {
         "Block frame": "-24",
@@ -1090,24 +1090,12 @@
         "Start up frame": "29~30 js8~"
     },
     {
-        "Block frame": "-17~-7",
-        "Command": "u\b or u or u/f+4",
-		"Alias": ["u/b+4","u+4","u/f+4"],
-        "Counter hit frame": "Launch (JG?)",
-        "Damage": "23",
-        "Gif": "",
-        "Hit frame": "Launch (JG?)",
-        "Hit level": "m (TJ)",
-        "Notes": "-",
-        "Start up frame": "18~28s js9~"
-    },
-    {
         "Block frame": "-18~-15",
         "Command": "u/b or u or U/F+4, 3",
 		"Alias": ["u/b+4,3","u+4,3","u/f+4,3"],
         "Counter hit frame": "Launch (JG?)",
         "Damage": "22,22",
-        "Gif": "",
+        "Gif": "https://gfycat.com/AgilePassionateHorse.gif",
         "Hit frame": "Launch (JG?)",
         "Hit level": "m (TJ), m (TJ)",
         "Notes": "-",
@@ -2366,7 +2354,7 @@
 		"Alias": ["u/b+3","u+3","u/f+3"],
         "Counter hit frame": "KND",
         "Damage": "25",
-        "Gif": "",
+        "Gif": "https://gfycat.com/HonoredPoliticalKillifish.gif",
         "Hit frame": "KND",
         "Hit level": "m (TJ)",
         "Notes": "-",

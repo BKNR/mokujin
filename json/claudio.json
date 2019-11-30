@@ -567,7 +567,7 @@
 		"Alias": ["u/b+2","u+2","u/f+2"],
         "Counter hit frame": "KND",
         "Damage": "25",
-        "Gif": "",
+        "Gif": "https://gfycat.com/FamousWavyCrownofthornsstarfish.gif",
         "Hit frame": "KND",
         "Hit level": "m (TJ)",
         "Notes": "-",
@@ -612,7 +612,7 @@
 		"Alias": ["u/b+4","u+4","u/f+4"],
         "Counter hit frame": "Launch (JG?)",
         "Damage": "13",
-        "Gif": "",
+        "Gif": "https://gfycat.com/DirtyApprehensiveDuckbillcat.gif",
         "Hit frame": "Launch (JG?)",
         "Hit level": "m (TJ)",
         "Notes": "-",
@@ -1272,18 +1272,6 @@
         "Start up frame": "18"
     },
     {
-        "Block frame": "-9",
-        "Command": "u or u/f+2",
-		"Alias": ["u+2","u/f+2"],
-        "Counter hit frame": "KND",
-        "Damage": "25",
-        "Gif": "",
-        "Hit frame": "KND",
-        "Hit level": "m (TJ)",
-        "Notes": "-",
-        "Start up frame": "25"
-    },
-    {
         "Block frame": "+2s",
         "Command": "u/b+3",
         "Counter hit frame": "JG",
@@ -1293,29 +1281,6 @@
         "Hit level": "m (TJ)",
         "Notes": "-",
         "Start up frame": "23"
-    },
-    {
-        "Block frame": "+2s",
-        "Command": "u or u/f+3",
-        "Counter hit frame": "JG",
-		"Alias": ["u+3","u/f+3"],
-        "Damage": "20",
-        "Gif": "",
-        "Hit frame": "+7s",
-        "Hit level": "m (TJ)",
-        "Notes": "-",
-        "Start up frame": "23"
-    },
-    {
-        "Block frame": "-13",
-        "Command": "u/f+4",
-        "Counter hit frame": "JG",
-        "Damage": "-",
-        "Gif": "https://gfycat.com/DirtyApprehensiveDuckbillcat.gif",
-        "Hit frame": "JG",
-        "Hit level": "m (TJ)",
-        "Notes": "-",
-        "Start up frame": "15"
     },
     {
         "Block frame": "+1",

@@ -451,17 +451,6 @@
         "Start up frame": "15~16"
     },
     {
-        "Block frame": "-10~-7",
-        "Command": "d/f+3",
-        "Counter hit frame": "KND",
-        "Damage": "15",
-        "Gif": "https://gfycat.com/WaterloggedBronzeAmericanblackvulture.gif",
-        "Hit frame": "+1~+4s",
-        "Hit level": "m, (HSP)",
-        "Notes": "-",
-        "Start up frame": "15~18a"
-    },
-    {
         "Block frame": "-12~-9",
         "Command": "d/f+3, D",
         "Counter hit frame": "KND",
@@ -1301,8 +1290,7 @@
     },
     {
         "Block frame": "-13~-8",
-        "Command": "WS+3 or d, f+3",
-		"Alias": ["WS+3", "d,f+3"],
+        "Command": "WS+3",
         "Counter hit frame": "Launch (JG?)",
         "Damage": "15",
         "Gif": "",

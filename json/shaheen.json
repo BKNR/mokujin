@@ -165,18 +165,6 @@
         "Start up frame": "10"
     },
     {
-        "Block frame": "-8",
-        "Command": "3 or 3+4",
-        "Counter hit frame": "+3",
-		"Alias": ["3","3+4"],
-        "Damage": "20",
-        "Gif": "",
-        "Hit frame": "+3",
-        "Hit level": "h",
-        "Notes": "-",
-        "Start up frame": "14"
-    },
-    {
         "Block frame": "-1",
         "Command": "3, D/F",
         "Counter hit frame": "+10g",
@@ -1176,7 +1164,7 @@
 		"Alias": ["u/b+4","u+4","u/f+4"],
         "Counter hit frame": "Launch (JG?)",
         "Damage": "13",
-        "Gif": "",
+        "Gif": "https://gfycat.com/ExaltedRightHousefly.gif",
         "Hit frame": "Launch (JG?)",
         "Hit level": "m (TJ)",
         "Notes": "-",

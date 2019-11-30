@@ -1079,7 +1079,7 @@
     "Start up frame": "15~17 js9~"
   },
   {
-    "Alias": ["u/f,4","u/f,n,4"],
+    "Alias": ["u/f,n,4"],
     "Block frame": "-11(-13)",
     "Command": "u/f,n+4",
     "Counter hit frame": "Launch",
