@@ -15,7 +15,7 @@ CHARACTER_ALIAS = {
     'geese': ['goose'],
     'gigas': ['ggs'],
     'heihachi': ['hashi', 'hei', 'hessu'],
-    'hwoarang': ['hwo']
+    'hwoarang': ['hwo'],
     'jack7': ['j7', 'jack-7', 'jack'],
     'jin': ['jim'],
     'josie': ['jos'],
