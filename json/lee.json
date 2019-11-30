@@ -1310,7 +1310,8 @@
     },
     {
         "Block frame": "-9~-8",
-        "Command": "f, f, f+3 or WR+3",
+        "Command": "f, f, f+3",
+        "Alias": "",
         "Counter hit frame": "KND",
         "Damage": "14",
         "Gif": "",
@@ -1574,7 +1575,7 @@
     },
     {
         "Block frame": "-17~-7",
-        "Command": "FC+u/b or u or u/f+4, 3",
+        "Command": "FC+u/b_u_u/f+4, 3",
 		"Alias": ["FC u/b+4,3","FC u+4,3","FC u/f+4,3"],
         "Counter hit frame": "Launch (JG?) (-6~+4)",
         "Damage": "(15or22or)25",
@@ -1597,7 +1598,7 @@
     },
     {
         "Block frame": "-31~-28",
-        "Command": "FC+u/b or u or U/F+4, d",
+        "Command": "FC+u/b_u_U/F+4, d",
 		"Alias": ["FC u/b+4,d","FC u+4,d","FC u/f+4,d"],
         "Counter hit frame": "KND",
         "Damage": "33or37or40",
@@ -1609,7 +1610,7 @@
     },
     {
         "Block frame": "-4~-2",
-        "Command": "FC+u/b or u or U/F+3+4",
+        "Command": "FC+u/b_u_U/F+3+4",
 		"Alias": ["FC u/b+3+4","FC u+3+4","FC u/f+3+4"],
         "Counter hit frame": "KND",
         "Damage": "30,20",
@@ -1676,61 +1677,6 @@
         "Start up frame": "17~20 (25~)"
     },
     {
-        "Block frame": "-",
-        "Command": "3+4 or From certain moves (to HMS)",
-        "Counter hit frame": "-",
-        "Damage": "-",
-        "Gif": "",
-        "Hit frame": "-",
-        "Hit level": "(HMS)",
-        "Notes": "-",
-        "Start up frame": " RC"
-    },
-    {
-        "Block frame": "-",
-        "Command": "HMS d or HMS u",
-        "Counter hit frame": "-",
-        "Damage": "-",
-        "Gif": "",
-        "Hit frame": "-",
-        "Hit level": "(HMS)",
-        "Notes": "-",
-        "Start up frame": "-"
-    },
-    {
-        "Block frame": "-",
-        "Command": "HMS f",
-        "Counter hit frame": "-",
-        "Damage": "-",
-        "Gif": null,
-        "Hit frame": "-",
-        "Hit level": "(HMS)",
-        "Notes": "-",
-        "Start up frame": "-"
-    },
-    {
-        "Block frame": "-",
-        "Command": "HMS d/b (Cancel)",
-        "Counter hit frame": "-",
-        "Damage": "-",
-        "Gif": "",
-        "Hit frame": "-",
-        "Hit level": "(Special)",
-        "Notes": "-",
-        "Start up frame": " RC"
-    },
-    {
-        "Block frame": "-",
-        "Command": "HMS b (Cancel)",
-        "Counter hit frame": "-",
-        "Damage": "-",
-        "Gif": "",
-        "Hit frame": "-",
-        "Hit level": "(Special)",
-        "Notes": "-",
-        "Start up frame": "-"
-    },
-    {
         "Block frame": "0",
         "Command": "HMS 1",
         "Counter hit frame": "+7",
@@ -1743,9 +1689,9 @@
     },
     {
         "Block frame": "-1",
-        "Command": "HMS 1, 1, \u2026",
+        "Command": "HMS 1, 1, ...",
         "Counter hit frame": "+7",
-        "Damage": "10,10, \u2026",
+        "Damage": "10,10, ...",
         "Gif": "",
         "Hit frame": "+7",
         "Hit level": "h, h HMS)",
@@ -1754,7 +1700,7 @@
     },
     {
         "Block frame": "-3",
-        "Command": "HMS 1, 1, \u2026, f, n (Cancel)",
+        "Command": "HMS 1, 1, f, n (Cancel)",
         "Counter hit frame": "+4",
         "Damage": "10,",
         "Gif": "",
@@ -1875,7 +1821,8 @@
     },
     {
         "Block frame": "-",
-        "Command": "f, n or HMS f (to MS)",
+        "Command": "f, n_HMS f (to MS)",
+        "Alias" : ["f, n", "HMS f"],
         "Counter hit frame": "-",
         "Damage": "-",
         "Gif": "",
@@ -2127,17 +2074,6 @@
         "Start up frame": "12"
     },
     {
-        "Block frame": "-5",
-        "Command": "d/b+1 or d+1 ",
-        "Counter hit frame": "+6",
-        "Damage": "5",
-        "Gif": "",
-        "Hit frame": "+6",
-        "Hit level": "Sm (TC)",
-        "Notes": "-",
-        "Start up frame": "10s cs4~"
-    },
-    {
         "Block frame": "-4",
         "Command": "d/b+2",
         "Counter hit frame": "+7",
@@ -2216,7 +2152,7 @@
     },
     {
         "Block frame": "-8",
-        "Command": "u/b or u or u/f+1",
+        "Command": "u/b_u_u/f+1",
 		"Alias": ["u/b+1","u+1","u/f+1"],
         "Counter hit frame": "+3",
         "Damage": "12",
@@ -2228,7 +2164,7 @@
     },
     {
         "Block frame": "-12~-11",
-        "Command": "u/b or u or u/f+2",
+        "Command": "u/b_u_u/f+2",
 		"Alias": ["u/b+2","u+2","u/f+2"],
         "Counter hit frame": "+9~+10g",
         "Damage": "17",
@@ -2306,7 +2242,7 @@
     },
     {
         "Block frame": "-17",
-        "Command": "u/b or u+3+4",
+        "Command": "u/b_u+3+4",
 		"Alias": ["u/b+3+4","u+3+4"],
         "Counter hit frame": "KND",
         "Damage": "25",
@@ -2395,7 +2331,8 @@
     },
     {
         "Block frame": "-17",
-        "Command": "FC+d/b or d+3",
+        "Command": "FC+d/b_d+3",
+        "Alias": ["FC d/b+3", "d+3"],
         "Counter hit frame": "-3",
         "Damage": "12",
         "Gif": "",
@@ -2414,17 +2351,6 @@
         "Hit level": "l (TC)",
         "Notes": "-",
         "Start up frame": "16s cs1~"
-    },
-    {
-        "Block frame": "-15",
-        "Command": "FC+d/b or d+4",
-        "Counter hit frame": "-4",
-        "Damage": "10",
-        "Gif": "",
-        "Hit frame": "-4",
-        "Hit level": "l (TC)",
-        "Notes": "-",
-        "Start up frame": "12s cs1~"
     },
     {
         "Block frame": "+1",
@@ -2469,49 +2395,5 @@
         "Hit level": "h",
         "Notes": "-",
         "Start up frame": "11(12~)"
-    },
-    {
-        "Block frame": "-8",
-        "Command": "BT 1 or 2",
-        "Counter hit frame": "+3",
-        "Damage": "15",
-        "Gif": "",
-        "Hit frame": "+3",
-        "Hit level": "h",
-        "Notes": "-",
-        "Start up frame": "8"
-    },
-    {
-        "Block frame": "-8",
-        "Command": "BT 3 or 4",
-        "Counter hit frame": "KND",
-        "Damage": "25",
-        "Gif": "",
-        "Hit frame": "KND",
-        "Hit level": "h",
-        "Notes": "-",
-        "Start up frame": "10"
-    },
-    {
-        "Block frame": "-2",
-        "Command": "BT d+1 or 2",
-        "Counter hit frame": "+9",
-        "Damage": "10",
-        "Gif": "",
-        "Hit frame": "+9",
-        "Hit level": "Sm",
-        "Notes": "-",
-        "Start up frame": "10s cs1~"
-    },
-    {
-        "Block frame": "-11",
-        "Command": "BT d+3 or 4",
-        "Counter hit frame": "+3",
-        "Damage": "12",
-        "Gif": "",
-        "Hit frame": "+3",
-        "Hit level": "l",
-        "Notes": "-",
-        "Start up frame": "10s cs1~"
     }
 ]
