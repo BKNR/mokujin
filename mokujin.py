@@ -7,6 +7,7 @@ import discord
 from discord.ext import commands
 
 import tkfinder
+import character_names
 
 prefix = '§'
 description = 'The premier Tekken 7 Frame bot, made by Baikonur#4927'
@@ -108,44 +109,10 @@ async def on_message(message):
 
         chara_name = user_message_list[0].lower()
         chara_move = user_message_list[1]
-        if chara_name == 'armor' or chara_name == 'ak':
-            chara_name = 'armor_king'
-        elif chara_name == 'dj' or chara_name == 'dvj' or chara_name == 'djin' or chara_name == 'devil' or chara_name == 'deviljin' or chara_name == 'diablojim' or chara_name == 'taika-jim':
-            chara_name = 'devil_jin'
-        elif chara_name == 'sergei' or chara_name == 'drag' or chara_name == 'dragu':
-            chara_name = 'dragunov'
-        elif chara_name == 'goose':
-            chara_name = 'geese'
-        elif chara_name == 'hwo' or chara_name == 'hwoa':
-            chara_name = 'hwoarang'
-        elif chara_name == 'jack'or chara_name == 'jack-7' or chara_name == "jaska":
-            chara_name = 'jack7'
-        elif chara_name == 'julle':
-            chara_name = 'julia'
-        elif chara_name == 'chloe' or chara_name == 'lc' or chara_name == 'lucky':
-            chara_name = 'lucky_chloe'
-        elif chara_name == 'hei' or chara_name == 'hessu' or chara_name == 'heiska':
-            chara_name = 'heihachi'
-        elif chara_name == 'kata' or chara_name == 'kat':
-            chara_name = 'katarina'
-        elif chara_name == 'kaz' or chara_name == 'kazze':
-            chara_name = 'kazuya'
-        elif chara_name == 'karhu' or chara_name == 'panda':
-            chara_name = 'kuma'
-        elif chara_name == 'mara':
-            chara_name = 'marduk'
-        elif chara_name == 'master' or chara_name == 'raven' or chara_name == 'mraven' or chara_name == 'masterraven':
-            chara_name = 'master_raven'
-        elif chara_name == 'nocto':
-            chara_name = 'noctis'
-        elif chara_name == 'pave':
-            chara_name = 'paul'
-        elif chara_name == 'sha':
-            chara_name = 'shaheen'
-        elif chara_name == 'yoshi':
-            chara_name = 'yoshimitsu'
-        elif chara_name == 'ling':
-           chara_name = 'xiaoyu'
+
+        # iterate through character name list for matching value
+        # pull first value from tuple
+        chara_name = [names for names in character_names.CHARACTER_NAMES if chara_name in names][0][0]
 
         character = tkfinder.get_character(chara_name)
         if character is not None:
