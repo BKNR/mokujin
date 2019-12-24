@@ -16,8 +16,4 @@ Clone this to a linux server that has Python 3.6.0+ with [discord.py](https://gi
 You need your own discord bot ([here's how](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token)) and have the token in a token.txt file in the same directory.
 The executable is mokujin.py.
 
-The bot only listens to and responses to messages in channels called #tekken or #raamikysely, if you want to change that, you do it in mokujin.py, at the time of writing line 68:
-
-```python
-if message.content.startswith('!') and (message.channel.name == 'tekken' or message.channel.name == 'raamikysely'):
-```
+The bot only listens to and responses to messages in channels called #tekken or #raamikysely, if you want to change that, you do that in config.py, where you can also set the character aliases.

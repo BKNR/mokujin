@@ -7,7 +7,7 @@ import discord
 from discord.ext import commands
 
 import tkfinder
-import character_names
+import config
 
 prefix = '§'
 description = 'The premier Tekken 7 Frame bot, made by Baikonur#4927'
@@ -97,7 +97,7 @@ async def on_message(message):
     if I'm going to change it.
     '''
     channel = message.channel
-    if message.content.startswith('!') and ((isinstance(channel, discord.channel.DMChannel)) or (channel.name == 'tekken' or channel.name == 'raamikysely' or channel.name == 'tekken-frames')):
+    if message.content.startswith('!') and ((isinstance(channel, discord.channel.DMChannel)) or (channel.name in config.CHANNELS)):
 
         user_message = message.content
         user_message = user_message.replace('!', '')
@@ -110,9 +110,10 @@ async def on_message(message):
         chara_name = user_message_list[0].lower()
         chara_move = user_message_list[1]
 
-        # iterate through character name list for matching value
-        # pull first value from tuple
-        chara_name = [names for names in character_names.CHARACTER_NAMES if chara_name in names][0][0]
+        # iterate through character aliases in config for matching value
+        chara_alias = list(filter(lambda x: (chara_name in x['alias']), config.CHARACTER_NAMES))
+        if chara_alias:
+            chara_name = chara_alias[0]['name']
 
         character = tkfinder.get_character(chara_name)
         if character is not None:
