@@ -2422,9 +2422,9 @@
     {
         "Command": "DGF 4",
         "Hit level": "m (TJ)",
-        "Damage": "33",
-        "Start up frame": "19~20 (29~)",
-        "Block frame": "-6~-5?",
+        "Damage": "24",
+        "Start up frame": "18 (28~)",
+        "Block frame": "-4",
         "Hit frame": "+14k",
         "Counter hit frame": "KND",
         "Notes": "Tail spin"

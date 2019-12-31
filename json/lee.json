@@ -384,8 +384,8 @@
         "Hit level": "m (HMS)",
         "Damage": "20",
         "Start up frame": "21~22s",
-        "Block frame": "-4~-3",
-        "Hit frame": "+3~+4",
+        "Block frame": "-1",
+        "Hit frame": "+6",
         "Counter hit frame": "KND",
         "Notes": "Homing"
     },

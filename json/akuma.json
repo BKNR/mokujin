@@ -624,9 +624,9 @@
         "Hit level": "Sm",
         "Damage": "12",
         "Start up frame": "19~",
-        "Block frame": "-13~",
-        "Hit frame": "-5~",
-        "Counter hit frame": "-5~",
+        "Block frame": "-14~",
+        "Hit frame": "-6~",
+        "Counter hit frame": "-6~",
         "Notes": "-"
     },
     {
@@ -1124,9 +1124,9 @@
         "Hit level": "Sm (TC)",
         "Damage": "6",
         "Start up frame": "12",
-        "Block frame": "-4",
-        "Hit frame": "+7",
-        "Counter hit frame": "+7",
+        "Block frame": "-9",
+        "Hit frame": "+2",
+        "Counter hit frame": "+2",
         "Notes": "-"
     },
     {

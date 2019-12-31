@@ -964,7 +964,7 @@
         "Hit level": "h",
         "Damage": "27",
         "Start up frame": "20~21",
-        "Block frame": "-10~-9",
+        "Block frame": "-9",
         "Hit frame": "Launch (Screw)",
         "Counter hit frame": "Launch (Screw)",
         "Notes": "Power crush, Tail spin"
