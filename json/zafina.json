@@ -64,9 +64,9 @@
         "Hit level": "h, h (SCR)",
         "Damage": "7,14",
         "Start up frame": "-",
-        "Block frame": "-4",
-        "Hit frame": "+5",
-        "Counter hit frame": "+5",
+        "Block frame": "-2",
+        "Hit frame": "+7",
+        "Counter hit frame": "+7",
         "Notes": "-"
     },
     {

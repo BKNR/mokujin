@@ -1522,7 +1522,7 @@
     {
         "Command": "f, n, d, d/f+3, 4",
         "Hit level": "m (TJ), h (TJ)",
-        "Damage": "14,17",
+        "Damage": "14,21",
         "Start up frame": "js1~",
         "Block frame": "-11",
         "Hit frame": "KND",
