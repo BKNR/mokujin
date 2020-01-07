@@ -3,6 +3,7 @@
 __pycache__
 nohup.out
 log
+*.swp
 
 # IntelliJ IDEA
 .idea
