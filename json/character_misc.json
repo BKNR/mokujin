@@ -91,6 +91,13 @@
         "portrait": "https://i.imgur.com/pL9icRr.jpg"
     },
     {
+        "name": "ganruy",
+        "proper_name": "Ganryu",
+        "local_json": "ganryu.json",
+        "online_webpage": "http://rbnorway.org/ganryu-t7-frames/",
+        "portrait": "https://i.imgur.com/i1oQDHN.png"
+    },
+    {
         "name": "geese",
         "proper_name": "Geese",
         "local_json": "geese.json",
