@@ -14,6 +14,10 @@ CHARACTER_NAMES = [
         "alias": ["sergei", "drag", "dragu"]
     },
     {
+        "name": "ganryu",
+        "alias": ["ganruy", "ganny", "sumo"]
+    },
+    {
         "name": "geese",
         "alias": ["goose"]
     },
