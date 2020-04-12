@@ -952,7 +952,7 @@
     {
         "Command": "WS+f+1, 2, d/f+1",
         "Hit level": "m, m, m",
-        "Damage": "12,12,15",
+        "Damage": "12,12,15(12,7,12)",
         "Start up frame": "17~18s",
         "Block frame": "-1~0",
         "Hit frame": "+10~+11 (Launch (JG?))",

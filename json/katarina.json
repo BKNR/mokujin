@@ -17,7 +17,7 @@
         "Block frame": "+5~+6s",
         "Hit frame": "Throw(KND)",
         "Counter hit frame": "Throw(KND)",
-        "Notes": "Rage drive"
+        "Notes": "Rage art"
     },
     {
         "Command": "1",
@@ -682,7 +682,7 @@
     {
         "Command": "u/f+4, 4, 4, 4, 4, 4",
         "Hit level": "m, m, m (TJ), h, h, m",
-        "Damage": "10,10,10,10,21,",
+        "Damage": "10,10,10,10,21,25",
         "Start up frame": "1~21",
         "Block frame": "-9",
         "Hit frame": "KND",
@@ -898,6 +898,26 @@
         "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Notes": "Wall bounce"
+    },
+    {
+        "Command": "HAR d/f+2",
+        "Hit level": "m",
+        "Damage": "13",
+        "Start up frame": "16",
+        "Block frame": "-13",
+        "Hit frame": "-2",
+        "Counter hit frame": "-2",
+        "Notes": "-"
+    },
+    {
+        "Command": "HAR d/f+2, 3",
+        "Hit level": "m, h",
+        "Damage": "13,18",
+        "Start up frame": "16",
+        "Block frame": "-3",
+        "Hit frame": "+14k",
+        "Counter hit frame": "+14k",
+        "Notes": "Tail spin"
     },
     {
         "Command": "HAR u/f+3",

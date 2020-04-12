@@ -17,7 +17,7 @@
         "Block frame": "+9~+10g (wl+15g)",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Rage drive"
+        "Notes": "Rage art"
     },
     {
         "Command": "in rage f+2+3, d/f",
@@ -27,7 +27,7 @@
         "Block frame": "+28~+29?",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Rage drive"
+        "Notes": "Rage art"
     },
     {
         "Command": "1",
@@ -712,7 +712,7 @@
     {
         "Command": "d/f+3, 2, d+3, 4 , 3",
         "Hit level": "m, h, l (TC), h, m",
-        "Damage": "13,12,10,18",
+        "Damage": "13,12,10,18,20",
         "Start up frame": " 10~",
         "Block frame": "+2~+3s",
         "Hit frame": "+5~+6s",
@@ -975,7 +975,7 @@
         "Damage": "17",
         "Start up frame": "20",
         "Block frame": "-13",
-        "Hit frame": "+3s",
+        "Hit frame": "+4s",
         "Counter hit frame": "KND",
         "Notes": "-"
     },
@@ -1037,7 +1037,7 @@
         "Block frame": "-14",
         "Hit frame": "-3",
         "Counter hit frame": "-3",
-        "Notes": "-"
+        "Notes": "Homing"
     },
     {
         "Command": "b+2, 2",
@@ -1624,7 +1624,7 @@
         "Hit level": "l (TC)",
         "Damage": "17",
         "Start up frame": "20(29~) cs6~",
-        "Block frame": "-15",
+        "Block frame": "-14",
         "Hit frame": "+6s",
         "Counter hit frame": "YKU",
         "Notes": "-"
@@ -1642,7 +1642,7 @@
     {
         "Command": "Opponent Down d+3+4",
         "Hit level": "l(On grounded opponent)",
-        "Damage": "16(\u7acb\u306120)",
+        "Damage": "16 (20)",
         "Start up frame": "17~18",
         "Block frame": "-17~-16",
         "Hit frame": "-8~-7s",
@@ -1703,7 +1703,7 @@
         "Command": "qcf+3",
         "Hit level": "l (TC)",
         "Damage": "17",
-        "Start up frame": "19~28 (21~) cs16~",
+        "Start up frame": "19~28 (21~) cs10~",
         "Block frame": "-20~-11",
         "Hit frame": "0~+9s",
         "Counter hit frame": "KND",
@@ -1945,7 +1945,7 @@
         "Damage": "17",
         "Start up frame": "20",
         "Block frame": "-13",
-        "Hit frame": "+3s",
+        "Hit frame": "+4s",
         "Counter hit frame": "KND",
         "Notes": "-"
     },
@@ -1977,7 +1977,7 @@
         "Block frame": "-14",
         "Hit frame": "-3",
         "Counter hit frame": "-3",
-        "Notes": "-"
+        "Notes": "Homing"
     },
     {
         "Command": "b+3",
@@ -2234,7 +2234,7 @@
         "Hit level": "l (TC)",
         "Damage": "17",
         "Start up frame": "20(29~) cs6~",
-        "Block frame": "-15",
+        "Block frame": "-14",
         "Hit frame": "+6s",
         "Counter hit frame": "YKU",
         "Notes": "-"

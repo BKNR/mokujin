@@ -612,7 +612,7 @@
     {
         "Command": "d/b+3, 4, 3, 4, 3",
         "Hit level": "l, l, l, l, l(CSK)",
-        "Damage": "15,12,12,12",
+        "Damage": "15,12,12,12,12",
         "Start up frame": "21",
         "Block frame": "-19",
         "Hit frame": "-8",
@@ -622,7 +622,7 @@
     {
         "Command": "d/b+3, 4, 3, 4, 3, 4",
         "Hit level": "l, l, l, l, l, l(CSK)",
-        "Damage": "15,12,12,12",
+        "Damage": "15,12,12,12,12,12",
         "Start up frame": "21",
         "Block frame": "-16",
         "Hit frame": "-5",

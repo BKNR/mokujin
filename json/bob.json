@@ -27,7 +27,7 @@
         "Block frame": "+12~+13s",
         "Hit frame": "KND(KND)",
         "Counter hit frame": "KND(KND)",
-        "Notes": "Rage drive"
+        "Notes": "Rage art"
     },
     {
         "Command": "1",
@@ -1104,7 +1104,7 @@
         "Hit level": "mm (TJ)",
         "Damage": "10,20",
         "Start up frame": "26~28, 35~40 (27~) js16~34",
-        "Block frame": "-0~+5",
+        "Block frame": "-0s~+5s",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Notes": "-"
@@ -1514,7 +1514,7 @@
         "Hit level": "m (TJ), h (TJ)",
         "Damage": "14,30",
         "Start up frame": "js1~",
-        "Block frame": "-3~-2",
+        "Block frame": "-3~-2s",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Notes": "-"
@@ -1522,7 +1522,7 @@
     {
         "Command": "f, n, d, d/f+3, 4",
         "Hit level": "m (TJ), h (TJ)",
-        "Damage": "14,21",
+        "Damage": "14,17",
         "Start up frame": "js1~",
         "Block frame": "-11",
         "Hit frame": "KND",

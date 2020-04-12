@@ -17,17 +17,17 @@
         "Block frame": "+5s",
         "Hit frame": "Launch",
         "Counter hit frame": "Launch",
-        "Notes": "Rage drive"
+        "Notes": "Rage art"
     },
     {
         "Command": "in rage f, f, f+1+2 , d/b+1+2",
         "Hit level": "m, m(Throw)",
         "Damage": "30,5",
         "Start up frame": "15~16 (18~)",
-        "Block frame": "Throw(KND)",
-        "Hit frame": "Throw(KND)",
-        "Counter hit frame": "Throw(KND)",
-        "Notes": "Rage drive"
+        "Block frame": "\u4e2dThrow(KND)",
+        "Hit frame": "\u4e2dThrow(KND)",
+        "Counter hit frame": "\u4e2dThrow(KND)",
+        "Notes": "Rage art"
     },
     {
         "Command": "1",
@@ -873,7 +873,7 @@
         "Command": "u/f+3+4",
         "Hit level": "h(Throw)?,  (TJ)",
         "Damage": "42",
-        "Start up frame": "38~42(d)",
+        "Start up frame": "38~42(d)~js20~",
         "Block frame": "-",
         "Hit frame": "Throw(KND)",
         "Counter hit frame": "-",

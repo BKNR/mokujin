@@ -17,7 +17,7 @@
         "Block frame": "+6~+7s",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Rage drive"
+        "Notes": "Rage art"
     },
     {
         "Command": "1",
@@ -87,7 +87,7 @@
         "Block frame": "-7",
         "Hit frame": "+4",
         "Counter hit frame": "CS",
-        "Notes": "-"
+        "Notes": "Rage art, Rage art"
     },
     {
         "Command": "1, 4, 2, 1",
@@ -97,7 +97,7 @@
         "Block frame": "0",
         "Hit frame": "CS",
         "Counter hit frame": "CS",
-        "Notes": "-"
+        "Notes": "Rage art, Rage art"
     },
     {
         "Command": "1, 4, 2, 1, 2",
@@ -962,7 +962,7 @@
     {
         "Command": "u/b+1+2, 1, 2, 1, 2, 1",
         "Hit level": "mm, m, m, m, m, m",
-        "Damage": "5,2,2,2,2,2,",
+        "Damage": "5,2,2,2,2,2,2",
         "Start up frame": "15",
         "Block frame": "-13",
         "Hit frame": "-3",
@@ -972,7 +972,7 @@
     {
         "Command": "u/b+1+2, 1, 2, 1, 2, 1, 2",
         "Hit level": "mm, m, m, m, m, m, m",
-        "Damage": "5,2,2,2,2,2,",
+        "Damage": "5,2,2,2,2,2,2,2",
         "Start up frame": "15",
         "Block frame": "-16",
         "Hit frame": "-6",
@@ -982,7 +982,7 @@
     {
         "Command": "u/b+1+2, 1, 2, 1, 2, 1, 2, 1",
         "Hit level": "mm, m, m, m, m, m, m, m",
-        "Damage": "5,2,2,2,2,2,2,",
+        "Damage": "5,2,2,2,2,2,2,2,2,2",
         "Start up frame": "15",
         "Block frame": "-13",
         "Hit frame": "-3",
@@ -992,7 +992,7 @@
     {
         "Command": "u/b+1+2, 1, 2, 1, 2, 1, 2, 1, 2",
         "Hit level": "mm, m, m, m, m, m, m, m, m",
-        "Damage": "5,2,2,2,2,2,",
+        "Damage": "5,2,2,2,2,2,2,2,2,2",
         "Start up frame": "15",
         "Block frame": "-16",
         "Hit frame": "-6",
@@ -1002,7 +1002,7 @@
     {
         "Command": "u/b+1+2, 1, 2, 1, 2, 1, 2, 1, 2, 1",
         "Hit level": "mm, m, m, m, m, m, m, m, m, m",
-        "Damage": "5,2,2,2,2,2,",
+        "Damage": "5,2,2,2,2,2,2,2,2,2,2",
         "Start up frame": "15",
         "Block frame": "-32",
         "Hit frame": "-15",
@@ -1012,7 +1012,7 @@
     {
         "Command": "u/b+1+2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 4",
         "Hit level": "mm, m, m, m, m, m, m, m, m, m, m",
-        "Damage": "5,2,2,2,2,2,",
+        "Damage": "5,2,2,2,2,2,2,2,2,2,2,14",
         "Start up frame": "15",
         "Block frame": "-35",
         "Hit frame": "KND",
@@ -1492,7 +1492,7 @@
     {
         "Command": "After TNT f+2, 1, 4, 2, 1, 4",
         "Hit level": "m, m, m, h, h, m (TJ)",
-        "Damage": "10,12,16,5,5,",
+        "Damage": "10,12,16,5,5,10",
         "Start up frame": "js16~",
         "Block frame": "-136~-137",
         "Hit frame": "KND",
@@ -1502,7 +1502,7 @@
     {
         "Command": "After TNT f+2, 1, 4, 2, 1, 4, 2",
         "Hit level": "m, m, m, h, h, m (TJ), h",
-        "Damage": "10,12,16,5,5,",
+        "Damage": "10,12,16,5,5,10,28",
         "Start up frame": "16~",
         "Block frame": "+4",
         "Hit frame": "KND",

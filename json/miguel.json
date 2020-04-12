@@ -345,8 +345,8 @@
         "Damage": "12,18",
         "Start up frame": "13",
         "Block frame": "-12",
-        "Hit frame": "+3",
-        "Counter hit frame": "KND",
+        "Hit frame": "+1",
+        "Counter hit frame": "+1",
         "Notes": "-"
     },
     {
@@ -852,12 +852,12 @@
     {
         "Command": "b, d/f+4",
         "Hit level": "l",
-        "Damage": "28",
+        "Damage": "24",
         "Start up frame": "27",
         "Block frame": "-15",
         "Hit frame": "+8s",
         "Counter hit frame": "KND",
-        "Notes": "Homing"
+        "Notes": "-"
     },
     {
         "Command": "b, d/f+4, F",
@@ -1272,7 +1272,7 @@
     {
         "Command": "SAV d/b+3, F",
         "Hit level": "l, (SAV)",
-        "Damage": "20",
+        "Damage": "23",
         "Start up frame": "19~20 (29~)",
         "Block frame": "-13~-12",
         "Hit frame": "+4~+5",

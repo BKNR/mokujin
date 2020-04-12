@@ -4,7 +4,7 @@
         "Hit level": "m",
         "Damage": "-",
         "Start up frame": "20?",
-        "Block frame": "-",
+        "Block frame": "\u2013",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Notes": "-"
@@ -14,7 +14,7 @@
         "Hit level": "Attack returned",
         "Damage": "20",
         "Start up frame": "6~",
-        "Block frame": "-",
+        "Block frame": "\u2013",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Notes": "Rage drive"
@@ -104,7 +104,7 @@
         "Hit level": "h, h, (KIN)",
         "Damage": "13,10",
         "Start up frame": "10",
-        "Block frame": "-",
+        "Block frame": "\u2013",
         "Hit frame": "+",
         "Counter hit frame": "+",
         "Notes": "-"
@@ -292,7 +292,7 @@
     {
         "Command": "f+2, D/B+2, 2, 2, 2, 2, 2",
         "Hit level": "h, m, m, m, m, m, m",
-        "Damage": "24,10,9,8,6,5,",
+        "Damage": "24,10,9,8,6,5,4",
         "Start up frame": "17 RG",
         "Block frame": "-49~-46",
         "Hit frame": "-38~-35",
@@ -652,7 +652,7 @@
     {
         "Command": "d+1+4, B+1, 1, 1, 1 (four spins)",
         "Hit level": "!, !, !, !, !",
-        "Damage": "81,24,27,28,",
+        "Damage": "81,24,27,28,37",
         "Start up frame": "30 RG",
         "Block frame": "CS",
         "Hit frame": "CS",
@@ -662,7 +662,7 @@
     {
         "Command": "d+1+4, B+1, 1, 1, 1, 1 (five spins)",
         "Hit level": "!, !, !, !, !, !",
-        "Damage": "81,24,27,28,",
+        "Damage": "81,24,27,28,37,40",
         "Start up frame": "30 RG",
         "Block frame": "CS",
         "Hit frame": "CS",
@@ -1592,7 +1592,7 @@
     {
         "Command": "WS+1, 2, D/B+2, 2, 2, 2",
         "Hit level": "m, h, m, m, m, m",
-        "Damage": "20,24,10,9,8,",
+        "Damage": "20,24,10,9,8,6",
         "Start up frame": "14~15 RC",
         "Block frame": "-9~-8",
         "Hit frame": "+2~+3",
@@ -1602,7 +1602,7 @@
     {
         "Command": "WS+1, 2, D/B+2, 2, 2, 2, 2",
         "Hit level": "m, h, m, m, m, m, m",
-        "Damage": "20,24,10,9,8,",
+        "Damage": "20,24,10,9,8,6,5",
         "Start up frame": "14~15 RC",
         "Block frame": "-9~-8",
         "Hit frame": "+2~+3",
@@ -1612,7 +1612,7 @@
     {
         "Command": "WS+1, 2, D/B+2, 2, 2, 2, 2, 2",
         "Hit level": "m, h, m, m, m, m, m, m",
-        "Damage": "20,24,10,9,8,6,",
+        "Damage": "20,24,10,9,8,6,5,4",
         "Start up frame": "14~15 Air, RG",
         "Block frame": "-49~-46",
         "Hit frame": "-38~-35",
@@ -2422,9 +2422,9 @@
     {
         "Command": "DGF 4",
         "Hit level": "m (TJ)",
-        "Damage": "24",
-        "Start up frame": "18 (28~)",
-        "Block frame": "-4",
+        "Damage": "33",
+        "Start up frame": "19~20 (29~)",
+        "Block frame": "-6~-5?",
         "Hit frame": "+14k",
         "Counter hit frame": "KND",
         "Notes": "Tail spin"

@@ -594,9 +594,9 @@
         "Hit level": "m, m",
         "Damage": "15",
         "Start up frame": "18",
-        "Block frame": "-12~-11",
-        "Hit frame": "KND",
-        "Counter hit frame": "KND",
+        "Block frame": "-16~-15",
+        "Hit frame": "-3",
+        "Counter hit frame": "-3",
         "Notes": "Ends in crouch"
     },
     {
@@ -1115,7 +1115,7 @@
         "Damage": "12,20",
         "Start up frame": "18~19",
         "Block frame": "-9~-8",
-        "Hit frame": "+8~+9",
+        "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Notes": "Wall bounce"
     },
@@ -1145,8 +1145,8 @@
         "Damage": "13",
         "Start up frame": "20~21a",
         "Block frame": "-13~-12",
-        "Hit frame": "Launch (JG?)",
-        "Counter hit frame": "Launch (JG?)",
+        "Hit frame": "Launch",
+        "Counter hit frame": "Launch",
         "Notes": "-"
     },
     {
@@ -1155,8 +1155,8 @@
         "Damage": "13,27",
         "Start up frame": "20~21a",
         "Block frame": "-12~-10",
-        "Hit frame": "Launch (JG?)",
-        "Counter hit frame": "Launch (JG?)",
+        "Hit frame": "Launch",
+        "Counter hit frame": "Launch",
         "Notes": "-"
     },
     {
@@ -1205,8 +1205,8 @@
         "Damage": "14,20",
         "Start up frame": "13(33~) 1~12",
         "Block frame": "-14~-13",
-        "Hit frame": "KND",
-        "Counter hit frame": "KND",
+        "Hit frame": "KND (JG?)",
+        "Counter hit frame": "KND (JG?)",
         "Notes": "-"
     },
     {

@@ -1094,7 +1094,7 @@
         "Hit level": "m",
         "Damage": "13",
         "Start up frame": "14~15 (16~)",
-        "Block frame": "-10~-9",
+        "Block frame": "-9~-8",
         "Hit frame": "0~+1",
         "Counter hit frame": "0~+1",
         "Notes": "Homing"

@@ -17,7 +17,7 @@
         "Block frame": "-1~0",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Rage drive, Tail spin"
+        "Notes": "Rage art, Tail spin"
     },
     {
         "Command": "in rage d/f+3+4, f, N",
@@ -27,7 +27,7 @@
         "Block frame": "+2~+3",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Rage drive, Tail spin"
+        "Notes": "Rage art, Tail spin"
     },
     {
         "Command": "1",
@@ -384,8 +384,8 @@
         "Hit level": "m (HMS)",
         "Damage": "20",
         "Start up frame": "21~22s",
-        "Block frame": "-1",
-        "Hit frame": "+6",
+        "Block frame": "-4~-3",
+        "Hit frame": "+3~+4",
         "Counter hit frame": "KND",
         "Notes": "Homing"
     },
@@ -462,7 +462,7 @@
     {
         "Command": "f+3, 3, 3, 3, 3, 4",
         "Hit level": "m, m, h, h, h, h",
-        "Damage": "6,3,3,3,3,",
+        "Damage": "6,3,3,3,3,20",
         "Start up frame": "15",
         "Block frame": "-4~-3",
         "Hit frame": "KND",
@@ -472,7 +472,7 @@
     {
         "Command": "f+3, 3, 3, 3, 3, 4, 3",
         "Hit level": "m, m, h, h, h, h, (HMS)",
-        "Damage": "6,3,3,3,3,",
+        "Damage": "6,3,3,3,3,20",
         "Start up frame": "15",
         "Block frame": "-7~-6",
         "Hit frame": "KND",
@@ -782,7 +782,7 @@
     {
         "Command": "d/b+3",
         "Hit level": "l",
-        "Damage": "13",
+        "Damage": "15",
         "Start up frame": "20~21",
         "Block frame": "-12~-11",
         "Hit frame": "+2~+3",
@@ -1027,7 +1027,7 @@
         "Block frame": "-15",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Power crush"
+        "Notes": "Power crush, Wall bounce"
     },
     {
         "Command": "u/b, b",
@@ -1302,7 +1302,7 @@
     {
         "Command": "WS+3, 3, D+3, n+3, 3",
         "Hit level": "m, m, l, m, h",
-        "Damage": "16,11,8,10,",
+        "Damage": "16,11,8,10,10",
         "Start up frame": "10~12",
         "Block frame": "-16",
         "Hit frame": "-5",
@@ -1332,7 +1332,7 @@
     {
         "Command": "WS+3, 3, D/F+3, n+3, 3",
         "Hit level": "m, m, m, h, m",
-        "Damage": "16,11,10,10,",
+        "Damage": "16,11,10,10,10",
         "Start up frame": "10~12",
         "Block frame": "-19",
         "Hit frame": "-8",

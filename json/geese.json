@@ -72,7 +72,7 @@
     {
         "Command": "When first part hits 1, 2, 4, 1, 4 , 1",
         "Hit level": "m, h, m, m, m, l, m",
-        "Damage": "10,4,4,4,4,4",
+        "Damage": "10,4,4,4,4,4,4",
         "Start up frame": "20~24 8~17",
         "Block frame": "-",
         "Hit frame": "-9",
@@ -82,7 +82,7 @@
     {
         "Command": "When first part hits 1, 2, 4, 1, 4 , 1, 3",
         "Hit level": "m, h, m, m, m, l, m, h",
-        "Damage": "10,4,4,4,4,4",
+        "Damage": "10,4,4,4,4,4,4,4",
         "Start up frame": "20~24 8~17",
         "Block frame": "-",
         "Hit frame": "-1~+2",
@@ -92,7 +92,7 @@
     {
         "Command": "When first part hits 1, 2, 4, 1, 4 , 1, 3, 2",
         "Hit level": "m, h, m, m, m, l, m, h, h",
-        "Damage": "10,4,4,4,4,4",
+        "Damage": "10,4,4,4,4,4,4,4,4",
         "Start up frame": "20~24 8~17",
         "Block frame": "-",
         "Hit frame": "+29g",
@@ -102,7 +102,7 @@
     {
         "Command": "When first part hits 1, 2, 4, 1, 4 , 1, 3, 2, 1+2",
         "Hit level": "m, h, m, m, m, l, m, h, h, !",
-        "Damage": "10,4,4,4,4,4",
+        "Damage": "10,4,4,4,4,4,4,4,4,25",
         "Start up frame": "20~24 8~17",
         "Block frame": "-",
         "Hit frame": "KND",
@@ -584,7 +584,7 @@
         "Hit level": "m",
         "Damage": "11",
         "Start up frame": "14~15",
-        "Block frame": "-9~-8",
+        "Block frame": "-12~-11",
         "Hit frame": "-1~0",
         "Counter hit frame": "-1~0",
         "Notes": "-"

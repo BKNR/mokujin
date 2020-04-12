@@ -84,10 +84,17 @@
         "portrait": "https://i.imgur.com/pf6xWtq.jpg"
     },
     {
+        "name": "fahkumram",
+        "proper_name": "Fahkumram",
+        "local_json": "fahkumram.json",
+        "online_webpage": "http://rbnorway.org/fahkumram-t7-frames/",
+        "portrait": "https://i.imgur.com/SVGe45p.jpg"
+    },
+    {
         "name": "feng",
         "proper_name": "Feng",
         "local_json": "feng.json",
-        "online_webpage": "http://rbnorway.org/feng-t7-frames",
+        "online_webpage": "http://rbnorway.org/feng-t7-frames/",
         "portrait": "https://i.imgur.com/pL9icRr.jpg"
     },
     {

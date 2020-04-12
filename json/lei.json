@@ -10,7 +10,7 @@
         "Notes": "Rage art"
     },
     {
-        "Command": "In rage SNK 2+3",
+        "Command": "In rage SNA 1+4",
         "Hit level": "m",
         "Damage": "40",
         "Start up frame": "15",
@@ -20,7 +20,7 @@
         "Notes": "Rage drive"
     },
     {
-        "Command": "In rage DRG 2+3",
+        "Command": "In rage DRG 1+4",
         "Hit level": "m",
         "Damage": "40",
         "Start up frame": "15",
@@ -30,7 +30,7 @@
         "Notes": "Rage drive"
     },
     {
-        "Command": "In rage DRG 2+3, F",
+        "Command": "In rage DRG 1+4, F",
         "Hit level": "m (TGR)",
         "Damage": "40",
         "Start up frame": "15",
@@ -40,7 +40,7 @@
         "Notes": "Rage drive"
     },
     {
-        "Command": "In rage PAN 2+3",
+        "Command": "In rage PAN 1+4",
         "Hit level": "l, h",
         "Damage": "10,15",
         "Start up frame": "12",
@@ -50,7 +50,7 @@
         "Notes": "Rage drive"
     },
     {
-        "Command": "In rage TGR 2+3",
+        "Command": "In rage TGR 1+4",
         "Hit level": "m",
         "Damage": "30",
         "Start up frame": "14",
@@ -60,7 +60,7 @@
         "Notes": "Rage drive"
     },
     {
-        "Command": "In rage CRA 2+3",
+        "Command": "In rage CRA 1+4",
         "Hit level": "m (CRA)",
         "Damage": "24",
         "Start up frame": "17",
@@ -82,7 +82,7 @@
     {
         "Command": "1, 1",
         "Hit level": "h, h",
-        "Damage": "7,12(6)",
+        "Damage": "7,15(6)",
         "Start up frame": "10",
         "Block frame": "-6",
         "Hit frame": "5",
@@ -91,8 +91,8 @@
     },
     {
         "Command": "1, 1, F",
-        "Hit level": "h, h, (SNK)",
-        "Damage": "7,12",
+        "Hit level": "h, h, (SNA)",
+        "Damage": "7,15",
         "Start up frame": "10",
         "Block frame": "-5",
         "Hit frame": "6",
@@ -521,7 +521,7 @@
     },
     {
         "Command": "d/f+2, F",
-        "Hit level": "m (SNK)",
+        "Hit level": "m (SNA)",
         "Damage": "12",
         "Start up frame": "-",
         "Block frame": "-9",
@@ -651,7 +651,7 @@
     },
     {
         "Command": "d/b+1",
-        "Hit level": "l (TC) (SNK)",
+        "Hit level": "l (TC) (SNA)",
         "Damage": "14",
         "Start up frame": "22 cs6",
         "Block frame": "-3",
@@ -1000,7 +1000,7 @@
         "Notes": "-"
     },
     {
-        "Command": "u+1+2, 1,2",
+        "Command": "u+1+2, 1+2",
         "Hit level": "m",
         "Damage": "25",
         "Start up frame": "-",
@@ -2691,7 +2691,7 @@
     },
     {
         "Command": "BT d+4, u or d (clean)",
-        "Hit level": "l (SNK)",
+        "Hit level": "l (SNA)",
         "Damage": "12",
         "Start up frame": "20 cs6",
         "Block frame": "-26",
@@ -2701,7 +2701,7 @@
     },
     {
         "Command": "BT d+4, u or d",
-        "Hit level": "l (SNK)",
+        "Hit level": "l (SNA)",
         "Damage": "8",
         "Start up frame": "20 cs6",
         "Block frame": "-26",
@@ -2861,7 +2861,7 @@
     },
     {
         "Command": "PHX 4",
-        "Hit level": "l (SNK)",
+        "Hit level": "l (SNA)",
         "Damage": "19",
         "Start up frame": "25",
         "Block frame": "-14",
@@ -2911,7 +2911,7 @@
     },
     {
         "Command": "PHX u or d+2+3",
-        "Hit level": "(SNK)",
+        "Hit level": "(SNA)",
         "Damage": "-",
         "Start up frame": "-",
         "Block frame": "-",
@@ -2921,7 +2921,7 @@
     },
     {
         "Command": "3+4",
-        "Hit level": "(SNK) h/m punch parry",
+        "Hit level": "(SNA) h/m punch parry",
         "Damage": "-",
         "Start up frame": "-",
         "Block frame": "-",
@@ -2931,7 +2931,7 @@
     },
     {
         "Command": "b or f+2+3",
-        "Hit level": "(SNK)",
+        "Hit level": "(SNA)",
         "Damage": "-",
         "Start up frame": "-",
         "Block frame": "-",
@@ -2941,7 +2941,7 @@
     },
     {
         "Command": "SS+1+4 or SS+2+3",
-        "Hit level": "(SNK)",
+        "Hit level": "(SNA)",
         "Damage": "-",
         "Start up frame": "-",
         "Block frame": "-",
@@ -2950,7 +2950,7 @@
         "Notes": "-"
     },
     {
-        "Command": "SNK u",
+        "Command": "SNA u",
         "Hit level": "(DGN)",
         "Damage": "-",
         "Start up frame": "-",
@@ -2960,7 +2960,7 @@
         "Notes": "-"
     },
     {
-        "Command": "SNK d, N",
+        "Command": "SNA d, N",
         "Hit level": "(PAN)",
         "Damage": "-",
         "Start up frame": "-",
@@ -2970,7 +2970,7 @@
         "Notes": "-"
     },
     {
-        "Command": "SNK 1",
+        "Command": "SNA 1",
         "Hit level": "h",
         "Damage": "10",
         "Start up frame": "11",
@@ -2980,7 +2980,7 @@
         "Notes": "-"
     },
     {
-        "Command": "SNK 1, 1",
+        "Command": "SNA 1, 1",
         "Hit level": "h, h",
         "Damage": "10,9",
         "Start up frame": "-",
@@ -2990,7 +2990,7 @@
         "Notes": "-"
     },
     {
-        "Command": "SNK 1, 1, 1",
+        "Command": "SNA 1, 1, 1",
         "Hit level": "h, h, h",
         "Damage": "10,9,8",
         "Start up frame": "-",
@@ -3000,7 +3000,7 @@
         "Notes": "-"
     },
     {
-        "Command": "SNK 1, 1, 1, 1",
+        "Command": "SNA 1, 1, 1, 1",
         "Hit level": "h, h, h, h",
         "Damage": "10,9,8,7",
         "Start up frame": "-",
@@ -3010,7 +3010,7 @@
         "Notes": "-"
     },
     {
-        "Command": "SNK 1, 1, 1, 1, 1",
+        "Command": "SNA 1, 1, 1, 1, 1",
         "Hit level": "h, h, h, h, h",
         "Damage": "10,9,8,7,6",
         "Start up frame": "-",
@@ -3020,8 +3020,8 @@
         "Notes": "-"
     },
     {
-        "Command": "SNK 1, \u2026, 1, F",
-        "Hit level": "(SNK)",
+        "Command": "SNA 1, \u2026, 1, F",
+        "Hit level": "(SNA)",
         "Damage": "-",
         "Start up frame": "-",
         "Block frame": "-7",
@@ -3030,8 +3030,8 @@
         "Notes": "-"
     },
     {
-        "Command": "SNK 1, 2",
-        "Hit level": "h, m (SNK)",
+        "Command": "SNA 1, 2",
+        "Hit level": "h, m (SNA)",
         "Damage": "10,13",
         "Start up frame": "-",
         "Block frame": "-13",
@@ -3040,8 +3040,8 @@
         "Notes": "-"
     },
     {
-        "Command": "SNK 1, 2, 1",
-        "Hit level": "h, m, m (SNK)",
+        "Command": "SNA 1, 2, 1",
+        "Hit level": "h, m, m (SNA)",
         "Damage": "10,13,10",
         "Start up frame": "-",
         "Block frame": "-10",
@@ -3050,7 +3050,7 @@
         "Notes": "-"
     },
     {
-        "Command": "SNK 1, 2, 1, f",
+        "Command": "SNA 1, 2, 1, f",
         "Hit level": "h, m, m (PAN)",
         "Damage": "10,13,10",
         "Start up frame": "-",
@@ -3060,8 +3060,8 @@
         "Notes": "-"
     },
     {
-        "Command": "SNK 1, 2, 1, 2",
-        "Hit level": "h, m, m, h (SNK)",
+        "Command": "SNA 1, 2, 1, 2",
+        "Hit level": "h, m, m, h (SNA)",
         "Damage": "10,13,10,20",
         "Start up frame": "-",
         "Block frame": "-8",
@@ -3070,7 +3070,7 @@
         "Notes": "-"
     },
     {
-        "Command": "SNK 2",
+        "Command": "SNA 2",
         "Hit level": "m",
         "Damage": "15",
         "Start up frame": "15",
@@ -3080,7 +3080,7 @@
         "Notes": "-"
     },
     {
-        "Command": "SNK 2, F",
+        "Command": "SNA 2, F",
         "Hit level": "m (DGN)",
         "Damage": "15",
         "Start up frame": "-",
@@ -3090,7 +3090,7 @@
         "Notes": "-"
     },
     {
-        "Command": "SNK 2, 2",
+        "Command": "SNA 2, 2",
         "Hit level": "m, m",
         "Damage": "15, 10",
         "Start up frame": "-",
@@ -3100,7 +3100,7 @@
         "Notes": "-"
     },
     {
-        "Command": "SNK 2, 2, F",
+        "Command": "SNA 2, 2, F",
         "Hit level": "m, m (DGN)",
         "Damage": "15, 10",
         "Start up frame": "-",
@@ -3110,7 +3110,7 @@
         "Notes": "-"
     },
     {
-        "Command": "SNK 2, 2, 2",
+        "Command": "SNA 2, 2, 2",
         "Hit level": "m, m, l (TC)",
         "Damage": "15,10,15",
         "Start up frame": "-",
@@ -3120,7 +3120,7 @@
         "Notes": "-"
     },
     {
-        "Command": "SNK 2, 2, 2, F",
+        "Command": "SNA 2, 2, 2, F",
         "Hit level": "m, m, l (PAN)",
         "Damage": "15,10,15",
         "Start up frame": "-",
@@ -3130,7 +3130,7 @@
         "Notes": "-"
     },
     {
-        "Command": "SNK 3",
+        "Command": "SNA 3",
         "Hit level": "m (TC) (RLX)",
         "Damage": "30",
         "Start up frame": "28 cs4",
@@ -3140,7 +3140,7 @@
         "Notes": "-"
     },
     {
-        "Command": "SNK 3, d",
+        "Command": "SNA 3, d",
         "Hit level": "m (TC) (grounded)",
         "Damage": "30",
         "Start up frame": "-",
@@ -3150,9 +3150,9 @@
         "Notes": "-"
     },
     {
-        "Command": "SNK 4",
+        "Command": "SNA 4",
         "Hit level": "l",
-        "Damage": "13",
+        "Damage": "15",
         "Start up frame": "15",
         "Block frame": "-13",
         "Hit frame": "-2",
@@ -3160,7 +3160,7 @@
         "Notes": "-"
     },
     {
-        "Command": "SNK 1+2",
+        "Command": "SNA 1+2",
         "Hit level": "m",
         "Damage": "25",
         "Start up frame": "21",
@@ -3191,7 +3191,7 @@
     },
     {
         "Command": "DRG d",
-        "Hit level": "(SNK)",
+        "Hit level": "(SNA)",
         "Damage": "-",
         "Start up frame": "-",
         "Block frame": "-",
@@ -3232,17 +3232,17 @@
     {
         "Command": "DRG 3",
         "Hit level": "l (TC)",
-        "Damage": "11",
+        "Damage": "14",
         "Start up frame": "16 cs4",
-        "Block frame": "-15",
-        "Hit frame": "+2s",
+        "Block frame": "-13",
+        "Hit frame": "+4s",
         "Counter hit frame": "+2s",
         "Notes": "-"
     },
     {
         "Command": "DRG 3, F",
         "Hit level": "l (TC) (CRA)",
-        "Damage": "11",
+        "Damage": "14",
         "Start up frame": "-",
         "Block frame": "-20",
         "Hit frame": "-3s",
@@ -3301,7 +3301,7 @@
     },
     {
         "Command": "PAN u",
-        "Hit level": "(SNK)",
+        "Hit level": "(SNA)",
         "Damage": "-",
         "Start up frame": "-",
         "Block frame": "-",
@@ -3401,7 +3401,7 @@
     },
     {
         "Command": "TGR u",
-        "Hit level": "(SNK)",
+        "Hit level": "(SNA)",
         "Damage": "-",
         "Start up frame": "-",
         "Block frame": "-",
@@ -3471,7 +3471,7 @@
     },
     {
         "Command": "TGR 3, F",
-        "Hit level": "m (SIT SNK)",
+        "Hit level": "m (SIT SNA)",
         "Damage": "28",
         "Start up frame": "-",
         "Block frame": "-11",
@@ -3531,7 +3531,7 @@
     },
     {
         "Command": "CRA d/b",
-        "Hit level": "(SNK)",
+        "Hit level": "(SNA)",
         "Damage": "-",
         "Start up frame": "Total 26",
         "Block frame": "-",
@@ -3605,6 +3605,16 @@
         "Damage": "20",
         "Start up frame": "21",
         "Block frame": "-19",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "CRA 1+2",
+        "Hit level": "h",
+        "Damage": "20",
+        "Start up frame": "13",
+        "Block frame": "-2",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Notes": "-"

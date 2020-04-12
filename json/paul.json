@@ -120,6 +120,26 @@
         "Notes": "-"
     },
     {
+        "Command": "3, 2, b",
+        "Hit level": "m, h",
+        "Damage": "14,17",
+        "Start up frame": "15~16",
+        "Block frame": "+4",
+        "Hit frame": "+14g",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "3, 2, b, any input",
+        "Hit level": "m, h, Special (cancel) ",
+        "Damage": "14,17",
+        "Start up frame": "15~16",
+        "Block frame": "+3",
+        "Hit frame": "+13g",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
         "Command": "4",
         "Hit level": "h",
         "Damage": "17",

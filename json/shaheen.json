@@ -2,7 +2,7 @@
     {
         "Command": "in rage 1+2",
         "Hit level": "m",
-        "Damage": "55",
+        "Damage": "55(10,7,7,31)",
         "Start up frame": "20 pc8~17",
         "Block frame": "-22",
         "Hit frame": "KND",
@@ -17,7 +17,7 @@
         "Block frame": "+6~+7",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Rage drive, Tail spin"
+        "Notes": "Rage art, Tail spin"
     },
     {
         "Command": "in rage d/b+2, 4, D/F",
@@ -27,7 +27,7 @@
         "Block frame": "+19~+20g",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Rage drive, Tail spin"
+        "Notes": "Rage art, Tail spin"
     },
     {
         "Command": "1",
@@ -320,7 +320,7 @@
         "Notes": "-"
     },
     {
-        "Command": "\n",
+        "Command": "f+3+4, D/F, D/B (Cancel)",
         "Hit level": "mm (TJ), (SNK)",
         "Damage": "14,14",
         "Start up frame": "22~23, 28 js11~24",
@@ -440,7 +440,7 @@
         "Notes": "-"
     },
     {
-        "Command": "d/b+2, D/F, D/B\u00a0(Cancel)",
+        "Command": "d/b+2, D/F, D/B (Cancel)",
         "Hit level": "m, (SNK)",
         "Damage": "11",
         "Start up frame": "14",
@@ -702,11 +702,11 @@
     {
         "Command": "d/f, d/f or From special move (to SNK)",
         "Hit level": "(SNK)",
-        "Damage": "\u00a0",
+        "Damage": "-",
         "Start up frame": "14",
-        "Block frame": "\u00a0",
-        "Hit frame": "\u00a0",
-        "Counter hit frame": "\u00a0",
+        "Block frame": "-",
+        "Hit frame": "-",
+        "Counter hit frame": "-",
         "Notes": "-"
     },
     {
