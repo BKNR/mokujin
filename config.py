@@ -15,7 +15,7 @@ CHARACTER_NAMES = [
     },
     {
         "name": "fahkumram",
-        "alias": ["fakumram", "fakuram", "faku", "fukurmom", "fak", "fuck"]
+        "alias": ["fakumram", "fakuram", "faku", "fukurmom", "fak", "fuck", "fahk"]
     },
     {
         "name": "ganryu",
@@ -71,7 +71,7 @@ CHARACTER_NAMES = [
     },
     {
         "name": "paul",
-        "alias": ["pave"]
+        "alias": ["pave", "pole"]
     },
     {
         "name": "shaheen",
