@@ -830,7 +830,7 @@
         "Notes": "-"
     },
     {
-        "Command": "b+4, 2",
+        "Command": "b+4, 3",
         "Hit level": "m,m",
         "Damage": "14,14",
         "Start up frame": "14",
