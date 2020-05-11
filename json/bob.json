@@ -1521,7 +1521,7 @@
     },
     {
         "Command": "f, n, d, d/f+3, 4",
-        "Hit level": "m (TJ), h (TJ)",
+        "Hit level": "m (TJ), m (TJ)",
         "Damage": "14,17",
         "Start up frame": "js1~",
         "Block frame": "-11",
