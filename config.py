@@ -66,6 +66,10 @@ CHARACTER_NAMES = [
         "alias": ["master", "raven", "masterraven", "mraven", "maven"]
     },
     {
+        "name": "miguel",
+        "alias": ["migu"]
+    },
+    {
         "name": "noctis",
         "alias": ["nocto"]
     },
