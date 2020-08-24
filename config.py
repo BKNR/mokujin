@@ -59,7 +59,7 @@ CHARACTER_NAMES = [
     },
     {
         "name": "marduk",
-        "alias": ["mara", "mardug", "marduck"]
+        "alias": ["craig", "mara", "mardug", "marduck"]
     },
     {
         "name": "master_raven",
