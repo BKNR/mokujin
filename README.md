@@ -10,6 +10,9 @@ Framedata acquired from RBNorway, lot of help and inspiration [hanyaa's TkPublic
 On 2019-04-17 the project was migrated to discord.py rewrite (v1.0). 
 
 2019-11-19 Update: **HOX! You need to update discord.py to v1.2.5+**
+
+2020-12-27 Update: You'll want to use [TLNBS2405's fork](https://github.com/TLNBS2405/mokujin) of my bot rather than this version. It has more features and much more active development.
+
 ## If you want to use this:
 
 Clone this to a linux server that has Python 3.6.0+ with [discord.py](https://github.com/Rapptz/discord.py) library.
