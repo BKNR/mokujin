@@ -221,7 +221,7 @@
     },
     {
         "Command": "1+2+3",
-        "Hit level": "m(!)",
+        "Hit level": "m!",
         "Damage": "0",
         "Start up frame": "22~25",
         "Block frame": "-8~-5",
@@ -361,7 +361,7 @@
     },
     {
         "Command": "f+3+4",
-        "Hit level": "m(, (Special))(FLE)",
+        "Hit level": "m, (Special) (FLE)",
         "Damage": "27(35)",
         "Start up frame": "21~25?",
         "Block frame": "-14~-10?",
@@ -1311,7 +1311,7 @@
     },
     {
         "Command": "f, F+2 Hit in front1+2",
-        "Hit level": "m((throw))",
+        "Hit level": "m(Throw)",
         "Damage": "24,20(6,7,7)?",
         "Start up frame": "15(16~)",
         "Block frame": "-",
@@ -1940,7 +1940,7 @@
         "Notes": "-"
     },
     {
-        "Command": "KIN b+2,1",
+        "Command": "KIN b+2, 1",
         "Hit level": "m",
         "Damage": "15,19",
         "Start up frame": "12(27~)",
@@ -1990,7 +1990,7 @@
         "Notes": "-"
     },
     {
-        "Command": "MED f or b,",
+        "Command": "MED f or b",
         "Hit level": "(MED)",
         "Damage": "-",
         "Start up frame": "+1~",
@@ -2441,7 +2441,7 @@
     },
     {
         "Command": "DGF 3+4",
-        "Hit level": "h!, ( (Sky))(throw)",
+        "Hit level": "h!, (Sky)(Throw)",
         "Damage": "22,18",
         "Start up frame": "20~21 (30~)",
         "Block frame": "Throw",
